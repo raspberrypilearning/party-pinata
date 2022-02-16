@@ -13,20 +13,4 @@ Add noise when clicked
 Create, show and set hits variable
 if hits = 10 hide var, costume switch, broadcast party
 
---- task ---
-
-Another step of tasks to complete.
-
---- /task ---
-
---- task ---
-
-Step content... 
-Can use:
-**Test:**
-**Choose:**
-**Tip:**
-
---- /task ---
-
 --- save ---
