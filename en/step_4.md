@@ -12,20 +12,4 @@ Image, gif or video showing what they will achieve by the end of the step. ![](i
 show, got to front layer and follow the mouse pointer
 when party hide and forever play sound
 
---- task ---
-
-Another step of tasks to complete.
-
---- /task ---
-
---- task ---
-
-Step content... 
-Can use:
-**Test:**
-**Choose:**
-**Tip:**
-
---- /task ---
-
 --- save ---

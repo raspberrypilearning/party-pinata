@@ -14,11 +14,6 @@ steps:
   - title: Create a message
   - title: Add some treats
     completion: internal
-  - title: Reflection
-    knowledge_quiz:
-      path: quiz1
-      version: 1
-      questions: 3
-      passing_score: 3
+  - title: Share your project
     completion: external
   - title: Upgrade your project

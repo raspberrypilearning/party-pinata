@@ -1,13 +1,12 @@
 ## Upgrade your project
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Summary or upgrade project task
-</div>
-<div>
-![](images/image.png){:width="300px"}
-</div>
-</div>
+If you have time, you can upgrade your project. You might have ideas about what to add already! 
+
+You could:
+
++ Use more looks, sounds or motion blocks to animate your message and treats further
++ Increase the number of treats that fall from the piñata on each hit
++ Make your project easier or harder by changing the number of times you need to hit the piñata before it breaks
 
 --- collapse ---
 
@@ -15,25 +14,12 @@ Summary or upgrade project task
 title: Completed project
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/485673032/){:target="_blank"}.
+You can view the [completed project here](https://scratch.mit.edu/projects/637296860/){:target="_blank"}.
 
 --- /collapse ---
 
+If you want to have more fun exploring Scratch, then you could try out any of [these project paths](https://projects.raspberrypi.org/en/projects/getting-started-scratch/20).
 
-If you are following the [PathName](https://projects.raspberrypi.org/en/raspberrypi/path-name) path, you can move on to the [ProjectName](https://projects.raspberrypi.org/en/projects/project-name) project. In this project, you will make a (add description here).
+[[[scratch-coolest-projects]]]
 
---- print-only ---
-
-![ProjectName project](images/projectname-project.png)
-
---- /print-only ---
-
---- no-print ---
-
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719199/?autostart=false" frameborder="0"></iframe>
-</div>
-
---- /no-print ---
-
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+If you need a reminder of what you have learned, you can go to our ['Getting started with Scratch' guide](https://projects.raspberrypi.org/en/projects/getting-started-scratch).

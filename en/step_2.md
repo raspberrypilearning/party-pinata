@@ -23,16 +23,5 @@ Add an introductory sentence. What will learners achieve by the end of this step
 
 --- /task ---
 
---- task ---
-
-Step content... 
-Can use:
-**Test:**
-**Choose:**
-**Tip:**
-Step content...
-
---- /task ---
-
 --- save ---
 
