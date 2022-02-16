@@ -9,6 +9,10 @@ Image, gif or video showing what they will achieve by the end of the step. ![](i
 </div>
 </div>
 
+Choose a backdrop
+Choose a pinata and start with this costume
+Add code to swing
+
 --- task ---
 
 Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
@@ -31,3 +35,4 @@ Step content...
 --- /task ---
 
 --- save ---
+

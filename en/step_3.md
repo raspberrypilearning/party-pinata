@@ -9,6 +9,10 @@ Image, gif or video showing what they will achieve by the end of the step. ![](i
 </div>
 </div>
 
+Add noise when clicked
+Create, show and set hits variable
+if hits = 10 hide var, costume switch, broadcast party
+
 --- task ---
 
 Another step of tasks to complete.
