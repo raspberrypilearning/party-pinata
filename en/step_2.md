@@ -1,4 +1,4 @@
-## Step title
+## Swing a piñata
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -8,6 +8,10 @@ Add an introductory sentence. What will learners achieve by the end of this step
 Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
 </div>
 </div>
+
+Choose a backdrop
+Choose a pinata and start with this costume
+Add code to swing
 
 --- task ---
 
@@ -31,3 +35,4 @@ Step content...
 --- /task ---
 
 --- save ---
+
