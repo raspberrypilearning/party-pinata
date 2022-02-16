@@ -15,6 +15,8 @@ Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"}. Scrat
 
 [[[working-offline]]]
 
+Add an introductory sentence. What will learners achieve by the end of this step?
+
 --- /task ---
 
 --- task ---
@@ -24,6 +26,7 @@ Can use:
 **Test:**
 **Choose:**
 **Tip:**
+Step content...
 
 --- /task ---
 
