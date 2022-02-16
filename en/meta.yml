@@ -1,4 +1,4 @@
-title: explore-project-template
+title: Party piñata
 hero_image: images/banner.png
 description: explore-project-template description
 version: 4
@@ -7,10 +7,12 @@ copyedit: false
 last_tested: "2021-03-26"
 steps:
   - title: Introduction
-  - title: Step title
-  - title: Step title
+  - title: Swing a piñata
+  - title: Hit the piñata
     completion: engaged
-  - title: Step title
+  - title: Use a stick
+  - title: Create a message
+  - title: Add some treats
     completion: internal
   - title: Reflection
     knowledge_quiz:
