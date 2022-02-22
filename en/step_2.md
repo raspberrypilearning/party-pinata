@@ -83,9 +83,13 @@ Change the '15' degrees to '1' degree so that the piñata only swings a small am
 
 --- /task ---
 
+--- task ---
+
 **Test:** Run your project to see the piñata swing. 
 
 Something is not quite right. When an object is hung from the ceiling, it will continue to swing not just to the right but to the left aswell. 
+
+--- /task ---
 
 --- task ---
 
