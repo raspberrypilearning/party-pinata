@@ -47,6 +47,8 @@ Click on the costume name to open a drop-down menu then select your chosen 'whol
 switch costume to ( v) // Your costume
 ```
 
+![switch costume block being added to the code area](images/switch-costume.gif)
+
 --- /task ---
 
 Blocks can be connected together in the Code area to run more than one at a time. Connected blocks will run in order from top to bottom.
@@ -59,6 +61,8 @@ Drag a `When flag clicked`{:class="block3events"} block from the `Events`{:class
 + when flag clicked
 switch costume to ( v)
 ```
+
+![when flag clicked block being added to the code area and connected to the switch costume block](images/add-flag-clicked.gif)
 
 --- /task ---
 
@@ -112,6 +116,8 @@ forever
 + repeat (10)
 turn right (1) degrees // swing right 10 times
 ```
+
+![repeat block being added within the forever block and then a turn right block added within it](images/add-repeat.gif)
 
 --- /task ---
 
