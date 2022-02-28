@@ -14,12 +14,6 @@ You could:
 title: Completed project
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/637296860/){:target="_blank"}.
+You can view the [completed project here](https://scratch.mit.edu/projects/649873783/){:target="_blank"}.
 
 --- /collapse ---
-
-If you want to have more fun exploring Scratch, then you could try out any of [these project paths](https://projects.raspberrypi.org/en/projects/getting-started-scratch/20).
-
-[[[scratch-coolest-projects]]]
-
-If you need a reminder of what you have learned, you can go to our ['Getting started with Scratch' guide](https://projects.raspberrypi.org/en/projects/getting-started-scratch).

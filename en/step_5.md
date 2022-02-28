@@ -1,17 +1,29 @@
-## Create a message
+## Add some treats
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add an introductory sentence. What will learners achieve by the end of this step?
+Piñatas are full of treats and when they start to break the treats fall out. In this step, animate global food treats to fall out of the piñata each time it is hit. 
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+![](images/image.png){:width="300px"}
 </div>
 </div>
 
-Create text costume with message
-Hide and position in pinata at the start
-When party show and do falling, zooming movement
-When in position do effect changes forever
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+A <span style="color: #0faeb0">**costume**</span> in Scratch is an image that changes the way a sprite looks. Our graphic designers asked Code Club leaders around the world to tell them what treats they would have at a party. Hopefully some of these treat costumes will be familiar to you - and others completely new.      
+</p>
+
+--- task ---
+
+
+
+--- /task ---
+
+Hide and go to piñata at start
+Add code to piñata to produce a treat clone when hit
+Get treat clones to show, pick random treat and glide to position
+Animate forever at position
+
+![The Treats sprite icon](images/treats-sprite.png)
 
 --- save ---

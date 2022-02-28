@@ -1,6 +1,6 @@
 title: Party piñata
 hero_image: images/banner.png
-description: explore-project-template description
+description: Create a swinging piñata that breaks to reveal delicious treats and a Happy Birthday message.
 version: 4
 listed: false
 copyedit: false
@@ -11,9 +11,10 @@ steps:
   - title: Hit the piñata
     completion: engaged
   - title: Use a stick
-  - title: Create a message
   - title: Add some treats
+  - title: Create a message
     completion: internal
   - title: Share your project
     completion: external
   - title: Upgrade your project
+  - title: What next
