@@ -14,6 +14,12 @@ What would you write in a birthday card to send to Code Club? It could be someth
 + Your fabulous Code Club leader
 + Details of what you want to make next
 
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+The first Code Club projects were written in English but within a year they had been translated into Brazilian Portuguese, Dutch, German, Norwegian and Ukrainian. French, Greek and Spanish translations quickly followed and now there are projects in <span style="color: #0faeb0">**28 native languages**</span>. Thank you to our awesome translation community!
+
+![](images/birthday-languages.png)
+</p>
+
 --- task ---
 
 
