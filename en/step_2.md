@@ -31,9 +31,7 @@ A sprite can have code, costumes, and sounds to change the way that it looks and
 
 Click on the **Piñata** sprite in the Sprite list and select the **Costumes** tab. 
 
-There are two Code Club robots to choose from and each has 'whole' and 'broken' costumes. 
-
-**Choose:** Click on the costumes to see them and decide which robot piñata costume you want to use at your party, **blah1** or **blah2**. 
+There are two Code Club robot piñata costumes one named 'whole' and the other named 'broken'. 
 
 --- /task ---
 
@@ -41,10 +39,12 @@ There are two Code Club robots to choose from and each has 'whole' and 'broken' 
 
 Click on the **Code** tab. Go to the `Looks`{:class="block3looks"} blocks menu and drag a `switch costume to`{:class="block3looks"} block to the Code area. 
 
-Click on the costume name to open a drop-down menu then select your chosen 'whole' costume.
+Click on the costume name to open a drop-down menu then select the 'whole' costume:
+
+![The Piñata sprite icon](images/pinata-sprite.png)
 
 ```blocks3
-switch costume to ( v) // Your costume
+switch costume to (whole v) // Your costume
 ```
 
 ![switch costume block being added to the code area](images/switch-costume.gif)
@@ -55,11 +55,13 @@ Blocks can be connected together in the Code area to run more than one at a time
 
 --- task ---
 
-Drag a `When flag clicked`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu and connect it to the top of your looks block in the Code area. The blocks will snap together.
+Drag a `When flag clicked`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu and connect it to the top of your looks block in the Code area. The blocks will snap together:
+
+![The Piñata sprite icon](images/pinata-sprite.png)
 
 ```blocks3
 + when flag clicked
-switch costume to ( v)
+switch costume to (whole v)
 ```
 
 ![when flag clicked block being added to the code area and connected to the switch costume block](images/add-flag-clicked.gif)
@@ -70,11 +72,13 @@ switch costume to ( v)
 
 The starting position of a piñata is always the same, it only starts moving when the piñata game is ready to play. 
 
-In the `Motion`{:class="block3motion"} blocks menu, find the `go to x: 0 y: 180`{:class="block3motion"} and  `point in direction 90`{:class="block3motion"} blocks. Drag the blocks to the Code area and connect them to the bottom of your code.   
+In the `Motion`{:class="block3motion"} blocks menu, find the `go to x: 0 y: 180`{:class="block3motion"} and  `point in direction 90`{:class="block3motion"} blocks. Drag the blocks to the Code area and connect them to the bottom of your code:
+
+![The Piñata sprite icon](images/pinata-sprite.png)
 
 ```blocks3
 when flag clicked
-switch costume to ( v)
+switch costume to (whole v)
 + go to x: (0) y: (180)
 + point in direction (90) // Ready position
 ```
@@ -85,11 +89,13 @@ A `forever`{:class="block3control"} loop runs the code blocks inside it again an
 
 --- task ---
 
-Drag a `forever`{:class="block3control"} block from the `Control`{:class="block3control"} blocks menu and connect it to the bottom of your code.
+Drag a `forever`{:class="block3control"} block from the `Control`{:class="block3control"} blocks menu and connect it to the bottom of your code:
+
+![The Piñata sprite icon](images/pinata-sprite.png)
 
 ```blocks3
 when flag clicked
-switch costume to ( v)
+switch costume to (whole v)
 go to x: (0) y: (180)
 point in direction (90)
 + forever
@@ -105,11 +111,13 @@ Drag a `repeat 10`{:class="block3control"} block from the `Control`{:class="bloc
 
 Go to the `Motion`{:class="block3motion"} blocks menu and drag a `turn right 15 degrees`{:class="block3motion"} block into the `repeat`{:class="block3control"} block. 
 
-Change the `15` degrees to `1` degree so that the piñata only swings a small amount each time.
+Change the `15` degrees to `1` degree so that the piñata only swings a small amount each time:
+
+![The Piñata sprite icon](images/pinata-sprite.png)
 
 ```blocks3
 when flag clicked
-switch costume to ( v)
+switch costume to (whole v)
 go to x: (0) y: (180)
 point in direction (90)
 forever
@@ -125,17 +133,19 @@ turn right (1) degrees // swing right 10 times
 
 **Test:** Run your project, by clicking on the **Green flag** above the stage, to see the piñata swing. 
 
-Something is not quite right. When an object is hung from the ceiling, it will continue to swing not just to the right but also to the left. 
+Something is not quite right! When an object is hung from the ceiling, it will continue to swing not just to the right but also to the left. 
 
 --- /task ---
 
 --- task ---
 
-Add code to your `forever`{:class="block3control"} loop so that the piñata swings from the centre back and forth continuously. 
+Add code to your `forever`{:class="block3control"} loop so that the piñata swings from the centre back and forth continuously:
+
+![The Piñata sprite icon](images/pinata-sprite.png)
 
 ```blocks3
 when flag clicked
-switch costume to ( v)
+switch costume to (whole v)
 go to x: (0) y: (180)
 point in direction (90)
 forever
