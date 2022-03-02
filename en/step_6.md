@@ -34,3 +34,21 @@ When in position do effect changes forever
 ![The message sprite icon](images/message-sprite.png)
 
 --- save ---
+
+
+when flag clicked
+hide
+set size to (10) %
+go to x: (0) y: (100)
+
+when i receive [party v]
+show
+repeat (20)
+change size by (5)
+change y by (-10)
+end
+forever
+change size by (20)
+change [color v] effect by (25)
+wait (0.5) seconds
+change size by (-20)

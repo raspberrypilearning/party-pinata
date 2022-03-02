@@ -5,7 +5,7 @@
 In this step, you will code the piñata to play a sound and count one hit every time the piñata is clicked.
 </div>
 <div>
-![](images/image.png){:width="300px"}
+![An animated image showing the pinata being clicked 10 times. After the 10th time the costume changes to broken and the variable disappears.](images/break-pinata.gif){:width="300px"}
 </div>
 </div>
 
@@ -13,7 +13,7 @@ In this step, you will code the piñata to play a sound and count one hit every 
 
 Click on the **Sounds** tab for the **Piñata** sprite and you will find a **Boing** sound. Click on the **Play** icon to hear the sound.
 
-![desc](images/play-sound.png)
+![The Sounds tab showing the Boing sound in the Sounds list with the Play icon (a white triangle in a blue circle) highlighted at the bottom.](images/play-boing.png)
 
 --- /task ---
 
@@ -21,11 +21,11 @@ A group of connected blocks in Scratch is called a **script**. Sprites can have 
 
 --- task ---
 
-Click on the **Code** tab. From the `Events`{:class="block3events", drag a `when this sprite clicked`{:class="block3events"} block into the Code area to start a new script. 
+Click on the **Code** tab. From the `Events`{:class="block3events"}, drag a `when this sprite clicked`{:class="block3events"} block into the Code area to start a new script. 
 
 In the `Sound`{:class="block3sound"} blocks menu, find the `start sound`{:class="block3sound"} block. Drag it underneath the `when this sprite clicked`{:class="block3events"} block:
 
-![The Piñata sprite icon](images/pinata-sprite.png)
+![The Piñata sprite icon.](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -46,11 +46,17 @@ A `variable`{:class="block3variables"} is a way of storing numbers and/or text. 
 
 From the `Variables`{:class="block3variables"} blocks menu, click the **Make a Variable** button.
 
+![The variables blocks menu with the 'Makes a Variable' button.](images/make-variable.png)
+
 Call your new variable **hits**:
 
-![desc](images/new-variable.png)
+![The 'New variable' popup window with the name 'hits' typed in the 'New variable name' box.](images/new-variable.png)
 
 **Notice:** The new 'hits' variable appears on the Stage and can now be used in the `Variable`{:class="block3variables"} blocks.
+
+![The hits variable on the Stage.](images/variable-stage.png)
+
+![The Variable blocks including new 'hits' block.](images/variable-blocks.png)
 
 --- /task ---
 
@@ -60,11 +66,11 @@ Each time the project starts the number of `hits`{:class="block3variables"} shou
 
 Drag the `show variable hits`{:class="block3variables"} and `set hits to 0`{:class="block3variables"} blocks into the first script in the Code area, between the `switch costume to`{:class="block3looks"} block and the `go to x: (0) y: (180)`{:class="block3motion"} block. A gap will open up and the block will snap into place.
 
-![desc](images/inserting-code.gif)
+![An animated image showing the gap opening in an existing script when you hover a new block over the blocks in the Code area.](images/inserting-code.gif)
 
 Your code should look like this:
 
-![The Piñata sprite icon](images/pinata-sprite.png)
+![The Piñata sprite icon.](images/pinata-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -93,7 +99,7 @@ Every time the **Piñata** sprite is clicked the number of `hits`{:class="block3
 
 Add a block to change `hits`{:class="block3variables"} by `1` when the **Piñata** sprite is clicked:
 
-![The Piñata sprite icon](images/pinata-sprite.png)
+![The Piñata sprite icon.](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -107,6 +113,8 @@ start sound [Boing v]
 
 **Test:** Run your project a couple of times. Check that `hits`{:class="block3variables"} always starts at `0` and increases by `1` each time you click on the **Piñata** sprite.
 
+![The Stage showing the number stored in the hits variable is '8'.](images/hits-increase.png)
+
 --- /task ---
 
 A Piñata is hard to break but it does not last forever. Your piñata will last for `10` `hits`{:class="block3variables"} before breaking open.
@@ -117,7 +125,7 @@ An `if`{:class="block3control"} block can be used to check `if`{:class="block3co
 
 Add an `if`{:class="block3control"} block to the **Piñata** sprite’s `when this sprite clicked`{:class="block3events"} script:
 
-![The Piñata sprite icon](images/pinata-sprite.png)
+![The Piñata sprite icon.](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -136,7 +144,7 @@ The **Piñata** sprite should break open `if`{:class="block3control"} it has `10
 
 First add an `=`{:class="block3operators"} operator into the hexagon-shaped input:
 
-![The Piñata sprite icon](images/pinata-sprite.png)
+![The Piñata sprite icon.](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -151,7 +159,7 @@ change [hits v] by (1)
 
 Finish building the `if`{:class="block3control"} condition by dragging in the `hits`{:class="block3variables"} variable to the left of the `=`{:class="block3operators"} operator and typing the value `10` on the right:
 
-![The Piñata sprite icon](images/pinata-sprite.png)
+![The Piñata sprite icon.](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -166,7 +174,7 @@ change [hits v] by (1)
 
 Add blocks so that `if`{:class="block3control"} the condition is 'true' then the `hits`{:class="block3variables"} will hide from the Stage and the **Piñata** sprite will change to a broken costume:
 
-![The Piñata sprite icon](images/pinata-sprite.png)
+![The Piñata sprite icon.](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -185,6 +193,8 @@ if <(hits) = (10)> then
 
 Also check that the **Piñata** sprite starts with the 'whole' costume then changes to the 'broken' costume after `10` `hits`{:class="block3variables"}.  
 
+![An animated image showing the pinata being clicked 10 times. After the 10th time the costume changes to broken and the variable disappears.](images/break-pinata.gif)
+
 --- /task ---
 
 When the **Piñata** sprite has broken, all the other sprites need to know that the party has started.
@@ -195,7 +205,7 @@ In Scratch, the `broadcast`{:class="block3events"} block can be used to **send**
 
 Add a `broadcast message`{:class="block3events"} block:
 
-![The Piñata sprite icon](images/pinata-sprite.png)
+![The Piñata sprite icon.](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -203,13 +213,15 @@ start sound [Boing v]
 change [hits v] by (1)
 if <(hits) = (10)> then
 hide variable [hits v]
-switch costume to ( v)
+switch costume to (broken v)
 + broadcast (message1 v)
 ```
 
- Click on `message1` and choose **New message**. Name the new message `party`:
+Click on `message1` and choose **New message**. Name the new message `party`:
 
-![desc](images/new-message.png)
+![The dropdown menu on the broadcast block showing 'New message' menu option.](images/new-message.png)
+
+![The New message popup window with 'New message name' box highlighted and the typed word 'party'.](images/party-message.png)
 
 Your `broadcast`{:class="block3events"} block will look like this:
 
