@@ -14,6 +14,8 @@ If you have a Scratch account, and have shared your project, keep an eye out for
 
 --- task ---
 
+### Submit your project
+
 Inspire the global Code Club community with your project! 
 
 To submit your project to our ['Party piñata — Community' Scratch studio](https://scratch.mit.edu/studios/31111242){:target="_blank"} for other people to see, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
