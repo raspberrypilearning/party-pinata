@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Piñatas are full of treats and when they start to break the treats fall out. In this step, animate global food treats to fall out of the piñata each time it is hit. 
+Piñatas are full of treats and when they start to break the treats fall out. In this step, animate international food treats to fall out of the piñata each time it is hit. Do you recognise any of the treats?
 </div>
 <div>
 ![An animated image showing the pinata being hit multiple times. Each time 4 random treats fall out to random positions then slowly rotate in a circle.](images/spinning-treats.gif){:width="300px"}
@@ -37,31 +37,31 @@ go to x: (0) y: (100)
 
 --- /task ---
 
+Four treats will escape the piñata each time the piñata is hit.  When the Treats sprite is **cloned** you can create multiple treats.
+
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 A <span style="color: #0faeb0">**clone**</span> in Scratch is a copy of a sprite. It has all the same code, costumes and sounds of the original sprite.      
 </p>
-
-Four treats will escape the piñata each time the piñata is hit.  When the Treats sprite is cloned you can create multiple treats.
 
 --- task ---
 
 Click on the **Piñata** sprite. 
 
-Insert a `repeat`{:class="block3control"} loop into your existing code. Change the value to `4` then add a `create clone of myself`{:class="block3control"} block. Use the drop down arrow to select the `Treats` sprite.
+Insert a `repeat`{:class="block3control"} loop into your existing code. Change the value to `4`{:class="block3control"} then add a `create clone of myself`{:class="block3control"} block. Use the drop down arrow to select the `Treats`{:class="block3control"} sprite.
 
 ![The Pinata sprite icon](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
+if <(hits) < (10)> then
 start sound [Boing v]
 change [hits v] by (1)
 + repeat (4) // change to 4
 create clone of (Treats v) // select Treats
 end
-if <(hits) = (10)> then
-hide variable [hits v]
+if <(hits)=(10)> then
 switch costume to (broken v)
-broadcast (party v)
+broadcast (message1 v)
 ```
 
 --- /task ---
@@ -87,7 +87,7 @@ switch costume to (Knafeh v)
 
 --- task ---
 
-The only Treats costume the project will use with the current code is the last costume in the Costume list. Use a `pick random`{:class="block3operators"} operator to select a random costume from `1` to `26` each time a clone is created:
+You can pick random treats to be released when the Piñata is hit. Use a `pick random`{:class="block3operators"} operator to select a random costume from `1`{:class="block3operators"} to `26`{:class="block3operators"} each time a clone is created:
 
 ![The Treats sprite icon](images/treats-sprite.png)
 
@@ -95,7 +95,7 @@ The only Treats costume the project will use with the current code is the last c
 when i start as a clone
 show
 go to [back v] layer 
-+ switch costume to (pick random (1) to (26) // change to 26
++ switch costume to (pick random (1) to (26)) // change to 26
 ```
 
 --- /task ---
@@ -112,7 +112,7 @@ Add code to make the cloned Treats `glide`{:class="block3motion"} to a random po
 when i start as a clone
 show
 go to [back v] layer
-switch costume to (pick random (1) to (26)
+switch costume to (pick random (1) to (26))
 + glide (1) secs to (random position v) 
 ```
 
@@ -128,7 +128,7 @@ switch costume to (pick random (1) to (26)
 
 --- task ---
 
-Add animation to make the Treat sprite clones `turn`{:class="block3motion"} `forever`{:class="block3control"} when the reach their random position. Remember animations work best when small movements are used so change the number of degrees to `1`:
+Add animation to make the Treat sprite clones `turn`{:class="block3motion"} `forever`{:class="block3control"} when they reach their random position. Remember animations work best when small movements are used so change the number of degrees to `1`{:class="block3motion"}:
 
 ![The Treats sprite icon](images/treats-sprite.png)
 

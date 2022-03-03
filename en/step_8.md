@@ -5,6 +5,7 @@ If you have time, you can upgrade your project. You might have ideas about what 
 You could:
 
 + Use more looks, sounds or motion blocks to animate your message and treats further
++ Find images of your favorite treats and add them to the costumes for the Treats sprite
 + Increase the number of treats that fall from the piñata on each hit
 + Make your project easier or harder by changing the number of times you need to hit the piñata before it breaks
 

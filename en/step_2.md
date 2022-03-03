@@ -37,6 +37,8 @@ Click on the **Piñata** sprite in the Sprite list and select the **Costumes** t
 
 ![Side by side images of the two piñata costumes. The left is a whole piñata, the right has broken open.](images/pinata-costumes.png)
 
+![The Costumes tab (the middle tab in the top left).](images/costumes-tab.png)
+
 --- /task ---
 
 --- task ---
@@ -112,9 +114,9 @@ A `repeat`{:class="block3control"} loop can be used to make the **Piñata** spri
 
 Drag a `repeat 10`{:class="block3control"} block into the Code area and attach it inside your `forever`{:class="block3control"} loop. 
 
-Go to the `Motion`{:class="block3motion"} blocks menu and drag a `turn right 15 degrees`{:class="block3motion"} block into the `repeat`{:class="block3control"} block. 
+Go to the `Motion`{:class="block3motion"} blocks menu and drag a `turn clockwise 15 degrees`{:class="block3motion"} block into the `repeat`{:class="block3control"} block. 
 
-Change the `15` degrees to `1` degree so that the piñata only swings a small amount each time:
+Change the `15`{:class="block3motion"} degrees to `1`{:class="block3motion"} degree so that the piñata only swings a small amount each time:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
@@ -127,7 +129,7 @@ forever
 + repeat (10) 
 turn right (1) degrees // change to 1
 ```
-![Repeat block being added within the forever block and then a turn right block added within it.](images/add-repeat.gif)
+![Repeat block being added within the forever block and then a turn clockwise block added within it.](images/add-repeat.gif)
 
 --- /task ---
 
@@ -137,7 +139,9 @@ turn right (1) degrees // change to 1
 
 Mmm, something is not quite right! When an object is hung from the ceiling, it won't just rotate in one direction, it will swing back and forth. 
 
-Stop your project by clicking on the **red stop sign** above the stage.
+Stop your project by clicking on the **red stop icon** above the stage.
+
+![green flag and stop icons shown side by side](images/start-stop.png)
 
 --- /task ---
 
@@ -154,7 +158,7 @@ go to x: (0) y: (180)
 point in direction (90)
 forever
 repeat (10)
-turn right (1) degrees // swing right 10 times
+turn right (1) degrees 
 end
 + repeat (20) // change to 20
 turn left (1) degrees // change to 1
@@ -168,14 +172,14 @@ end
 
 --- task ---
 
-**Test:** Run your project to see the piñata swing to the left and right. 
+**Test:** Run your project to see the piñata swing . 
 
 **Debug:** If the piñata does not swing correctly: 
 + look at your code to make sure the `repeat`{:class="block3control"} blocks are in the correct position
-+ check that the `turn left`{:class="block3motion"} and `turn right`{:class="block3motion"} arrows are correct
++ check that the `turn clockwise`{:class="block3motion"}  and `turn anticlockwise`{:class="block3motion"} arrows are correct
 + make sure that you have used the numbers from the code above
 
-![An animated gif showing the stage with the pinata sprite positioned at the top centre and swinging left to right.](images/swinging-pinata.gif)
+![An animated gif showing the stage with the pinata sprite positioned at the top centre and swinging back and forth.](images/swinging-pinata.gif)
 
 --- /task ---
 

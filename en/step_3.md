@@ -21,7 +21,7 @@ A group of connected blocks in Scratch is called a **script**. Sprites can have 
 
 --- task ---
 
-Click on the **Code** tab. From the `Events`{:class="block3events"}, drag a `when this sprite clicked`{:class="block3events"} block into the Code area to start a new script. 
+Click on the **Code** tab. From `Events`{:class="block3events"}, drag a `when this sprite clicked`{:class="block3events"} block into the Code area to start a new script. 
 
 In the `Sound`{:class="block3sound"} blocks menu, find the `start sound`{:class="block3sound"} block. Drag it underneath the `when this sprite clicked`{:class="block3events"} block:
 
@@ -62,11 +62,9 @@ Call your new variable **hits**:
 
 --- task ---
 
-Each time the project starts the number of `hits`{:class="block3variables"} should be shown on the Stage and the count reset to `0`.
+Each time the project starts the number of `hits`{:class="block3variables"} should be reset to `0`{:class="block3variables"}.
 
-Drag the `show variable hits`{:class="block3variables"} and `set hits to 0`{:class="block3variables"} blocks into the first script in the Code area, between the `switch costume to`{:class="block3looks"} block and the `go to x: (0) y: (180)`{:class="block3motion"} block. A gap will open up and the block will snap into place.
-
-![An animated image showing the gap opening in an existing script when you hover a new block over the blocks in the Code area.](images/inserting-code.gif)
+Drag the `set hits to 0`{:class="block3variables"} block into the first script in the Code area, between the `switch costume to`{:class="block3looks"} block and the `go to x: (0) y: (180)`{:class="block3motion"} block.
 
 Your code should look like this:
 
@@ -75,7 +73,6 @@ Your code should look like this:
 ```blocks3
 when flag clicked
 switch costume to (whole v)
-+ show variable [hits v]
 + set [hits v] to (0)
 go to x: (0) y: (180)
 point in direction (90)
@@ -97,7 +94,7 @@ end
 
 Every time the **Piñata** sprite is clicked the number of `hits`{:class="block3variables"} should increase`.
 
-Add a block to change `hits`{:class="block3variables"} by `1` when the **Piñata** sprite is clicked:
+Add a block to change `hits`{:class="block3variables"} by `1`{:class="block3variables"} when the **Piñata** sprite is clicked:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
@@ -111,27 +108,28 @@ start sound [Boing v]
 
 --- task ---
 
-**Test:** Run your project a couple of times. Check that `hits`{:class="block3variables"} always starts at `0` and increases by `1` each time you click on the **Piñata** sprite.
+**Test:** Run your project a couple of times. Check that `hits`{:class="block3variables"} always starts at `0`{:class="block3variables"} and increases by `1`{:class="block3variables"} each time you click on the **Piñata** sprite.
 
 ![The Stage showing the number stored in the hits variable is '8'.](images/hits-increase.png)
 
 --- /task ---
 
-A Piñata is hard to break but it does not last forever. Your piñata will last for `10` `hits`{:class="block3variables"} before breaking open.
+A Piñata is hard to break but it does not last forever. Your piñata will last for `10 hits`{:class="block3variables"} before breaking open.
 
 An `if`{:class="block3control"} block can be used to check `if`{:class="block3control"} a condition is 'true'. 
 
 --- task ---
 
-Add an `if`{:class="block3control"} block to the **Piñata** sprite’s `when this sprite clicked`{:class="block3events"} script:
+Insert an `if`{:class="block3control"} block around the blocks in your `when this sprite clicked`{:class="block3events"} script:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
++ if <> then
 start sound [Boing v]
 change [hits v] by (1)
-+ if <> then
+
 ```
 
 --- /task ---
@@ -140,60 +138,69 @@ The `if`{:class="block3control"} has a hexagon-shaped input. This means you can 
 
 --- task ---
 
-The **Piñata** sprite should break open `if`{:class="block3control"} it has `10` `hits`{:class="block3variables"}.
+The **Piñata** sprite should break open `if`{:class="block3control"} the number of `hits`{:class="block3variables"} is `less than`{:class="block3operators"} `10`{:class="block3variables"}.
 
-First add an `=`{:class="block3operators"} operator into the hexagon-shaped input:
+First add a `<`{:class="block3operators"} operator into the hexagon-shaped input:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
++ if <() < ()> then
 start sound [Boing v]
 change [hits v] by (1)
-+ if <() = ()> then
+
 ```
 
 --- /task ---
 
 --- task ---
 
-Finish building the `if`{:class="block3control"} condition by dragging in the `hits`{:class="block3variables"} variable to the left of the `=`{:class="block3operators"} operator and typing the value `10` on the right:
+Finish building the `if`{:class="block3control"} condition by dragging in the `hits`{:class="block3variables"} variable to the left of the `<`{:class="block3operators"} operator and typing the value '10' on the right:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
-start sound [Clown Honk v]
-change [hits v] by (1)
-+ if <(hits) = (10)> then
-```
-
---- /task ---
-
---- task ---
-
-Add blocks so that `if`{:class="block3control"} the condition is 'true' then the `hits`{:class="block3variables"} will hide from the Stage and the **Piñata** sprite will change to a broken costume:
-
-![The Piñata sprite icon.](images/pinata-sprite.png)
-
-```blocks3
-when this sprite clicked
++ if <(hits) < (10)> then
 start sound [Boing v]
 change [hits v] by (1)
-if <(hits) = (10)> then
-+ hide variable [hits v]
-+ switch costume to (broken v)
+
 ```
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your project a couple of times. Check that the `hits`{:class="block3variables"} shows at the start then hides when you have clicked the **Piñata** sprite `10` times. 
+**Test:** Run your project again. Hit the piñata 10 times to hear the sound and see the `hits`{:class="block3variables"} variable increase.
 
-Also check that the **Piñata** sprite starts with the 'whole' costume then changes to the 'broken' costume after `10` `hits`{:class="block3variables"}.  
+Hit the piñata a few more times. The `hits`{:class="block3variables"} variable will not go above 10 because that condition is no longer 'true' so the code inside the `if`{:class="block3control"} block won't run. 
 
-![An animated image showing the pinata being clicked 10 times. After the 10th time the costume changes to broken and the variable disappears.](images/break-pinata.gif)
+--- /task ---
+
+--- task ---
+
+Add a second `if`{:class="block3control"} block inside the first. This time the condition will check if `hits`{:class="block3variables"} `=`{:class="block3operators"} 10 and if 'true' the costume will change to `broken`{:class="block3looks"}: 
+
+![The Piñata sprite icon.](images/pinata-sprite.png)
+
+```blocks3
+when this sprite clicked
+if <(hits) < (10)> then
+start sound [Boing v]
+change [hits v] by (1)
++ if <(hits)=(10)> then
+switch costume to (broken v)
+
+```
+
+--- /task ---
+
+--- task ---
+
+**Test:** Run your project a couple of times. Check that the **Piñata** sprite starts with the 'whole' costume then changes to the 'broken' costume after `10 hits`{:class="block3variables"}.  
+
+![An animated image showing the pinata being clicked 10 times. After the 10th time the costume changes to broken.](images/break-pinata.gif)
 
 --- /task ---
 
@@ -209,15 +216,15 @@ Add a `broadcast message`{:class="block3events"} block:
 
 ```blocks3
 when this sprite clicked
+if <(hits) < (10)> then
 start sound [Boing v]
 change [hits v] by (1)
-if <(hits) = (10)> then
-hide variable [hits v]
+if <(hits)=(10)> then
 switch costume to (broken v)
 + broadcast (message1 v)
 ```
 
-Click on `message1` and choose **New message**. Name the new message `party`:
+Click on `message1`{:class="block3events"} and choose **New message**. Name the new message `party`{:class="block3events"}:
 
 ![The dropdown menu on the broadcast block showing 'New message' menu option.](images/new-message.png)
 
