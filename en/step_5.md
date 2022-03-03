@@ -5,7 +5,7 @@
 Piñatas are full of treats and when they start to break the treats fall out. In this step, animate global food treats to fall out of the piñata each time it is hit. 
 </div>
 <div>
-![](images/image.png){:width="300px"}
+![An animated image showing the pinata being hit multiple times. Each time 4 random treats fall out to random positions then slowly rotate in a circle.](images/spinning-treats.gif){:width="300px"}
 </div>
 </div>
 
@@ -32,44 +32,54 @@ Click on the **Code** tab then create a script to `hide`{:class="block3looks"} t
 ```blocks3
 when flag clicked
 hide
-got to x: (0) y: (100)
+go to x: (0) y: (100)
 ```
 
 --- /task ---
 
-Four treats will escape the piñata each time the piñata is hit. A `clone`{:class="block3control"} in Scratch is a copy of a sprite. It has all the same code, costumes and sounds of the original sprite. When the Treats sprite is cloned you can create multiple treats.
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+A <span style="color: #0faeb0">**clone**</span> in Scratch is a copy of a sprite. It has all the same code, costumes and sounds of the original sprite.      
+</p>
+
+Four treats will escape the piñata each time the piñata is hit.  When the Treats sprite is cloned you can create multiple treats.
 
 --- task ---
 
-Click on the Piñata sprite and insert a `repeat`{:class="block3control"} loop into your existing code. Change the value to `4` then add a `create clone`{:class="block3control"} block. Use the drop down arrow to select the Treats sprite.
+Click on the **Piñata** sprite. 
+
+Insert a `repeat`{:class="block3control"} loop into your existing code. Change the value to `4` then add a `create clone of myself`{:class="block3control"} block. Use the drop down arrow to select the `Treats` sprite.
 
 ![The Pinata sprite icon](images/pinata-sprite.png)
 
+```blocks3
 when this sprite clicked
 start sound [Boing v]
 change [hits v] by (1)
-+ repeat (4)
-create clone of (Treats v)
++ repeat (4) // change to 4
+create clone of (Treats v) // select Treats
 end
 if <(hits) = (10)> then
 hide variable [hits v]
 switch costume to (broken v)
 broadcast (party v)
+```
 
 --- /task ---
 
 --- task ---
 
-Return to the Treats sprite and create a new script using the `when I start as a clone`{:class="block3events"} block. 
+Click on the Treats sprite.
 
-Add blocks from the `Looks`{:class="block3looks"} blocks menu to `show`{:class="block3looks"} the clone, make it `go to back layer`{:class="block3looks"} and `switch costume`{:class="block3looks"}:
+Create a new script using the `when I start as a clone`{:class="block3events"} block. 
+
+Add blocks from the `Looks`{:class="block3looks"} blocks menu to control the appearance of each new clone:
 
 ![The Treats sprite icon](images/treats-sprite.png)
 
 ```blocks3
 when i start as a clone
 show
-go to [back v] layer
+go to [back v] layer // change to back
 switch costume to (Knafeh v)
 ```
 
@@ -84,8 +94,8 @@ The only Treats costume the project will use with the current code is the last c
 ```blocks3
 when i start as a clone
 show
-go to [back v] layer
-+ switch costume to (pick random (1) to (26)
+go to [back v] layer 
++ switch costume to (pick random (1) to (26) // change to 26
 ```
 
 --- /task ---
@@ -112,6 +122,8 @@ switch costume to (pick random (1) to (26)
 
 **Test:** Run your project and hit the piñata to see 4 clones of the Treats sprite after each hit. The costumes will be selected at random and glide to a random position.
 
+![An animated image showing the pinata being hit 3 times. Each time 4 random treats fall out to random positions.](images/four-treats.gif)
+
 --- /task ---
 
 --- task ---
@@ -135,6 +147,8 @@ turn right (1) degrees
 --- task ---
 
 **Test:** Run your project again to see the Treat sprite clones spin.
+
+![An animated image showing the pinata being hit multiple times. Each time 4 random treats fall out to random positions then slowly rotate in a circle.](images/spinning-treats.gif)
 
 --- /task ---
 

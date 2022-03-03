@@ -9,8 +9,6 @@
 </div>
 </div>
 
-
-
 --- task ---
 
 Click on the **Stick** sprite in the Sprite list. Add code so that the stick always stays in front of the other sprites and follows the mouse-pointer (or finger on a tablet):
@@ -79,6 +77,12 @@ when I receive [party v]
 forever
 play sound [Hip Hop v] until done // Choose your sound
 ```
+
+--- /task ---
+
+--- task ---
+
+**Test:** Run your project, click on the piñata 10 times to hear the looping party music.
 
 --- /task ---
 
