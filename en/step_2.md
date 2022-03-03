@@ -67,13 +67,13 @@ Drag a `When flag clicked`{:class="block3events"} block from the `Events`{:class
 + when flag clicked
 switch costume to (whole v)
 ```
-![when flag clicked block being added to the code area and connected to the switch costume block](images/add-flag-clicked.gif)
+![When flag clicked block being added to the code area and connected to the switch costume block.](images/add-flag-clicked.gif)
 
 --- /task ---
 
---- task ---
-
 The starting position of a piñata is always the same, it only starts moving when the piñata game is ready to play. 
+
+--- task ---
 
 In the `Motion`{:class="block3motion"} blocks menu, find the `go to x: 0 y: 180`{:class="block3motion"} and  `point in direction 90`{:class="block3motion"} blocks. Drag the blocks to the Code area and connect them to the bottom of your code:
 
@@ -106,11 +106,11 @@ point in direction (90)
 
 --- /task ---
 
-A `repeat`{:class="block3control"} loop can be used to make the piñata repeat a small movement many times. This will make the piñata appear animated.
+A `repeat`{:class="block3control"} loop can be used to make the **Piñata** sprite repeat a small movement many times. This will make the piñata appear animated.
 
 --- task ---
 
-Drag a `repeat 10`{:class="block3control"} block from the `Control`{:class="block3control"} blocks menu and attach it inside your `forever`{:class="block3control"} loop. 
+Drag a `repeat 10`{:class="block3control"} block into the Code area and attach it inside your `forever`{:class="block3control"} loop. 
 
 Go to the `Motion`{:class="block3motion"} blocks menu and drag a `turn right 15 degrees`{:class="block3motion"} block into the `repeat`{:class="block3control"} block. 
 
@@ -127,7 +127,7 @@ forever
 + repeat (10) 
 turn right (1) degrees // change to 1
 ```
-![repeat block being added within the forever block and then a turn right block added within it](images/add-repeat.gif)
+![Repeat block being added within the forever block and then a turn right block added within it.](images/add-repeat.gif)
 
 --- /task ---
 
@@ -135,7 +135,7 @@ turn right (1) degrees // change to 1
 
 **Test:** Run your project, by clicking on the **Green flag** above the stage, to see the piñata swing. 
 
-Mmm, something is not quite right! When an object is hung from the ceiling, it won't just rotate in one direction, it will also swing back to the left. 
+Mmm, something is not quite right! When an object is hung from the ceiling, it won't just rotate in one direction, it will swing back and forth. 
 
 Stop your project by clicking on the **red stop sign** above the stage.
 
