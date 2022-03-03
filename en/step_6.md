@@ -32,7 +32,7 @@ There is a costume with some text on it saying 'Happy Birthday Code Club'. Doubl
 
 --- task ---
 
-You can now type your new Code Club birthday message. Press 'enter' on your keyboard to start a new line. 
+You can now type your new Code Club birthday message. Press **Enter** on your keyboard to start a new line. 
 
 **Tip:** Don't worry if your message is a bit too big for the box as you can resize it later.
 
@@ -50,7 +50,7 @@ You can now type your new Code Club birthday message. Press 'enter' on your keyb
 
 --- task ---
 
-**Choose:** Click on the Font tool and a dropdown list of fonts will appear. The 'Pixel' font is selected in the start project but you can use any of the fonts available. 
+**Choose:** Click on the Font tool and a dropdown list of fonts will appear. The 'Pixel' font is selected in the starter project but you can use any of the fonts available. 
 
 ![desc](images/font-type.png)
 

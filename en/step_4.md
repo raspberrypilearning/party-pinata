@@ -11,7 +11,7 @@
 
 --- task ---
 
-Click on the **Stick** sprite in the Sprite list. Add code so that the stick always stays in front of the other sprites and follows the mouse-pointer (or finger on a tablet):
+Click on the **Stick** sprite in the Sprite list. Add code so that the stick always stays in front of the other sprites and follows the mouse-pointer (or your finger on a tablet):
 
 Use the `go to random position`{:class="block3motion"} block but select `mouse-pointer`{:class="block3motion"} from the dropdown menu.
 
@@ -28,7 +28,7 @@ go to (mouse-pointer v)
 
 --- task ---
 
-**Test:** Run your project and check the **Stick** sprite follows you round the Stage.
+**Test:** Run your project and check the **Stick** sprite follows your cursor or finger around the Stage.
 
 ![An animated image showing the stick sprite following the mouse pointer around the stage.](images/follow-stick.gif)
 
