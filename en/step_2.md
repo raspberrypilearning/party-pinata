@@ -23,7 +23,7 @@ The Scratch editor looks like this:
 
 The **Stage** is where your project runs and a **backdrop** changes the way that the Stage looks. A Code Club party backdrop has been added for you. 
 
-In Scratch, characters and objects are called sprites, and they appear on the Stage. You can see the Piñata and Stick sprites on the Stage.
+In Scratch, characters and objects are called **sprites**, and they appear on the Stage. You can see the Piñata and Stick sprites on the Stage.
 
 ![The stage with a patterned blue backdrop with presents and balloons. Also on the stage are piñata and stick sprites.](images/backdrop-and-sprites.png)
 
@@ -33,7 +33,7 @@ At the moment there is not much happening at this party. You can change that!
 
 A sprite can have code, costumes, and sounds to change the way that it looks and what it does.
 
-Click on the **Piñata** sprite in the Sprite list and select the **Costumes** tab. There are two Code Club robot piñata costumes one named 'whole' and the other named 'broken'. 
+Click on the **Piñata** sprite in the Sprite list and select the **Costumes** tab. There are two piñata costumes one named 'whole' and the other named 'broken'. 
 
 ![Side by side images of the two piñata costumes. The left is a whole piñata, the right has broken open.](images/pinata-costumes.png)
 
@@ -41,7 +41,7 @@ Click on the **Piñata** sprite in the Sprite list and select the **Costumes** t
 
 --- task ---
 
-Click on the **Code** tab. Go to the `Looks`{:class="block3looks"} blocks menu and drag a `switch costume to`{:class="block3looks"} block to the Code area. 
+Click on the **Code** tab. Go to the `Looks`{:class="block3looks"} blocks menu then drag a `switch costume to`{:class="block3looks"} block to the Code area. 
 
 Click on the costume name to open a drop-down menu then select the 'whole' costume:
 
@@ -50,6 +50,8 @@ Click on the costume name to open a drop-down menu then select the 'whole' costu
 ```blocks3
 switch costume to (whole v) 
 ```
+
+![An animated image showing the switch costume block being dragged from the Looks blocks menu to the Code area.](images/switch-costume.gif)
 
 --- /task ---
 
@@ -65,6 +67,8 @@ Drag a `When flag clicked`{:class="block3events"} block from the `Events`{:class
 + when flag clicked
 switch costume to (whole v)
 ```
+
+![An animated image showing two blocks snapping together in the Code area.](images/add-flag-clicked.gif)
 
 --- /task ---
 
@@ -125,13 +129,15 @@ forever
 turn right (1) degrees // change to 1
 ```
 
+![An animated image showing the repeat and turn blocks being added inside the forever block.](images/add-repeat.gif)
+
 --- /task ---
 
 --- task ---
 
 **Test:** Run your project, by clicking on the **Green flag** above the stage, to see the piñata swing. 
 
-Something is not quite right! When an object is hung from the ceiling, it won't just rotate in one direction, it will also swing back to the left. 
+Mmm, something is not quite right! When an object is hung from the ceiling, it won't just rotate in one direction, it will also swing back to the left. 
 
 Stop your project by clicking on the **red stop sign** above the stage.
 
