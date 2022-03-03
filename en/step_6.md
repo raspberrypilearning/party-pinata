@@ -119,6 +119,7 @@ show
 repeat (20)
 change size by (5)
 change y by (-10)
+end
 + forever
 change size by (20) // positive number to grow
 change [color v] effect by (25) // change colour
