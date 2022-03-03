@@ -17,16 +17,16 @@ What would you write in a birthday card to send to Code Club? It could be:
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 The first Code Club projects were written in English but within a year they had been translated into Brazilian Portuguese, Dutch, German, Norwegian and Ukrainian. French, Greek and Spanish translations quickly followed and now there are projects in <span style="color: #0faeb0">**28 native languages**</span>. Thank you to our awesome translation community!
 
-![](images/birthday-languages.png)
+![Multiple images saying Happy Birthday in various native languages.](images/birthday-languages.png)
 </p>
 
 --- task ---
 
 Click on the **Message** sprite in the Sprite list and select the **Costumes** tab. 
 
-There is a costume with some text on it saying 'Happy Birthday Code Club'. Double click (or tap and hold on a tablet) on the text to open the text editing tool.
+The costume has some text saying 'Happy Birthday Code Club'. Double click (or tap and hold on a tablet) on the text to select the text editing tool.
 
-![desc](images/text-edit.png)
+![The costume editor with Text tool selected and text highlighted.](images/text-edit.png)
 
 --- /task ---
 
@@ -36,7 +36,7 @@ You can now type your new Code Club birthday message. Press **Enter** on your ke
 
 **Tip:** Don't worry if your message is a bit too big for the box as you can resize it later.
 
-![desc](images/new-text.png)
+![The text editor showing a new message has been typed in place of the old message.](images/new-text.png)
 
 --- /task ---
 
@@ -44,7 +44,7 @@ You can now type your new Code Club birthday message. Press **Enter** on your ke
 
 **Choose:** Click on the Fill icon to open the colour dropdown menu. Move the fill sliders to the left or right to select your favourite color. 
 
-![desc](images/font-colour.png)
+![The Fill dropdown menu with sliders for color, saturation and brightness. The message has changed from green to purple.](images/font-colour.png)
 
 --- /task ---
 
@@ -52,7 +52,7 @@ You can now type your new Code Club birthday message. Press **Enter** on your ke
 
 **Choose:** Click on the Font tool and a dropdown list of fonts will appear. The 'Pixel' font is selected in the starter project but you can use any of the fonts available. 
 
-![desc](images/font-type.png)
+![The Font dropdown menu showing a choice of 9 different fonts. The 'Marker' font has been selected.](images/font-type.png)
 
 --- /task ---
 
@@ -60,7 +60,7 @@ You can now type your new Code Club birthday message. Press **Enter** on your ke
 
 Click on the Select tool and 8 circles will appear around your message. Use these circles to resize your message by clicking on them and dragging them within the white box. 
 
-![desc](images/resize-message.png)
+![The Select tool is highlighted and the message has small circles in each corner and at the central vertical and horizontal borer points so that it can be resized in multile directions.](images/resize-message.png)
 
 --- /task ---
 

@@ -140,7 +140,7 @@ The `if`{:class="block3control"} has a hexagon-shaped input. This means you can 
 
 The **Piñata** sprite should break open `if`{:class="block3control"} the number of `hits`{:class="block3variables"} is `less than`{:class="block3operators"} `10`{:class="block3variables"}.
 
-First add an `<`{:class="block3operators"} operator into the hexagon-shaped input:
+First add a `<`{:class="block3operators"} operator into the hexagon-shaped input:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
@@ -156,7 +156,7 @@ change [hits v] by (1)
 
 --- task ---
 
-Finish building the `if`{:class="block3control"} condition by dragging in the `hits`{:class="block3variables"} variable to the left of the `<`{:class="block3operators"} operator and typing the value `10`{:class="block3variables"} on the right:
+Finish building the `if`{:class="block3control"} condition by dragging in the `hits`{:class="block3variables"} variable to the left of the `<`{:class="block3operators"} operator and typing the value '10' on the right:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
@@ -172,15 +172,15 @@ change [hits v] by (1)
 
 --- task ---
 
-**Test:** Run your project. Hit the piñata 10 times to hear the sound and see the `hits`{:class="block3variables"} variable increase.
+**Test:** Run your project again. Hit the piñata 10 times to hear the sound and see the `hits`{:class="block3variables"} variable increase.
 
-Hit the piñata a few more times. The `hits`{:class="block3variables"} variable will not go above 10 because that condition is no longer 'true'. 
+Hit the piñata a few more times. The `hits`{:class="block3variables"} variable will not go above 10 because that condition is no longer 'true' so the code inside the `if`{:class="block3control"} block won't run. 
 
 --- /task ---
 
 --- task ---
 
-Add a second `if`{:class="block3control"} block inside the first. This `if`{:class="block3control"} condition will check if `hits`{:class="block3variables"} `=`{:class="block3operators"} 10 and if 'true' the costume will change to `broken`{:class="block3looks"}: 
+Add a second `if`{:class="block3control"} block inside the first. This time the condition will check if `hits`{:class="block3variables"} `=`{:class="block3operators"} 10 and if 'true' the costume will change to `broken`{:class="block3looks"}: 
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 

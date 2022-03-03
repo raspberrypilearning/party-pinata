@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
- Piñatas are usually hit with a stick made from wood or thick card that is covered in colourful strips of paper. In this step, add code to control the piñata stick and play looping music when the piñata breaks. 
+Piñatas are usually hit with a stick made from wood or thick card that is covered in colourful strips of paper. In this step, add code to control the piñata stick and play looping music when the piñata breaks. 
 </div>
 <div>
 ![An animated image showing the stick sprite following the mouse pointer around the stage.](images/follow-stick.gif){:width="300px"}
@@ -21,7 +21,7 @@ Use the `go to random position`{:class="block3motion"} block but select `mouse-p
 when flag clicked
 forever
 go to [front v] layer
-go to (mouse-pointer v)
+go to (mouse-pointer v) // change to mouse pointer
 ```
 
 --- /task ---

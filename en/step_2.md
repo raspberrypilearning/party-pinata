@@ -172,11 +172,11 @@ end
 
 --- task ---
 
-**Test:** Run your project to see the piñata swing to the left and right. 
+**Test:** Run your project to see the piñata swing . 
 
 **Debug:** If the piñata does not swing correctly: 
 + look at your code to make sure the `repeat`{:class="block3control"} blocks are in the correct position
-+ check that the `turn anticlockwise`{:class="block3motion"} and `turn clockwise`{:class="block3motion"} arrows are correct
++ check that the `turn clockwise`{:class="block3motion"}  and `turn anticlockwise`{:class="block3motion"} arrows are correct
 + make sure that you have used the numbers from the code above
 
 ![An animated gif showing the stage with the pinata sprite positioned at the top centre and swinging back and forth.](images/swinging-pinata.gif)

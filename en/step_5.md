@@ -37,11 +37,11 @@ go to x: (0) y: (100)
 
 --- /task ---
 
+Four treats will escape the piñata each time the piñata is hit.  When the Treats sprite is **cloned** you can create multiple treats.
+
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 A <span style="color: #0faeb0">**clone**</span> in Scratch is a copy of a sprite. It has all the same code, costumes and sounds of the original sprite.      
 </p>
-
-Four treats will escape the piñata each time the piñata is hit.  When the Treats sprite is cloned you can create multiple treats.
 
 --- task ---
 
@@ -53,15 +53,15 @@ Insert a `repeat`{:class="block3control"} loop into your existing code. Change t
 
 ```blocks3
 when this sprite clicked
+if <(hits) < (10)> then
 start sound [Boing v]
 change [hits v] by (1)
 + repeat (4) // change to 4
 create clone of (Treats v) // select Treats
 end
-if <(hits) = (10)> then
-hide variable [hits v]
+if <(hits)=(10)> then
 switch costume to (broken v)
-broadcast (party v)
+broadcast (message1 v)
 ```
 
 --- /task ---
@@ -87,7 +87,7 @@ switch costume to (Knafeh v)
 
 --- task ---
 
-You can pick random treats to be released when the Piñata is hit. Use a `pick random`{:class="block3operators"} operator to select a random costume from `1`{:class="block3operators" to `26`{:class="block3operators" each time a clone is created:
+You can pick random treats to be released when the Piñata is hit. Use a `pick random`{:class="block3operators"} operator to select a random costume from `1`{:class="block3operators"} to `26`{:class="block3operators"} each time a clone is created:
 
 ![The Treats sprite icon](images/treats-sprite.png)
 
