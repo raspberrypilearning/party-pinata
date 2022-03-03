@@ -224,7 +224,7 @@ switch costume to (broken v)
 + broadcast (message1 v)
 ```
 
-Click on `message1`{:class="block3events"} and choose **New message**. Name the new message `party`{:class="block3events"}:
+Click on `message1`{:class="block3events"} and choose **New message**. Name the new message `party`{:class="block3events"}.
 
 ![The dropdown menu on the broadcast block showing 'New message' menu option.](images/new-message.png)
 

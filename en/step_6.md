@@ -85,7 +85,7 @@ go to x: (0) y: (100) // inside the piñata
 
 Create a new script to start when the `party`{:class="block3events"} message has been received. 
 
-Add a `repeat`{:class="block3control"} loop to animate the message. the message will `change size`{:class="block3looks"} to grow and `change y`{:class="block3motion"} position to fall as it animates.
+Add a `repeat`{:class="block3control"} loop to animate the message. the message will `change size`{:class="block3looks"} to grow and `change y`{:class="block3motion"} position to fall as it animates:
 
 ![The message sprite icon.](images/message-sprite.png)
 

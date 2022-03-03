@@ -11,9 +11,9 @@ Piñatas are usually hit with a stick made from wood or thick card that is cover
 
 --- task ---
 
-Click on the **Stick** sprite in the Sprite list. Add code so that the stick always stays in front of the other sprites and follows the mouse-pointer (or your finger on a tablet):
+Click on the **Stick** sprite in the Sprite list. Add code so that the stick always stays in front of the other sprites and follows the mouse-pointer (or your finger on a tablet).
 
-Use the `go to random position`{:class="block3motion"} block but select `mouse-pointer`{:class="block3motion"} from the dropdown menu.
+Use the `go to random position`{:class="block3motion"} block but select `mouse-pointer`{:class="block3motion"} from the dropdown menu:
 
 ![The Stick sprite icon](images/stick-sprite.png)
 
@@ -40,7 +40,7 @@ Scratch also has **looping sounds** that can be used in `forever`{:class="block3
 
 --- task ---
 
-Go to the **Sounds** tab and click on the **Choose a sound** icon:
+Go to the **Sounds** tab and click on the **Choose a sound** icon.
 
 ![The Choose a sound icon with the sounds popup menu. When selected, the choose a sound icon is a white speaker on a green circle.](images/sound-icon.png)
 
@@ -48,7 +48,7 @@ Go to the **Sounds** tab and click on the **Choose a sound** icon:
 
 --- task ---
 
-From the **Choose a sound** gallery, select the 'Loops' category:
+From the **Choose a sound** gallery, select the 'Loops' category.
 
 ![The Sound gallery with 'Loops' category highlighted in orange to show it has been selected. The other categories are in blue.](images/loops-category.png)
 
@@ -56,7 +56,7 @@ From the **Choose a sound** gallery, select the 'Loops' category:
 
 --- task ---
 
-**Choose:** hover over the 'play' icons to hear the looping sounds. Add your favourite by clicking on it:
+**Choose:** hover over the 'play' icons to hear the looping sounds. Add your favourite by clicking on it.
 
 ![The 'Hip hop' sound with play icon highlighted in the top right corner of the sound icon.](images/play-icon.png)
 
