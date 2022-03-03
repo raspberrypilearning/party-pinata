@@ -67,8 +67,7 @@ Drag a `When flag clicked`{:class="block3events"} block from the `Events`{:class
 + when flag clicked
 switch costume to (whole v)
 ```
-
-![An animated image showing two blocks snapping together in the Code area.](images/add-flag-clicked.gif)
+![when flag clicked block being added to the code area and connected to the switch costume block](images/add-flag-clicked.gif)
 
 --- /task ---
 
@@ -128,8 +127,7 @@ forever
 + repeat (10) 
 turn right (1) degrees // change to 1
 ```
-
-![An animated image showing the repeat and turn blocks being added inside the forever block.](images/add-repeat.gif)
+![repeat block being added within the forever block and then a turn right block added within it](images/add-repeat.gif)
 
 --- /task ---
 
