@@ -47,7 +47,7 @@ A <span style="color: #0faeb0">**clone**</span> in Scratch is a copy of a sprite
 
 Click on the **Piñata** sprite. 
 
-Insert a `repeat`{:class="block3control"} loop into your existing code. Change the value to `4`{:class="block3control"} then add a `create clone of myself`{:class="block3control"} block. Use the drop down arrow to select the `Treats`{:class="block3control"} sprite.
+Insert a `repeat`{:class="block3control"} loop into your existing code. Change the value to `4`{:class="block3control"} then add a `create clone of myself`{:class="block3control"} block. Use the drop down arrow to select the `Treats`{:class="block3control"} sprite:
 
 ![The Pinata sprite icon](images/pinata-sprite.png)
 
@@ -68,7 +68,7 @@ broadcast (message1 v)
 
 --- task ---
 
-Click on the Treats sprite.
+Click on the **Treats** sprite.
 
 Create a new script using the `when I start as a clone`{:class="block3events"} block. 
 
