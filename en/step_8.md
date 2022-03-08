@@ -48,10 +48,8 @@ change size by (-20) // negative number to shrink
 
 [See the code](https://scratch.mit.edu/projects/656332454/){:target="_blank"}
 
-</div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/656332454/?autostart=false" frameborder="0"></iframe>
-</div>
 </div>
 
 --- /task ---
