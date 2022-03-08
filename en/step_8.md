@@ -63,3 +63,13 @@ title: Completed project
 You can view the [completed project here](https://scratch.mit.edu/projects/649873783/){:target="_blank"}.
 
 --- /collapse ---
+
+--- task ---
+
+### Submit your project
+
+If you have already shared your project with us just save your changes and we will see your awesome upgrades. 
+
+If you haven't yet shared your project but want to submit your project to our ['Party piñata — Community' Scratch studio](https://scratch.mit.edu/studios/31111242){:target="_blank"} for other people to see, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+
+--- /task ---
