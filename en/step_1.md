@@ -31,5 +31,5 @@ How many times do you need to hit the piñata for it to break?
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Code Club**</span> is celebrating its 10th Birthday this year. Did you know that there are Code Clubs on six out of seven continents around the world? That’s a lot of coders making things with code! Do you think any other clubs will be doing this project right now?   
+<span style="color: #0faeb0">**Code Club**</span> is celebrating its 10th Birthday this year. Did you know that there are Code Clubs on **six out of seven continents** around the world? That’s a lot of coders making things with code! Do you think any other clubs will be doing this project right now?   
 </p>
