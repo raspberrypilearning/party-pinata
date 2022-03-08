@@ -147,7 +147,9 @@ Stop your project by clicking on the **red stop icon** above the stage.
 
 --- task ---
 
-Add code to your `forever`{:class="block3control"} loop so that the piñata swings from the centre back and forth continuously:
+Add code to your `forever`{:class="block3control"} loop so that the piñata swings from the centre back and forth continuously like a pendulum:
+
+![The pinata sprite with arrows underneath showing that it swings clockwise from centre, then anticlockwise through the centre, then clockwise back to the centre.](images/pinata-swing.png)
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
@@ -157,13 +159,13 @@ switch costume to (whole v)
 go to x: (0) y: (180)
 point in direction (90)
 forever
-repeat (10)
+repeat (10) // swings 10 degrees clockwise from the centre
 turn right (1) degrees 
 end
-+ repeat (20) // change to 20
++ repeat (20) // swings 20 degrees anticlockwise through the centre
 turn left (1) degrees // change to 1
 end
-+ repeat (10) // change to 10
++ repeat (10) // swings 10 degrees clockwise back to the centre
 turn right (1) degrees // change to 1
 end
 ```
