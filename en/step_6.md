@@ -5,7 +5,7 @@
 Write a message and animate it using motion and colour effects. 
 </div>
 <div>
-![An animated image showing the message falling then changing size and colour when it has reach the final message fall position.](images/message-animated.gif){:width="300px"}
+![An animated image showing the message falling then changing size and colour when it has reach the final message fall position.](images/falling-message.gif){:width="300px"}
 </div>
 </div>
 
@@ -15,7 +15,7 @@ What would you write in a birthday card to send to Code Club? It could be:
 + Details of what you want to make next with your coding skills
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The first Code Club projects were written in English but within a year they had been translated into Brazilian Portuguese, Dutch, German, Norwegian and Ukrainian. French, Greek and Spanish translations quickly followed and now there are projects in <span style="color: #0faeb0">**28 native languages**</span>. Thank you to our awesome translation community!
+The first Code Club projects were written in English but within a year they had been translated into Brazilian Portuguese, Dutch, German, Norwegian and Ukrainian. French, Greek and Spanish translations quickly followed and now some of the Code Club projects have been translated into <span style="color: #0faeb0">**28 native languages**</span>. Thank you to our awesome translation community!
 
 ![Multiple images saying Happy Birthday in various native languages.](images/birthday-languages.png)
 </p>
@@ -104,36 +104,6 @@ change y by (-10) // change to -10
 **Test:** Run your project, hit the piñata 10 times to see the message fall.
 
 ![An animated image showing the pinata being hit 10 times. Treats appear after each hit and on the 10th hit the pinata breaks and the message falls to the bottom of the screen. It gets bigger as it falls.](images/falling-message.gif)
-
---- /task ---
-
---- task ---
-
-Add code to make the message animate `forever`{:class="block3control"} when it is in position. Use `change size`{:class="block3looks"} and `change color effect`{:class="block3looks"} blocks so that it looks like the message is moving with the party beat: 
-
-![The message sprite icon.](images/message-sprite.png)
-
-```blocks3
-when I receive [party v]
-show
-repeat (20)
-change size by (5)
-change y by (-10)
-end
-+ forever
-change size by (20) // positive number to grow
-change [color v] effect by (25) // change colour
-wait (0.5) seconds // try different numbers to match your music
-change size by (-20) // negative number to shrink
-```
-
---- /task ---
-
---- task ---
-
-**Test:** Run your project, experiment with the numbers in the `forever`{:class="block3control"} loop blocks until you have the animation you like best.
-
-![An animated image showing the message falling then changing size and colour when it has reach the final message fall position.](images/message-animated.gif)
 
 --- /task ---
 

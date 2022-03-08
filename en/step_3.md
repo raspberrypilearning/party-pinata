@@ -40,7 +40,7 @@ start sound [Boing v]
 
 --- /task ---
 
-A `variable`{:class="block3variables"} is a way of storing numbers and/or text. The number of hits will be stored in a variable so it can be used at any time.
+A `variable`{:class="block3variables"} is a way of storing numbers and/or text. The number of times the piñata is clicked will be stored in a variable called `hits`{:class="block3variables"} so it can be used at any time.
 
 --- task ---
 
@@ -92,7 +92,7 @@ end
 
 --- task ---
 
-Every time the **Piñata** sprite is clicked the number of `hits`{:class="block3variables"} should increase`.
+Every time the **Piñata** sprite is clicked the number of `hits`{:class="block3variables"} should increase.
 
 Add a block to change `hits`{:class="block3variables"} by `1`{:class="block3variables"} when the **Piñata** sprite is clicked:
 
@@ -116,11 +116,15 @@ start sound [Boing v]
 
 A Piñata is hard to break but it does not last forever. Your piñata will last for `10 hits`{:class="block3variables"} before breaking open.
 
-An `if`{:class="block3control"} block can be used to check `if`{:class="block3control"} a condition is 'true'. 
+An `if`{:class="block3control"} block can be used to make a decision based on a **condition**. 
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+We use <span style="color: #0faeb0">**conditions**</span> all the time to make decisions. We could say “if the pencil is blunt, then sharpen it”. If blocks and conditions let us write code that does something different depending on whether a condition is true or false.
+</p>
 
 --- task ---
 
-Insert an `if`{:class="block3control"} block around the blocks in your `when this sprite clicked`{:class="block3events"} script:
+Go to the `Control`{:class="block3control"} blocks menu. Drag an `if`{:class="block3control"} block into the Code area and insert it around the blocks in your `when this sprite clicked`{:class="block3events"} script:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
@@ -134,11 +138,11 @@ change [hits v] by (1)
 
 --- /task ---
 
-The `if`{:class="block3control"} has a hexagon-shaped input. This means you can put a **condition** here.
+The `if`{:class="block3control"} block has a hexagon-shaped input where you can build a condition.  
 
 --- task ---
 
-The **Piñata** sprite should break open `if`{:class="block3control"} the number of `hits`{:class="block3variables"} is `less than`{:class="block3operators"} `10`{:class="block3variables"}.
+The **Piñata** sprite should play a sound and increase the count of `hits`{:class="block3variables"} **`if`{:class="block3control"}** the number of `hits`{:class="block3variables"} is `less than`{:class="block3operators"} `10`{:class="block3variables"}.
 
 First add a `<`{:class="block3operators"} operator into the hexagon-shaped input:
 

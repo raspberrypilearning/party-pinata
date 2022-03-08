@@ -26,6 +26,34 @@ What happens to the backdrop when the piñata breaks? Which blocks would create 
 </div>
 --- /task ---
 
+--- task ---
+
+You could add code to make the message animate `forever`{:class="block3control"} when it is in position. Use `change size`{:class="block3looks"} and `change color effect`{:class="block3looks"} blocks so that it looks like the message is moving with the party beat: 
+
+![The message sprite icon.](images/message-sprite.png)
+
+```blocks3
+when I receive [party v]
+show
+repeat (20)
+change size by (5)
+change y by (-10)
+end
++ forever
+change size by (20) // positive number to grow
+change [color v] effect by (25) // change colour
+wait (0.5) seconds // try different numbers to match your music
+change size by (-20) // negative number to shrink
+```
+
+[See the code](https://scratch.mit.edu/projects/656332454/){:target="_blank"}
+
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/656332454/?autostart=false" frameborder="0"></iframe>
+</div>
+
+--- /task ---
+
 --- collapse ---
 
 ---
