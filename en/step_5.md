@@ -61,9 +61,12 @@ create clone of (Treats v) // select Treats
 end
 if <(hits)=(10)> then
 switch costume to (broken v)
-broadcast (message1 v)
+broadcast (party v)
 ```
 
+**Tip:** Use the spare space in the Code area to build your new code then drag it into the existing script:
+
+![The repeat and clone blocks are assembled on their own in the Code area before being dragged into position in the script.](images/code-area.gif)
 --- /task ---
 
 --- task ---

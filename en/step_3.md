@@ -116,7 +116,11 @@ start sound [Boing v]
 
 A Piñata is hard to break but it does not last forever. Your piñata will last for `10 hits`{:class="block3variables"} before breaking open.
 
-An `if`{:class="block3control"} block can be used to check `if`{:class="block3control"} a **condition** is 'true'. 
+An `if`{:class="block3control"} block can be used to make a decision based on a **condition**. 
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+We use <span style="color: #0faeb0">**conditions**</span> all the time to make decisions. We could say “if the pencil is blunt, then sharpen it”. If blocks and conditions let us write code that does something different depending on whether a condition is true or false.
+</p>
 
 --- task ---
 
