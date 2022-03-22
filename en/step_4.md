@@ -2,10 +2,10 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Piñatas are usually hit with a stick made from wood or thick card that is covered in colourful strips of paper. In this step, add code to control the piñata stick and play looping music when the piñata breaks. 
+Piñatas are usually hit with a stick made from wood or thick card that is covered in colourful strips of paper. In this step, you will add code to control the piñata stick and play looping music when the piñata breaks. 
 </div>
 <div>
-![An animated image showing the stick sprite following the mouse pointer around the stage.](images/follow-stick.gif){:width="300px"}
+![An animated image showing the Stick sprite following the mouse pointer around the Stage.](images/follow-stick.gif){:width="300px"}
 </div>
 </div>
 
@@ -13,7 +13,7 @@ Piñatas are usually hit with a stick made from wood or thick card that is cover
 
 Click on the **Stick** sprite in the Sprite list. Add code so that the stick always stays in front of the other sprites and follows the mouse-pointer (or your finger on a tablet).
 
-Use the `go to random position`{:class="block3motion"} block but select `mouse-pointer`{:class="block3motion"} from the dropdown menu:
+Use the `go to random position`{:class="block3motion"} block, but select `mouse-pointer`{:class="block3motion"} from the drop-down menu:
 
 ![The Stick sprite icon](images/stick-sprite.png)
 
@@ -21,7 +21,7 @@ Use the `go to random position`{:class="block3motion"} block but select `mouse-p
 when flag clicked
 forever
 go to [front v] layer
-go to (mouse-pointer v) // change to mouse pointer
+go to (mouse-pointer v) // Change to mouse-pointer
 ```
 
 --- /task ---
@@ -30,7 +30,7 @@ go to (mouse-pointer v) // change to mouse pointer
 
 **Test:** Run your project and check the **Stick** sprite follows your cursor or finger around the Stage.
 
-![An animated image showing the stick sprite following the mouse pointer around the stage.](images/follow-stick.gif)
+![An animated image showing the Stick sprite following the mouse-pointer around the Stage.](images/follow-stick.gif)
 
 --- /task ---
 
@@ -42,7 +42,7 @@ Scratch also has **looping sounds** that can be used in `forever`{:class="block3
 
 Go to the **Sounds** tab and click on the **Choose a sound** icon.
 
-![The Choose a sound icon with the sounds popup menu. When selected, the choose a sound icon is a white speaker on a green circle.](images/sound-icon.png)
+![The Choose a sound icon with the sounds pop-up menu. When selected, the choose a sound icon is a white speaker on a green circle.](images/sound-icon.png)
 
 --- /task ---
 
@@ -56,9 +56,9 @@ From the **Choose a sound** gallery, select the 'Loops' category.
 
 --- task ---
 
-**Choose:** hover over the 'play' icons to hear the looping sounds. Add your favourite by clicking on it.
+**Choose:** Hover over the 'play' icons to hear the looping sounds. Add your favourite by clicking on it.
 
-![The 'Hip hop' sound with play icon highlighted in the top right corner of the sound icon.](images/play-icon.png)
+![The 'Hip hop' sound with play icon highlighted in the top-right corner of the sound icon.](images/play-icon.png)
 
 The sound will then appear in your Sounds list:
 
@@ -70,7 +70,7 @@ The sound will then appear in your Sounds list:
 
 Click on the **Code** tab and create a new script to loop the sound `forever`{:class="block3control"} when the `party`{:class="block3events"} message has been received:
 
-![The Stick sprite icon](images/stick-sprite.png)
+![The Stick sprite icon.](images/stick-sprite.png)
 
 ```blocks3
 when I receive [party v]
@@ -82,7 +82,7 @@ play sound [Hip Hop v] until done // Choose your sound
 
 --- task ---
 
-**Test:** Run your project, click on the piñata 10 times to hear the looping party music.
+**Test:** Run your project, click on the piñata ten times to hear the looping party music.
 
 --- /task ---
 
