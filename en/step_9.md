@@ -16,7 +16,7 @@ If you already know about sprites, costumes, backdrops, and loops, try our [More
 
 --- task ---
 
-Learn about lists, clones, and creating your own blocks, try our advanced [Further Scratch](https://projects.raspberrypi.org/en/pathways/further-scratch){:target="_blank"} path. 
+To learn about lists, clones, and creating your own blocks, try our advanced [Further Scratch](https://projects.raspberrypi.org/en/pathways/further-scratch){:target="_blank"} path. 
 
 --- /task ---
 
@@ -24,7 +24,7 @@ Learn about lists, clones, and creating your own blocks, try our advanced [Furth
 
 --- task ---
 
-If you need a reminder of what you have learned, you can go to our ['Getting started with Scratch' guide](https://projects.raspberrypi.org/en/projects/getting-started-scratch).
+If you need a reminder of what you have learnt, you can go to our ['Getting started with Scratch' guide](https://projects.raspberrypi.org/en/projects/getting-started-scratch).
 
 --- /task ---
 
