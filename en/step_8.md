@@ -4,7 +4,7 @@ If you have time, you can upgrade your project. You might have ideas about what 
 
 You could:
 
-+ Use more looks, sounds or motion blocks to animate your message and treats further
++ Use additional looks, sounds, or motion blocks to animate your message and treats further
 + Find images of your favorite treats and add them to the costumes for the Treats sprite
 + Increase the number of treats that fall from the piñata on each hit
 + Make your project easier or harder by changing the number of times you need to hit the piñata before it breaks
@@ -30,7 +30,7 @@ What happens to the backdrop when the piñata breaks? Which blocks would create 
 
 You could add code to make the message animate `forever`{:class="block3control"} when it is in position. Use `change size`{:class="block3looks"} and `change color effect`{:class="block3looks"} blocks so that it looks like the message is moving with the party beat: 
 
-![The message sprite icon.](images/message-sprite.png)
+![The Message sprite icon.](images/message-sprite.png)
 
 ```blocks3
 when I receive [party v]
@@ -40,10 +40,10 @@ change size by (5)
 change y by (-10)
 end
 + forever
-change size by (20) // positive number to grow
-change [color v] effect by (25) // change colour
-wait (0.5) seconds // try different numbers to match your music
-change size by (-20) // negative number to shrink
+change size by (20) // Positive number to grow
+change [color v] effect by (25) // Change colour
+wait (0.5) seconds // Try different numbers to match your music
+change size by (-20) // Negative number to shrink
 ```
 
 [See the code](https://scratch.mit.edu/projects/656332454/){:target="_blank"}
