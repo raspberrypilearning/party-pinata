@@ -36,7 +36,7 @@ start sound [Boing v]
 
 --- task ---
 
-**Test:** Run your project by clicking on the **green flag** above the stage. Click on the piñata as it swings to hear the boing sound. 
+**Test:** Run your project by clicking on the **green flag** above the Stage. Click on the piñata as it swings to hear the boing sound. 
 
 --- /task ---
 
@@ -214,7 +214,7 @@ In Scratch, the `broadcast`{:class="block3events"} block can be used to **send**
 
 --- task ---
 
-Add a `broadcast message`{:class="block3events"} block:
+Add a `broadcast message`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
