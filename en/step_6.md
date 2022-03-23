@@ -2,10 +2,10 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Write a message and animate it using motion and colour effects. 
+In this step, you will write a message and animate it using motion and colour effects. 
 </div>
 <div>
-![An animated image showing the message falling then changing size and colour when it has reach the final message fall position.](images/falling-message.gif){:width="300px"}
+![An animated image showing the message falling then changing size and colour when it has reached the final message fall position.](images/falling-message.gif){:width="300px"}
 </div>
 </div>
 
