@@ -5,7 +5,7 @@
 Piñatas are full of treats and when they start to break, the treats fall out. In this step, you will animate international food treats to fall out of the piñata each time it is hit. Do you recognise any of the treats?
 </div>
 <div>
-![An animated image showing the pinata being hit multiple times. Each time, four random treats fall out to random positions then slowly rotate in a circle.](images/spinning-treats.gif){:width="300px"}
+![An animated image showing the piñata being hit multiple times. Each time, four random treats fall out to random positions then slowly rotate in a circle.](images/spinning-treats.gif){:width="300px"}
 </div>
 </div>
 
@@ -37,7 +37,7 @@ go to x: (0) y: (100)
 
 --- /task ---
 
-Four treats will escape the piñata each time the piñata is hit. When the Treats sprite is **cloned**, you can create multiple treats.
+Four treats will escape the piñata each time the piñata is hit. By **cloning** the **Treats** sprite, you can create multiple treats.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 A <span style="color: #0faeb0">**clone**</span> in Scratch is a copy of a sprite. It has all the same code, costumes, and sounds of the original sprite.      
@@ -47,7 +47,7 @@ A <span style="color: #0faeb0">**clone**</span> in Scratch is a copy of a sprite
 
 Click on the **Piñata** sprite. 
 
-Insert a `repeat`{:class="block3control"} loop into your existing code. Change the value to `4`{:class="block3control"} then add a `create clone of myself`{:class="block3control"} block. Use the drop down arrow to select the `Treats`{:class="block3control"} sprite:
+Insert a `repeat`{:class="block3control"} loop into your existing code. Change the value to `4`{:class="block3control"} then add a `create clone of myself`{:class="block3control"} block. Use the drop-down arrow to select the `Treats`{:class="block3control"} sprite:
 
 ![The Pinata sprite icon.](images/pinata-sprite.png)
 
@@ -56,7 +56,7 @@ when this sprite clicked
 if <(hits) < (10)> then
 start sound [Boing v]
 change [hits v] by (1)
-+ repeat (4) // change to 4
++ repeat (4) // Change to 4
 create clone of (Treats v) // Select Treats
 end
 if <(hits)=(10)> then
@@ -73,14 +73,14 @@ broadcast (party v)
 
 Click on the **Treats** sprite.
 
-Create a new script using the `when I start as a clone`{:class="block3events"} block. 
+Create a new script using the `when I start as a clone`{:class="block3control"} block. 
 
 Add blocks from the `Looks`{:class="block3looks"} blocks menu to control the appearance of each new clone:
 
 ![The Treats sprite icon.](images/treats-sprite.png)
 
 ```blocks3
-when i start as a clone
+when I start as a clone
 show
 go to [back v] layer // Change to back
 switch costume to (Knafeh v)
@@ -90,12 +90,12 @@ switch costume to (Knafeh v)
 
 --- task ---
 
-You can pick random treats to be released when the Piñata is hit. Use a `pick random`{:class="block3operators"} operator to select a random costume from `1`{:class="block3operators"} to `26`{:class="block3operators"} each time a clone is created:
+You can pick random treats to be released when the piñata is hit. Use a `pick random`{:class="block3operators"} operator to select a random costume from `1`{:class="block3operators"} to `26`{:class="block3operators"} each time a clone is created:
 
 ![The Treats sprite icon.](images/treats-sprite.png)
 
 ```blocks3
-when i start as a clone
+when I start as a clone
 show
 go to [back v] layer 
 + switch costume to (pick random (1) to (26)) // Change to 26
@@ -105,14 +105,14 @@ go to [back v] layer
 
 --- task ---
 
-At the moment, the Treat clones will appear behind the Piñata sprite, but treats should fall from the piñata to a random position. 
+At the moment, the **Treat** clones will appear behind the **Piñata** sprite, but treats should fall from the piñata to a random position. 
 
-Add code to make the cloned Treats `glide`{:class="block3motion"} to a random position:
+Add code to make the cloned **Treats** sprites `glide`{:class="block3motion"} to a random position:
 
 ![The Treats sprite icon.](images/treats-sprite.png)
 
 ```blocks3
-when i start as a clone
+when I start as a clone
 show
 go to [back v] layer
 switch costume to (pick random (1) to (26))
@@ -123,7 +123,7 @@ switch costume to (pick random (1) to (26))
 
 --- task ---
 
-**Test:** Run your project and hit the piñata to see four clones of the Treats sprite after each hit. The costumes will be selected at random and glide to a random position.
+**Test:** Run your project and hit the piñata to see four clones of the **Treats** sprite after each hit. The costumes will be selected at random and the treats will each glide to a random position.
 
 ![An animated image showing the pinata being hit three times. Each time, four random treats fall out to random positions.](images/four-treats.gif)
 
@@ -131,12 +131,12 @@ switch costume to (pick random (1) to (26))
 
 --- task ---
 
-Add animation to make the Treat sprite clones `turn`{:class="block3motion"} `forever`{:class="block3control"} when they reach their random position. Remember animations work best when small movements are used, so change the number of degrees to `1`{:class="block3motion"}:
+Add animation to make the **Treats** sprite clones `turn`{:class="block3motion"} `forever`{:class="block3control"} when they reach their random position. Remember animations work best when small movements are used, so change the number of degrees to `1`{:class="block3motion"}:
 
 ![The Treats sprite icon.](images/treats-sprite.png)
 
 ```blocks3
-when i start as a clone
+when I start as a clone
 show
 go to [back v] layer
 switch costume to (pick random (1) to (26)
@@ -149,7 +149,7 @@ turn right (1) degrees
 
 --- task ---
 
-**Test:** Run your project again to see the Treat sprite clones spin.
+**Test:** Run your project again to see the **Treats** sprite clones spin.
 
 ![An animated image showing the pinata being hit multiple times. Each time, four random treats fall out to random positions then slowly rotate in a circle.](images/spinning-treats.gif)
 
