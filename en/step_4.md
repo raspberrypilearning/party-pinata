@@ -5,7 +5,7 @@
 Piñatas are usually hit with a stick made from wood or thick card that is covered in colourful strips of paper. In this step, you will add code to control the piñata stick and play looping music when the piñata breaks. 
 </div>
 <div>
-![An animated image showing the Stick sprite following the mouse pointer around the Stage.](images/follow-stick.gif){:width="300px"}
+![An animated image showing the Stick sprite following the mouse-pointer around the Stage.](images/follow-stick.gif){:width="300px"}
 </div>
 </div>
 
@@ -48,7 +48,7 @@ Go to the **Sounds** tab and click on the **Choose a sound** icon.
 
 --- task ---
 
-From the **Choose a sound** gallery, select the 'Loops' category.
+From the **Choose a sound** gallery, select the **Loops** category.
 
 ![The Sound gallery with 'Loops' category highlighted in orange to show it has been selected. The other categories are in blue.](images/loops-category.png)
 
@@ -56,7 +56,7 @@ From the **Choose a sound** gallery, select the 'Loops' category.
 
 --- task ---
 
-**Choose:** Hover over the 'play' icons to hear the looping sounds. Add your favourite by clicking on it.
+**Choose:** Hover over the **play** icons to hear the looping sounds. Add your favourite by clicking on it.
 
 ![The 'Hip hop' sound with play icon highlighted in the top-right corner of the sound icon.](images/play-icon.png)
 
@@ -82,7 +82,7 @@ play sound [Hip Hop v] until done // Choose your sound
 
 --- task ---
 
-**Test:** Run your project, click on the piñata ten times to hear the looping party music.
+**Test:** Run your project, and click on the piñata ten times to hear the looping party music.
 
 --- /task ---
 
