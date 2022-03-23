@@ -5,7 +5,7 @@
 In this step, you will choose a piñata costume and code the piñata to swing.
 </div>
 <div>
-![An animated gif showing the stage with the pinata sprite positioned at the top centre and swinging left to right.](images/swinging-pinata.gif){:width="300px"}
+![An animated gif showing the stage with the piñata sprite positioned at the top centre and swinging left to right.](images/swinging-pinata.gif){:width="300px"}
 </div>
 </div>
 
@@ -23,7 +23,7 @@ The Scratch editor looks like this:
 
 The **Stage** is where your project runs and a **backdrop** changes the way that the Stage looks. A Code Club party backdrop has been added for you. 
 
-In Scratch, characters and objects are called **sprites**, and they appear on the Stage. You can see the Piñata and Stick sprites on the Stage.
+In Scratch, characters and objects are called **sprites**, and they appear on the Stage. You can see the **Piñata** and **Stick** sprites on the Stage.
 
 ![The stage with a patterned blue backdrop with presents and balloons. Also on the Stage are the Piñata and Stick sprites.](images/backdrop-and-sprites.png)
 
@@ -135,11 +135,11 @@ turn right (1) degrees // Change to 1
 
 --- task ---
 
-**Test:** Run your project, by clicking on the **Green flag** above the stage, to see the piñata swing. 
+**Test:** Run your project, by clicking on the **green flag** above the Stage, to see the piñata swing. 
 
 Mmm, something is not quite right! When an object is hung from the ceiling, it won't just rotate in one direction, it will swing back and forth. 
 
-Stop your project by clicking on the **red stop icon** above the stage.
+Stop your project by clicking on the **red stop icon** above the Stage.
 
 ![Green flag and stop icons shown side by side.](images/start-stop.png)
 
@@ -166,7 +166,7 @@ end
 turn left (1) degrees // Change to 1
 end
 + repeat (10) // Swings 10 degrees clockwise back to the centre
-turn right (1) degrees // change to 1
+turn right (1) degrees // Change to 1
 end
 ```
 
