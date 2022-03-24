@@ -105,7 +105,7 @@ go to [back v] layer
 
 --- task ---
 
-At the moment, the **Treat** clones will appear behind the **Piñata** sprite, but treats should fall from the piñata to a random position. 
+At the moment, the **Treats** clones will appear behind the **Piñata** sprite, but treats should fall from the piñata to a random position. 
 
 Add code to make the cloned **Treats** sprites `glide`{:class="block3motion"} to a random position:
 
