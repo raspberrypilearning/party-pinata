@@ -3,7 +3,7 @@
 In this project, you will create a swinging piñata that releases treats when it is hit, and eventually breaks to reveal a birthday message. 
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">**piñata**</span> is often used to celebrate a birthday, new year, or festival. The shape and decorations of a piñata are designed to match the theme of the occasion and it is full of treats. The aim is to hit the piñata with a stick to break the piñata and release the treats.    
+A <span style="color: #0faeb0">**piñata**</span> is often used to celebrate a birthday, new year, or festival. The shape and decorations of a piñata are designed to match the theme of the occasion. It's also full of treats. The aim is to hit the piñata with a stick to break the piñata and release the treats.    
 </p>
 
 --- no-print ---
