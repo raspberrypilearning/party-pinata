@@ -1,22 +1,22 @@
-## What next
+## Wat kun je verder nog doen
 
-We hope you have enjoyed this special Code Club birthday party piñata project.
+We hopen dat je genoten hebt van dit speciale Code Club verjaardagsfeestje piñata project.
 
 --- task ---
 
-If you are new to Scratch, continue exploring with our [Introduction to Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"} path for beginners.
+Als Scratch nieuw voor je is, ga dan verder met verkennen met ons [Inleiding tot Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"} pad voor beginners.
 
 --- /task ---
 
 --- task ---
 
-If you already know about sprites, costumes, backdrops, and loops, try our [More Scratch](https://projects.raspberrypi.org/en/pathways/more-scratch){:target="_blank"} path.
+Als je al weet over sprites, uiterlijken, achtergronden en lussen, probeer dan ons [Meer Scratch](https://projects.raspberrypi.org/en/pathways/more-scratch){:target="_blank"} pad.
 
 --- /task ---
 
 --- task ---
 
-To learn about lists, clones, and creating your own blocks, try our advanced [Further Scratch](https://projects.raspberrypi.org/en/pathways/further-scratch){:target="_blank"} path.
+Om meer te leren over lijsten, klonen, en het maken van je eigen blokken, probeer ons gevorderden [Nog meer Scratch](https://projects.raspberrypi.org/en/pathways/further-scratch){:target="_blank"} pad.
 
 --- /task ---
 
@@ -24,7 +24,7 @@ To learn about lists, clones, and creating your own blocks, try our advanced [Fu
 
 --- task ---
 
-If you need a reminder of what you have learnt, you can go to our ['Getting started with Scratch' guide](https://projects.raspberrypi.org/en/projects/getting-started-scratch).
+Als je een herinnering nodig hebt aan wat je geleerd hebt, kun je naar onze ['Aan de slag met Scratch' gids](https://projects.raspberrypi.org/en/projects/getting-started-scratch) gaan.
 
 --- /task ---
 
