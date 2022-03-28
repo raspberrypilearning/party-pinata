@@ -26,7 +26,7 @@ Klik op de **Bericht** sprite in de Sprite-lijst en klik vervolgens op het **Uit
 
 Het uiterlijk heeft de tekst 'Happy Birthday Code Club'. Dubbelklik (of tik en houd vast op een tablet) op de tekst om de tekstbewerkingstool te selecteren.
 
-![The costume editor with Text tool selected and text highlighted.](images/text-edit.png)
+![De uiterlijken editor met het tekstgereedschap geselecteerd en de tekst gemarkeerd.](images/text-edit.png)
 
 --- /task ---
 
@@ -36,7 +36,7 @@ Je kunt nu je nieuwe Code Club verjaardagsbericht typen. Druk op **Enter** op je
 
 **Tip:** Maak je geen zorgen als je bericht een beetje te groot is voor de box, want je kunt het later verkleinen.
 
-![The text editor showing a new message has been typed in place of the old message.](images/new-text.png)
+![De teksteditor die een nieuw bericht toont, is op de plaats van het oude bericht getypt.](images/new-text.png)
 
 --- /task ---
 
@@ -44,7 +44,7 @@ Je kunt nu je nieuwe Code Club verjaardagsbericht typen. Druk op **Enter** op je
 
 **Kies:**Klik op het **Vulling** pictogram om het kleuren vervolgkeuzemenu te openen. Verplaats de vulschuifregelaars naar links of rechts om je favoriete kleur te selecteren.
 
-![The Fill drop-down menu with sliders for colour, saturation, and brightness. The message has changed from green to purple.](images/font-colour.png)
+![Het vervolgkeuzemenu Vulling met schuifregelaars voor kleur, verzadiging en helderheid. Het bericht is veranderd van groen in paars.](images/font-colour.png)
 
 --- task ---
 
@@ -52,7 +52,7 @@ Je kunt nu je nieuwe Code Club verjaardagsbericht typen. Druk op **Enter** op je
 
 **Kies:** Klik op de tool **Lettertype** en er verschijnt een vervolgkeuzelijst met lettertypen. Het lettertype 'Pixel' is geselecteerd in het startproject, maar je kunt elk van de beschikbare lettertypen gebruiken.
 
-![The Font drop-down menu showing a choice of nine different fonts. The 'Marker' font has been selected.](images/font-type.png)
+![Het vervolgkeuzemenu Lettertype met een keuze uit negen verschillende lettertypen. Het lettertype 'Marker' is geselecteerd.](images/font-type.png)
 
 --- /task ---
 
@@ -60,7 +60,7 @@ Je kunt nu je nieuwe Code Club verjaardagsbericht typen. Druk op **Enter** op je
 
 Klik op de tool **Selecteer** en er verschijnen acht cirkels rond je bericht. Gebruik deze cirkels om het formaat van uje bericht te wijzigen door erop te klikken en ze binnen het witte vak te verslepen.
 
-![The Select tool is highlighted and the message has small circles in each corner and at the central vertical and horizontal borer points so that it can be resized in multiple directions.](images/resize-message.png)
+![Het gereedschap Selecteren is gemarkeerd en het bericht heeft kleine cirkels in elke hoek en op de centrale verticale en horizontale boorpunten, zodat het formaat in meerdere richtingen kan worden gewijzigd.](images/resize-message.png)
 
 --- /task ---
 
@@ -70,7 +70,7 @@ Je bericht is klaar, nu kun je code toevoegen om je bericht in de piñata te ver
 
 Klik op het tabblad **Code** en maak vervolgens een script om het bericht in de piñata `te verbergen`{:class="blocks3looks"} wanneer je project start:
 
-![The Message sprite icon.](images/message-sprite.png)
+![Het pictogram van de Bericht-sprite.](images/message-sprite.png)
 
 ```blocks3
 wanneer op de groene vlag wordt geklikt
@@ -87,23 +87,23 @@ Maak een nieuw script dat zal beginnen als het bericht `feest`{:class="block3eve
 
 Voeg een `herhaal`{:class="block3control"} lus toe om het bericht te animeren. Het bericht zal `van grootte veranderen`{:class="block3looks"} om te groeien en de `y`{:class="block3motion"} positie veranderen om te vallen terwijl het animeert:
 
-![The Message sprite icon.](images/message-sprite.png)
+![Het pictogram van de Bericht-sprite.](images/message-sprite.png)
 
 ```blocks3
-when I receive [party v]
-show
-repeat (20) // Change to 20
-change size by (5) // Change to 5
-change y by (-10) // Change to -10
+wanneer ik signaal [feest v] ontvang
+verschijn
+herhaal (20) // Verander naar 20
+verander grootte met (5) // Verander naar 5
+verander y met (-10) // Verander naar -10
 ```
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your project. Hit the piñata ten times to see the message fall.
+**Test:** Voer je project uit. Raak de piñata tien keer om de boodschap te zien vallen.
 
-![An animated image showing the pinata being hit ten times. Treats appear after each hit and on the tenth hit the pinata breaks and the message falls to the bottom of the screen. It gets bigger as it falls.](images/falling-message.gif)
+![Een geanimeerde afbeelding waarop tien keer op de piñata wordt geklikt. Snoepjes verschijnen na elke treffer en bij de tiende treffer breekt de pinata en valt het bericht naar de onderkant van het scherm. Het wordt groter als het valt.](images/falling-message.gif)
 
 --- /task ---
 
