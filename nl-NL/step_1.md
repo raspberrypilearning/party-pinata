@@ -1,20 +1,20 @@
-## Introduction
+## Inleiding
 
-In this project, you will create a swinging piñata that releases treats when it is hit, and eventually breaks to reveal a birthday message.
+In dit project maak je een zwaaiende piñata die snoep vrijgeeft wanneer hij wordt geraakt en uiteindelijk breekt om een verjaardagsbericht te onthullen.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">**piñata**</span> is often used to celebrate a birthday, new year, or festival. The shape and decorations of a piñata are designed to match the theme of the occasion. It's also full of treats. The aim is to hit the piñata with a stick to break the piñata and release the treats.    
+Een <span style="color: #0faeb0">**piñata**</span> wordt vaak gebruikt om een verjaardag, nieuwjaar of festival te vieren. De vorm en versieringen van een piñata zijn ontworpen om te passen bij het thema van de gelegenheid. Het zit ook vol met snoep. Het doel is om de piñata met een stok te raken om de piñata te breken en het snoep vrij te geven.    
 </p>
 
 --- no-print --- --- task ---
-### Try it
+### Probeer het uit
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Use the stick to hit the piñata. 
+Gebruik de stok om de piñata te raken. 
 
-What happens each time you hit the piñata? 
+Wat gebeurt er elke keer dat je de piñata raakt? 
 
-How many times do you need to hit the piñata for it to break?  
+Hoe vaak moet je de piñata raken om te breken?  
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/649873783/?autostart=false" frameborder="0"></iframe>
@@ -24,10 +24,10 @@ How many times do you need to hit the piñata for it to break?
 
 --- print-only ---
 
-![Completed project.](images/showcase_static.png)
+![Voltooid project.](images/showcase_static.png)
 
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Code Club**</span> is celebrating its 10th birthday this year. Did you know that there are Code Clubs on **six out of seven continents** around the world? That’s a lot of coders making things with code! Do you think any other clubs will be doing this project right now?   
+<span style="color: #0faeb0">**Code Club**</span> viert dit jaar zijn 10e verjaardag. Wist je dat er over de hele wereld Code Clubs zijn op **zes van de zeven continenten**? Dat zijn veel programmeurs die dingen maken met code! Denk je dat andere clubs dit project nu aan het maken zijn?   
 </p>
