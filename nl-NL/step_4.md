@@ -15,7 +15,7 @@ Klik op de **Stok** sprite in de Sprite-lijst. Voeg code toe zodat de stok altij
 
 Gebruik het `ga naar willekurige positie`{:class="block3motion"} blok, maar selecteer `muisaanwijzer`{:class="block3motion"} in het vervolgkeuzemenu:
 
-![The Stick sprite icon](images/stick-sprite.png)
+![Het pictogram van de Stok-sprite](images/stick-sprite.png)
 
 ```blocks3
 wanneer op de groene vlag wordt geklikt
@@ -30,7 +30,7 @@ ga naar (muisaanwijzer v) // Verander naar muisaanwijzer
 
 **Test:** Voer je project uit en controleer of de sprite **Stok** je cursor of vinger over het speelveld volgt.
 
-![An animated image showing the Stick sprite following the mouse-pointer around the Stage.](images/follow-stick.gif)
+![Een geanimeerde afbeelding waarin de Stok-sprite de muisaanwijzer in het speelveld volgt.](images/follow-stick.gif)
 
 --- /task ---
 
@@ -42,7 +42,7 @@ Scratch heeft ook **herhaalgeluiden** die kunnen worden gebruikt in een `herhaal
 
 Ga naar het **Geluiden** tabblad en klik op het **Kies een geluid** pictogram.
 
-![The Choose a sound icon with the sounds pop-up menu. When selected, the choose a sound icon is a white speaker on a green circle.](images/sound-icon.png)
+![Het pictogram Kies een geluid met het pop-upmenu Geluiden. Indien geselecteerd, is het pictogram 'Kies een geluid' een witte luidspreker op een groene cirkel.](images/sound-icon.png)
 
 --- /task ---
 
@@ -50,7 +50,7 @@ Ga naar het **Geluiden** tabblad en klik op het **Kies een geluid** pictogram.
 
 Vanuit de **Kies een geluid** bibliotheek kies je de **Lussen** categorie.
 
-![The Sound gallery with 'Loops' category highlighted in orange to show it has been selected. The other categories are in blue.](images/loops-category.png)
+![De Geluidsbibliotheek met de categorie 'Lussen' oranje gemarkeerd om aan te geven dat deze is geselecteerd. De andere categorieën zijn in het blauw.](images/loops-category.png)
 
 --- /task ---
 
@@ -58,11 +58,11 @@ Vanuit de **Kies een geluid** bibliotheek kies je de **Lussen** categorie.
 
 **Kies:** Beweeg over de **speel** iconen om de herhaalgeluiden te horen. Voeg je favoriet toe door erop te klikken.
 
-![The 'Hip hop' sound with play icon highlighted in the top-right corner of the sound icon.](images/play-icon.png)
+![Het 'Hiphop' geluid met het afspeelpictogram gemarkeerd in de rechterbovenhoek van het geluidspictogram.](images/play-icon.png)
 
 Het geluid verschijnt dan in je lijst Geluiden:
 
-![The 'Hip hop' sound in the Sound list on the Sounds tab.](images/added-sound.png)
+![Het 'Hiphop' geluid in de Geluidenlijst op het tabblad Geluiden.](images/added-sound.png)
 
 --- /task ---
 
@@ -70,19 +70,19 @@ Het geluid verschijnt dan in je lijst Geluiden:
 
 Klik op het tabblad **Code** en maak een nieuw script om het geluid `continue`{:class="block3control"} te herhalen wanneer het bericht `feest`{:class="block3events"} is ontvangen:
 
-![The Stick sprite icon.](images/stick-sprite.png)
+![Het pictogram van de Stok-sprite.](images/stick-sprite.png)
 
 ```blocks3
-when I receive [party v]
-forever
-play sound [Hip Hop v] until done // Choose your sound
+wanneer ik signaal [feest v] ontvang
+herhaal
+start geluid [Hip Hop v] en wacht // Kies je geluid
 ```
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your project, and click on the piñata ten times to hear the looping party music.
+**Test:** Voer je project uit en klik tien keer op de piñata om de feestmuziek te horen.
 
 --- /task ---
 
