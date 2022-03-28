@@ -1,187 +1,186 @@
-## Start the party
+## Begin het feest
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will choose a piñata costume and code the piñata to swing.
+In deze stap kies je een piñata uiterlijk en programmeer je de piñata om te slingeren.
 </div>
 <div>
-![An animated gif showing the stage with the piñata sprite positioned at the top centre and swinging left to right.](images/swinging-pinata.gif){:width="300px"}
+![Een geanimeerde gif die het speelveld toont met de piñata-sprite in het midden bovenaan en van links naar rechts zwaaiend.](images/swinging-pinata.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Open the [Party piñata starter project](https://scratch.mit.edu/projects/653082997/editor){:target="_blank"}. Scratch will open in another browser tab.
+Open het [Feest piñata startersproject](https://scratch.mit.edu/projects/653082997/editor){:target="_blank"}. Scratch wordt in een nieuw browsertabblad geopend.
 
-[[[working-offline]]]
-
---- /task ---
-
-The Scratch editor looks like this:
-
-![An annotated screenshot of the Scratch editor, with the Stage, Stage pane, Sprite pane, Sprite list, and Code area labelled.](images/scratch-interface.png)
-
-The **Stage** is where your project runs and a **backdrop** changes the way that the Stage looks. A Code Club party backdrop has been added for you.
-
-In Scratch, characters and objects are called **sprites**, and they appear on the Stage. You can see the **Piñata** and **Stick** sprites on the Stage.
-
-![The stage with a patterned blue backdrop with presents and balloons. Also on the Stage are the Piñata and Stick sprites.](images/backdrop-and-sprites.png)
-
-At the moment there is not much happening at this party. You can change that!
-
---- task ---
-
-A sprite can have code, costumes, and sounds to change the way that it looks and what it does.
-
-Click on the **Piñata** sprite in the Sprite list and select the **Costumes** tab. There are two piñata costumes, one named 'whole' and the other named 'broken'.
-
-![Side-by-side images of the two piñata costumes. The left is a whole piñata, the right has broken open.](images/pinata-costumes.png)
-
-![The Costumes tab (the middle tab in the top left).](images/costumes-tab.png)
+[[[Offline werken]]]
 
 --- /task ---
 
+De Scratch-editor ziet er als volgt uit:
+
+![Een geannoteerde schermafbeelding van de Scratch-editor, met de labels Speelveld, Speelveld-venster, Sprite-venster, Sprite-lijst en Codegebied gelabeld.](images/scratch-interface.png)
+
+Het **Speelveld** is waar je project wordt uitgevoerd en een **achtergrond** verandert de manier waarop het Speelveld eruitziet. Er is een Code Club feestachtergrond voor je toegevoegd.
+
+In Scratch worden karakters en objecten **sprites** genoemd en verschijnen ze op het Speelveld. Je kunt de **Piñata** en **Stick** sprites in het speelveld zien.
+
+![Het speelveld met een blauwe achtergrond met patroon, cadeautjes en ballonnen. Ook de Piñata- en Stick-sprites zijn op het speelveld.](images/backdrop-and-sprites.png)
+
+Op dit moment gebeurt er niet veel op dit feest. Dat kun jij veranderen!
+
 --- task ---
 
-Click on the **Code** tab. Go to the `Looks`{:class="block3looks"} blocks menu then drag a `switch costume to`{:class="block3looks"} block to the Code area.
+Een sprite kan code, uiterlijken en geluiden hebben om de manier waarop hij eruitziet en doet, te veranderen.
 
-Click on the costume name to open a drop-down menu then select the 'whole' costume:
+Klik op de **Piñata** sprite in de Sprite-lijst en klik vervolgens op het **Uiterlijken** tabblad. Er zijn twee piñata uiterlijken, één met de naam 'heel' en de andere met de naam 'gebroken'.
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![Zij aan zij afbeeldingen van de twee piñata-uiterlijken. De linker is een hele piñata, de rechter is opengebroken.](images/pinata-costumes.png)
+
+![Het Uiterlijken tabblad (het middelste tabblad linksboven).](images/costumes-tab.png)
+
+--- /task ---
+
+--- task ---
+
+Klik op het **Code** tabblad. Ga naar de `Uiterlijken`{:class="block3looks"} blokken en sleep een `verander uiterlijk naar`{:class="block3looks"} blok naar het codegebied.
+
+Klik op de naam van het uiterlijk om een vervolgkeuzemenu te openen en selecteer vervolgens het 'hele' kostuum:
+
+![Het pictogram van de Piñata-sprite.](images/pinata-sprite.png)
 
 ```blocks3
-switch costume to (whole v) 
+verander uiterlijk naar (heel v) 
 ```
 
-![An animated image showing the switch costume block being dragged from the Looks blocks menu to the Code area.](images/switch-costume.gif)
+![Een geanimeerde afbeelding waarin het verander uiterlijk blok gesleept wordt naar het codegebied.](images/switch-costume.gif)
 
 --- /task ---
 
-Blocks can be connected together in the Code area to run more than one at a time. Connected blocks will run in order from top to bottom.
+Blokken kunnen in het codegebied met elkaar worden verbonden om er meer dan één te laten werken. Verbonden blokken worden van boven naar beneden uitgevoerd.
 
 --- task ---
 
-Drag a `When flag clicked`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu and connect it to the top of your looks block in the Code area. The blocks will snap together:
+Sleep een `wanneer op de groene vlag wordt geklikt`{:class="block3events"} blok uit het `Gebeurtenissen`{:class="block3events"} blokkenmenu en verbind het met de bovenkant van je uiterlijken blok in het codegebied. De blokken zullen in elkaar klikken:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![Het pictogram van de Piñata-sprite.](images/pinata-sprite.png)
 
 ```blocks3
-+ when flag clicked
-switch costume to (whole v)
++ wanneer op de groene vlag wordt geklikt
+verander uiterlijk naar (heel v)
 ```
-![When flag clicked block being added to the code area and connected to the switch costume block.](images/add-flag-clicked.gif)
+![Wanneer op de vlag wordt geklikt blok wordt toegevoegd aan het codegebied en verbonden met het verander uiterlijk blok.](images/add-flag-clicked.gif)
 
 --- /task ---
 
-The starting position of a piñata is always the same, it only starts moving when the piñata game is ready to play.
+De startpositie van een piñata is altijd hetzelfde, hij komt pas in beweging als het piñataspel klaar is om te spelen.
 
 --- task ---
 
-In the `Motion`{:class="block3motion"} blocks menu, find the `go to x: 0 y: 180`{:class="block3motion"} and `point in direction 90`{:class="block3motion"} blocks. Drag the blocks to the Code area and connect them to the bottom of your code:
+Zoek in het menu `Beweging`{:class="block3motion"} blokken het `ga naar x: 0 y: 180`{:class="block3motion"} blok en het `richt naar 90 graden`{:class="block3motion"} blok. Sleep de blokken naar het codegebied en verbind ze met de onderkant van je code:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
-
-```blocks3
-when flag clicked
-switch costume to (whole v)
-+ go to x: (0) y: (180)
-+ point in direction (90) // Ready position
-```
-
---- /task ---
-
-A `forever`{:class="block3control"} loop runs the code blocks inside it again and again. It is the perfect loop for a swinging piñata that is hard to hit.
-
---- task ---
-
-Drag a `forever`{:class="block3control"} block from the `Control`{:class="block3control"} blocks menu and connect it to the bottom of your code:
-
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![Het pictogram van de Piñata-sprite.](images/pinata-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (whole v)
-go to x: (0) y: (180)
-point in direction (90)
-+ forever
+wanneer op de groene vlag wordt geklikt
+verander uiterlijk naar (heel v)
++ ga naar x: (0) y: (180)
++ richt naar (90) graden // Start positie
 ```
 
---- /task ---
+--- task ---
 
-A `repeat`{:class="block3control"} loop can be used to make the **Piñata** sprite repeat a small movement many times. This will make the piñata appear animated.
+Een `herhaal`{:class="block3control"} lus voert de codeblokken daarbinnen keer op keer uit. Het is de perfecte lus voor een swingende piñata die moeilijk te raken is.
 
 --- task ---
 
-Drag a `repeat 10`{:class="block3control"} block into the Code area and attach it inside your `forever`{:class="block3control"} loop.
+Sleep een `herhaal`{:class="block3control"} blok uit het `Besturen`{:class="block3control"} blokkenmenu en verbind het met de onderkant van je code:
 
-Go to the `Motion`{:class="block3motion"} blocks menu and drag a `turn clockwise 15 degrees`{:class="block3motion"} block into the `repeat`{:class="block3control"} block.
-
-Change the `15`{:class="block3motion"} degrees to `1`{:class="block3motion"} degree so that the piñata only swings a small amount each time:
-
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![Het pictogram van de Piñata-sprite.](images/pinata-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (whole v)
-go to x: (0) y: (180)
-point in direction (90)
-forever
-+ repeat (10) 
-turn right (1) degrees // Change to 1
-```
-![Repeat block being added within the forever block and then a turn clockwise block added within it.](images/add-repeat.gif)
-
---- /task ---
-
---- task ---
-
-**Test:** Run your project, by clicking on the **green flag** above the Stage, to see the piñata swing.
-
-Mmm, something is not quite right! When an object is hung from the ceiling, it won't just rotate in one direction, it will swing back and forth.
-
-Stop your project by clicking on the **red stop icon** above the Stage.
-
-![Green flag and stop icons shown side by side.](images/start-stop.png)
-
---- /task ---
-
---- task ---
-
-Add code to your `forever`{:class="block3control"} loop so that the piñata swings from the centre back and forth continuously like a pendulum:
-
-![The Piñata sprite with arrows underneath showing that it swings clockwise from centre, then anticlockwise through the centre, then clockwise back to the centre.](images/pinata-swing.png)
-
-![The Piñata sprite icon.](images/pinata-sprite.png)
-
-```blocks3
-when flag clicked
-switch costume to (whole v)
-go to x: (0) y: (180)
-point in direction (90)
-forever
-repeat (10) // Swings 10 degrees clockwise from the centre
-turn right (1) degrees 
-end
-+ repeat (20) // Swings 20 degrees anticlockwise through the centre
-turn left (1) degrees // Change to 1
-end
-+ repeat (10) // Swings 10 degrees clockwise back to the centre
-turn right (1) degrees // Change to 1
-end
+wanneer op de groene vlag wordt geklikt
+verander uiterlijk naar (heel v)
+ga naar x: (0) y: (180)
+richt naar (90) graden
++ herhaal
 ```
 
 --- /task ---
 
+Een `herhaal`{:class="block3control"} lus kan worden gebruikt om de **Piñata** sprite een kleine beweging vele malen te laten herhalen. Hierdoor lijkt het of de piñata geanimeerd is.
+
 --- task ---
 
-**Test:** Run your project to see the piñata swing.
+Sleep een `-herhaal 10`{:class="block3control"} blok naar het codegebied en bevestig het in je `herhaal`{:class="block3control"} lus.
 
-**Debug:** If the piñata does not swing correctly:
-+ Look at your code to make sure the `repeat`{:class="block3control"} blocks are in the correct position
-+ Check that the `turn clockwise`{:class="block3motion"}  and `turn anticlockwise`{:class="block3motion"} arrows are correct
-+ Make sure that you have used the numbers from the code above
+Ga naar het `Beweging`{:class="block3motion"} blokkenmenu en sleep een `draai rechtsom 15 graden`{:class="block3motion"} blok naar het `herhaal`{:class="block3control"} blok.
 
-![An animated gif showing the Stage with the Piñata sprite positioned at the top centre and swinging back and forth.](images/swinging-pinata.gif)
+Verander de `15`{:class="block3motion"} graden in `1`{:class="block3motion"} graden zodat de piñata elke keer maar een klein beetje zwaait:
+
+![Het pictogram van de Piñata-sprite.](images/pinata-sprite.png)
+
+```blocks3
+wanneer op de groene vlag wordt geklikt
+verander uiterlijk naar (heel v)
+ga naar x: (0) y: (180)
+richt naar (90) graden
+herhaal
++ herhaal (10) 
+draai rechtsom (1) graden // Verander naar 1
+```
+![Herhaal blok dat wordt toegevoegd binnen het herhaal blok en daarbinnen het draai rechtsom graden blok.](images/add-repeat.gif)
+
+--- /task ---
+
+--- task ---
+
+**Test:** Voer je project uit door op de **groene vlag** boven het speelveld te klikken om de piñata te zien slingeren.
+
+Mmm, er klopt iets niet! Wanneer een object aan het plafond wordt gehangen, zal het niet alleen in één richting draaien, maar heen en weer zwaaien.
+
+Stop je project door op het **rode stoppictogram** boven het speelveld te klikken.
+
+![Groene vlag en stoppictogrammen naast elkaar weergegeven.](images/start-stop.png)
+
+--- /task ---
+
+--- task ---
+
+Voeg code toe aan je `herhaal`{:class="block3control"} lus toe zodat de piñata continu als een slinger vanuit het midden heen en weer zwaait:
+
+![De Piñata-sprite met pijlen eronder die laten zien dat hij met de klok mee zwaait vanuit het midden, dan tegen de klok in door het midden en dan met de klok mee terug naar het midden.](images/pinata-swing.png)
+
+![Het pictogram van de Piñata-sprite.](images/pinata-sprite.png)
+
+```blocks3
+wanneer op de groene vlag wordt geklikt
+verander uiterlijk naar (heel v)
+ga naar x: (0) y: (180)
+richt naar (90) graden
+herhaal
+herhaal (10) //Zwaait 10 graden met de klok mee vanaf het midden
+draai rechtsom (1) graden
+einde
++ herhaal (20) // Zwaait 20 graden tegen de klok in door het midden
+draai linksom (1) graden // Verander naar 1
+einde
++ herhaal (10) // Zwaait 10 graden met de klok mee terug naar het midden
+draai rechtsom (1) graden // Verander naar 1
+```
+
+--- /task ---
+
+--- task ---
+
+**Test:** Voer je code uit om de piñata te zien zwaaien.
+
+**Debuggen:** Als de piñata niet correct zwaait:
++ Kijk naar je code om er zeker van te zijn dat de `herhaal`{:class="block3control"} blokken op de juiste positie staan
++ Controleer of de `draai rechtsom graden`{:class="block3motion"} en `draai linksom graden`{:class="block3motion"} pijlen correct zijn
++ Zorg ervoor dat je de getallen uit de bovenstaande code hebt gebruikt
+
+![Een geanimeerde gif die het speelveld toont met de piñata-sprite in het midden bovenaan en van links naar rechts zwaaiend.](images/swinging-pinata.gif)
 
 --- /task ---
 
