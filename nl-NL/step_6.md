@@ -1,30 +1,30 @@
-## Create a message
+## Maak een bericht
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will write a message and animate it using motion and colour effects. 
+In deze stap schrijf je een bericht en animeer je het met bewegings- en kleureffecten. 
 </div>
 <div>
-![An animated image showing the message falling then changing size and colour when it has reached the final message fall position.](images/falling-message.gif){:width="300px"}
+![Een geanimeerde afbeelding die het bericht laat vallen en vervolgens van grootte en kleur verandert wanneer het de laatste valpositie van het bericht heeft bereikt.](images/falling-message.gif){:width="300px"}
 </div>
 </div>
 
-What would you write in a birthday card to send to Code Club? It could be:
-+ Your favourite thing about Code Club
-+ A message about your fabulous Code Club leader
-+ Details of what you want to make next with your coding skills
+Wat zou je op een verjaardagskaart schrijven om naar Code Club te sturen? Dat kan zijn:
++ Je favoriete ding over Code Club
++ Een bericht over je fantastische Code Club leider
++ Details van wat je vervolgens wilt maken met jouw programmeervaardigheden
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The first Code Club projects were written in English, but within a year they had been translated into Brazilian Portuguese, Dutch, German, Norwegian, and Ukrainian. French, Greek, and Spanish translations quickly followed and now some of the Code Club projects have been translated into <span style="color: #0faeb0">**28 native languages**</span>. Thank you to our awesome translation community!
+De eerste Code Club projecten waren in het Engels geschreven, maar binnen een jaar waren ze vertaald in het Braziliaans-Portugees, Nederlands, Duits, Noors en Oekraïens. Franse, Griekse en Spaanse vertalingen volgden snel en nu zijn enkele van de Code Club projecten vertaald in <span style="color: #0faeb0">**28 moedertalen**</span>. Bedankt aan onze geweldige vertalers!
 
-![Multiple images saying Happy Birthday in various native languages.](images/birthday-languages.png)
+![Meerdere afbeeldingen die Happy Birthday zeggen in verschillende moedertalen.](images/birthday-languages.png)
 </p>
 
 --- task ---
 
-Click on the **Message** sprite in the Sprite list and select the **Costumes** tab.
+Klik op de **Bericht** sprite in de Sprite-lijst en klik vervolgens op het **Uiterlijken** tabblad.
 
-The costume has some text saying 'Happy Birthday Code Club'. Double click (or tap and hold on a tablet) on the text to select the text editing tool.
+Het uiterlijk heeft de tekst 'Happy Birthday Code Club'. Dubbelklik (of tik en houd vast op een tablet) op de tekst om de tekstbewerkingstool te selecteren.
 
 ![The costume editor with Text tool selected and text highlighted.](images/text-edit.png)
 
@@ -32,9 +32,9 @@ The costume has some text saying 'Happy Birthday Code Club'. Double click (or ta
 
 --- task ---
 
-You can now type your new Code Club birthday message. Press **Enter** on your keyboard to start a new line.
+Je kunt nu je nieuwe Code Club verjaardagsbericht typen. Druk op **Enter** op je toetsenbord om een nieuwe regel te beginnen.
 
-**Tip:** Don't worry if your message is a bit too big for the box as you can resize it later.
+**Tip:** Maak je geen zorgen als je bericht een beetje te groot is voor de box, want je kunt het later verkleinen.
 
 ![The text editor showing a new message has been typed in place of the old message.](images/new-text.png)
 
@@ -42,15 +42,15 @@ You can now type your new Code Club birthday message. Press **Enter** on your ke
 
 --- task ---
 
-**Choose:** Click on the **Fill** icon to open the colour drop-down menu. Move the fill sliders to the left or right to select your favourite colour.
+**Kies:**Klik op het **Vulling** pictogram om het kleuren vervolgkeuzemenu te openen. Verplaats de vulschuifregelaars naar links of rechts om je favoriete kleur te selecteren.
 
 ![The Fill drop-down menu with sliders for colour, saturation, and brightness. The message has changed from green to purple.](images/font-colour.png)
 
---- /task ---
+--- task ---
 
 --- task ---
 
-**Choose:** Click on the **Font** tool and a drop-down list of fonts will appear. The 'Pixel' font is selected in the starter project, but you can use any of the fonts available.
+**Kies:** Klik op de tool **Lettertype** en er verschijnt een vervolgkeuzelijst met lettertypen. Het lettertype 'Pixel' is geselecteerd in het startproject, maar je kunt elk van de beschikbare lettertypen gebruiken.
 
 ![The Font drop-down menu showing a choice of nine different fonts. The 'Marker' font has been selected.](images/font-type.png)
 
@@ -58,34 +58,34 @@ You can now type your new Code Club birthday message. Press **Enter** on your ke
 
 --- task ---
 
-Click on the **Select** tool and eight circles will appear around your message. Use these circles to resize your message by clicking on them and dragging them within the white box.
+Klik op de tool **Selecteer** en er verschijnen acht cirkels rond je bericht. Gebruik deze cirkels om het formaat van uje bericht te wijzigen door erop te klikken en ze binnen het witte vak te verslepen.
 
 ![The Select tool is highlighted and the message has small circles in each corner and at the central vertical and horizontal borer points so that it can be resized in multiple directions.](images/resize-message.png)
 
 --- /task ---
 
-Your message is ready, now you can add code to hide your message inside the piñata and make your message fall from the piñata after the tenth hit.
+Je bericht is klaar, nu kun je code toevoegen om je bericht in de piñata te verbergen en je bericht na de tiende treffer uit de piñata te laten vallen.
 
 --- task ---
 
-Click on the **Code** tab then create a script to `hide`{:class="block3looks"} the message in the piñata when your project starts:
+Klik op het tabblad **Code** en maak vervolgens een script om het bericht in de piñata `te verbergen`{:class="blocks3looks"} wanneer je project start:
 
 ![The Message sprite icon.](images/message-sprite.png)
 
 ```blocks3
-when flag clicked
-hide
-set size to (10) % // Change to 10 to start small
-go to x: (0) y: (100) // Inside the piñata
+wanneer op de groene vlag wordt geklikt
+verdwijn
+maak grootte (10) % // Verander naar 10 om klein te beginnen
+ga naar x: (0) y: (100) // Binnenin de piñata
 ```
 
 --- /task ---
 
 --- task ---
 
-Create a new script to start when the `party`{:class="block3events"} message has been received.
+Maak een nieuw script dat zal beginnen als het bericht `feest`{:class="block3events"} is ontvangen.
 
-Add a `repeat`{:class="block3control"} loop to animate the message. The message will `change size`{:class="block3looks"} to grow and `change y`{:class="block3motion"} position to fall as it animates:
+Voeg een `herhaal`{:class="block3control"} lus toe om het bericht te animeren. Het bericht zal `van grootte veranderen`{:class="block3looks"} om te groeien en de `y`{:class="block3motion"} positie veranderen om te vallen terwijl het animeert:
 
 ![The Message sprite icon.](images/message-sprite.png)
 
