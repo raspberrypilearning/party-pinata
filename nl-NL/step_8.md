@@ -1,23 +1,23 @@
-## Upgrade your project
+## Verbeter je project
 
-If you have time, you can upgrade your project. You might have ideas about what to add already!
+Als je tijd hebt, kunt je jouw project verbeteren. Misschien heb je al ideeën over wat je kunt toevoegen!
 
-You could:
+Je zou:
 
-+ Use additional looks, sounds, or motion blocks to animate your message and treats further
-+ Find images of your favourite treats and add them to the costumes for the **Treats** sprite
-+ Increase the number of treats that fall from the piñata on each hit
-+ Make your project easier or harder by changing the number of times you need to hit the piñata before it breaks
++ Extra uiterlijken, geluiden of bewegingsblokken kunnen gebruiken om je bericht en traktaties verder te animeren
++ Afbeeldingen kunnen zoeken van je favoriete lekkernijen en ze toevoegen aan de uiterlijken voor de sprite **Snoep**
++ Het aantal snoepjes kunnen verhogen dat bij elke treffer uit de piñata valt
++ Je project gemakkelijker of moeilijker maken door het aantal keren te wijzigen dat je de piñata moet raken voordat deze breekt
 
 --- task ---
-### Try it
+### Probeer het uit
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Did you know you can add code to the backdrop too?
+Wist je dat je ook code aan de achtergrond kunt toevoegen?
 
-What happens to the backdrop when the piñata breaks? Which blocks would create this effect? 
+Wat gebeurt er met de achtergrond als de piñata breekt? Welke blokken zouden dit effect creëren? 
 
-[See the code](https://scratch.mit.edu/projects/653771814/){:target="_blank"}
+[Bekijk de code](https://scratch.mit.edu/projects/653771814/){:target="_blank"}
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
@@ -28,25 +28,25 @@ What happens to the backdrop when the piñata breaks? Which blocks would create 
 
 --- task ---
 
-You could add code to make the message animate `forever`{:class="block3control"} when it is in position. Use `change size`{:class="block3looks"} and `change color effect`{:class="block3looks"} blocks so that it looks like the message is moving with the party beat:
+Je zou code kunnen toevoegen om het bericht `continu`{:class="block3control"} te laten animeren wanneer het in positie is. Gebruik `verander grootte`{:class="block3looks"} en `verander kleureffect`{:class="block3looks"} blokken zodat het lijkt alsof het bericht meebeweegt met de feestmuziek:
 
-![The Message sprite icon.](images/message-sprite.png)
+![Het pictogram van de Bericht-sprite.](images/message-sprite.png)
 
 ```blocks3
-when I receive [party v]
-show
-repeat (20)
-change size by (5)
-change y by (-10)
-end
-+ forever
-change size by (20) // Positive number to grow
-change [color v] effect by (25) // Change colour
-wait (0.5) seconds // Try different numbers to match your music
-change size by (-20) // Negative number to shrink
+wanneer ik signal [feest v] ontvang
+verschijn
+herhaal (20)
+verander grootte met (5)
+verander y met (-10)
+einde
++ herhaal
+verander grootte met (20) // Positief getal om te groeien
+verander [kleur v] effect met (25) // Verander de kleur
+wacht (0.5) sec. // Probeer verschillende getallen om bij de muziek te laten passen
+verander grootte met (-20) // Negatief getal om te verkleinen
 ```
 
-[See the code](https://scratch.mit.edu/projects/656332454/){:target="_blank"}
+[Bekijk de code](https://scratch.mit.edu/projects/656332454/){:target="_blank"}
 
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/656332454/?autostart=false" frameborder="0"></iframe>
@@ -54,22 +54,22 @@ change size by (-20) // Negative number to shrink
 
 --- /task ---
 
---- collapse ---
+-- collapse ---
 
 ---
-title: Completed project
+title: Voltooid project
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/649873783/){:target="_blank"}.
+Je kunt het [voltooide project hier](https://scratch.mit.edu/projects/649873783/){:target="_blank"} bekijken.
 
 --- /collapse ---
 
 --- task ---
 
-### Submit your project
+### Dien je project in
 
-If you have already shared your project with us just save your changes and we will see your awesome upgrades.
+Als je je project al met ons hebt gedeeld, sla dan je wijzigingen op en we zullen je geweldige verbeteringen zien.
 
-If you haven't yet shared your project but want to submit your project to our ['Party piñata — Community' Scratch studio](https://scratch.mit.edu/studios/31111242){:target="_blank"} for other people to see, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+Als je jouw project nog niet gedeeld hebt, en het in wil dienen bij onze ['Feest piñata — Community' Scratch studio](https://scratch.mit.edu/studios/31111242){:target="_blank"} zodat andere mensen het kunnen zien, vul dan [dit formulier](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"} in.
 
 --- /task ---
