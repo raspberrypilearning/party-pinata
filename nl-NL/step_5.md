@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Piñata's zitten vol met snoep en als ze beginnen te breken, vallen het snoep eruit. In deze stap animeer je snoepjes van or de hele wereld die uit de piñata vallen telkens wanneer deze wordt geraakt. Herken je een van de lekkernijen?
+Piñata's zitten vol met snoep en als ze beginnen te breken, valt het snoep eruit. In deze stap animeer je snoepjes van over de hele wereld die uit de piñata vallen telkens wanneer deze wordt geraakt. Herken je één van de lekkernijen?
 </div>
 <div>
 ![Een geanimeerde afbeelding waarop meerdere keren op de piñata wordt geklikt. Elke keer vallen er vier willekeurige traktaties uit naar willekeurige posities en draaien dan langzaam in een cirkel.](images/spinning-treats.gif){:width="300px"}
@@ -10,7 +10,7 @@ Piñata's zitten vol met snoep en als ze beginnen te breken, vallen het snoep er
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Een <span style="color: #0faeb0">**uiterlijk**</span> in Scratch is een afbeelding die het uiterlijk van een sprite verandert. Onze **grafische ontwerpers** vroegen leiders van Code Clubs over de hele wereld om hen te vertellen wat voor lekkers ze op een feestje zouden krijgen. Hopelijk zullen sommige van de snoepuiterlijken die ze hebben gemaakt bekend voor je zijn - en andere volledig nieuw.      
+Een <span style="color: #0faeb0">**uiterlijk**</span> in Scratch is een afbeelding die het uiterlijk van een sprite verandert. Onze **grafische ontwerpers** vroegen de leiders van Code Clubs over de hele wereld om hen te vertellen wat voor lekkers ze op een feestje zouden willen krijgen. Hopelijk zullen sommige van de snoepuiterlijken die ze hebben gemaakt bekend voor je zijn - en anderen volledig nieuw.      
 </p>
 
 --- task ---
@@ -37,7 +37,7 @@ ga naar x: (0) y: (100)
 
 --- /task ---
 
-Elke keer dat de piñata wordt geraakt, ontsnappen er vier snoepjes aan de piñata. Door het **klonen** van de **Snoep** sprite, kun je meerdere traktaties maken.
+Elke keer dat de piñata wordt geraakt, ontsnappen er vier snoepjes uit de piñata. Door het **klonen** van de **Snoep** sprite, kun je meerdere traktaties maken.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Een <span style="color: #0faeb0">**kloon**</span> in Scratch is een kopie van een sprite. Het heeft helemaal dezelfde code, uiterlijken en geluiden van de originele sprite.      
@@ -47,7 +47,7 @@ Een <span style="color: #0faeb0">**kloon**</span> in Scratch is een kopie van ee
 
 Klik op de knop **Piñata** sprite.
 
-Plaats een `herhaal`{:class="block3control"} lus in je bestaande script. Verander de waarde in `4`{:class="block3control"} en voeg dan een `maak een kloon van mijzelf`{:class="block3control"} toe. Gebruik het vervolgkeuzemenu om de sprite `Snop`{:class="block3control"} te selecteren:
+Plaats een `herhaal`{:class="block3control"} lus in je bestaande script. Verander de waarde in `4`{:class="block3control"} en voeg dan een `maak een kloon van mijzelf`{:class="block3control"} toe. Gebruik het vervolgkeuzemenu om de sprite `Snoep`{:class="block3control"} te selecteren:
 
 ![Het pictogram van de Piñata-sprite.](images/pinata-sprite.png)
 
@@ -57,7 +57,7 @@ als <(treffers) < (10)> dan
 start geluid [Boing v]
 verander [treffers v] met (1)
 + herhaal (4) //Verander naar 4
-maak klook van (snoep v) //Selecteer Snoep
+maak kloon van (snoep v) //Selecteer Snoep
 einde
 als <(treffers)=(10)> dan
 verander uiterlijk naar (gebroken v)
@@ -81,7 +81,7 @@ Voeg blokken toe uit het `Uiterlijken`{:class="block3looks"} blokkenmenu om het 
 ```blocks3
 wanneer ik als kloon start
 verschijn
-ga naar laag [achertgrond v] // Verander naar achtergrond
+ga naar laag [achtergrond v] // Verander naar achtergrond
 verander uiterlijk naar (Knafeh v)
 ```
 
@@ -96,7 +96,7 @@ Je kunt willekeurige snoepjes kiezen die worden vrijgegeven wanneer de piñata w
 ```blocks3
 wanneer ik als kloon start
 verschijn
-ga naar laag [achertgrond v] 
+ga naar laag [achtergrond v] 
 verander uiterlijk naar (willekeurig getal tussen (1) en (26)) // Verander naar 26
 ```
 
@@ -104,7 +104,7 @@ verander uiterlijk naar (willekeurig getal tussen (1) en (26)) // Verander naar 
 
 --- task ---
 
-Op dit moment verschijnen de **Snoep** klonen achter de **Piñata** -sprite, maar de snoepjes moeten van de piñata naar een willekeurige positie vallen.
+Op dit moment verschijnen de **Snoep** klonen achter de **Piñata** -sprite, maar de snoepjes moeten vanuit de piñata naar een willekeurige positie vallen.
 
 Voeg code toe om de gekloonde **Snoep** sprites naar een willekeurige positie te laten `schuiven`{:class="block3motion"}:
 
@@ -113,7 +113,7 @@ Voeg code toe om de gekloonde **Snoep** sprites naar een willekeurige positie te
 ```blocks3
 wanneer ik als kloon start
 verschijn
-ga naar laag [achertgrond v] 
+ga naar laag [achtergrond v] 
 verander uiterlijk naar (willekeurig getal tussen (1) en (26))
 + schuif in (1) sec. naar (willekeurige positie v) 
 ```
@@ -124,7 +124,7 @@ verander uiterlijk naar (willekeurig getal tussen (1) en (26))
 
 **Test:** Voer je project uit en klik op de piñata om na elke treffer vier klonen van de sprite **Snoep** te zien. De uiterlijken worden willekeurig gekozen en de snoepjes glijden elk naar een willekeurige positie.
 
-![Een geanimeerde afbeelding waarop drie keer op de piñata wordt geklikt. Elke keer vallen er vier willekeurige traktaties uit op willekeurige posities.](images/four-treats.gif)
+![Een geanimeerde afbeelding waarbij drie keer op de piñata wordt geklikt. Elke keer vallen er vier willekeurige traktaties uit op willekeurige posities.](images/four-treats.gif)
 
 --- /task ---
 
@@ -137,7 +137,7 @@ Voeg animatie toe om de **Snoep** klonen `continu`{:class="blocks3control"} `te 
 ```blocks3
 wanneer ik als kloon start
 verschijn
-ga naar laag [achertgrond v] 
+ga naar laag [achtergrond v] 
 verander uiterlijk naar (willekeurig getal tussen (1) en (26))
 + schuif in (1) sec. naar (willekeurige positie v) 
 + herhaal
