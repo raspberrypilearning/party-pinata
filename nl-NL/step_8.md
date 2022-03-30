@@ -5,7 +5,7 @@ Als je tijd hebt, kunt je jouw project verbeteren. Misschien heb je al ideeën o
 Je zou:
 
 + Extra uiterlijken, geluiden of bewegingsblokken kunnen gebruiken om je bericht en traktaties verder te animeren
-+ Afbeeldingen kunnen zoeken van je favoriete lekkernijen en ze toevoegen aan de uiterlijken voor de sprite **Snoep**
++ Zoek afbeeldingen van je favoriete lekkernijen en voeg ze toe aan de uiterlijken voor de sprite **Snoep**
 + Het aantal snoepjes kunnen verhogen dat bij elke treffer uit de piñata valt
 + Je project gemakkelijker of moeilijker maken door het aantal keren te wijzigen dat je de piñata moet raken voordat deze breekt
 
@@ -33,7 +33,7 @@ Je zou code kunnen toevoegen om het bericht `continu`{:class="block3control"} te
 ![Het pictogram van de Bericht-sprite.](images/message-sprite.png)
 
 ```blocks3
-wanneer ik signal [feest v] ontvang
+wanneer ik signaal [feest v] ontvang
 verschijn
 herhaal (20)
 verander grootte met (5)
@@ -70,6 +70,6 @@ Je kunt het [voltooide project hier](https://scratch.mit.edu/projects/649873783/
 
 Als je je project al met ons hebt gedeeld, sla dan je wijzigingen op en we zullen je geweldige verbeteringen zien.
 
-Als je jouw project nog niet gedeeld hebt, en het in wil dienen bij onze ['Feest piñata — Community' Scratch studio](https://scratch.mit.edu/studios/31111242){:target="_blank"} zodat andere mensen het kunnen zien, vul dan [dit formulier](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"} in.
+Als je jouw project nog niet gedeeld hebt, en het wil indienen bij onze ['Feest piñata — Community' Scratch studio](https://scratch.mit.edu/studios/31111242){:target="_blank"} zodat andere mensen het kunnen zien, vul dan [dit formulier](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"} in.
 
 --- /task ---
