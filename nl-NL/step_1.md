@@ -14,7 +14,7 @@ Gebruik de stok om de piñata te raken.
 
 Wat gebeurt er elke keer dat je de piñata raakt? 
 
-Hoe vaak moet je de piñata raken om te breken?  
+Hoe vaak moet je de piñata raken om hem te breken?  
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/649873783/?autostart=false" frameborder="0"></iframe>
@@ -29,5 +29,5 @@ Hoe vaak moet je de piñata raken om te breken?
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Code Club**</span> viert dit jaar zijn 10e verjaardag. Wist je dat er over de hele wereld Code Clubs zijn op **zes van de zeven continenten**? Dat zijn veel programmeurs die dingen maken met code! Denk je dat andere clubs dit project nu aan het maken zijn?   
+<span style="color: #0faeb0">**Code Club**</span> viert dit jaar zijn 10e verjaardag. Wist je dat er Code Clubs zijn op **zes van de zeven continenten** over de hele wereld? Dat zijn veel programmeurs die dingen maken met code! Denk je dat andere clubs dit project nu aan het maken zijn?   
 </p>
