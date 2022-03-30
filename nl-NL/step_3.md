@@ -5,7 +5,7 @@
 In deze stap programmeer je de piñata om een geluid af te spelen en tel je één treffer elke keer dat er op de piñata wordt geklikt.
 </div>
 <div>
-![Een geanimeerde afbeelding waarop tien keer op de piñata wordt geklikt. Na de tiende keer verandert het kostuum in gebroken en verdwijnt de variabele.](images/break-pinata.gif){:width="300px"}
+![Een geanimeerde afbeelding waarbij tien keer op de piñata wordt geklikt. Na de tiende keer verandert het kostuum in gebroken en verdwijnt de variabele.](images/break-pinata.gif){:width="300px"}
 </div>
 </div>
 
@@ -114,7 +114,7 @@ start geluid [Boing v]
 
 --- /task ---
 
-Een piñata is moeilijk te breken, maar gaat niet eeuwig mee. Je piñata gaat `10 trefferts`{:class="block3variables"} mee voordat hij openbreekt.
+Een piñata is moeilijk te breken, maar gaat niet eeuwig mee. Je piñata gaat `10 treffers`{:class="block3variables"} mee voordat hij openbreekt.
 
 Een `als`{:class="block3control"} blok kan worden gebruikt om een beslissing te nemen op basis van een **voorwaarde**.
 
@@ -138,7 +138,7 @@ verander [treffers v] met (1)
 
 --- /task ---
 
-Het `ials`{:class="block3control"} blok heeft een zeshoekige invoer waar je een voorwaarde kunt inbouwen.
+Het `als`{:class="block3control"} blok heeft een zeshoekige invoer waar je een voorwaarde kunt inbouwen.
 
 --- task ---
 
@@ -176,7 +176,7 @@ verander [treffers v] met (1)
 
 --- task ---
 
-**Test:** Voer je project weer uit. Klik 10 keer op de piñata aan om het geluid te horen en de variabele `treffers`{:class="block3variables"} te zien toenemen.
+**Test:** Voer je project weer uit. Klik 10 keer op de piñata om het geluid te horen en de variabele `treffers`{:class="block3variables"} te zien toenemen.
 
 Sla nog een paar keer op de piñata. De variabele `treffers`{:class="block3variables"} zal niet hoger worden dan 10 omdat die voorwaarde niet langer 'waar' is, dus de code in het `als`{:class="block3control"} blok zal niet worden uitgevoerd.
 
