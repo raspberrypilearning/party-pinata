@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Piñata's worden meestal geraakt met een stok van hout of dik karton dat is bedekt met kleurrijke stroken papier. In deze stap voeg je code toe om de stok te besturen en herhaalmuziek af te spelen wanneer de piñata breekt. 
+Piñata's worden meestal geraakt met een stok van hout of dik karton die is bedekt met kleurrijke stroken papier. In deze stap voeg je code toe om de stok te besturen en herhaalmuziek af te spelen wanneer de piñata breekt. 
 </div>
 <div>
 ![Een geanimeerde afbeelding die de Stok-sprite toont die de muisaanwijzer rond het werkgebied volgt.](images/follow-stick.gif){:width="300px"}
