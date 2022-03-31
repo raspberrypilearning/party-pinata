@@ -24,10 +24,10 @@ Combien de fois faut-il frapper la piñata pour qu'elle se casse ?
 
 --- print-only ---
 
-![Completed project.](images/showcase_static.png)
+![Projet terminé.](images/showcase_static.png)
 
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Code Club**</span> fête ses 10 ans cette année. Did you know that there are Code Clubs on **six out of seven continents** around the world? That’s a lot of coders making things with code! Do you think any other clubs will be doing this project right now?   
+<span style="color: #0faeb0">**Code Club**</span> fête ses 10 ans cette année. Sais-tu qu'il existe des Code Clubs sur **six continents sur sept** dans le monde ? Cela fait beaucoup de codeurs qui font des choses avec du code ! Penses-tu que d'autres clubs feront ce projet en ce moment ?   
 </p>
