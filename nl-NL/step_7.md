@@ -18,4 +18,4 @@ Om je project in te dienen bij onze ['Feest piñata — Community' Scratch studi
 
 --- /task ---
 
-![Een geanimeerde afbeelding die het bericht laat vallen en vervolgens van grootte en kleur verandert wanneer het de laatste valpositie van het bericht heeft bereikt.](images/falling-message.gif)
+![Een geanimeerde afbeelding die toont dat het bericht valt en vervolgens van grootte en kleur verandert wanneer het zijn laatste valpositie heeft bereikt.](images/falling-message.gif)
