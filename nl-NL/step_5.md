@@ -66,7 +66,7 @@ zend signaal (feest v)
 
 **Tip:** Gebruik de vrije ruimte in het codegebied om je nieuwe code te bouwen en sleep deze vervolgens naar het bestaande script:
 
-![De herhalings- en kloonblokken worden afzonderlijk in het codegebied gezet voordat ze naar hun positie in het script worden gesleept.](images/code-area.gif) --- task ---
+![De herhalings- en kloonblokken worden afzonderlijk in het codegebied samengesteld voordat ze naar hun positie in het script worden gesleept.](images/code-area.gif) --- task ---
 
 --- task ---
 
