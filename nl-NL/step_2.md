@@ -19,7 +19,7 @@ Open het [Feest piñata startersproject](https://scratch.mit.edu/projects/653082
 
 De Scratch-editor ziet er als volgt uit:
 
-![Een geannoteerde schermafbeelding van de Scratch-editor, met de labels Speelveld, Speelveld-venster, Sprite-venster, Sprite-lijst en Codegebied gelabeld.](images/scratch-interface.png)
+![Een geannoteerde schermafbeelding van de Scratch-editor, met de labels Speelveld, Speelveld-venster, Sprite-venster, Sprite-lijst en Codegebied.](images/scratch-interface.png)
 
 Het **Speelveld** is waar je project wordt uitgevoerd en een **achtergrond** verandert de manier waarop het Speelveld eruitziet. Er is een Code Club feestachtergrond voor je toegevoegd.
 
@@ -31,7 +31,7 @@ Op dit moment gebeurt er niet veel op dit feest. Dat kun jij veranderen!
 
 --- task ---
 
-Een sprite kan code, uiterlijken en geluiden hebben om de manier waarop hij eruitziet en doet, te veranderen.
+Een sprite kan code, uiterlijken en geluiden hebben om de manier waarop hij eruitziet en wat hij doet, te veranderen.
 
 Klik op de **Piñata** sprite in de Sprite-lijst en klik vervolgens op het **Uiterlijken** tabblad. Er zijn twee piñata uiterlijken, één met de naam 'heel' en de andere met de naam 'gebroken'.
 
@@ -90,7 +90,7 @@ verander uiterlijk naar (heel v)
 
 --- task ---
 
-Een `herhaal`{:class="block3control"} lus voert de codeblokken daarbinnen keer op keer uit. Het is de perfecte lus voor een swingende piñata die moeilijk te raken is.
+Een `herhaal`{:class="block3control"} lus voert de codeblokken daarbinnen telkens opnieuw uit. Het is de perfecte lus voor een zwaaiende piñata die moeilijk te raken is.
 
 --- task ---
 
@@ -114,7 +114,7 @@ Een `herhaal`{:class="block3control"} lus kan worden gebruikt om de **Piñata** 
 
 Sleep een `-herhaal 10`{:class="block3control"} blok naar het codegebied en bevestig het in je `herhaal`{:class="block3control"} lus.
 
-Ga naar het `Beweging`{:class="block3motion"} blokkenmenu en sleep een `draai rechtsom 15 graden`{:class="block3motion"} blok naar het `herhaal`{:class="block3control"} blok.
+Ga naar het `Beweging`{:class="block3motion"} blokkenmenu en sleep een `draai rechtsom 15 graden`{:class="block3motion"} blok in het `herhaal`{:class="block3control"} blok.
 
 Verander de `15`{:class="block3motion"} graden in `1`{:class="block3motion"} graden zodat de piñata elke keer maar een klein beetje zwaait:
 
@@ -129,7 +129,7 @@ herhaal
 + herhaal (10) 
 draai rechtsom (1) graden // Verander naar 1
 ```
-![Herhaal blok dat wordt toegevoegd binnen het herhaal blok en daarbinnen het draai rechtsom graden blok.](images/add-repeat.gif)
+![Herhaal tot blok dat wordt toegevoegd binnen het herhaal blok en daarbinnen het draai rechtsom graden blok.](images/add-repeat.gif)
 
 --- /task ---
 
@@ -167,6 +167,7 @@ draai linksom (1) graden // Verander naar 1
 einde
 + herhaal (10) // Zwaait 10 graden met de klok mee terug naar het midden
 draai rechtsom (1) graden // Verander naar 1
+einde
 ```
 
 --- /task ---
