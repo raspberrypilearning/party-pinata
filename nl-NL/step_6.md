@@ -5,7 +5,7 @@
 In deze stap schrijf je een bericht en animeer je het met bewegings- en kleureffecten. 
 </div>
 <div>
-![Een geanimeerde afbeelding die het bericht laat vallen en vervolgens van grootte en kleur verandert wanneer het de laatste valpositie van het bericht heeft bereikt.](images/falling-message.gif){:width="300px"}
+![Een geanimeerde afbeelding die toont dat het bericht valt en vervolgens van grootte en kleur verandert wanneer het zijn laatste valpositie heeft bereikt.](images/falling-message.gif){:width="300px"}
 </div>
 </div>
 
@@ -36,7 +36,7 @@ Je kunt nu je nieuwe Code Club verjaardagsbericht typen. Druk op **Enter** op je
 
 **Tip:** Maak je geen zorgen als je bericht een beetje te groot is voor de box, want je kunt het later verkleinen.
 
-![De teksteditor die een nieuw bericht toont, is op de plaats van het oude bericht getypt.](images/new-text.png)
+![De teksteditor die toont dat een nieuw bericht werd getypt op de plaats van het oude bericht.](images/new-text.png)
 
 --- /task ---
 
@@ -58,7 +58,7 @@ Je kunt nu je nieuwe Code Club verjaardagsbericht typen. Druk op **Enter** op je
 
 --- task ---
 
-Klik op de tool **Selecteer** en er verschijnen acht cirkels rond je bericht. Gebruik deze cirkels om het formaat van uje bericht te wijzigen door erop te klikken en ze binnen het witte vak te verslepen.
+Klik op de tool **Selecteer** en er verschijnen acht cirkels rond je bericht. Gebruik deze cirkels om het formaat van je bericht te wijzigen door erop te klikken en ze binnen het witte vak te verslepen.
 
 ![Het gereedschap Selecteren is gemarkeerd en het bericht heeft kleine cirkels in elke hoek en op de centrale verticale en horizontale boorpunten, zodat het formaat in meerdere richtingen kan worden gewijzigd.](images/resize-message.png)
 
@@ -103,7 +103,7 @@ verander y met (-10) // Verander naar -10
 
 **Test:** Voer je project uit. Raak de piñata tien keer om de boodschap te zien vallen.
 
-![Een geanimeerde afbeelding waarop tien keer op de piñata wordt geklikt. Snoepjes verschijnen na elke treffer en bij de tiende treffer breekt de pinata en valt het bericht naar de onderkant van het scherm. Het wordt groter als het valt.](images/falling-message.gif)
+![Een geanimeerde afbeelding waarbij tien keer op de piñata wordt geklikt. Snoepjes verschijnen na elke treffer en bij de tiende treffer breekt de pinata en valt het bericht naar de onderkant van het scherm. Het wordt groter als het valt.](images/falling-message.gif)
 
 --- /task ---
 
