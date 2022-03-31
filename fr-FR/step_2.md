@@ -45,12 +45,13 @@ Clique sur le sprite **Piñata** dans la liste Sprite et sélectionne l'onglet *
 
 Clique sur l'onglet **Code**. Va dans le menu des blocs `Apparence`{:class="block3looks"} puis fais glisser un bloc `basculer sur le costume/0>{:class="block3looks"} vers la zone Code. </p>
 
-<p spaces-before="0">Clique sur le nom du costume pour ouvrir un menu déroulant puis sélectionne le costume « entier » :</p>
+<p spaces-before="0">Click on the costume name to open a <strong x-id="1">drop-down menu</strong> then select the <code>whole`{:class="block3looks"} costume:
 
-<p spaces-before="0"><img src="images/pinata-sprite.png" alt="L'icône du sprite Piñata." /></p>
+![L'icône du sprite Piñata.](images/pinata-sprite.png)
 
-<pre><code class="blocks3">basculer sur le costume (tout v) 
-`</pre>
+```blocks3
+switch costume to (whole v) // Update to 'whole'
+```
 
 ![Une image animée montrant le bloc de basculer sur le costume glissé du menu des blocs Apparence vers la zone Code.](images/switch-costume.gif)
 
@@ -136,7 +137,7 @@ tourner à droite (1) degrés // Passer à 1
 
 **Test :** Exécute ton projet, en cliquant sur le **drapeau vert** au-dessus de la scène, pour voir la piñata se balancer.
 
-Mmm, quelque chose ne va pas ! Lorsqu'un objet est suspendu au plafond, il ne tourne pas seulement dans une direction, il oscille d'avant en arrière.
+**Mmm, something is not quite right!** When an object is hung from the ceiling, it won't just rotate in one direction, it will swing back and forth.
 
 Arrête ton projet en cliquant sur **l'icône d'arrêt rouge** au-dessus de la scène.
 
