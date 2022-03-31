@@ -68,7 +68,7 @@ Het geluid verschijnt dan in je lijst Geluiden:
 
 --- task ---
 
-Klik op het tabblad **Code** en maak een nieuw script om het geluid `continue`{:class="block3control"} te herhalen wanneer het bericht `feest`{:class="block3events"} is ontvangen:
+Klik op het tabblad **Code** en maak een nieuw script om het geluid `continu`{:class="block3control"} te herhalen wanneer het bericht `feest`{:class="block3events"} is ontvangen:
 
 ![Het pictogram van de Stok-sprite.](images/stick-sprite.png)
 
