@@ -23,7 +23,7 @@ Een groep verbonden blokken in Scratch wordt een **script** genoemd. Sprites kun
 
 Klik op het tabblad **Code**. Sleep uit `Gebeurtenissen`{:class="block3events"} een `wanneer op deze sprite wordt geklikt`{:class="block3events"} blok naar het codegebied om een nieuw script te starten.
 
-Zoek bij de `Geluid`{:class="block3sound"} blokken het blok `start geluid`{:class="block3sound"}. Klik het onderaan het `wanneer op deze sprite wordt geklikt`{:class="block3events"} blok:
+Zoek bij de `Geluid`{:class="block3sound"} blokken het blok `start geluid`{:class="block3sound"}. Sleep het onderaan het `wanneer op deze sprite wordt geklikt`{:class="block3events"} blok:
 
 ![Het pictogram van de Piñata-sprite.](images/pinata-sprite.png)
 
@@ -119,7 +119,7 @@ Een piñata is moeilijk te breken, maar gaat niet eeuwig mee. Je piñata gaat `1
 Een `als`{:class="block3control"} blok kan worden gebruikt om een beslissing te nemen op basis van een **voorwaarde**.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-We gebruiken altijd <span style="color: #0faeb0">**voorwaarden**</span> om beslissingen te nemen. We zouden kunnen zeggen: "Als het potlood bot is, dan slijp je het". `If` blokken en voorwaarden laten ons code schrijven die iets anders doet, afhankelijk van of een voorwaarde waar of onwaar is.
+We gebruiken altijd <span style="color: #0faeb0">**voorwaarden**</span> om beslissingen te nemen. We zouden kunnen zeggen: "Als het potlood bot is, dan slijp je het". `Als` blokken en voorwaarden laten ons code schrijven die iets anders doet, afhankelijk van of een voorwaarde waar of onwaar is.
 </p>
 
 --- task ---
@@ -160,7 +160,7 @@ verander [treffers v] met (1)
 
 --- task ---
 
-Voltooi het bouwen van de voorwaarde `als`{:class="block3control"} door de variabele `treffers`{:class="block3variables"} links van de operator `<`{:class="block3operators"} te slepen en te typen de waarde '10' aan de rechterkant:
+Voltooi het bouwen van de `als`{:class="block3control"} voorwaarde door de variabele `treffers`{:class="block3variables"} links van de operator `<`{:class="block3operators"} te slepen en de waarde '10' aan de rechterkant te typen:
 
 ![Het pictogram van de Piñata-sprite.](images/pinata-sprite.png)
 
@@ -184,7 +184,7 @@ Sla nog een paar keer op de piñata. De variabele `treffers`{:class="block3varia
 
 --- task ---
 
-Voeg een tweede `als`{:class="block3control"} blok binnen het eerste toe. Deze keer controleert de voorwaarde of `treffers`{:class="block3variables"} `=`{:class="block3operators"} 10 wordt en als dat 'waar' is zal het uiterlijk veranderen in `gebroken`{:class="block3looks"}:
+Voeg een tweede `als`{:class="block3control"} blok binnen het eerste toe. Deze keer controleert de voorwaarde of `treffers`{:class="block3variables"} `=`{:class="block3operators"} 10 en als dat 'waar' is zal het uiterlijk veranderen in `gebroken`{:class="block3looks"}:
 
 ![Het pictogram van de Piñata-sprite.](images/pinata-sprite.png)
 
@@ -193,7 +193,7 @@ wanneer op deze sprite wordt geklikt
 als <(treffers) < (10)> dan
 start geluid [Boing v]
 verander [treffers v] met (1)
-+ als <(treffers)-(10)> dan
++ als <(treffers)=(10)> dan
 verander uiterlijk naar (gebroken v)
 
 ```
@@ -223,7 +223,7 @@ wanneer op deze sprite wordt geklikt
 als <(treffers) < (10)> dan
 start geluid [Boing v]
 verander [treffers v] met (1)
-als <(treffers)-(10)> dan
+als <(treffers)=(10)> dan
 verander uiterlijk naar (gebroken v)
 + zend signaal (bericht1 v)
 ```
