@@ -45,12 +45,12 @@ Click on the **Piñata** sprite in the Sprite list and select the **Costumes** t
 
 Click on the **Code** tab. Go to the `Looks`{:class="block3looks"} blocks menu then drag a `switch costume to`{:class="block3looks"} block to the Code area.
 
-Click on the costume name to open a drop-down menu then select the 'whole' costume:
+Click on the costume name to open a **drop-down menu** then select the `whole`{:class="block3looks"} costume:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
 ```blocks3
-switch costume to (whole v) 
+switch costume to (whole v) // Update to 'whole'
 ```
 
 ![An animated image showing the switch costume block being dragged from the Looks blocks menu to the Code area.](images/switch-costume.gif)
@@ -137,7 +137,7 @@ turn right (1) degrees // Change to 1
 
 **Test:** Run your project, by clicking on the **green flag** above the Stage, to see the piñata swing.
 
-Mmm, something is not quite right! When an object is hung from the ceiling, it won't just rotate in one direction, it will swing back and forth.
+**Mmm, something is not quite right!** When an object is hung from the ceiling, it won't just rotate in one direction, it will swing back and forth.
 
 Stop your project by clicking on the **red stop icon** above the Stage.
 
