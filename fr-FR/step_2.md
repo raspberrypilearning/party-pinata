@@ -1,187 +1,186 @@
-## Start the party
+## Commencer la fête
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will choose a piñata costume and code the piñata to swing.
+Dans cette étape, tu choisiras un costume de piñata et coderas la piñata pour qu'elle se balance.
 </div>
 <div>
-![An animated gif showing the stage with the piñata sprite positioned at the top centre and swinging left to right.](images/swinging-pinata.gif){:width="300px"}
+![Un gif animé montrant la scène avec le sprite piñata positionné en haut au centre et se balançant de gauche à droite.](images/swinging-pinata.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Open the [Party piñata starter project](https://scratch.mit.edu/projects/653082997/editor){:target="_blank"}. Scratch will open in another browser tab.
+Ouvre le projet de démarrage [Piñata de fête](https://scratch.mit.edu/projects/653082997/editor){:target="_blank"}. Scratch s'ouvrira dans un autre onglet du navigateur.
 
 [[[working-offline]]]
 
 --- /task ---
 
-The Scratch editor looks like this:
+L'éditeur Scratch ressemble à ceci:
 
-![An annotated screenshot of the Scratch editor, with the Stage, Stage pane, Sprite pane, Sprite list, and Code area labelled.](images/scratch-interface.png)
+![Une capture d'écran annotée de l'éditeur Scratch, avec la scène, le volet Scène, le volet Sprite, la liste Sprite et la zone Code étiquetés.](images/scratch-interface.png)
 
-The **Stage** is where your project runs and a **backdrop** changes the way that the Stage looks. A Code Club party backdrop has been added for you.
+La **scène** est l'endroit où ton projet s'exécute et un **arrière-plan** modifie l'apparence de la scène. Un arrière-plan de soirée Code Club a été ajouté pour toi.
 
-In Scratch, characters and objects are called **sprites**, and they appear on the Stage. You can see the **Piñata** and **Stick** sprites on the Stage.
+Dans Scratch, les personnages et les objets sont appelés **sprites**, et ils apparaissent sur la scène. Tu peux voir les sprites **Piñata** et **Baton** sur la scène.
 
-![The stage with a patterned blue backdrop with presents and balloons. Also on the Stage are the Piñata and Stick sprites.](images/backdrop-and-sprites.png)
+![La scène avec un arrière-plan bleu à motifs avec des cadeaux et des ballons. Également sur la scène se trouvent les sprites Piñata et Baton.](images/backdrop-and-sprites.png)
 
-At the moment there is not much happening at this party. You can change that!
+Pour le moment, il ne se passe pas grand-chose à cette fête. Tu peux changer cela !
 
 --- task ---
 
-A sprite can have code, costumes, and sounds to change the way that it looks and what it does.
+Un sprite peut avoir un code, des costumes et des sons pour changer son apparence et ce qu'il fait.
 
-Click on the **Piñata** sprite in the Sprite list and select the **Costumes** tab. There are two piñata costumes, one named 'whole' and the other named 'broken'.
+Clique sur le sprite **Piñata** dans la liste Sprite et sélectionne l'onglet **Costumes**. Il y a deux costumes de piñata, l'un nommé « entier » et l'autre nommé « cassé ».
 
-![Side-by-side images of the two piñata costumes. The left is a whole piñata, the right has broken open.](images/pinata-costumes.png)
+![Images côte à côte des deux costumes de piñata. La gauche est une piñata entière, la droite est cassée.](images/pinata-costumes.png)
 
-![The Costumes tab (the middle tab in the top left).](images/costumes-tab.png)
+![L'onglet Costumes (l'onglet du milieu en haut à gauche).](images/costumes-tab.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab. Go to the `Looks`{:class="block3looks"} blocks menu then drag a `switch costume to`{:class="block3looks"} block to the Code area.
+Clique sur l'onglet **Code**. Va dans le menu des blocs `Apparence`{:class="block3looks"} puis fais glisser un bloc `basculer sur le costume/0>{:class="block3looks"} vers la zone Code. </p>
 
-Click on the costume name to open a drop-down menu then select the 'whole' costume:
+<p spaces-before="0">Clique sur le nom du costume pour ouvrir un menu déroulant puis sélectionne le costume « entier » :</p>
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+<p spaces-before="0"><img src="images/pinata-sprite.png" alt="L'icône du sprite Piñata." /></p>
+
+<pre><code class="blocks3">basculer sur le costume (tout v) 
+`</pre>
+
+![Une image animée montrant le bloc de basculer sur le costume glissé du menu des blocs Apparence vers la zone Code.](images/switch-costume.gif)
+
+--- /task ---
+
+Les blocs peuvent être connectés ensemble dans la zone Code pour en exécuter plusieurs à la fois. Les blocs connectés s'exécuteront dans l'ordre de haut en bas.
+
+--- task ---
+
+Fais glisser un bloc `Quand le drapeau est cliqué`{:class="block3events"} depuis le menu des blocs `Évènements`{:class="block3events"} et connecte-le en haut de ton bloc Apparence dans la zone Code. Les blocs vont s'emboîter:
+
+![L'icône du sprite Piñata.](images/pinata-sprite.png)
 
 ```blocks3
-switch costume to (whole v) 
++ quand le drapeau est cliqué
+basculer sur le costume (tout v)
 ```
-
-![An animated image showing the switch costume block being dragged from the Looks blocks menu to the Code area.](images/switch-costume.gif)
-
---- /task ---
-
-Blocks can be connected together in the Code area to run more than one at a time. Connected blocks will run in order from top to bottom.
-
---- task ---
-
-Drag a `When flag clicked`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu and connect it to the top of your looks block in the Code area. The blocks will snap together:
-
-![The Piñata sprite icon.](images/pinata-sprite.png)
-
-```blocks3
-+ when flag clicked
-switch costume to (whole v)
-```
-![When flag clicked block being added to the code area and connected to the switch costume block.](images/add-flag-clicked.gif)
+![Le bloc quand le drapeau est cliqué est ajouté à la zone de code et connecté au bloc de basculer sur le costume.](images/add-flag-clicked.gif)
 
 --- /task ---
 
-The starting position of a piñata is always the same, it only starts moving when the piñata game is ready to play.
+La position de départ d'une piñata est toujours la même, elle ne commence à bouger que lorsque le jeu de piñata est prêt à jouer.
 
 --- task ---
 
-In the `Motion`{:class="block3motion"} blocks menu, find the `go to x: 0 y: 180`{:class="block3motion"} and `point in direction 90`{:class="block3motion"} blocks. Drag the blocks to the Code area and connect them to the bottom of your code:
+Dans le menu des blocs `Mouvement`{:class="block3motion"}, trouve les blocs `aller à x : 0 y : 180`{:class="block3motion"} et `s'orienter à 90`{:class="block3motion" } . Fais glisser les blocs vers la zone Code et connecte-les au bas de ton code :
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
-
-```blocks3
-when flag clicked
-switch costume to (whole v)
-+ go to x: (0) y: (180)
-+ point in direction (90) // Ready position
-```
-
---- /task ---
-
-A `forever`{:class="block3control"} loop runs the code blocks inside it again and again. It is the perfect loop for a swinging piñata that is hard to hit.
-
---- task ---
-
-Drag a `forever`{:class="block3control"} block from the `Control`{:class="block3control"} blocks menu and connect it to the bottom of your code:
-
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![L'icône du sprite Piñata.](images/pinata-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (whole v)
-go to x: (0) y: (180)
-point in direction (90)
-+ forever
+quand le drapeau est cliqué
+basculer sur le costume (tout v)
++ aller à x : (0) y : (180)
++ s'orienter à (90) // Position prête
 ```
 
 --- /task ---
 
-A `repeat`{:class="block3control"} loop can be used to make the **Piñata** sprite repeat a small movement many times. This will make the piñata appear animated.
+Une boucle `répéter indéfiniment`{:class="block3control"} exécute les blocs de code à l'intérieur encore et encore. C'est la boucle parfaite pour une piñata qui se balance difficile à frapper.
 
 --- task ---
 
-Drag a `repeat 10`{:class="block3control"} block into the Code area and attach it inside your `forever`{:class="block3control"} loop.
+Fais glisser un bloc `répéter indéfiniment`{:class="block3control"} depuis le menu des blocs `Contrôle`{:class="block3control"} et connecte-le au bas de ton code :
 
-Go to the `Motion`{:class="block3motion"} blocks menu and drag a `turn clockwise 15 degrees`{:class="block3motion"} block into the `repeat`{:class="block3control"} block.
-
-Change the `15`{:class="block3motion"} degrees to `1`{:class="block3motion"} degree so that the piñata only swings a small amount each time:
-
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![L'icône du sprite Piñata.](images/pinata-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (whole v)
-go to x: (0) y: (180)
-point in direction (90)
-forever
-+ repeat (10) 
-turn right (1) degrees // Change to 1
-```
-![Repeat block being added within the forever block and then a turn clockwise block added within it.](images/add-repeat.gif)
-
---- /task ---
-
---- task ---
-
-**Test:** Run your project, by clicking on the **green flag** above the Stage, to see the piñata swing.
-
-Mmm, something is not quite right! When an object is hung from the ceiling, it won't just rotate in one direction, it will swing back and forth.
-
-Stop your project by clicking on the **red stop icon** above the Stage.
-
-![Green flag and stop icons shown side by side.](images/start-stop.png)
-
---- /task ---
-
---- task ---
-
-Add code to your `forever`{:class="block3control"} loop so that the piñata swings from the centre back and forth continuously like a pendulum:
-
-![The Piñata sprite with arrows underneath showing that it swings clockwise from centre, then anticlockwise through the centre, then clockwise back to the centre.](images/pinata-swing.png)
-
-![The Piñata sprite icon.](images/pinata-sprite.png)
-
-```blocks3
-when flag clicked
-switch costume to (whole v)
-go to x: (0) y: (180)
-point in direction (90)
-forever
-repeat (10) // Swings 10 degrees clockwise from the centre
-turn right (1) degrees 
-end
-+ repeat (20) // Swings 20 degrees anticlockwise through the centre
-turn left (1) degrees // Change to 1
-end
-+ repeat (10) // Swings 10 degrees clockwise back to the centre
-turn right (1) degrees // Change to 1
-end
+quand le drapeau est cliqué
+basculer sur le costume (tout v)
+aller à x : (0) y : (180)
+s'orienter à (90) 
++ répéter indéfiniment
 ```
 
 --- /task ---
 
+Une boucle `répéter`{:class="block3control"} peut être utilisée pour que le sprite **Piñata** répète plusieurs fois un petit mouvement. Cela fera apparaître la piñata animée.
+
 --- task ---
 
-**Test:** Run your project to see the piñata swing.
+Fais glisser un bloc `répéter 10`{:class="block3control"} dans la zone Code et attache-le à l'intérieur de ta boucle `répéter indéfiniment`{:class="block3control"}.
 
-**Debug:** If the piñata does not swing correctly:
-+ Look at your code to make sure the `repeat`{:class="block3control"} blocks are in the correct position
-+ Check that the `turn clockwise`{:class="block3motion"}  and `turn anticlockwise`{:class="block3motion"} arrows are correct
-+ Make sure that you have used the numbers from the code above
+Va au menu des blocs `Mouvement`{:class="block3motion"} et fais glisser un bloc de `tours dans le sens des aiguilles d'une montre de 15 degrés`{:class="block3motion"} dans le bloc `répéter`{:class="block3control"}.
 
-![An animated gif showing the Stage with the Piñata sprite positioned at the top centre and swinging back and forth.](images/swinging-pinata.gif)
+Change les `15`{:class="block3motion"} degrés en `1`{:class="block3motion"} degrés pour que la piñata ne se balance qu'un peu à chaque fois :
+
+![L'icône du sprite Piñata.](images/pinata-sprite.png)
+
+```blocks3
+quand le drapeau est cliqué
+basculer sur le costume (tout v)
+aller à x : (0) y : (180)
+s'orienter à (90)
+répéter indéfiniment
++ répéter (10) fois
+tourner à droite (1) degrés // Passer à 1
+```
+![Le bloc de répétition est ajouté dans le bloc répéter indéfiniment, puis un bloc de rotation dans le sens des aiguilles d'une montre est ajouté à l'intérieur.](images/add-repeat.gif)
+
+--- /task ---
+
+--- task ---
+
+**Test :** Exécute ton projet, en cliquant sur le **drapeau vert** au-dessus de la scène, pour voir la piñata se balancer.
+
+Mmm, quelque chose ne va pas ! Lorsqu'un objet est suspendu au plafond, il ne tourne pas seulement dans une direction, il oscille d'avant en arrière.
+
+Arrête ton projet en cliquant sur **l'icône d'arrêt rouge** au-dessus de la scène.
+
+![Les icônes drapeau vert et d'arrêt affichées côte à côte.](images/start-stop.png)
+
+--- /task ---
+
+--- task ---
+
+Ajoute du code à ta boucle `répéter indéfiniment`{:class="block3control"} pour que la piñata oscille du centre d'avant en arrière en continu comme un pendule :
+
+![Le sprite Piñata avec des flèches en dessous montrant qu'il oscille dans le sens des aiguilles d'une montre à partir du centre, puis dans le sens inverse des aiguilles d'une montre à travers le centre, puis dans le sens des aiguilles d'une montre vers le centre.](images/pinata-swing.png)
+
+![L'icône du sprite Piñata.](images/pinata-sprite.png)
+
+```blocks3
+quand le drapeau est cliqué
+basculer sur le costume (tout v)
+aller à x : (0) y : (180)
+s'orienter à (90)
+répéter indéfiniment
+répéter (10) fois // Se balance de 10 degrés dans le sens des aiguilles d'une montre à partir du centre
+tourner à droite (1) degrés 
+fin
++ répéter (20) fois // Balance de 20 degrés dans le sens inverse des aiguilles d'une montre à travers le centre
+tournez à gauche (1) degrés // Passez à 1
+fin
++ répéter (10) fois // Balance de 10 degrés dans le sens des aiguilles d'une montre vers le centre
+tourner à droite (1) degrés // Passer à 1
+fin
+```
+
+--- /task ---
+
+--- task ---
+
+**Test :** Exécute ton projet pour voir la piñata se balancer.
+
+**Debug :** Si la piñata ne se balance pas correctement :
++ Regarde ton code pour t'assurer que les blocs `répéter`{:class="block3control"} sont dans la bonne position
++ Vérifie que les flèches `tournent dans le sens des aiguilles d'une montre`{:class="block3motion"} et `tournent dans le sens inverse des aiguilles d'une montre`{:class="block3motion"} sont correctes
++ Assure-toi que tu as utilisé les chiffres du code ci-dessus
+
+![Un gif animé montrant la scène avec le sprite Piñata positionné en haut au centre et se balançant d'avant en arrière.](images/swinging-pinata.gif)
 
 --- /task ---
 
