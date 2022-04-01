@@ -1,30 +1,30 @@
 ---
-title: Party piñata
+title: Piñata de fiesta
 hero_image: images/banner.png
-description: Create a swinging piñata that releases treats when it is hit, and eventually breaks to reveal a birthday message
+description: Crea una piñata oscilante que libera golosinas cuando se golpea y eventualmente se rompe para revelar un mensaje de cumpleaños
 version: 4
 listed: false
 copyedit: false
 last_tested: "2021-03-26"
 steps:
   - 
-    title: Introduction
+    title: Introducción
   - 
-    title: Start the party
+    title: Empieza la fiesta
   - 
-    title: Hit the piñata
-    completion: engaged
+    title: Golpea la piñata
+    completion: comprometido
   - 
-    title: Use a stick
+    title: Usa un palo
   - 
-    title: Add some treats
+    title: Agrega algunas golosinas
   - 
-    title: Create a message
-    completion: internal
+    title: Crea un mensaje
+    completion: interno
   - 
-    title: Share your project
-    completion: external
+    title: Comparte tu proyecto
+    completion: externo
   - 
-    title: Upgrade your project
+    title: Mejora tu proyecto
   - 
-    title: What next?
+    title: '¿Qué sigue?'
