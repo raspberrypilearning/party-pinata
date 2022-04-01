@@ -1,35 +1,35 @@
-## Hit the piñata
+## Frapper la piñata
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will code the piñata to play a sound and count one hit every time the piñata is clicked.
+Dans cette étape, tu vas coder la piñata pour qu'elle émette un son et compte un coup à chaque fois que la piñata est touchée.
 </div>
 <div>
-![An animated image showing the piñata being clicked ten times. After the tenth time, the costume changes to broken and the variable disappears.](images/break-pinata.gif){:width="300px"}
+![Une image animée montrant la piñata touchée dix fois. Après la dixième fois, le costume devient cassé et la variable disparaît.](images/break-pinata.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Click on the **Sounds** tab for the **Piñata** sprite and you will find a **Boing** sound. Click on the **Play** icon to hear the sound.
+Clique sur l'onglet **Son** pour le sprite **Piñata** et tu trouveras un son **Boing**. Clique sur l'icône **Jouer** pour entendre le son.
 
 ![The Sounds tab showing the Boing sound in the Sounds list with the Play icon (a white triangle in a blue circle) highlighted at the bottom.](images/play-boing.png)
 
 --- /task ---
 
-A group of connected blocks in Scratch is called a **script**. Sprites can have more than one script.
+Un groupe de blocs connectés dans Scratch est appelé un **script**. Les sprites peuvent avoir plusieurs scripts.
 
 --- task ---
 
-Click on the **Code** tab. From `Events`{:class="block3events"}, drag a `when this sprite clicked`{:class="block3events"} block into the Code area to start a new script.
+Clique sur l'onglet **Code**. À partir de `Événements`{:class="block3events"}, fais glisser un bloc `quand ce sprite est cliqué`{:class="block3events"} dans la zone Code pour démarrer un nouveau script.
 
-In the `Sound`{:class="block3sound"} blocks menu, find the `start sound`{:class="block3sound"} block. Drag it underneath the `when this sprite clicked`{:class="block3events"} block:
+Dans le menu des blocs `Son`{:class="block3sound"}, recherche le bloc `jouer le son`{:class="block3sound"}. Fais-le glisser sous le bloc `quand ce sprite est cliqué`{:class="block3events"} :
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
 ```blocks3
-when this sprite clicked
-start sound [Boing v]
+quand ce sprite est cliqué
+jouer le son [Boing v]
 ```
 
 --- /task ---
