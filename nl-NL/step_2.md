@@ -45,12 +45,12 @@ Klik op de **Piñata** sprite in de Sprite-lijst en klik vervolgens op het **Uit
 
 Klik op het **Code** tabblad. Ga naar de `Uiterlijken`{:class="block3looks"} blokken en sleep een `verander uiterlijk naar`{:class="block3looks"} blok naar het codegebied.
 
-Click on the costume name to open a **drop-down menu** then select the `whole`{:class="block3looks"} costume:
+Klik op de naam van het uiterlijk om een **vervolgkeuze menu** te openen en selecteer vervolgens het `hele`{:class="block3looks"} uiterlijk:
 
 ![Het pictogram van de Piñata-sprite.](images/pinata-sprite.png)
 
 ```blocks3
-switch costume to (whole v) // Update to 'whole'
+verander uiterlijk naar (heel v) // Verander naar 'heel'
 ```
 
 ![Een geanimeerde afbeelding waarin het verander uiterlijk blok gesleept wordt naar het codegebied.](images/switch-costume.gif)
@@ -137,7 +137,7 @@ draai rechtsom (1) graden // Verander naar 1
 
 **Test:** Voer je project uit door op de **groene vlag** boven het speelveld te klikken om de piñata te zien slingeren.
 
-**Mmm, something is not quite right!** When an object is hung from the ceiling, it won't just rotate in one direction, it will swing back and forth.
+**Mmm, er klopt iets niet!** Wanneer een object aan het plafond wordt gehangen, zal het niet alleen in één richting draaien, maar heen en weer zwaaien.
 
 Stop je project door op het **rode stoppictogram** boven het speelveld te klikken.
 
