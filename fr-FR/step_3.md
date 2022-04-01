@@ -13,7 +13,7 @@ Dans cette étape, tu vas coder la piñata pour qu'elle émette un son et compte
 
 Clique sur l'onglet **Son** pour le sprite **Piñata** et tu trouveras un son **Boing**. Clique sur l'icône **Jouer** pour entendre le son.
 
-![The Sounds tab showing the Boing sound in the Sounds list with the Play icon (a white triangle in a blue circle) highlighted at the bottom.](images/play-boing.png)
+![L'onglet Sons affichant le son Boing dans la liste Sons avec l'icône Lecture (un triangle blanc dans un cercle bleu) en surbrillance en bas.](images/play-boing.png)
 
 --- /task ---
 
@@ -25,7 +25,7 @@ Clique sur l'onglet **Code**. À partir de `Événements`{:class="block3events"}
 
 Dans le menu des blocs `Son`{:class="block3sound"}, recherche le bloc `jouer le son`{:class="block3sound"}. Fais-le glisser sous le bloc `quand ce sprite est cliqué`{:class="block3events"} :
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![L'icône du sprite Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 quand ce sprite est cliqué
@@ -46,17 +46,17 @@ Une `variable`{:class="block3variables"} est un moyen de stocker des nombres et/
 
 Dans le menu des blocs `Variables`{:class="block3variables"}, clique sur le bouton **Créer une Variable**.
 
-![The variables blocks menu with the 'Makes a Variable' button.](images/make-variable.png)
+![Le menu des blocs de variables avec le bouton 'Créer une Variable'.](images/make-variable.png)
 
 Appelle ta nouvelle variable **coups**:
 
-![The 'New variable' pop-up window with the name 'hits' typed in the 'New variable name' box.](images/new-variable.png)
+![La fenêtre pop-up 'Nouvelle variable' avec le nom 'hits' tapé dans la case 'Nouveau nom de variable'.](images/new-variable.png)
 
 **Remarque :** La nouvelle variable "coups" apparaît sur la scène et peut désormais être utilisée dans les blocs `Variable`{:class="block3variables"}.
 
-![The hits variable on the Stage.](images/variable-stage.png)
+![La variable coups sur la scène.](images/variable-stage.png)
 
-![The Variable blocks including new 'hits' block.](images/variable-blocks.png)
+![Les blocs variables, y compris le nouveau bloc 'coups'.](images/variable-blocks.png)
 
 --- /task ---
 
@@ -68,7 +68,7 @@ Fais glisser le bloc `mettre coups à 0`{:class="block3variables"} dans le premi
 
 Ton code devrait ressembler à ceci:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![L'icône du sprite Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 quand le drapeau est cliqué
@@ -96,7 +96,7 @@ Chaque fois que le sprite **Piñata** est cliqué, le nombre de `coups`{:class="
 
 Ajoute un bloc pour changer `coups`{:class="block3variables"} par `1`{:class="block3variables"} lorsque le sprite **Piñata** est cliqué :
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![L'icône du sprite Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 quand ce sprite est cliqué
@@ -110,7 +110,7 @@ jouer le son [Boing v]
 
 **Test :** Exécute ton projet plusieurs fois. Vérifie que `coups`{:class="block3variables"} commence toujours à `0`{:class="block3variables"} et augmente de `1`{:class="block3variables"} à chaque fois que tu cliques sur le sprite **Piñata** .
 
-![The Stage showing the number stored in the hits variable is '8'.](images/hits-increase.png)
+![La scène montrant que le nombre stocké dans la variable coups est '8'.](images/hits-increase.png)
 
 --- /task ---
 
@@ -126,7 +126,7 @@ Nous utilisons <span style="color: #0faeb0">**conditions**</span> tout le temps 
 
 Va au menu des blocs `Contrôle`{:class="block3control"}. Fais glisser un bloc `si`{:class="block3control"} dans la zone de code et insére-le autour des blocs dans ton script `quand ce sprite est cliqué `{:class="block3events"} :
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![L'icône du sprite Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 quand ce est cliqué
@@ -142,17 +142,17 @@ Le bloc `si`{:class="block3control"} a une entrée en forme d'hexagone où tu pe
 
 --- task ---
 
-The **Piñata** sprite should play a sound and increase the count of `hits`{:class="block3variables"} **`if`{:class="block3control"}** the number of `hits`{:class="block3variables"} is `less than`{:class="block3operators"} `10`{:class="block3variables"}.
+Le sprite **Piñata** doit jouer un son et augmenter le nombre de `coups`{:class="block3variables"} **`si`{:class="block3control"}** le nombre de `coups`{:class="block3variables" "} est `inférieur à`{:class="block3operators"} `10`{:class="block3variables"}.
 
-First add a `<`{:class="block3operators"} operator into the hexagon-shaped input:
+Ajoute d'abord un opérateur `<`{:class="block3operators"} dans l'entrée en forme d'hexagone :
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![L'icône du sprite Piñata.](images/pinata-sprite.png)
 
 ```blocks3
-when this sprite clicked
-+ if <() < ()> then
-start sound [Boing v]
-change [hits v] by (1)
+quand ce sprite est cliqué
++ si <() < ()> alors
+jouer le son [Boing v]
+ajouter (1) à [hits v]
 
 ```
 
@@ -160,15 +160,15 @@ change [hits v] by (1)
 
 --- task ---
 
-Finish building the `if`{:class="block3control"} condition by dragging in the `hits`{:class="block3variables"} variable to the left of the `<`{:class="block3operators"} operator and typing the value '10' on the right:
+Termine la création de la condition `si`{:class="block3control"} en faisant glisser la variable `coups`{:class="block3variables"} à gauche de l'opérateur `<`{:class="block3operators"} et en tapant la valeur '10' à droite :
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![L'icône du sprite Piñata.](images/pinata-sprite.png)
 
 ```blocks3
-when this sprite clicked
-+ if <(hits) < (10)> then
-start sound [Boing v]
-change [hits v] by (1)
+quand ce sprite est cliqué
++ si <(coups) < (10)> alors
+jouer le son [Boing v]
+ajouter (1) à [coups v]
 
 ```
 
@@ -176,25 +176,25 @@ change [hits v] by (1)
 
 --- task ---
 
-**Test:** Run your project again. Hit the piñata 10 times to hear the sound and see the `hits`{:class="block3variables"} variable increase.
+**Test :** Exécute à nouveau ton projet. Frappe la piñata 10 fois pour entendre le son et voir la variable `coups`{:class="block3variables"} augmenter.
 
-Hit the piñata a few more times. The `hits`{:class="block3variables"} variable will not go above 10 because that condition is no longer 'true' so the code inside the `if`{:class="block3control"} block won't run.
+Frappe la piñata plusieurs fois. La variable `hits`{:class="block3variables"} ne dépassera pas 10, car cette condition n'est plus "vraie", donc le code à l'intérieur du bloc `si`{:class="block3control"} ne s'exécutera pas.
 
 --- /task ---
 
 --- task ---
 
-Add a second `if`{:class="block3control"} block inside the first. This time the condition will check if `hits`{:class="block3variables"} `=`{:class="block3operators"} 10 and if 'true' the costume will change to `broken`{:class="block3looks"}:
+Ajoute un deuxième bloc `si`{:class="block3control"} à l'intérieur du premier. Cette fois, la condition vérifiera si `coups`{:class="block3variables"} `=`{:class="block3operators"} 10 et si 'vrai' le costume changera en `cassé`{:class="block3looks" } :
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![L'icône du sprite Piñata.](images/pinata-sprite.png)
 
 ```blocks3
-when this sprite clicked
-if <(hits) < (10)> then
-start sound [Boing v]
-change [hits v] by (1)
-+ if <(hits)=(10)> then
-switch costume to (broken v)
+quand ce sprite est cliqué
+si <(coups) < (10)> alors
+jouer le son [Boing v]
+ajouter (1) à [coups v]
++ si <(coups)=(10)> alors
+basculer le costume sur (v cassé)
 
 ```
 
@@ -202,42 +202,42 @@ switch costume to (broken v)
 
 --- task ---
 
-**Test:** Run your project a couple of times. Check that the **Piñata** sprite starts with the 'whole' costume then changes to the 'broken' costume after `10 hits`{:class="block3variables"}.
+**Test :** Exécute ton projet plusieurs fois. Vérifie que le sprite **Piñata** commence par le costume « entier » puis passe au costume « cassé » après `10 coups`{:class="block3variables"}.
 
-![An animated image showing the piñata being clicked ten times. After the tenth time, the costume changes to broken.](images/break-pinata.gif)
+![Une image animée montrant la piñata cliquée dix fois. Après la dixième fois, le costume devient cassé.](images/break-pinata.gif)
 
 --- /task ---
 
-When the **Piñata** sprite has broken, all the other sprites need to know that the party has started.
+Lorsque le sprite **Piñata** est cassé, tous les autres sprites doivent savoir que la fête a commencé.
 
-In Scratch, the `broadcast`{:class="block3events"} block can be used to **send** a message that all sprites can **receive**.
+Dans Scratch, le bloc `envoyé à tous`{:class="block3events"} peut être utilisé pour **envoyer** un message que tous les sprites peuvent **recevoir**.
 
 --- task ---
 
-Add a `broadcast message`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu:
+Ajoute un bloc `envoyer à tous`{:class="block3events"} depuis le menu des blocs `Événements`{:class="block3events"} :
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![L'icône du sprite Piñata.](images/pinata-sprite.png)
 
 ```blocks3
-when this sprite clicked
-if <(hits) < (10)> then
-start sound [Boing v]
-change [hits v] by (1)
-if <(hits)=(10)> then
-switch costume to (broken v)
-+ broadcast (message1 v)
+quand ce sprite est cliqué
+si <(coups) < (10)> alors
+jouer le son [Boing v]
+ajouter (1) à [coups v] 
+si <(coups)=(10)> alors
+basculer sur le costume ( cassé v)
++ envoyer à tous (message1 v)
 ```
 
-Click on `message1`{:class="block3events"} and choose **New message**. Name the new message `party`{:class="block3events"}.
+Clique sur `message1`{:class="block3events"} et choisis **Nouveau message**. Nomme le nouveau message `fête`{:class="block3events"}.
 
-![The drop-down menu on the broadcast block showing the 'New message' menu option.](images/new-message.png)
+![Le menu déroulant du bloc envoyer à tous affichant l'option de menu "Nouveau message".](images/new-message.png)
 
-![The New message pop-up window with 'New message name' box highlighted and the typed word 'party'.](images/party-message.png)
+![La fenêtre contextuelle Nouveau message avec la case "Nom du nouveau message" en surbrillance et le mot "fête" saisi.](images/party-message.png)
 
-Your `broadcast`{:class="block3events"} block will look like this:
+Ton bloc `envoyer à tous`{:class="block3events"} ressemblera à ceci :
 
 ```blocks3
-broadcast (party v)
+envoyer à tous (fête v)
 ```
 
 --- /task ---
