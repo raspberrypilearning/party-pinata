@@ -45,12 +45,12 @@ Clique sur le sprite **Piñata** dans la liste Sprite et sélectionne l'onglet *
 
 Clique sur l'onglet **Code**. Va dans le menu des blocs `Apparence`{:class="block3looks"} puis fais glisser un bloc `basculer sur le costume/0>{:class="block3looks"} vers la zone Code. </p>
 
-<p spaces-before="0">Click on the costume name to open a <strong x-id="1">drop-down menu</strong> then select the <code>whole`{:class="block3looks"} costume:
+<p spaces-before="0">Clique sur le nom du costume pour ouvrir un <strong x-id="1">menu déroulant</strong> puis sélectionne le costume <code>entier`{:class="block3looks"} :
 
 ![L'icône du sprite Piñata.](images/pinata-sprite.png)
 
 ```blocks3
-switch costume to (whole v) // Update to 'whole'
+basculer sur le costume (entier v) // Mise à jour vers 'entier'
 ```
 
 ![Une image animée montrant le bloc de basculer sur le costume glissé du menu des blocs Apparence vers la zone Code.](images/switch-costume.gif)
