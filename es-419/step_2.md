@@ -1,29 +1,29 @@
-## Start the party
+## Empieza la fiesta
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will choose a piñata costume and code the piñata to swing.
+En este paso, elegirás un disfraz de piñata y programarás la piñata para balancearse.
 </div>
 <div>
-![An animated gif showing the stage with the piñata sprite positioned at the top centre and swinging left to right.](images/swinging-pinata.gif){:width="300px"}
+![Un gif animado que muestra el escenario con el objeto piñata colocado en la parte superior central y balanceándose de izquierda a derecha.](images/swinging-pinata.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Open the [Party piñata starter project](https://scratch.mit.edu/projects/653082997/editor){:target="_blank"}. Scratch will open in another browser tab.
+Abre el [proyecto inicial Piñata de fiesta](https://scratch.mit.edu/projects/653082997/editor){:target="_blank"}. Trinket se abrirá en otra pestaña del navegador.
 
 [[[working-offline]]]
 
 --- /task ---
 
-The Scratch editor looks like this:
+El editor de Scratch se ve así:
 
-![An annotated screenshot of the Scratch editor, with the Stage, Stage pane, Sprite pane, Sprite list, and Code area labelled.](images/scratch-interface.png)
+![Una captura de pantalla anotada del editor de Scratch, con el escenario, el panel de escenario, el panel de objetos, la lista de objetos y el área de programación etiquetados.](images/scratch-interface.png)
 
-The **Stage** is where your project runs and a **backdrop** changes the way that the Stage looks. A Code Club party backdrop has been added for you.
+El **escenario** es donde se ejecuta tu proyecto y un **fondo** cambia la forma en que se ve el escenario. Hemos agregado un fondo de fiesta de Code Club por ti.
 
-In Scratch, characters and objects are called **sprites**, and they appear on the Stage. You can see the **Piñata** and **Stick** sprites on the Stage.
+En Scratch, los personajes y cosas se denominan **objetos**y aparecen en el escenario. You can see the **Piñata** and **Stick** sprites on the Stage.
 
 ![The stage with a patterned blue backdrop with presents and balloons. Also on the Stage are the Piñata and Stick sprites.](images/backdrop-and-sprites.png)
 
