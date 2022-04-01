@@ -67,7 +67,7 @@ Fais glisser un bloc `Quand le drapeau est cliqué`{:class="block3events"} depui
 
 ```blocks3
 + quand le drapeau est cliqué
-basculer sur le costume (tout v)
+basculer sur le costume (entier v)
 ```
 ![Le bloc quand le drapeau est cliqué est ajouté à la zone de code et connecté au bloc de basculer sur le costume.](images/add-flag-clicked.gif)
 
@@ -83,7 +83,7 @@ Dans le menu des blocs `Mouvement`{:class="block3motion"}, trouve les blocs `all
 
 ```blocks3
 quand le drapeau est cliqué
-basculer sur le costume (tout v)
+basculer sur le costume (entier v)
 + aller à x : (0) y : (180)
 + s'orienter à (90) // Position prête
 ```
@@ -100,7 +100,7 @@ Fais glisser un bloc `répéter indéfiniment`{:class="block3control"} depuis le
 
 ```blocks3
 quand le drapeau est cliqué
-basculer sur le costume (tout v)
+basculer sur le costume (entier v)
 aller à x : (0) y : (180)
 s'orienter à (90) 
 + répéter indéfiniment
@@ -122,7 +122,7 @@ Change les `15`{:class="block3motion"} degrés en `1`{:class="block3motion"} deg
 
 ```blocks3
 quand le drapeau est cliqué
-basculer sur le costume (tout v)
+basculer sur le costume (entier v)
 aller à x : (0) y : (180)
 s'orienter à (90)
 répéter indéfiniment
@@ -137,7 +137,7 @@ tourner à droite (1) degrés // Passer à 1
 
 **Test :** Exécute ton projet, en cliquant sur le **drapeau vert** au-dessus de la scène, pour voir la piñata se balancer.
 
-**Mmm, something is not quite right!** When an object is hung from the ceiling, it won't just rotate in one direction, it will swing back and forth.
+**Mmm, quelque chose ne va pas !** Lorsqu'un objet est suspendu au plafond, il ne tourne pas seulement dans une direction, il oscille d'avant en arrière.
 
 Arrête ton projet en cliquant sur **l'icône d'arrêt rouge** au-dessus de la scène.
 
@@ -155,7 +155,7 @@ Ajoute du code à ta boucle `répéter indéfiniment`{:class="block3control"} po
 
 ```blocks3
 quand le drapeau est cliqué
-basculer sur le costume (tout v)
+basculer sur le costume (entier v)
 aller à x : (0) y : (180)
 s'orienter à (90)
 répéter indéfiniment
@@ -163,10 +163,10 @@ répéter (10) fois // Se balance de 10 degrés dans le sens des aiguilles d'une
 tourner à droite (1) degrés 
 fin
 + répéter (20) fois // Balance de 20 degrés dans le sens inverse des aiguilles d'une montre à travers le centre
-tournez à gauche (1) degrés // Passez à 1
+tournez à gauche (1) degrés // Passe à 1
 fin
 + répéter (10) fois // Balance de 10 degrés dans le sens des aiguilles d'une montre vers le centre
-tourner à droite (1) degrés // Passer à 1
+tourner à droite (1) degrés // Passe à 1
 fin
 ```
 
