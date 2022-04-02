@@ -19,7 +19,7 @@ Clique sur le sprite **Friandises** dans la liste Sprite et sélectionne l'ongle
 
 Il y a 26 costumes de friandises - et tu vas tous les utiliser !
 
-![The specially created treat images shown as a collection of treats.](images/treats.png)
+![Les images de friandises spécialement créées sont présentées comme une collection de friandises.](images/treats.png)
 
 --- /task ---
 
@@ -27,7 +27,7 @@ Il y a 26 costumes de friandises - et tu vas tous les utiliser !
 
 Clique sur l'onglet **Code** puis crée un script pour `masquer`{:class="block3looks"} les friandises dans la piñata au démarrage de ton projet :
 
-![The Treats sprite icon.](images/treats-sprite.png)
+![L'icône du sprite Friandises.](images/treats-sprite.png)
 
 ```blocks3
 quand le drapeau est cliqué
@@ -49,7 +49,7 @@ Clique sur le sprite **Piñata**.
 
 Insére une boucle `répéter`{:class="block3control"} dans votre code existant. Change la valeur en `4`{:class="block3control"} puis ajoute un bloc `créer clone de moi-même`{:class="block3control"}. Utilise la flèche déroulante pour sélectionner le sprite `Friandises`{:class="block3control"} :
 
-![The Pinata sprite icon.](images/pinata-sprite.png)
+![L'icône du sprite Pinata.](images/pinata-sprite.png)
 
 ```blocks3
 quand ce sprite a cliqué
@@ -66,7 +66,7 @@ envoyer à tous (fête v)
 
 **Astuce :** Utilise l'espace disponible dans la zone Code pour créer ton nouveau code, puis fais-le glisser dans le script existant :
 
-![The repeat and clone blocks are assembled on their own in the Code area before being dragged into position in the script.](images/code-area.gif) --- /task ---
+![Les blocs de répétition et de clonage sont assemblés seuls dans la zone de code avant d'être déplacés en position dans le script.](images/code-area.gif) --- /task ---
 
 --- task ---
 
@@ -76,7 +76,7 @@ Crée un nouveau script en utilisant le bloc `quand je commence comme un clone`{
 
 Ajoute des blocs depuis le menu des blocs `Apparence`{:class="block3looks"} pour contrôler l'apparence de chaque nouveau clone :
 
-![The Treats sprite icon.](images/treats-sprite.png)
+![L'icône du sprite Friandises.](images/treats-sprite.png)
 
 ```blocks3
 quand je commence comme un clone
@@ -91,7 +91,7 @@ basculer sur le costume (Knafeh v)
 
 Tu peux choisir des friandises aléatoires à libérer lorsque la piñata est touchée. Utilise un opérateur `nombre aléatoire`{:class="block3operators"} pour sélectionner un costume au hasard de `1`{:class="block3operators"} à `26`{:class="block3operators"} chaque fois qu'un clone est créé :
 
-![The Treats sprite icon.](images/treats-sprite.png)
+![L'icône du sprite Friandises.](images/treats-sprite.png)
 
 ```blocks3
 quand je commence comme un clone
@@ -106,51 +106,51 @@ aller à l'[arrière v] plan
 
 Pour le moment, les clones **Friandises** apparaîtront derrière le sprite **Piñata** , mais les friandises devraient tomber de la piñata à une position aléatoire.
 
-Add code to make the cloned **Treats** sprites `glide`{:class="block3motion"} to a random position:
+Ajoute du code pour que les sprites clonés **Friandises** `glisse`{:class="block3motion"} vers une position aléatoire :
 
-![The Treats sprite icon.](images/treats-sprite.png)
+![L'icône du sprite Friandises.](images/treats-sprite.png)
 
 ```blocks3
-when I start as a clone
-show
-go to [back v] layer
-switch costume to (pick random (1) to (26))
-+ glide (1) secs to (random position v) 
+quand je commence comme un clone
+montrer
+aller à l'[arrière v] plan
+basculer sur le costume (choisir au hasard (1) à (26))
++ glisser en (1) secondes à (position aléatoire v) 
 ```
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your project and hit the piñata to see four clones of the **Treats** sprite after each hit. The costumes will be selected at random and the treats will each glide to a random position.
+**Test :** Exécute ton projet et appuie sur la piñata pour voir quatre clones du sprite **Friandises** après chaque coup. Les costumes seront sélectionnés au hasard et les friandises glisseront chacune vers une position aléatoire.
 
-![An animated image showing the pinata being hit three times. Each time, four random treats fall out to random positions.](images/four-treats.gif)
+![Une image animée montrant la pinata frappée trois fois. À chaque fois, quatre friandises aléatoires tombent dans des positions aléatoires.](images/four-treats.gif)
 
 --- /task ---
 
 --- task ---
 
-Add animation to make the **Treats** sprite clones `turn`{:class="block3motion"} `forever`{:class="block3control"} when they reach their random position. Remember animations work best when small movements are used, so change the number of degrees to `1`{:class="block3motion"}:
+Ajoute une animation pour que les clones sprite **Friandises** `tournent`{:class="block3motion"} `indéfiniment`{:class="block3control"} lorsqu'ils atteignent leur position aléatoire. N'oublie pas que les animations fonctionnent mieux lorsque de petits mouvements sont utilisés, alors change le nombre de degrés à `1`{:class="block3motion"} :
 
-![The Treats sprite icon.](images/treats-sprite.png)
+![L'icône du sprite Friandises.](images/treats-sprite.png)
 
 ```blocks3
-when I start as a clone
-show
-go to [back v] layer
-switch costume to (pick random (1) to (26)
-glide (1) secs to (random position v) 
-+ forever
-turn right (1) degrees
+quand je commence comme un clone
+montrer
+allez à l'[arrière v] plan
+basculer sur le costume (choisissez au hasard (1) à (26))
+glissez en (1) secondes à (position aléatoire v) 
++ répéter indéfiniment
+tournez à droite de (1 ) degrés
 ```
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your project again to see the **Treats** sprite clones spin.
+**Test :** Exécute à nouveau ton projet pour voir les clones sprite **Friandises** tourner.
 
-![An animated image showing the pinata being hit multiple times. Each time, four random treats fall out to random positions then slowly rotate in a circle.](images/spinning-treats.gif)
+![Une image animée montrant la pinata frappée plusieurs fois. Chaque fois, quatre friandises aléatoires tombent dans des positions aléatoires puis tournent lentement en cercle.](images/spinning-treats.gif)
 
 --- /task ---
 
