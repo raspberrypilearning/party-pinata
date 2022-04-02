@@ -1,17 +1,17 @@
-## Use a stick
+## Utiliser un bâton
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Piñatas are usually hit with a stick made from wood or thick card that is covered in colourful strips of paper. In this step, you will add code to control the piñata stick and play looping music when the piñata breaks. 
+Les piñatas sont généralement frappées avec un bâton en bois ou en carton épais recouvert de bandes de papier colorées. Dans cette étape, tu vas ajouter du code pour contrôler le bâton de piñata et jouer de la musique en boucle lorsque la piñata se casse. 
 </div>
 <div>
-![An animated image showing the Stick sprite following the mouse-pointer around the Stage.](images/follow-stick.gif){:width="300px"}
+![Une image animée montrant le sprite baton suivant le pointeur de la souris autour de la scène.](images/follow-stick.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Click on the **Stick** sprite in the Sprite list. Add code so that the stick always stays in front of the other sprites and follows the mouse-pointer (or your finger on a tablet).
+Clique sur le sprite **Baton** dans la liste Sprite. Add code so that the stick always stays in front of the other sprites and follows the mouse-pointer (or your finger on a tablet).
 
 Use the `go to random position`{:class="block3motion"} block, but select `mouse-pointer`{:class="block3motion"} from the drop-down menu:
 
