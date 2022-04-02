@@ -1,23 +1,23 @@
-## Add some treats
+## Ajouter quelques friandises
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Piñatas are full of treats and when they start to break, the treats fall out. In this step, you will animate international food treats to fall out of the piñata each time it is hit. Do you recognise any of the treats?
+Les piñatas sont pleines de friandises et quand elles commencent à se casser, les friandises tombent. Dans cette étape, tu animeras des friandises internationales pour qu'elles tombent de la piñata à chaque fois qu'elle est frappée. Reconnais-tu l'une des friandises?
 </div>
 <div>
-![An animated image showing the piñata being hit multiple times. Each time, four random treats fall out to random positions then slowly rotate in a circle.](images/spinning-treats.gif){:width="300px"}
+![Une image animée montrant la piñata frappée plusieurs fois. À chaque fois, quatre friandises aléatoires tombent dans des positions aléatoires puis tournent lentement en cercle.](images/spinning-treats.gif){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">**costume**</span> in Scratch is an image that changes the way a sprite looks. Our **graphic designers** asked Code Club leaders around the world to tell them what treats they would have at a party. Hopefully, some of the treat costumes they created will be familiar to you — and others completely new.      
+Un <span style="color: #0faeb0">**costume**</span> dans Scratch est une image qui change l'apparence d'un sprite. Nos **graphistes** ont demandé aux dirigeants de Code Club du monde entier de leur dire quelles friandises ils auraient lors d'une fête. Espérons que certains des costumes de friandises qu'ils ont créés te seront familiers – et d'autres complètement nouveaux.      
 </p>
 
 --- task ---
 
-Click on the **Treats** sprite in the Sprite list and select the **Costumes** tab.
+Clique sur le sprite **Friandises** dans la liste Sprite et sélectionne l'onglet **Costumes**.
 
-There are 26 treat costumes — and you are going to use them all!
+Il y a 26 costumes de friandises - et tu vas tous les utiliser !
 
 ![The specially created treat images shown as a collection of treats.](images/treats.png)
 
@@ -25,86 +25,86 @@ There are 26 treat costumes — and you are going to use them all!
 
 --- task ---
 
-Click on the **Code** tab then create a script to `hide`{:class="block3looks"} the treats in the piñata when your project starts:
+Clique sur l'onglet **Code** puis crée un script pour `masquer`{:class="block3looks"} les friandises dans la piñata au démarrage de ton projet :
 
 ![The Treats sprite icon.](images/treats-sprite.png)
 
 ```blocks3
-when flag clicked
-hide
-go to x: (0) y: (100)
+quand le drapeau est cliqué
+masquer
+aller à x : (0) y : (100)
 ```
 
 --- /task ---
 
-Four treats will escape the piñata each time the piñata is hit. By **cloning** the **Treats** sprite, you can create multiple treats.
+Quatre friandises échapperont de la piñata à chaque fois que la piñata est frappée. En **clonant** le sprite **Friandises** , tu peux créer plusieurs friandises.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">**clone**</span> in Scratch is a copy of a sprite. It has all the same code, costumes, and sounds of the original sprite.      
+Un <span style="color: #0faeb0">**clone**</span> dans Scratch est une copie d'un sprite. Il a tous le même code, les mêmes costumes et les mêmes sons que le sprite original.      
 </p>
 
 --- task ---
 
-Click on the **Piñata** sprite.
+Clique sur le sprite **Piñata**.
 
-Insert a `repeat`{:class="block3control"} loop into your existing code. Change the value to `4`{:class="block3control"} then add a `create clone of myself`{:class="block3control"} block. Use the drop-down arrow to select the `Treats`{:class="block3control"} sprite:
+Insére une boucle `répéter`{:class="block3control"} dans votre code existant. Change la valeur en `4`{:class="block3control"} puis ajoute un bloc `créer clone de moi-même`{:class="block3control"}. Utilise la flèche déroulante pour sélectionner le sprite `Friandises`{:class="block3control"} :
 
 ![The Pinata sprite icon.](images/pinata-sprite.png)
 
 ```blocks3
-when this sprite clicked
-if <(hits) < (10)> then
-start sound [Boing v]
-change [hits v] by (1)
-+ repeat (4) // Change to 4
-create clone of (Treats v) // Select Treats
-end
-if <(hits)=(10)> then
-switch costume to (broken v)
-broadcast (party v)
+quand ce sprite a cliqué
+si <(coups) < (10)> alors
+jouer le son [Boing v]
+ajouter (1) à [coups v] 
++ répéter (4) // Changer en 4
+créer un clone de (Friandises v) // Sélectionne Friandises
+fin
+if <(hits)=(10)> alors
+basculer sur le costume (cassé v)
+envoyer à tous (fête v)
 ```
 
-**Tip:** Use the spare space in the Code area to build your new code then drag it into the existing script:
+**Astuce :** Utilise l'espace disponible dans la zone Code pour créer ton nouveau code, puis fais-le glisser dans le script existant :
 
 ![The repeat and clone blocks are assembled on their own in the Code area before being dragged into position in the script.](images/code-area.gif) --- /task ---
 
 --- task ---
 
-Click on the **Treats** sprite.
+Clique sur le sprite **Friandises**.
 
-Create a new script using the `when I start as a clone`{:class="block3control"} block.
+Crée un nouveau script en utilisant le bloc `quand je commence comme un clone`{:class="block3control"}.
 
-Add blocks from the `Looks`{:class="block3looks"} blocks menu to control the appearance of each new clone:
+Ajoute des blocs depuis le menu des blocs `Apparence`{:class="block3looks"} pour contrôler l'apparence de chaque nouveau clone :
 
 ![The Treats sprite icon.](images/treats-sprite.png)
 
 ```blocks3
-when I start as a clone
-show
-go to [back v] layer // Change to back
-switch costume to (Knafeh v)
+quand je commence comme un clone
+montrer
+aller à l [arrière v] plan // Passer au dos
+basculer sur le costume (Knafeh v)
 ```
 
 --- /task ---
 
 --- task ---
 
-You can pick random treats to be released when the piñata is hit. Use a `pick random`{:class="block3operators"} operator to select a random costume from `1`{:class="block3operators"} to `26`{:class="block3operators"} each time a clone is created:
+Tu peux choisir des friandises aléatoires à libérer lorsque la piñata est touchée. Utilise un opérateur `nombre aléatoire`{:class="block3operators"} pour sélectionner un costume au hasard de `1`{:class="block3operators"} à `26`{:class="block3operators"} chaque fois qu'un clone est créé :
 
 ![The Treats sprite icon.](images/treats-sprite.png)
 
 ```blocks3
-when I start as a clone
-show
-go to [back v] layer 
-+ switch costume to (pick random (1) to (26)) // Change to 26
+quand je commence comme un clone
+montrer
+aller à l'[arrière v] plan 
++ basculer sur le costume (nombre aléatoire entre (1) et (26)) // Passer à 26
 ```
 
 --- /task ---
 
 --- task ---
 
-At the moment, the **Treats** clones will appear behind the **Piñata** sprite, but treats should fall from the piñata to a random position.
+Pour le moment, les clones **Friandises** apparaîtront derrière le sprite **Piñata** , mais les friandises devraient tomber de la piñata à une position aléatoire.
 
 Add code to make the cloned **Treats** sprites `glide`{:class="block3motion"} to a random position:
 
