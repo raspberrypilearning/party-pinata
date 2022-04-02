@@ -11,78 +11,78 @@ Les piñatas sont généralement frappées avec un bâton en bois ou en carton �
 
 --- task ---
 
-Clique sur le sprite **Baton** dans la liste Sprite. Add code so that the stick always stays in front of the other sprites and follows the mouse-pointer (or your finger on a tablet).
+Clique sur le sprite **Baton** dans la liste Sprite. Ajoute du code pour que le baton reste toujours devant les autres sprites et suive le pointeur de la souris (ou ton doigt sur une tablette).
 
-Use the `go to random position`{:class="block3motion"} block, but select `mouse-pointer`{:class="block3motion"} from the drop-down menu:
+Utilise le bloc `aller à position aléatoire`{:class="block3motion"}, mais sélectionne `pointeur de souris`{:class="block3motion"} dans le menu déroulant :
 
-![The Stick sprite icon](images/stick-sprite.png)
+![L'icône du sprite Baton](images/stick-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-go to [front v] layer
-go to (mouse-pointer v) // Change to mouse-pointer
+quand le drapeau est cliqué
+répéter indéfiniment
+aller à l' [avant v] plan
+aller à (pointeur de souris v) // Changer en pointeur de souris
 ```
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your project and check the **Stick** sprite follows your cursor or finger around the Stage.
+**Test :** Exécute ton projet et vérifie que le sprite **Baton** suit ton curseur ou ton doigt autour de la scène.
 
-![An animated image showing the Stick sprite following the mouse-pointer around the Stage.](images/follow-stick.gif)
-
---- /task ---
-
-There are many different types of sounds in Scratch from voice and animal noises to over 100 other sound effects.
-
-Scratch also has **looping sounds** that can be used in `forever`{:class="block3control"} or `repeat`{:class="block3control"} loops to sound like they are playing continuously.
-
---- task ---
-
-Go to the **Sounds** tab and click on the **Choose a sound** icon.
-
-![The Choose a sound icon with the sounds pop-up menu. When selected, the choose a sound icon is a white speaker on a green circle.](images/sound-icon.png)
+![Une image animée montrant le sprite Baton suivant le pointeur de la souris autour de la scène.](images/follow-stick.gif)
 
 --- /task ---
 
+Il existe de nombreux types de sons différents dans Scratch, des bruits de voix et d'animaux à plus de 100 autres effets sonores.
+
+Scratch a également **sons en boucle** qui peuvent être utilisés dans les boucles ` répéter indéfiniment`{:class="block3control"} ou `répéter` {:class="block3control"} pour donner l'impression qu'elles jouent en continu.
+
 --- task ---
 
-From the **Choose a sound** gallery, select the **Loops** category.
+Va dans l'onglet **Sons** et clique sur l'icône **Choisir un son**.
 
-![The Sound gallery with 'Loops' category highlighted in orange to show it has been selected. The other categories are in blue.](images/loops-category.png)
+![L'icône Choisir un son avec le menu local des sons. Lorsqu'elle est sélectionnée, l'icône Choisir un son est un haut-parleur blanc sur un cercle vert.](images/sound-icon.png)
 
 --- /task ---
 
 --- task ---
 
-**Choose:** Hover over the **play** icons to hear the looping sounds. Add your favourite by clicking on it.
+Dans la galerie **Choisir un son** , sélectionne la catégorie **Boucles**.
 
-![The 'Hip hop' sound with play icon highlighted in the top-right corner of the sound icon.](images/play-icon.png)
-
-The sound will then appear in your Sounds list:
-
-![The 'Hip hop' sound in the Sound list on the Sounds tab.](images/added-sound.png)
+![La galerie Son avec la catégorie « Boucles » surlignée en orange pour indiquer qu'elle a été sélectionnée. Les autres catégories sont en bleu.](images/loops-category.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab and create a new script to loop the sound `forever`{:class="block3control"} when the `party`{:class="block3events"} message has been received:
+**Choisir :** Survole les **icônes de lecture** pour entendre les sons en boucle. Ajoute ton préféré en cliquant dessus.
 
-![The Stick sprite icon.](images/stick-sprite.png)
+![Le son "Hip hop" avec l'icône de lecture en surbrillance dans le coin supérieur droit de l'icône du son.](images/play-icon.png)
+
+Le son apparaîtra alors dans ta liste Sons :
+
+![Le son "Hip hop" dans la liste des sons de l'onglet Sons.](images/added-sound.png)
+
+--- /task ---
+
+--- task ---
+
+Clique sur l'onglet **Code** et crée un nouveau script pour boucler le son `répéter indéfiniment`{:class="block3control"} lorsque le message à `fête`{:class="block3events"} a été reçu :
+
+![L'icône du sprite Baton.](images/stick-sprite.png)
 
 ```blocks3
-when I receive [party v]
-forever
-play sound [Hip Hop v] until done // Choose your sound
+quand je reçois [fête v]
+répéter indéfiniment
+jouer le son [Hip Hop v] jusqu'au bout // Choisir ton son
 ```
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your project, and click on the piñata ten times to hear the looping party music.
+**Test :** Exécute ton projet et clique dix fois sur la piñata pour entendre la musique de fête en boucle.
 
 --- /task ---
 
