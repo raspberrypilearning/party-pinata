@@ -1,4 +1,4 @@
-## Introduction
+## はじめに
 
 In this project, you will create a swinging piñata that releases treats when it is hit, and eventually breaks to reveal a birthday message.
 
