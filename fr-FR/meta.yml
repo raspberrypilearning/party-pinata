@@ -1,7 +1,7 @@
 ---
 title: Piñata de fête
 hero_image: images/banner.png
-description: Créer une piñata qui se balance qui libère des friandises lorsqu'elle est frappée, et finit par se casser pour révéler un message d'anniversaire
+description: Créer une piñata qui se balance et libère des friandises lorsqu'elle est frappée, et finit par se casser pour révéler un message d'anniversaire
 version: 4
 listed: false
 copyedit: false
@@ -13,17 +13,17 @@ steps:
     title: Commencer la fête
   - 
     title: Frapper la piñata
-    completion: engagé
+    completion: engaged
   - 
     title: Utiliser un bâton
   - 
     title: Ajouter quelques friandises
   - 
     title: Créer un message
-    completion: interne
+    completion: internal
   - 
     title: Partager ton projet
-    completion: externe
+    completion: external
   - 
     title: Améliorer ton projet
   - 
