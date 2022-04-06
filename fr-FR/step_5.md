@@ -10,7 +10,7 @@ Les piñatas sont pleines de friandises et quand elles commencent à se casser, 
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Un <span style="color: #0faeb0">**costume**</span> dans Scratch est une image qui change l'apparence d'un sprite. Nos **graphistes** ont demandé aux dirigeants de Code Club du monde entier de leur dire quelles friandises ils auraient lors d'une fête. Espérons que certains des costumes de friandises qu'ils ont créés te seront familiers – et d'autres complètement nouveaux.      
+Un <span style="color: #0faeb0">**costume**</span> dans Scratch est une image qui change l'apparence d'un sprite. Nos **graphistes** ont demandé aux responsables du Code Club du monde entier de leur dire quelles friandises ils offriraient lors d'une fête. Espérons que certains des costumes de friandises qu'ils ont créés te seront familiers – et d'autres complètement nouveaux.      
 </p>
 
 --- task ---
@@ -37,7 +37,7 @@ aller à x : (0) y : (100)
 
 --- /task ---
 
-Quatre friandises s'échapperont de la piñata chaque fois que celle-ci sera frappée. En **clonant** le sprite **Friandises** , tu peux créer plusieurs friandises.
+Quatre friandises s'échapperont de la piñata chaque fois que celle-ci sera frappée. En **clonant** le sprite **Friandises**, tu peux créer plusieurs friandises.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Un <span style="color: #0faeb0">**clone**</span> dans Scratch est une copie d'un sprite. Il possède le même code, les mêmes costumes et les mêmes sons que le sprite original.      
@@ -81,7 +81,7 @@ Ajoute des blocs depuis le menu des blocs `Apparence`{:class="block3looks"} pour
 ```blocks3
 quand je commence comme un clone
 montrer
-aller à l [arrière v] plan // Changement vers l'arrière
+aller à l'[arrière v] plan // Changement vers l'arrière
 basculer sur le costume (Knafeh v)
 ```
 
@@ -114,7 +114,7 @@ Ajoute du code pour que les sprites clonés **Friandises** `glisse`{:class="bloc
 quand je commence comme un clone
 montrer
 aller à l'[arrière v] plan
-basculer sur le costume (choisir au hasard (1) à (26))
+basculer sur le costume (nombre aléatoire entre (1) et (26))
 + glisser en (1) secondes à (position aléatoire v) 
 ```
 
@@ -137,11 +137,11 @@ Ajoute une animation pour que les clones sprite **Friandises** `tournent`{:class
 ```blocks3
 quand je commence comme un clone
 montrer
-allez à l'[arrière v] plan
+aller à l'[arrière v] plan
 basculer sur le costume (nombre aléatoire entre (1) et (26))
-glissez en (1) secondes à (position aléatoire v) 
+glisser en (1) secondes à (position aléatoire v) 
 + répéter indéfiniment
-tournez à droite de (1 ) degrés
+tourner à droite de (1 ) degrés
 ```
 
 --- /task ---
