@@ -2,10 +2,10 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-このステップでは、ピニャータのコスチュームを選択し、ピニャータがゆれるようにコーディングします。
+このステップでは、ピニャータのコスチュームをえらび、ピニャータがゆれるようにコーディングします。
 </div>
 <div>
-![中央上部に配置されたピニャータのスプライトが左右に揺れるアニメーションGIF](images / swinging-pinata.gif){:width = "300px"}
+![中央上部に配置されたピニャータのスプライトが左右にゆれるアニメーションGIF](images / swinging-pinata.gif){:width = "300px"}
 </div>
 </div>
 
@@ -27,13 +27,13 @@ Scratchでは、キャラクターとオブジェクトは**スプライト**と
 
 ![The stage with a patterned blue backdrop with presents and balloons. Also on the Stage are the Piñata and Stick sprites.](images/backdrop-and-sprites.png)
 
-いまはまだ、このパーティーではなにもハプニングがおきていません。 変えていきましょう！
+いまはまだ、このパーティーではなにもハプニングがおきていません。 かえていきましょう！
 
 --- task ---
 
-スプライトにコード、コスチューム、サウンドを設定して見た目や動きを変更できます。
+スプライトにコード、コスチューム、サウンドを設定（せってい）して見た目や動きを変更できます。
 
-Click on the **Piñata** sprite in the Sprite list and select the **Costumes** tab. There are two piñata costumes, one named 'whole' and the other named 'broken'.
+スプライトリストで**ピニャータ** をクリックし、**コスチューム** タブをクリックします。 ピニャータのコスチュームは2つあります。1つは「Whole」、もう1つは「broken」という名前です。
 
 ![Side-by-side images of the two piñata costumes. The left is a whole piñata, the right has broken open.](images/pinata-costumes.png)
 
@@ -43,21 +43,21 @@ Click on the **Piñata** sprite in the Sprite list and select the **Costumes** t
 
 --- task ---
 
-Click on the **Code** tab. Go to the `Looks`{:class="block3looks"} blocks menu then drag a `switch costume to`{:class="block3looks"} block to the Code area.
+**コード**タブをクリックします。 コードタブをクリックして、`見た目`{:class="block3looks"}の中から、 `コスチュームを__にする`{:class="block3looks"} のブロックをコードエリアにドラックします。
 
-Click on the costume name to open a **drop-down menu** then select the `whole`{:class="block3looks"} costume:
+コスチュームの名前（なまえ）をクリックして、 **ドロップダウンメニュー**をひらき、 `whole`{:class="block3looks"} というコスチュームをえらびます:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
 ```blocks3
-switch costume to (whole v) // Update to 'whole'
+コスチュームを (whole v) にする // 「whole」にかえます。
 ```
 
 ![An animated image showing the switch costume block being dragged from the Looks blocks menu to the Code area.](images/switch-costume.gif)
 
 --- /task ---
 
-Blocks can be connected together in the Code area to run more than one at a time. Connected blocks will run in order from top to bottom.
+コードエリアではブロックをつなげることで、いちどに複数（ふくすう）のブロックを実行（じっこう）できます。 つなげたブロックは、上から下に順番（じゅんばん）に実行（じっこう）されます。
 
 --- task ---
 
