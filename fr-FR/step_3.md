@@ -52,7 +52,7 @@ Appelle ta nouvelle variable **coups** :
 
 ![La fenêtre pop-up "Nouvelle variable" avec le nom "coups" tapé dans la case "Nouveau nom de variable".](images/new-variable.png)
 
-**Remarque :** La nouvelle variable "coups" apparaît sur la scène et peut désormais être utilisée dans les blocs `Variable`{:class="block3variables"}.
+**Remarque :** La nouvelle variable « coups » apparaît sur la scène et peut désormais être utilisée dans les blocs `Variable`{:class="block3variables"}.
 
 ![La variable coups sur la scène.](images/variable-stage.png)
 
@@ -101,7 +101,7 @@ Ajoute un bloc pour changer `coups`{:class="block3variables"} par `1`{:class="bl
 ```blocks3
 quand ce sprite est cliqué
 jouer le son [Boing v]
-+ ajouter (1) à [hits v]
++ ajouter (1) à [coups v]
 ```
 
 --- /task ---
@@ -224,7 +224,7 @@ si <(coups) < (10)> alors
 jouer le son [Boing v]
 ajouter (1) à [coups v] 
 si <(coups)=(10)> alors
-basculer sur le costume ( cassé v)
+basculer sur le costume (cassé v)
 + envoyer à tous (message1 v)
 ```
 
