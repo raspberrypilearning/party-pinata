@@ -36,7 +36,7 @@ jouer le son [Boing v]
 
 --- task ---
 
-**Test :** Exécute ton projet en cliquant sur le **drapeau vert** au-dessus de la Scène. Clique sur la piñata pendant qu'elle se balance pour entendre le son de boing.
+**Test :** Exécute ton projet en cliquant sur le **drapeau vert** au-dessus de la scène. Clique sur la piñata pendant qu'elle se balance pour entendre le son de boing.
 
 --- /task ---
 
@@ -44,19 +44,19 @@ Une `variable`{:class="block3variables"} est un moyen de stocker des nombres et/
 
 --- task ---
 
-Dans le menu des blocs `Variables`{:class="block3variables"}, clique sur le bouton **Créer une Variable**.
+Dans le menu des blocs `Variables`{:class="block3variables"}, clique sur le bouton **Créer une variable**.
 
-![Le menu des blocs de variables avec le bouton 'Créer une Variable'.](images/make-variable.png)
+![Le menu des blocs de variables avec le bouton "Créer une variable".](images/make-variable.png)
 
-Appelle ta nouvelle variable **coups**:
+Appelle ta nouvelle variable **coups** :
 
-![La fenêtre pop-up 'Nouvelle variable' avec le nom 'hits' tapé dans la case 'Nouveau nom de variable'.](images/new-variable.png)
+![La fenêtre pop-up "Nouvelle variable" avec le nom "coups" tapé dans la case "Nouveau nom de variable".](images/new-variable.png)
 
 **Remarque :** La nouvelle variable "coups" apparaît sur la scène et peut désormais être utilisée dans les blocs `Variable`{:class="block3variables"}.
 
 ![La variable coups sur la scène.](images/variable-stage.png)
 
-![Les blocs variables, y compris le nouveau bloc 'coups'.](images/variable-blocks.png)
+![Les blocs variables, y compris le nouveau bloc "coups".](images/variable-blocks.png)
 
 --- /task ---
 
@@ -66,7 +66,7 @@ Chaque fois que le projet démarre, le nombre de `coups`{:class="block3variables
 
 Fais glisser le bloc `mettre coups à 0`{:class="block3variables"} dans le premier script de la zone Code, entre le bloc `basculer sur le costume`{:class="block3looks"} et le bloc `aller à x : ( 0) y : (180)` {:class="block3motion"}.
 
-Ton code devrait ressembler à ceci:
+Ton code devrait ressembler à ceci :
 
 ![L'icône du sprite Piñata.](images/pinata-sprite.png)
 
@@ -110,7 +110,7 @@ jouer le son [Boing v]
 
 **Test :** Exécute ton projet plusieurs fois. Vérifie que `coups`{:class="block3variables"} commence toujours à `0`{:class="block3variables"} et augmente de `1`{:class="block3variables"} à chaque fois que tu cliques sur le sprite **Piñata** .
 
-![La scène montrant que le nombre stocké dans la variable coups est '8'.](images/hits-increase.png)
+![La scène montrant que le nombre stocké dans la variable coups est "8".](images/hits-increase.png)
 
 --- /task ---
 
@@ -119,7 +119,7 @@ Une piñata est difficile à casser mais elle ne dure pas éternellement. Ta pi�
 Un bloc `si`{:class="block3control"} peut être utilisé pour prendre une décision basée sur une **condition**.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Nous utilisons <span style="color: #0faeb0">**conditions**</span> tout le temps pour prendre des décisions. On pourrait dire « si le crayon est émoussé, alors taille-le ». Les blocs et conditions `Si` nous permettent d'écrire du code qui fait quelque chose de différent selon qu'une condition est vraie ou fausse.
+Nous utilisons <span style="color: #0faeb0">**conditions**</span> tout le temps pour prendre des décisions. On pourrait dire « si le crayon est émoussé, alors taille-le ». Les blocs et conditions "Si" nous permettent d'écrire du code qui fait quelque chose de différent selon qu'une condition est vraie ou fausse.
 </p>
 
 --- task ---
@@ -132,7 +132,7 @@ Va au menu des blocs `Contrôle`{:class="block3control"}. Fais glisser un bloc `
 quand ce est cliqué
 + si <> alors
 jouer le son [Boing v]
-ajouter (1) à [hits v]
+ajouter (1) à [coups v]
 
 ```
 
@@ -152,7 +152,7 @@ Ajoute d'abord un opérateur `<`{:class="block3operators"} dans l'entrée en for
 quand ce sprite est cliqué
 + si <() < ()> alors
 jouer le son [Boing v]
-ajouter (1) à [hits v]
+ajouter (1) à [coups v]
 
 ```
 
@@ -160,7 +160,7 @@ ajouter (1) à [hits v]
 
 --- task ---
 
-Termine la création de la condition `si`{:class="block3control"} en faisant glisser la variable `coups`{:class="block3variables"} à gauche de l'opérateur `<`{:class="block3operators"} et en tapant la valeur '10' à droite :
+Termine la création de la condition `si`{:class="block3control"} en faisant glisser la variable `coups`{:class="block3variables"} à gauche de l'opérateur `<`{:class="block3operators"} et en tapant la valeur "10" à droite :
 
 ![L'icône du sprite Piñata.](images/pinata-sprite.png)
 
@@ -178,13 +178,13 @@ ajouter (1) à [coups v]
 
 **Test :** Exécute à nouveau ton projet. Frappe la piñata 10 fois pour entendre le son et voir la variable `coups`{:class="block3variables"} augmenter.
 
-Frappe la piñata plusieurs fois. La variable `hits`{:class="block3variables"} ne dépassera pas 10, car cette condition n'est plus "vraie", donc le code à l'intérieur du bloc `si`{:class="block3control"} ne s'exécutera pas.
+Frappe la piñata plusieurs fois. La variable `coups`{:class="block3variables"} ne dépassera pas 10, car cette condition n'est plus "vraie", donc le code à l'intérieur du bloc `si`{:class="block3control"} ne s'exécutera pas.
 
 --- /task ---
 
 --- task ---
 
-Ajoute un deuxième bloc `si`{:class="block3control"} à l'intérieur du premier. Cette fois, la condition vérifiera si `coups`{:class="block3variables"} `=`{:class="block3operators"} 10 et si 'vrai' le costume changera en `cassé`{:class="block3looks" } :
+Ajoute un deuxième bloc `si`{:class="block3control"} à l'intérieur du premier. Cette fois, la condition vérifiera si `coups`{:class="block3variables"} `=`{:class="block3operators"} 10 et si "vrai" le costume changera en `cassé`{:class="block3looks" } :
 
 ![L'icône du sprite Piñata.](images/pinata-sprite.png)
 
@@ -194,7 +194,7 @@ si <(coups) < (10)> alors
 jouer le son [Boing v]
 ajouter (1) à [coups v]
 + si <(coups)=(10)> alors
-basculer le costume sur (v cassé)
+basculer le costume sur (cassé v)
 
 ```
 
