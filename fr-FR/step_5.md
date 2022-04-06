@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Les piñatas sont pleines de friandises et quand elles commencent à se casser, les friandises tombent. Dans cette étape, tu animeras des friandises internationales pour qu'elles tombent de la piñata à chaque fois qu'elle est frappée. Reconnais-tu l'une des friandises?
+Les piñatas sont pleines de friandises et quand elles commencent à se casser, les friandises tombent. Dans cette étape, tu animeras des friandises internationales pour qu'elles tombent de la piñata à chaque fois qu'elle est frappée. Reconnais-tu l'une des friandises ?
 </div>
 <div>
 ![Une image animée montrant la piñata frappée plusieurs fois. À chaque fois, quatre friandises aléatoires tombent dans des positions aléatoires puis tournent lentement en cercle.](images/spinning-treats.gif){:width="300px"}
@@ -25,38 +25,38 @@ Il y a 26 costumes de friandises - et tu vas tous les utiliser !
 
 --- task ---
 
-Clique sur l'onglet **Code** puis crée un script pour `masquer`{:class="block3looks"} les friandises dans la piñata au démarrage de ton projet :
+Clique sur l'onglet **Code** puis crée un script pour `cacher`{:class="block3looks"} les friandises dans la piñata au démarrage de ton projet :
 
 ![L'icône du sprite Friandises.](images/treats-sprite.png)
 
 ```blocks3
 quand le drapeau est cliqué
-masquer
+cacher
 aller à x : (0) y : (100)
 ```
 
 --- /task ---
 
-Quatre friandises échapperont de la piñata à chaque fois que la piñata est frappée. En **clonant** le sprite **Friandises** , tu peux créer plusieurs friandises.
+Quatre friandises s'échapperont de la piñata chaque fois que celle-ci sera frappée. En **clonant** le sprite **Friandises** , tu peux créer plusieurs friandises.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Un <span style="color: #0faeb0">**clone**</span> dans Scratch est une copie d'un sprite. Il a tous le même code, les mêmes costumes et les mêmes sons que le sprite original.      
+Un <span style="color: #0faeb0">**clone**</span> dans Scratch est une copie d'un sprite. Il possède le même code, les mêmes costumes et les mêmes sons que le sprite original.      
 </p>
 
 --- task ---
 
 Clique sur le sprite **Piñata**.
 
-Insére une boucle `répéter`{:class="block3control"} dans votre code existant. Change la valeur en `4`{:class="block3control"} puis ajoute un bloc `créer clone de moi-même`{:class="block3control"}. Utilise la flèche déroulante pour sélectionner le sprite `Friandises`{:class="block3control"} :
+Insére une boucle `répéter`{:class="block3control"} dans ton code existant. Modifie la valeur à `4`{:class="block3control"} puis ajoute un bloc `créer un clone de moi-même`{:class="block3control"}. Utilise la flèche du menu déroulant pour sélectionner le sprite `Friandises`{:class="block3control"} :
 
-![L'icône du sprite Pinata.](images/pinata-sprite.png)
+![L'icône du sprite Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 quand ce sprite a cliqué
 si <(coups) < (10)> alors
 jouer le son [Boing v]
 ajouter (1) à [coups v] 
-+ répéter (4) // Changer en 4
++ répéter (4) // Modifier à 4
 créer un clone de (Friandises v) // Sélectionne Friandises
 fin
 if <(hits)=(10)> alors
@@ -81,7 +81,7 @@ Ajoute des blocs depuis le menu des blocs `Apparence`{:class="block3looks"} pour
 ```blocks3
 quand je commence comme un clone
 montrer
-aller à l [arrière v] plan // Passer au dos
+aller à l [arrière v] plan // Changement vers l'arrière
 basculer sur le costume (Knafeh v)
 ```
 
@@ -89,7 +89,7 @@ basculer sur le costume (Knafeh v)
 
 --- task ---
 
-Tu peux choisir des friandises aléatoires à libérer lorsque la piñata est touchée. Utilise un opérateur `nombre aléatoire`{:class="block3operators"} pour sélectionner un costume au hasard de `1`{:class="block3operators"} à `26`{:class="block3operators"} chaque fois qu'un clone est créé :
+Tu peux choisir des friandises aléatoires à libérer lorsque la piñata est frappée. Utilise un opérateur `nombre aléatoire`{:class="block3operators"} pour sélectionner un costume au hasard de `1`{:class="block3operators"} à `26`{:class="block3operators"} chaque fois qu'un clone est créé :
 
 ![L'icône du sprite Friandises.](images/treats-sprite.png)
 
@@ -104,7 +104,7 @@ aller à l'[arrière v] plan
 
 --- task ---
 
-Pour le moment, les clones **Friandises** apparaîtront derrière le sprite **Piñata** , mais les friandises devraient tomber de la piñata à une position aléatoire.
+Pour le moment, les clones **Friandises** apparaîtront derrière le sprite **Piñata**, mais les friandises devraient tomber de la piñata à une position aléatoire.
 
 Ajoute du code pour que les sprites clonés **Friandises** `glisse`{:class="block3motion"} vers une position aléatoire :
 
@@ -124,7 +124,7 @@ basculer sur le costume (choisir au hasard (1) à (26))
 
 **Test :** Exécute ton projet et appuie sur la piñata pour voir quatre clones du sprite **Friandises** après chaque coup. Les costumes seront sélectionnés au hasard et les friandises glisseront chacune vers une position aléatoire.
 
-![Une image animée montrant la pinata frappée trois fois. À chaque fois, quatre friandises aléatoires tombent dans des positions aléatoires.](images/four-treats.gif)
+![Une image animée montrant la piñata frappée plusieurs fois. À chaque fois, quatre friandises aléatoires tombent dans des positions aléatoires.](images/four-treats.gif)
 
 --- /task ---
 
@@ -138,7 +138,7 @@ Ajoute une animation pour que les clones sprite **Friandises** `tournent`{:class
 quand je commence comme un clone
 montrer
 allez à l'[arrière v] plan
-basculer sur le costume (choisissez au hasard (1) à (26))
+basculer sur le costume (nombre aléatoire entre (1) et (26))
 glissez en (1) secondes à (position aléatoire v) 
 + répéter indéfiniment
 tournez à droite de (1 ) degrés
@@ -150,7 +150,7 @@ tournez à droite de (1 ) degrés
 
 **Test :** Exécute à nouveau ton projet pour voir les clones sprite **Friandises** tourner.
 
-![Une image animée montrant la pinata frappée plusieurs fois. Chaque fois, quatre friandises aléatoires tombent dans des positions aléatoires puis tournent lentement en cercle.](images/spinning-treats.gif)
+![Une image animée montrant la piñata frappée plusieurs fois. Chaque fois, quatre friandises aléatoires tombent dans des positions aléatoires puis tournent lentement en cercle.](images/spinning-treats.gif)
 
 --- /task ---
 
