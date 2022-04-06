@@ -1,6 +1,6 @@
-## Et ensuite 
+## Et ensuite ?
 
-Nous espérons que tu as apprécié ce projet spécial de piñata de fête d'anniversaire Code Club.
+Nous espérons que tu as apprécié ce projet spécial de piñata de fête pour l'anniversaire de Code Club.
 
 --- task ---
 
@@ -10,13 +10,13 @@ Si tu débutes avec Scratch, continue à explorer avec notre parcours [Introduct
 
 --- task ---
 
-Si tu connais déjà les sprites, les costumes, les décors et les boucles, essaie notre chemin [More Scratch](https://projects.raspberrypi.org/en/pathways/more-scratch){:target="_blank"}.
+Si tu connais déjà les sprites, les costumes, les décors et les boucles, essaie notre parcours [Plus de Scratch](https://projects.raspberrypi.org/en/pathways/more-scratch){:target="_blank"}.
 
 --- /task ---
 
 --- task ---
 
-Pour en savoir plus sur les listes, les clones et la création de tes propres blocs, essaie notre chemin avancé [Further Scratch](https://projects.raspberrypi.org/en/pathways/further-scratch){:target="_blank"}.
+Pour en savoir plus sur les listes, les clones et la création de tes propres blocs, essaie notre parcours avancé [Plus loin avec Scratch](https://projects.raspberrypi.org/en/pathways/further-scratch){:target="_blank"}.
 
 --- /task ---
 
@@ -24,7 +24,7 @@ Pour en savoir plus sur les listes, les clones et la création de tes propres bl
 
 --- task ---
 
-Si tu as besoin d'un rappel de ce que tu as appris, tu peux consulter notre guide [« Premiers pas avec Scratch »](https://projects.raspberrypi.org/en/projects/getting-started-scratch).
+Si tu as besoin d'un rappel de ce que tu as appris, tu peux consulter notre guide ["Premiers pas avec Scratch"](https://projects.raspberrypi.org/en/projects/getting-started-scratch).
 
 --- /task ---
 
