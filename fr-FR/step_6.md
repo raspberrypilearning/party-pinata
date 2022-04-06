@@ -11,11 +11,11 @@ Dans cette étape, tu écriras un message et l'animeras en utilisant des effets 
 
 Qu'écrirais-tu sur une carte d'anniversaire à envoyer à Code Club ? Ça pourrait être :
 + Ton truc préféré à propos de Code Club
-+ Un message sur ton fabuleux leader du Code Club
++ Un message sur ton fabuleux responsable Code Club
 + Des détails de ce que tu veux faire ensuite avec tes compétences en codage
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Les premiers projets du Code Club étaient rédigés en anglais, mais en l'espace d'un an, ils ont été traduits en allemand, portugais brésilien, néerlandais, norvégien et ukrainien. Les traductions en français, en grec et en espagnol ont rapidement suivi et maintenant certains des projets de Code Club ont été traduits dans <span style="color: #0faeb0">**28 langues maternelles**</span>. Merci à notre formidable communauté de traducteurs !
+Les premiers projets de Code Club étaient rédigés en anglais, mais en l'espace d'un an, ils ont été traduits en allemand, portugais brésilien, néerlandais, norvégien et ukrainien. Les traductions en français, en grec et en espagnol ont rapidement suivi et maintenant certains des projets de Code Club ont été traduits dans <span style="color: #0faeb0">**28 langues maternelles**</span>. Merci à notre formidable communauté de traducteurs !
 
 ![Plusieurs images disant Joyeux anniversaire dans différentes langues maternelles.](images/birthday-languages.png)
 </p>
@@ -93,7 +93,7 @@ Ajoute une boucle `répéter`{:class="block3control"} pour animer le message. Le
 quand je reçois [fête v]
 montrer
 répéter (20) // Passer à 20
-ajoute (5) à la taille // Passer à 5
+ajouter (5) à la taille // Passer à 5
 ajouter (-10) à y // Passer à -10
 ```
 
