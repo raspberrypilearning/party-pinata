@@ -61,7 +61,7 @@ Scratchでは、キャラクターとオブジェクトは**スプライト**と
 
 --- task ---
 
-Drag a `When flag clicked`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu and connect it to the top of your looks block in the Code area. The blocks will snap together:
+`イベント`{:class="block3events"} ブロックメニューか ら`旗（はた）が押されたとき`{:class="block3events"} ブロックをドラッグし、コードエリアのブロックの一番上につなげます。 ブロック同士（どうし）がつながります。
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
@@ -73,28 +73,28 @@ switch costume to (whole v)
 
 --- /task ---
 
-The starting position of a piñata is always the same, it only starts moving when the piñata game is ready to play.
+ピニャータのスタート位置（いち）は、いつもおなじです。ピニャータゲームがはじまったときに、うごきだします。
 
 --- task ---
 
-In the `Motion`{:class="block3motion"} blocks menu, find the `go to x: 0 y: 180`{:class="block3motion"} and `point in direction 90`{:class="block3motion"} blocks. Drag the blocks to the Code area and connect them to the bottom of your code:
+ブロックメニューの`動き（うごき）`{:class="block3motion"} に, `x座標（ざひょう）を0、 y座標（ざひょう）を180にする`{:class="block3motion"} や `90度（ど）に向（む）ける`{:class="block3motion"} のブロックがあります。 これらのブロックをコードエリアのいちばん下にドラッグしてつなげます：
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (whole v)
-+ go to x: (0) y: (180)
-+ point in direction (90) // Ready position
+旗（はた）がクリックされたとき
+コスチュームが(whole v) にかわります。
++ x: (0) y: (180) に移動（いどう）します。
++向き（むき）が (90) 度（ど）になります// 準備（じゅんび）のポジションです
 ```
 
 --- /task ---
 
-A `forever`{:class="block3control"} loop runs the code blocks inside it again and again. It is the perfect loop for a swinging piñata that is hard to hit.
+`ずっと`{:class="block3control"}ループは、その中のコードブロックをなんども実行（じっこう）します。 たたくことがむずかしい、ゆれるピニャータにぴったりのループです。
 
 --- task ---
 
-Drag a `forever`{:class="block3control"} block from the `Control`{:class="block3control"} blocks menu and connect it to the bottom of your code:
+`制御（せいぎょ）`{:class="block3control"} ブロックメニューから `ずっとr`{:class="block3control"} ブロックをドラッグして、コードのいちばん下につなげます:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
