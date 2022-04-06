@@ -2,20 +2,20 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Dans cette étape, tu rédigeras un message et l'animeras à l'aide d'effets de mouvement et de couleur. 
+Dans cette étape, tu écriras un message et l'animeras en utilisant des effets de mouvement et de couleur. 
 </div>
 <div>
 ![Une image animée montrant le message tombant puis changeant de taille et de couleur lorsqu'il a atteint la position finale de chute du message.](images/falling-message.gif){:width="300px"}
 </div>
 </div>
 
-Qu'écrirais-tu sur une carte d'anniversaire à envoyer au Code Club ? Ça pourrait être :
-+ Ton truc préféré à propos du Code Club
+Qu'écrirais-tu sur une carte d'anniversaire à envoyer à Code Club ? Ça pourrait être :
++ Ton truc préféré à propos de Code Club
 + Un message sur ton fabuleux leader du Code Club
 + Des détails de ce que tu veux faire ensuite avec tes compétences en codage
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Les premiers projets du Code Club ont été rédigés en anglais, mais en un an, ils ont été traduits en portugais brésilien, néerlandais, allemand, norvégien et ukrainien. Les traductions en français, en grec et en espagnol ont rapidement suivi et maintenant certains des projets du Code Club ont été traduits dans <span style="color: #0faeb0">**28 langues maternelles**</span>. Merci à notre formidable communauté de traducteurs !
+Les premiers projets du Code Club étaient rédigés en anglais, mais en l'espace d'un an, ils ont été traduits en allemand, portugais brésilien, néerlandais, norvégien et ukrainien. Les traductions en français, en grec et en espagnol ont rapidement suivi et maintenant certains des projets de Code Club ont été traduits dans <span style="color: #0faeb0">**28 langues maternelles**</span>. Merci à notre formidable communauté de traducteurs !
 
 ![Plusieurs images disant Joyeux anniversaire dans différentes langues maternelles.](images/birthday-languages.png)
 </p>
@@ -24,7 +24,7 @@ Les premiers projets du Code Club ont été rédigés en anglais, mais en un an,
 
 Clique sur le sprite **Message** dans la liste Sprite et sélectionne l'onglet **Costumes**.
 
-Le costume a un texte disant "Happy Birthday Code Club". Double-clique (ou appuie longuement sur une tablette) sur le texte pour sélectionner l'outil d'édition de texte.
+Le costume a un texte disant "Joyeux Anniversaire Code Club". Double-clique (ou appuie longuement sur une tablette) sur le texte pour sélectionner l'outil d'édition de texte.
 
 ![L'éditeur de costumes avec l'outil Texte sélectionné et le texte en surbrillance.](images/text-edit.png)
 
@@ -32,9 +32,9 @@ Le costume a un texte disant "Happy Birthday Code Club". Double-clique (ou appui
 
 --- task ---
 
-Tu peux maintenant saisir ton nouveau message d'anniversaire Code Club. Appuie sur **Entrez** sur ton clavier pour commencer une nouvelle ligne.
+Tu peux maintenant saisir ton nouveau message d'anniversaire Code Club. Appuie sur **Entrée** sur ton clavier pour commencer une nouvelle ligne.
 
-**Astuce :** Ne t'inquiéte pas si ton message est un peu trop gros pour la boîte car tu pourras le redimensionner plus tard.
+**Astuce :** Ne t'inquiéte pas si ton message est un peu trop grand pour la boîte, tu pourras le redimensionner plus tard.
 
 ![L'éditeur de texte affichant un nouveau message a été tapé à la place de l'ancien message.](images/new-text.png)
 
@@ -52,7 +52,7 @@ Tu peux maintenant saisir ton nouveau message d'anniversaire Code Club. Appuie s
 
 **Choisir :** Clique sur l'outil **Police** et une liste déroulante de polices apparaîtra. La police "Pixel" est sélectionnée dans le projet de démarrage, mais tu peux utiliser n'importe laquelle des polices disponibles.
 
-![Le menu déroulant Police affichant un choix de neuf polices différentes. La police 'Marker' a été sélectionnée.](images/font-type.png)
+![Le menu déroulant Police affichant un choix de neuf polices différentes. La police "Marker" a été sélectionnée.](images/font-type.png)
 
 --- /task ---
 
@@ -68,13 +68,13 @@ Ton message est prêt, tu peux maintenant ajouter du code pour cacher ton messag
 
 --- task ---
 
-Clique sur l'onglet **Code** puis crée un script pour `masquer`{:class="block3looks"} le message dans la piñata au démarrage de ton projet :
+Clique sur l'onglet **Code** puis crée un script pour `cacher`{:class="block3looks"} le message dans la piñata au démarrage de ton projet :
 
 ![L'icône du sprite Message.](images/message-sprite.png)
 
 ```blocks3
 quand le drapeau est cliqué
-masquer
+cacher
 mettre la taille à (10) % de la taille initiale // Passer à 10 pour commencer petit
 aller à x : (0) y : (100) // À l'intérieur de la piñata
 ```
@@ -103,7 +103,7 @@ ajouter (-10) à y // Passer à -10
 
 **Test :** Exécute ton projet. Frappe dix fois la piñata pour voir tomber le message.
 
-![Une image animée montrant la pinata frappée dix fois. Des friandises apparaissent après chaque coup et au dixième coup, la pinata se brise et le message tombe au bas de l'écran. Il grossit en tombant.](images/falling-message.gif)
+![Une image animée montrant la piñata frappée plusieurs fois. Des friandises apparaissent après chaque coup et au dixième coup, la piñata se brise et le message tombe au bas de l'écran. Elle grossit en tombant.](images/falling-message.gif)
 
 --- /task ---
 
