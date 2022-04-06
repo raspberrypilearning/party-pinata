@@ -17,15 +17,15 @@ Ouvre le projet de démarrage [Piñata de fête](https://scratch.mit.edu/project
 
 --- /task ---
 
-L'éditeur Scratch ressemble à ceci:
+L'éditeur Scratch ressemble à ceci :
 
 ![Une capture d'écran annotée de l'éditeur Scratch, avec la scène, le volet Scène, le volet Sprite, la liste Sprite et la zone Code étiquetés.](images/scratch-interface.png)
 
-La **scène** est l'endroit où ton projet s'exécute et un **arrière-plan** modifie l'apparence de la scène. Un arrière-plan de soirée Code Club a été ajouté pour toi.
+La **scène** est l'endroit où ton projet s'exécute et un **arrière-plan** modifie l'apparence de la scène. Un arrière-plan de fête Code Club a été ajouté pour toi.
 
-Dans Scratch, les personnages et les objets sont appelés **sprites**, et ils apparaissent sur la scène. Tu peux voir les sprites **Piñata** et **Baton** sur la scène.
+Dans Scratch, les personnages et les objets sont appelés **sprites**, et ils apparaissent sur la scène. Tu peux voir les sprites **Piñata** et **Bâton** sur la scène.
 
-![La scène avec un arrière-plan bleu à motifs avec des cadeaux et des ballons. Également sur la scène se trouvent les sprites Piñata et Baton.](images/backdrop-and-sprites.png)
+![La scène avec un arrière-plan bleu à motifs avec des cadeaux et des ballons. Également sur la scène se trouvent les sprites Piñata et Bâton.](images/backdrop-and-sprites.png)
 
 Pour le moment, il ne se passe pas grand-chose à cette fête. Tu peux changer cela !
 
@@ -50,7 +50,7 @@ Clique sur l'onglet **Code**. Va dans le menu des blocs `Apparence`{:class="bloc
 ![L'icône du sprite Piñata.](images/pinata-sprite.png)
 
 ```blocks3
-basculer sur le costume (entier v) // Mise à jour vers 'entier'
+basculer sur le costume (entier v) // Mise à jour vers "entier"
 ```
 
 ![Une image animée montrant le bloc de basculer sur le costume glissé du menu des blocs Apparence vers la zone Code.](images/switch-costume.gif)
@@ -61,7 +61,7 @@ Les blocs peuvent être connectés ensemble dans la zone Code pour en exécuter 
 
 --- task ---
 
-Fais glisser un bloc `Quand le drapeau est cliqué`{:class="block3events"} depuis le menu des blocs `Évènements`{:class="block3events"} et connecte-le en haut de ton bloc Apparence dans la zone Code. Les blocs vont s'emboîter:
+Fais glisser un bloc `Quand le drapeau est cliqué`{:class="block3events"} depuis le menu des blocs `Évènements`{:class="block3events"} et connecte-le en haut de ton bloc Apparence dans la zone Code. Les blocs vont s'emboîter :
 
 ![L'icône du sprite Piñata.](images/pinata-sprite.png)
 
@@ -77,7 +77,7 @@ La position de départ d'une piñata est toujours la même, elle ne commence à 
 
 --- task ---
 
-Dans le menu des blocs `Mouvement`{:class="block3motion"}, trouve les blocs `aller à x : 0 y : 180`{:class="block3motion"} et `s'orienter à 90`{:class="block3motion" } . Fais glisser les blocs vers la zone Code et connecte-les au bas de ton code :
+Dans le menu des blocs `Mouvement`{:class="block3motion"}, trouve les blocs `aller à x : 0 y : 180`{:class="block3motion"} et `s'orienter à 90`{:class="block3motion" }. Fais glisser les blocs vers la zone Code et connecte-les au bas de ton code :
 
 ![L'icône du sprite Piñata.](images/pinata-sprite.png)
 
@@ -90,7 +90,7 @@ basculer sur le costume (entier v)
 
 --- /task ---
 
-Une boucle `répéter indéfiniment`{:class="block3control"} exécute les blocs de code à l'intérieur encore et encore. C'est la boucle parfaite pour une piñata qui se balance difficile à frapper.
+Une boucle `répéter indéfiniment`{:class="block3control"} exécute les blocs de code à l'intérieur encore et encore. C'est la boucle parfaite pour une piñata qui se balance et qui est difficile à frapper.
 
 --- task ---
 
@@ -114,7 +114,7 @@ Une boucle `répéter`{:class="block3control"} peut être utilisée pour que le 
 
 Fais glisser un bloc `répéter 10`{:class="block3control"} dans la zone Code et attache-le à l'intérieur de ta boucle `répéter indéfiniment`{:class="block3control"}.
 
-Va au menu des blocs `Mouvement`{:class="block3motion"} et fais glisser un bloc de `tours dans le sens des aiguilles d'une montre de 15 degrés`{:class="block3motion"} dans le bloc `répéter`{:class="block3control"}.
+Va au menu des blocs `Mouvement`{:class="block3motion"} et fais glisser un bloc de `tourner dans le sens des aiguilles d'une montre de 15 degrés`{:class="block3motion"} dans le bloc `répéter`{:class="block3control"}.
 
 Change les `15`{:class="block3motion"} degrés en `1`{:class="block3motion"} degrés pour que la piñata ne se balance qu'un peu à chaque fois :
 
@@ -139,7 +139,7 @@ tourner à droite (1) degrés // Passer à 1
 
 **Mmm, quelque chose ne va pas !** Lorsqu'un objet est suspendu au plafond, il ne tourne pas seulement dans une direction, il oscille d'avant en arrière.
 
-Arrête ton projet en cliquant sur **l'icône d'arrêt rouge** au-dessus de la scène.
+Arrête ton projet en cliquant sur **l'icône stop rouge** au-dessus de la scène.
 
 ![Les icônes drapeau vert et d'arrêt affichées côte à côte.](images/start-stop.png)
 
@@ -176,7 +176,7 @@ fin
 
 **Test :** Exécute ton projet pour voir la piñata se balancer.
 
-**Debug :** Si la piñata ne se balance pas correctement :
+**Debogage :** Si la piñata ne se balance pas correctement :
 + Regarde ton code pour t'assurer que les blocs `répéter`{:class="block3control"} sont dans la bonne position
 + Vérifie que les flèches `tournent dans le sens des aiguilles d'une montre`{:class="block3motion"} et `tournent dans le sens inverse des aiguilles d'une montre`{:class="block3motion"} sont correctes
 + Assure-toi que tu as utilisé les chiffres du code ci-dessus
