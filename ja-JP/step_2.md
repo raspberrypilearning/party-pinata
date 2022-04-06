@@ -83,9 +83,9 @@ switch costume to (whole v)
 
 ```blocks3
 旗（はた）がクリックされたとき
-コスチュームが(whole v) にかわります。
-+ x: (0) y: (180) に移動（いどう）します。
-+向き（むき）が (90) 度（ど）になります// 準備（じゅんび）のポジションです
+コスチュームを(whole v) にする
++ x座標（ざひょう）を(0)、 y座標 （ざひょう）を(180) にする
++(90) 度（ど）にむける// 準備（じゅんび）のポジションです
 ```
 
 --- /task ---
@@ -99,16 +99,16 @@ switch costume to (whole v)
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (whole v)
-go to x: (0) y: (180)
-point in direction (90)
-+ forever
+旗（はた）をクリックすると
+コスチュームを(whole v) にする
+x座標（ざひょう）を(0) 、y座標（ざひょう）を(180) にする
+(90) 度（ど）に向ける
++ ずっと
 ```
 
 --- /task ---
 
-A `repeat`{:class="block3control"} loop can be used to make the **Piñata** sprite repeat a small movement many times. This will make the piñata appear animated.
+`回繰り返す`{:class="block3control"} ループは、 **ピニャータ**スプライトがくりかえす小さな動き（うごき）につかうことができます。 これにより、ピニャータがアニメーション化されたように見えます。
 
 --- task ---
 
