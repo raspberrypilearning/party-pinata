@@ -23,7 +23,7 @@ Scratchでは、つなげたブロックのグループは **スクリプト**�
 
 **コード** タブをクリックします。 `イベント`{:class="block3events"}から、 `このスプライトが押されたとき`{:class="block3events"} ブロックをコードエリアにドラッグして、新しいスクリプトを開始（かいし）します。
 
-In the `Sound`{:class="block3sound"} blocks menu, find the `start sound`{:class="block3sound"} block. Drag it underneath the `when this sprite clicked`{:class="block3events"} block:
+`音`{:class="block3sound"} ブロックメニューで、`... の音を鳴らす`{:class="block3sound"} ブロックを見つけます。 それを`このスプライトが押されたとき`{:class="block3events"} ブロックの下にドラッグします:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
@@ -36,23 +36,23 @@ start sound [Boing v]
 
 --- task ---
 
-**Test:** Run your project by clicking on the **green flag** above the Stage. Click on the piñata as it swings to hear the boing sound.
+**テスト:** ステージの上の**緑の旗** をクリックし、プロジェクトを実行します。 ピニャータをクリックすると、ゆれてボヨンという音がなります。
 
 --- /task ---
 
-A `variable`{:class="block3variables"} is a way of storing numbers and/or text. The number of times the piñata is clicked will be stored in a variable called `hits`{:class="block3variables"} so it can be used at any time.
+`変数`{:class="block3variables"}は、数やテキストを入れておく方法です。 ピニャータがクリックされた回数は、 `hits`{：class = "block3variables"}という変数に保存されるため、いつでも使用できます。
 
 --- task ---
 
-From the `Variables`{:class="block3variables"} blocks menu, click the **Make a Variable** button.
+`変数`{:class="block3variables"} ブロックメニューから、**変数を作る** ボタンをクリックします。
 
 ![The variables blocks menu with the 'Makes a Variable' button.](images/make-variable.png)
 
-Call your new variable **hits**:
+新しい変数**hits**を作ります:
 
 ![The 'New variable' pop-up window with the name 'hits' typed in the 'New variable name' box.](images/new-variable.png)
 
-**Notice:** The new 'hits' variable appears on the Stage and can now be used in the `Variable`{:class="block3variables"} blocks.
+**注意:** 新しい「hits」という変数（へんすう）がステージの上にあらわれ、 `変数`{:class="block3variables"} ブロックの中で使うことができるようになります。
 
 ![The hits variable on the Stage.](images/variable-stage.png)
 
@@ -62,29 +62,29 @@ Call your new variable **hits**:
 
 --- task ---
 
-Each time the project starts, the number of `hits`{:class="block3variables"} should be reset to `0`{:class="block3variables"}.
+プロジェクトが開始（かいし）されるたび、 `hits`{:class="block3variables"} の数は`0`{:class="block3variables"}にリセットされます。
 
-Drag the `set hits to 0`{:class="block3variables"} block into the first script in the Code area, between the `switch costume to`{:class="block3looks"} block and the `go to x: (0) y: (180)`{:class="block3motion"} block.
+`hitsを0にする`{:class="block3variables"} ブロックをコードエリアのはじめのスクリプトにドラッグし、 `コスチュームを__にする`{:class="block3looks"} ブロックと`x座標を(0) 、y座標を (180)にする`{:class="block3motion"} ブロックの間におきます。
 
-Your code should look like this:
+コードは以下のようになります：
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (whole v)
-+ set [hits v] to (0)
-go to x: (0) y: (180)
-point in direction (90)
-forever
-repeat (10)
-turn right (1) degrees
+旗が押されたとき
+コスチュームを(whole v) にする
++ [hits v] を(0) にする
+x座標を(0)、y座標を(180) にする
+(90) 度に向ける
+ずっと
+(10) 回繰り返す
+右に(1) 度回す
 end
-repeat (20)
-turn left (1) degrees
+(20) 回繰り返す
+左に(1) 度回す
 end
-repeat (10)
-turn right (1) degrees
++(10) 回繰り返す 
+右に(1) 度回す
 end
 ```
 
@@ -92,39 +92,39 @@ end
 
 --- task ---
 
-Every time the **Piñata** sprite is clicked, the number of `hits`{:class="block3variables"} should increase.
+**ピニャータ** スプライトがクリックされるたびに、`hits`{:class="block3variables"} の数がふえるはずです。
 
-Add a block to change `hits`{:class="block3variables"} by `1`{:class="block3variables"} when the **Piñata** sprite is clicked:
+**ピニャータ**スプライトをクリックすると `hits`{:class="block3variables"} が `1`{:class="block3variables"} ずつかわるようにブロックを追加します。
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
 ```blocks3
-when this sprite clicked
-start sound [Boing v]
-+ change [hits v] by (1)
+このスプライトが押されたとき
+[Boing v] の音を鳴らす
++ [hits v] を (1) ずつ変える
 ```
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your project a couple of times. Check that `hits`{:class="block3variables"} always starts at `0`{:class="block3variables"} and increases by `1`{:class="block3variables"} each time you click on the **Piñata** sprite.
+**テスト：**プロジェクトを数回（すうかい）実行（じっこう）します。 `hits`{:class="block3variables"} が、いつも`0`{:class="block3variables"} からはじまり、**ピニャータ**をクリックするたびに `1`{:class="block3variables"}ずつ数がふえていることを確認（かくにん）します。
 
 ![The Stage showing the number stored in the hits variable is '8'.](images/hits-increase.png)
 
 --- /task ---
 
-A piñata is hard to break but it does not last forever. Your piñata will last for `10 hits`{:class="block3variables"} before breaking open.
+ピニャータはこわしにくいですが、ずっと続く（つづく）わけではありません。 `10 回`{:class="block3variables"}たたくと、こわれてあきます。
 
-An `if`{:class="block3control"} block can be used to make a decision based on a **condition**.
+`もし__なら`{:class="block3control"}ブロックは、**条件**にもとづいて決定（けってい）するときに使います。
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-We use <span style="color: #0faeb0">**conditions**</span> all the time to make decisions. We could say “if the pencil is blunt, then sharpen it”. `If` blocks and conditions let us write code that does something different depending on whether a condition is true or false.
+私たちは意思決定（いしけってい）をするときはいつも<span style="color: #0faeb0">**条件**</span>を使います。 「えんぴつの芯（しん）がとがっていなければ、けずる」と言えます。 おなじように、「if」ブロックや条件（じょうけん）を使って、ある条件が真（しん）か偽（ぎ）かによってことなる処理（しょり）を行うコードを書くことができます。
 </p>
 
 --- task ---
 
-Go to the `Control`{:class="block3control"} blocks menu. Drag an `if`{:class="block3control"} block into the Code area and insert it around the blocks in your `when this sprite clicked`{:class="block3events"} script:
+`見た目`{:class = "block3looks"} ブロックメニューを開きます。 Drag an `if`{:class="block3control"} block into the Code area and insert it around the blocks in your `when this sprite clicked`{:class="block3events"} script:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
