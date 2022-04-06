@@ -12,9 +12,9 @@ Si tu as un compte Scratch, tu peux partager ton projet via Scratch. Tu peux env
 
 ### Soumettre ton projet
 
-Inspire la communauté mondiale du Code Club avec ton projet !
+Inspire la communauté mondiale de Code Club avec ton projet !
 
-Pour soumettre ton projet à notre studio Scratch ['Party piñata — Community'](https://scratch.mit.edu/studios/31111242){:target="_blank"} pour que d'autres personnes puissent le voir, remplis [ce formulaire](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+Pour soumettre ton projet à notre studio Scratch ["Piñata de fête — Communité"](https://scratch.mit.edu/studios/31111242){:target="_blank"} pour que d'autres personnes puissent le voir, remplis [ce formulaire](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
 
 --- /task ---
 
