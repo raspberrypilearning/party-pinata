@@ -20,7 +20,7 @@ Utilise le bloc `aller à position aléatoire`{:class="block3motion"}, mais sél
 ```blocks3
 quand le drapeau est cliqué
 répéter indéfiniment
-aller à l' [avant v] plan
+aller à l'[avant v] plan
 aller à (pointeur de souris v) // Changer en pointeur de souris
 ```
 
@@ -68,7 +68,7 @@ Le son apparaîtra alors dans ta liste Sons :
 
 --- task ---
 
-Clique sur l'onglet **Code** et crée un nouveau script pour boucler le son `répéter indéfiniment`{:class="block3control"} lorsque le message `fête`{:class="block3events"} a été reçu :
+Clique sur l'onglet **Code** et crée un nouveau script pour boucler le son `indéfiniment`{:class="block3control"} lorsque le message `fête`{:class="block3events"} a été reçu :
 
 ![L'icône du sprite Bâton.](images/stick-sprite.png)
 
