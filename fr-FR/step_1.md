@@ -3,7 +3,7 @@
 Dans ce projet, tu vas créer une piñata qui se balance et libère des friandises lorsqu'elle est frappée, et finit par se casser pour révéler un message d'anniversaire.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Une <span style="color: #0faeb0">**piñata**</span> est souvent utilisée pour célébrer un anniversaire, le nouvel an ou un festival. La forme et les décorations d'une piñata sont conçues pour correspondre au thème de l'occasion. C'est aussi plein de friandises. Le but est de frapper la piñata avec un bâton pour casser la piñata et libérer les friandises.    
+Une <span style="color: #0faeb0">**piñata**</span> est souvent utilisée pour célébrer un anniversaire, le nouvel an ou un festival. La forme et les décorations d'une piñata sont conçues pour correspondre au thème de l'occasion. Elle contient aussi plein de friandises. Le but est de frapper la piñata avec un bâton pour casser la piñata et libérer les friandises.    
 </p>
 
 --- no-print --- --- task ---
