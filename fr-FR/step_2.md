@@ -73,7 +73,7 @@ basculer sur le costume (entier v)
 
 --- /task ---
 
-La position de départ d'une piñata est toujours la même, elle ne commence à bouger que lorsque le jeu de piñata est prêt à jouer.
+La position de départ d'une piñata est toujours la même, elle ne commence à bouger que lorsque le jeu de piñata est prêt à être joué.
 
 --- task ---
 
@@ -163,7 +163,7 @@ répéter (10) fois // Se balance de 10 degrés dans le sens des aiguilles d'une
 tourner à droite (1) degrés 
 fin
 + répéter (20) fois // Balance de 20 degrés dans le sens inverse des aiguilles d'une montre à travers le centre
-tournez à gauche (1) degrés // Passe à 1
+tourner à gauche (1) degrés // Passe à 1
 fin
 + répéter (10) fois // Balance de 10 degrés dans le sens des aiguilles d'une montre vers le centre
 tourner à droite (1) degrés // Passe à 1
