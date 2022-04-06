@@ -19,13 +19,13 @@
 
 Scratchのエディタは次のようになります。
 
-![An annotated screenshot of the Scratch editor, with the Stage, Stage pane, Sprite pane, Sprite list, and Code area labelled.](images/scratch-interface.png)
+![ステージ、ステージペイン、スプライトペイン、スプライトリスト、およびコードエリアにラベルが付けられた、Scratchエディタの注釈付きスクリーンショット。](images/scratch-interface.png)
 
 **ステージ** で、プロジェクトが実行されます。**背景** によって、ステージがどのように見えるかを変えることができます。 Code Clubパーティーの背景になっています。
 
 Scratchでは、キャラクターとオブジェクトは**スプライト**と呼ばれ、それらはステージに表示されます。 **ピニャータ** と **スティック**のスプライトがステージにおかれています。
 
-![The stage with a patterned blue backdrop with presents and balloons. Also on the Stage are the Piñata and Stick sprites.](images/backdrop-and-sprites.png)
+![プレゼントや風船が描かれた青い背景の模様のステージ ピニャータとスティックのスプライトがおかれたステージ](images/backdrop-and-sprites.png)
 
 いまはまだ、このパーティーではなにもハプニングがおきていません。 かえていきましょう！
 
@@ -35,7 +35,7 @@ Scratchでは、キャラクターとオブジェクトは**スプライト**と
 
 スプライトリストで**ピニャータ** をクリックし、**コスチューム** タブをクリックします。 ピニャータのコスチュームは2つあります。1つは「Whole」、もう1つは「broken」という名前です。
 
-![Side-by-side images of the two piñata costumes. The left is a whole piñata, the right has broken open.](images/pinata-costumes.png)
+![2つのピニャータの衣装を並べた画像 The left is a whole piñata, the right has broken open.](images/pinata-costumes.png)
 
 ![The Costumes tab (the middle tab in the top left).](images/costumes-tab.png)
 
@@ -66,8 +66,8 @@ Scratchでは、キャラクターとオブジェクトは**スプライト**と
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
 ```blocks3
-+ when flag clicked
-switch costume to (whole v)
++旗（はた）がクリックされた時
+コスチュームを (whole v) にする
 ```
 ![When flag clicked block being added to the code area and connected to the switch costume block.](images/add-flag-clicked.gif)
 
@@ -82,10 +82,10 @@ switch costume to (whole v)
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
 ```blocks3
-旗（はた）がクリックされたとき
+旗が押されたとき
 コスチュームを(whole v) にする
-+ x座標（ざひょう）を(0)、 y座標 （ざひょう）を(180) にする
-+(90) 度（ど）にむける// 準備（じゅんび）ポジション
++ x座標を(0)、 y座標を(180) にする
++(90) 度にむける// 準備（じゅんび）ポジション
 ```
 
 --- /task ---
@@ -99,10 +99,10 @@ switch costume to (whole v)
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
 ```blocks3
-旗（はた）をクリックすると
+旗が押されたとき
 コスチュームを(whole v) にする
-x座標（ざひょう）を(0) 、y座標（ざひょう）を(180) にする
-(90) 度（ど）に向ける
+x座標を(0) 、y座標を(180) にする
+(90) 度に向ける
 + ずっと
 ```
 
@@ -121,13 +121,13 @@ x座標（ざひょう）を(0) 、y座標（ざひょう）を(180) にする
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
 ```blocks3
-旗（はた）をクリックすると
+旗が押されたとき
 コスチュームを(whole v) にする
-x座標（ざひょう）を(0)、y座標（ざひょう）を(180) にする
-(90) 度（ど）に向ける
+x座標を(0)、y座標を(180) にする
+(90) 度に向ける
 ずっと
 + (10) 回繰り返す（かいくりかえす）
-右に(1) 度（ど）回す（まわす）//1にかえる
+右に(1) 度回す//1にかえる
 ```
 ![Repeat block being added within the forever block and then a turn clockwise block added within it.](images/add-repeat.gif)
 
@@ -154,19 +154,19 @@ x座標（ざひょう）を(0)、y座標（ざひょう）を(180) にする
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (whole v)
-go to x: (0) y: (180)
-point in direction (90)
-forever
-repeat (10) // Swings 10 degrees clockwise from the centre
-turn right (1) degrees 
+旗が押されたとき
+コスチュームを(whole v) にする
+x座標を(0)、y座標を(180) にする
+(90) 度に向ける
+ずっと
+(10) 回繰り返す // まんなかから時計まわりに10度（ど）ゆれる
+右に(1) 度回す
 end
-+ repeat (20) // Swings 20 degrees anticlockwise through the centre
-turn left (1) degrees // Change to 1
++(20) 回繰り返す//まんなを通って反時計まわりに20度（ど）ゆれる
+左に(1) 度回す//1にかえる
 end
-+ repeat (10) // Swings 10 degrees clockwise back to the centre
-turn right (1) degrees // Change to 1
++(10) 回繰り返す // 10度（ど）ゆれて真ん中にもどる
+右に(1) 度回す//1にかえる
 end
 ```
 
@@ -174,12 +174,12 @@ end
 
 --- task ---
 
-**Test:** Run your project to see the piñata swing.
+**テスト：**プロジェクトを実行して、ピニャータのゆれを確認します。
 
-**Debug:** If the piñata does not swing correctly:
-+ Look at your code to make sure the `repeat`{:class="block3control"} blocks are in the correct position
-+ Check that the `turn clockwise`{:class="block3motion"}  and `turn anticlockwise`{:class="block3motion"} arrows are correct
-+ Make sure that you have used the numbers from the code above
+**デバッグ:** ピニャータが正しくゆれない場合:
++ コードを見て `繰り返す`{:class="block3control"} ブロックが正しい場所にあることを確認（かくにん）します。
++ `時計まわり`{:class="block3motion"}  と `反時計回り`{:class="block3motion"} の向きが正しいことを確認（かくにん）します。
++ コードで使っている数字（すうじ）を確認（かくにん）します。
 
 ![An animated gif showing the Stage with the Piñata sprite positioned at the top centre and swinging back and forth.](images/swinging-pinata.gif)
 
