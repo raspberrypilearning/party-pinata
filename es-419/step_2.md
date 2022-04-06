@@ -23,27 +23,27 @@ El editor de Scratch se ve así:
 
 El **escenario** es donde se ejecuta tu proyecto y un **fondo** cambia la forma en que se ve el escenario. Hemos agregado un fondo de fiesta de Code Club por ti.
 
-En Scratch, los personajes y cosas se denominan **objetos**y aparecen en el escenario. You can see the **Piñata** and **Stick** sprites on the Stage.
+En Scratch, los personajes y cosas se denominan **objetos**y aparecen en el escenario. Puedes ver los objetos**Piñata** y **Stick** en el escenario.
 
-![The stage with a patterned blue backdrop with presents and balloons. Also on the Stage are the Piñata and Stick sprites.](images/backdrop-and-sprites.png)
+![El escenario con un fondo azul estampado con regalos y globos. También están en el escenario los objetos Piñata y Stick.](images/backdrop-and-sprites.png)
 
-At the moment there is not much happening at this party. You can change that!
+Por el momento no está pasando mucho en esta fiesta. ¡Puedes cambiarlo!
 
 --- task ---
 
-A sprite can have code, costumes, and sounds to change the way that it looks and what it does.
+Un objeto puede tener código, disfraces y sonidos para cambiar su aspecto y lo que hace.
 
-Click on the **Piñata** sprite in the Sprite list and select the **Costumes** tab. There are two piñata costumes, one named 'whole' and the other named 'broken'.
+Haz clic en el objeto **Piñata** en la lista de ovjetos y selecciona la pestaña **Disfraces**. Hay dos disfraces piñata, uno se llama 'whole' (entera) y el otro se llama 'broken' (rota).
 
-![Side-by-side images of the two piñata costumes. The left is a whole piñata, the right has broken open.](images/pinata-costumes.png)
+![Imagen lado a lado de los dos disfraces de la piñata. El de la izquierda es la piñata entera, en el de la derecha está rota y abierta.](images/pinata-costumes.png)
 
-![The Costumes tab (the middle tab in the top left).](images/costumes-tab.png)
+![La pestaña de Disfraces (la pestaña del medio arriba a la izqierda).](images/costumes-tab.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab. Go to the `Looks`{:class="block3looks"} blocks menu then drag a `switch costume to`{:class="block3looks"} block to the Code area.
+Haz clic en la pestaña **Código**. Go to the `Looks`{:class="block3looks"} blocks menu then drag a `switch costume to`{:class="block3looks"} block to the Code area.
 
 Click on the costume name to open a **drop-down menu** then select the `whole`{:class="block3looks"} costume:
 
