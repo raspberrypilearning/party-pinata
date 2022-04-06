@@ -5,7 +5,7 @@ Si tu as le temps, tu peux perfectionner ton projet. Tu as peut-être déjà des
 Tu pourrais :
 
 + Utiliser des apparences, des sons ou des blocs de mouvement supplémentaires pour animer ton message et davantage de friandises
-+ Trouver des images de tes friandises préférées et ajoute-les aux costumes pour le sprite **Friandises**
++ Trouver des images de tes friandises préférées et les ajouter aux costumes pour le sprite **Friandises**
 + Augmenter le nombre de friandises qui tombent de la piñata à chaque coup
 + Rendre ton projet plus facile ou plus difficile en modifiant le nombre de fois où tu dois frapper la piñata avant qu'elle ne se casse
 
@@ -28,7 +28,7 @@ Qu'advient-il de l'arrière-plan lorsque la piñata se brise ? Quels blocs cré
 
 --- task ---
 
-Tu peux ajouter du code pour que le message s'anime `indéfiniment`{:class="block3control"} lorsqu'il est en position. Utilise les blocs `changement de taille`{:class="block3looks"} et `changements d'effet de couleur`blocs {:class="block3looks"} pour donner l'impression que le message bouge avec le rythme de la fête :
+Tu peux ajouter du code pour que le message s'anime `indéfiniment`{:class="block3control"} lorsqu'il est en position. Utilise les blocs `changement de taille`{:class="block3looks"} et les blocs `changements d'effet de couleur`{:class="block3looks"} pour donner l'impression que le message bouge au rythme de la fête :
 
 ![L'icône du sprite Message.](images/message-sprite.png)
 
@@ -41,7 +41,7 @@ ajouter (-10) à y
 fin
 + répéter indéfiniment
 ajouter (20) à la taille // Nombre positif à augmenter
-ajouter (25) à l'effet [ couleur v] // changer la couleur
+ajouter (25) à l'effet [couleur v] // changer la couleur
 attendre (0.5) seconds // Essaie différents nombres pour correspondre à ta musique
 ajouter (-20) à la taille // Nombre négatif pour rétrécir
 ```
@@ -68,8 +68,8 @@ Tu peux voir le [projet terminé ici](https://scratch.mit.edu/projects/649873783
 
 ### Soumettre ton projet
 
-Si tu as déjà partagé ton projet avec nous, enregistre simplement tes modifications et nous verrons tes superbes mises à niveau.
+Si tu as déjà partagé ton projet avec nous, il suffit d'enregistrer tes modifications et nous verrons tes superbes améliorations.
 
-Si tu n'as pas encore partagé ton projet mais que tu souhaites soumettre ton projet à notre studio Scratch ['Party piñata — Community'](https://scratch.mit.edu/studios/31111242){:target="_blank"} pour que d'autres personnes le voient, remplis [ce formulaire](https://form.raspberrypi.org/f/community-project-submissions){:target ="_blank"}.
+Si tu n'as pas encore partagé ton projet mais que tu souhaites soumettre ton projet à notre studio Scratch ["Piñata de fête — Communité"](https://scratch.mit.edu/studios/31111242){:target="_blank"} pour que d'autres personnes le voient, remplis [ce formulaire](https://form.raspberrypi.org/f/community-project-submissions){:target ="_blank"}.
 
 --- /task ---
