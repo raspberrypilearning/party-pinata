@@ -1,37 +1,37 @@
-## Start the party
+## パーティーをはじめよう
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will choose a piñata costume and code the piñata to swing.
+このステップでは、ピニャータのコスチュームを選択し、ピニャータがゆれるようにコーディングします。
 </div>
 <div>
-![An animated gif showing the stage with the piñata sprite positioned at the top centre and swinging left to right.](images/swinging-pinata.gif){:width="300px"}
+![中央上部に配置されたピニャータのスプライトが左右に揺れるアニメーションGIF](images / swinging-pinata.gif){:width = "300px"}
 </div>
 </div>
 
 --- task ---
 
-Open the [Party piñata starter project](https://scratch.mit.edu/projects/653082997/editor){:target="_blank"}. Scratch will open in another browser tab.
+[ピニャータパーティースタートプロジェクト](https://scratch.mit.edu/projects/653082997/editor){:target ="_blank"}を開きます。 スクラッチはブラウザの別のタブで開きます。
 
 [[[working-offline]]]
 
 --- /task ---
 
-The Scratch editor looks like this:
+Scratchのエディタは次のようになります。
 
 ![An annotated screenshot of the Scratch editor, with the Stage, Stage pane, Sprite pane, Sprite list, and Code area labelled.](images/scratch-interface.png)
 
-The **Stage** is where your project runs and a **backdrop** changes the way that the Stage looks. A Code Club party backdrop has been added for you.
+**ステージ** で、プロジェクトが実行されます。**背景** によって、ステージがどのように見えるかを変えることができます。 Code Clubパーティーの背景になっています。
 
-In Scratch, characters and objects are called **sprites**, and they appear on the Stage. You can see the **Piñata** and **Stick** sprites on the Stage.
+Scratchでは、キャラクターとオブジェクトは**スプライト**と呼ばれ、それらはステージに表示されます。 **ピニャータ** と **スティック**のスプライトがステージにおかれています。
 
 ![The stage with a patterned blue backdrop with presents and balloons. Also on the Stage are the Piñata and Stick sprites.](images/backdrop-and-sprites.png)
 
-At the moment there is not much happening at this party. You can change that!
+いまはまだ、このパーティーではなにもハプニングがおきていません。 変えていきましょう！
 
 --- task ---
 
-A sprite can have code, costumes, and sounds to change the way that it looks and what it does.
+スプライトにコード、コスチューム、サウンドを設定して見た目や動きを変更できます。
 
 Click on the **Piñata** sprite in the Sprite list and select the **Costumes** tab. There are two piñata costumes, one named 'whole' and the other named 'broken'.
 
