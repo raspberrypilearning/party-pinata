@@ -15,7 +15,7 @@ Tu pourrais :
 <div style="flex-basis: 175px; flex-grow: 1">  
 Sais-tu que tu peux également ajouter du code à l'arrière-plan ?
 
-Qu'advient-il de l'arrière-plan lorsque la piñata se brise ? Quels blocs créeraient cet effet ? 
+Qu'advient-il de l'arrière-plan lorsque la piñata se casse ? Quels blocs créeraient cet effet ? 
 
 [Voir le code](https://scratch.mit.edu/projects/653771814/){:target="_blank"}
 
