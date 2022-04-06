@@ -10,7 +10,7 @@ Si tu débutes avec Scratch, continue à explorer avec notre parcours [Introduct
 
 --- task ---
 
-Si tu connais déjà les sprites, les costumes, les décors et les boucles, essaie notre parcours [Plus de Scratch](https://projects.raspberrypi.org/en/pathways/more-scratch){:target="_blank"}.
+Si tu connais déjà les sprites, les costumes, les arrière-plans et les boucles, essaie notre parcours [Plus de Scratch](https://projects.raspberrypi.org/en/pathways/more-scratch){:target="_blank"}.
 
 --- /task ---
 
