@@ -85,7 +85,7 @@ switch costume to (whole v)
 旗（はた）がクリックされたとき
 コスチュームを(whole v) にする
 + x座標（ざひょう）を(0)、 y座標 （ざひょう）を(180) にする
-+(90) 度（ど）にむける// 準備（じゅんび）のポジションです
++(90) 度（ど）にむける// 準備（じゅんび）ポジション
 ```
 
 --- /task ---
@@ -112,22 +112,22 @@ x座標（ざひょう）を(0) 、y座標（ざひょう）を(180) にする
 
 --- task ---
 
-Drag a `repeat 10`{:class="block3control"} block into the Code area and attach it inside your `forever`{:class="block3control"} loop.
+`10回繰り返す（くりかえす）`{:class="block3control"} ブロックをコードエリアにドラッグし、`ずっと`{:class="block3control"} ループの中にいれます。
 
-Go to the `Motion`{:class="block3motion"} blocks menu and drag a `turn clockwise 15 degrees`{:class="block3motion"} block into the `repeat`{:class="block3control"} block.
+`動き（うごき）`{:class="block3motion"} ブロックメニューから、 `15度回す（どまわす）`{:class="block3motion"} ブロックを`繰り返す（くりかえす）`{:class="block3control"} ブロックの中にドラッグします。
 
-Change the `15`{:class="block3motion"} degrees to `1`{:class="block3motion"} degree so that the piñata only swings a small amount each time:
+`15`{:class="block3motion"} 度（ど）を `1`{:class="block3motion"} 度（ど）にかえることで、ピニャータがすこしずつゆれるようにします。:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (whole v)
-go to x: (0) y: (180)
-point in direction (90)
-forever
-+ repeat (10) 
-turn right (1) degrees // Change to 1
+旗（はた）をクリックすると
+コスチュームを(whole v) にする
+x座標（ざひょう）を(0)、y座標（ざひょう）を(180) にする
+(90) 度（ど）に向ける
+ずっと
++ (10) 回繰り返す（かいくりかえす）
+右に(1) 度（ど）回す（まわす）//1にかえる
 ```
 ![Repeat block being added within the forever block and then a turn clockwise block added within it.](images/add-repeat.gif)
 
@@ -135,11 +135,11 @@ turn right (1) degrees // Change to 1
 
 --- task ---
 
-**Test:** Run your project, by clicking on the **green flag** above the Stage, to see the piñata swing.
+**テスト:** プロジェクトを実行（じっこう）し, ステージの上の **緑の旗（みどりのはた）** をクリックして、ピニャータがゆれることを確認（かくにん）します。
 
-**Mmm, something is not quite right!** When an object is hung from the ceiling, it won't just rotate in one direction, it will swing back and forth.
+**うーん、なにかおかしい！** 天井（てんじょう）に、ものをつるしたら、一方向（いちほうこう）に回転（かいてん）するのではなく、前後（ぜんご）にゆれるはずです。
 
-Stop your project by clicking on the **red stop icon** above the Stage.
+ステージの上にある **赤いストップボタン**をクリックして、プロジェクトをとめてください。
 
 ![Green flag and stop icons shown side by side.](images/start-stop.png)
 
@@ -147,7 +147,7 @@ Stop your project by clicking on the **red stop icon** above the Stage.
 
 --- task ---
 
-Add code to your `forever`{:class="block3control"} loop so that the piñata swings from the centre back and forth continuously like a pendulum:
+`ずっと`{:class="block3control"}ループにコードをいれると、ピニャータがふりこのようにまんなかから前後（ぜんご）にゆれます。:
 
 ![The Piñata sprite with arrows underneath showing that it swings clockwise from centre, then anticlockwise through the centre, then clockwise back to the centre.](images/pinata-swing.png)
 
