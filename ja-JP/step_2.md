@@ -19,7 +19,7 @@
 
 Scratchのエディタは次のようになります。
 
-![ステージ、ステージペイン、スプライトペイン、スプライトリスト、およびコードエリアにラベルが付けられた、Scratchエディタの注釈付きスクリーンショット。](images/scratch-interface.png)
+![ステージ、ステージペイン、スプライトペイン、スプライトリスト、およびコードエリアにラベルが付けられた、Scratchエディタの注釈付きスクリーンショット](images/scratch-interface.png)
 
 **ステージ** で、プロジェクトが実行されます。**背景** によって、ステージがどのように見えるかを変えることができます。 Code Clubパーティーの背景になっています。
 
@@ -35,9 +35,9 @@ Scratchでは、キャラクターとオブジェクトは**スプライト**と
 
 スプライトリストで**ピニャータ** をクリックし、**コスチューム** タブをクリックします。 ピニャータのコスチュームは2つあります。1つは「Whole」、もう1つは「broken」という名前です。
 
-![2つのピニャータの衣装を並べた画像 The left is a whole piñata, the right has broken open.](images/pinata-costumes.png)
+![2つのピニャータの衣装を並べた画像 左はピニャータ、右はこわれて開いたピニャータ](images/pinata-costumes.png)
 
-![The Costumes tab (the middle tab in the top left).](images/costumes-tab.png)
+![コスチュームタブ(左上中央のタブ)](images/costumes-tab.png)
 
 --- /task ---
 
@@ -47,13 +47,13 @@ Scratchでは、キャラクターとオブジェクトは**スプライト**と
 
 コスチュームの名前（なまえ）をクリックして、 **ドロップダウンメニュー**をひらき、 `whole`{:class="block3looks"} というコスチュームをえらびます:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![ピニャータのスプライト](images/pinata-sprite.png)
 
 ```blocks3
 コスチュームを (whole v) にする // 「whole」にかえます。
 ```
 
-![An animated image showing the switch costume block being dragged from the Looks blocks menu to the Code area.](images/switch-costume.gif)
+![見た目ブロックメニューからコスチュームを＿にするブロックをどらっぐしているアニメーション画像](images/switch-costume.gif)
 
 --- /task ---
 
@@ -63,13 +63,13 @@ Scratchでは、キャラクターとオブジェクトは**スプライト**と
 
 `イベント`{:class="block3events"} ブロックメニューか ら`旗（はた）が押されたとき`{:class="block3events"} ブロックをドラッグし、コードエリアのブロックの一番上につなげます。 ブロック同士（どうし）がつながります。
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![ピニャータのスプライト](images/pinata-sprite.png)
 
 ```blocks3
 +旗（はた）がクリックされた時
 コスチュームを (whole v) にする
 ```
-![When flag clicked block being added to the code area and connected to the switch costume block.](images/add-flag-clicked.gif)
+![旗をクリックするブロックを、コスチュームを＿にするブロックにつなげているとき](images/add-flag-clicked.gif)
 
 --- /task ---
 
@@ -79,7 +79,7 @@ Scratchでは、キャラクターとオブジェクトは**スプライト**と
 
 ブロックメニューの`動き（うごき）`{:class="block3motion"} に, `x座標（ざひょう）を0、 y座標（ざひょう）を180にする`{:class="block3motion"} や `90度（ど）に向（む）ける`{:class="block3motion"} のブロックがあります。 これらのブロックをコードエリアのいちばん下にドラッグしてつなげます：
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![ピニャータのスプライト](images/pinata-sprite.png)
 
 ```blocks3
 旗が押されたとき
@@ -96,7 +96,7 @@ Scratchでは、キャラクターとオブジェクトは**スプライト**と
 
 `制御（せいぎょ）`{:class="block3control"} ブロックメニューから `ずっとr`{:class="block3control"} ブロックをドラッグして、コードのいちばん下につなげます:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![ピニャータのスプライト](images/pinata-sprite.png)
 
 ```blocks3
 旗が押されたとき
@@ -118,7 +118,7 @@ x座標を(0) 、y座標を(180) にする
 
 `15`{:class="block3motion"} 度（ど）を `1`{:class="block3motion"} 度（ど）にかえることで、ピニャータがすこしずつゆれるようにします。:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![ピニャータのスプライト](images/pinata-sprite.png)
 
 ```blocks3
 旗が押されたとき
@@ -129,7 +129,7 @@ x座標を(0)、y座標を(180) にする
 + (10) 回繰り返す（かいくりかえす）
 右に(1) 度回す//1にかえる
 ```
-![Repeat block being added within the forever block and then a turn clockwise block added within it.](images/add-repeat.gif)
+![ずっとブロックの中に繰り返すブロックを追加し、その中に時計まわりのブロックを追加](images/add-repeat.gif)
 
 --- /task ---
 
@@ -141,7 +141,7 @@ x座標を(0)、y座標を(180) にする
 
 ステージの上にある **赤いストップボタン**をクリックして、プロジェクトをとめてください。
 
-![Green flag and stop icons shown side by side.](images/start-stop.png)
+![並んで表示されている緑の旗と停止ボタン](images/start-stop.png)
 
 --- /task ---
 
@@ -149,9 +149,9 @@ x座標を(0)、y座標を(180) にする
 
 `ずっと`{:class="block3control"}ループにコードをいれると、ピニャータがふりこのようにまんなかから前後（ぜんご）にゆれます。:
 
-![The Piñata sprite with arrows underneath showing that it swings clockwise from centre, then anticlockwise through the centre, then clockwise back to the centre.](images/pinata-swing.png)
+![まんなかから時計まわりにゆれた後、反時計まわりにゆれ、真ん中に戻ってくることを表した矢印がついたピニャータのスプライト](images/pinata-swing.png)
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![ピニャータのスプライト](images/pinata-sprite.png)
 
 ```blocks3
 旗が押されたとき
@@ -181,7 +181,7 @@ end
 + `時計まわり`{:class="block3motion"}  と `反時計回り`{:class="block3motion"} の向きが正しいことを確認（かくにん）します。
 + コードで使っている数字（すうじ）を確認（かくにん）します。
 
-![An animated gif showing the Stage with the Piñata sprite positioned at the top centre and swinging back and forth.](images/swinging-pinata.gif)
+![中央上部に配置されたピニャータのスプライトが左右にゆれるアニメーションGIF](images/swinging-pinata.gif)
 
 --- /task ---
 
