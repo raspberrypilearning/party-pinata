@@ -19,7 +19,7 @@
 
 26個のおやつのコスチュームがありますー全部使うことができますよ！
 
-![The specially created treat images shown as a collection of treats.](images/treats.png)
+![おやつのコレクションとして特別に制作されたおやつ画像](images/treats.png)
 
 --- /task ---
 
@@ -27,7 +27,7 @@
 
 **コード** タブをクリックし、スクリプトを作って、プロジェクトを開始したときに、ピニャータの中におやつを`隠す`{:class="block3looks"}ようにします：
 
-![The Treats sprite icon.](images/treats-sprite.png)
+![おやつのスプライト](images/treats-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -49,7 +49,7 @@ Scratchでの<span style="color: #0faeb0">**クローン**</span> は、スプ�
 
 `繰り返す`{:class="block3control"}ループをコードに追加します。 `4`{:class="block3control"}に回数を変え、`クローンを作る`{:class="block3control"} ブロックを追加します。 ドロップダウンを使って`おやつ`{:class="block3control"} のスプライトを選択します。
 
-![The Pinata sprite icon.](images/pinata-sprite.png)
+![ピニャータのスプライト](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -66,17 +66,17 @@ broadcast (party v)
 
 **ヒント：** スクリプトに新しいコードを追加するときには、まずコード領域のあいている場所を使って作り、そのあとスクリプトにドラッグします。
 
-![The repeat and clone blocks are assembled on their own in the Code area before being dragged into position in the script.](images/code-area.gif) --- /task ---
+![スクリプトにドラッグする前にコード領域で繰り返しとクローンのブロックを組み合わせる](images/code-area.gif) --- /task ---
 
 --- task ---
 
 **おやつ** のスプライトをクリックします。
 
-Create a new script using the `when I start as a clone`{:class="block3control"} block.
+`クローンされたとき`{:class="block3control"} のブロックで新しいスクリプトを作成します。
 
-Add blocks from the `Looks`{:class="block3looks"} blocks menu to control the appearance of each new clone:
+`見た目`{:class="block3looks"}から、新しいクローンがどのように表示されるかについてコントロールするためにブロックをいくつか追加します：
 
-![The Treats sprite icon.](images/treats-sprite.png)
+![おやつのスプライト](images/treats-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -89,9 +89,9 @@ switch costume to (Knafeh v)
 
 --- task ---
 
-You can pick random treats to be released when the piñata is hit. Use a `pick random`{:class="block3operators"} operator to select a random costume from `1`{:class="block3operators"} to `26`{:class="block3operators"} each time a clone is created:
+ピニャータがたたかれたとき、ランダムにおやつを取り出すことができます。 `乱数`{:class="block3operators"} の演算子を使い、`1`{:class="block3operators"} から `26`{:class="block3operators"} までのランダムなコスチュームでクローンが作成されるようにします：
 
-![The Treats sprite icon.](images/treats-sprite.png)
+![おやつのスプライト](images/treats-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -104,11 +104,11 @@ go to [back v] layer
 
 --- task ---
 
-At the moment, the **Treats** clones will appear behind the **Piñata** sprite, but treats should fall from the piñata to a random position.
+ここまでで, **おやつ** のクローンが **ピニャータ** のうしろに現れるようになりましたが、まだピニャータからランダムな場所へ落ちていく必要があります。
 
-Add code to make the cloned **Treats** sprites `glide`{:class="block3motion"} to a random position:
+**おやつ**のスプライトがランダムな場所へ `行く`{:class="block3motion"} ようにコードを追加します。
 
-![The Treats sprite icon.](images/treats-sprite.png)
+![おやつのスプライト](images/treats-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -122,17 +122,17 @@ switch costume to (pick random (1) to (26))
 
 --- task ---
 
-**Test:** Run your project and hit the piñata to see four clones of the **Treats** sprite after each hit. The costumes will be selected at random and the treats will each glide to a random position.
+**テスト：** プロジェクトを実行し、ピニャータをたたき、たたくたびに **おやつ** のクローンが4つ出てくることを確認します。 コスチュームはランダムに選ばれ、おやつはランダムな場所に移動します。
 
-![An animated image showing the pinata being hit three times. Each time, four random treats fall out to random positions.](images/four-treats.gif)
+![ピニャータが3回たたかれるアニメーション画像 毎回4つのおやつがランダムな場所に落ちていく](images/four-treats.gif)
 
 --- /task ---
 
 --- task ---
 
-Add animation to make the **Treats** sprite clones `turn`{:class="block3motion"} `forever`{:class="block3control"} when they reach their random position. Remember animations work best when small movements are used, so change the number of degrees to `1`{:class="block3motion"}:
+**おやつ** のクローンが 、ランダムな場所に着くまで`ずっと`{:class="block3control"} `回転する`{:class="block3motion"} ようにアニメーションを追加します。 アニメーションは、小さな動きを使うと効果的だということを覚えていてください。それなので角度を`1`{:class="block3motion"}にしておきます。
 
-![The Treats sprite icon.](images/treats-sprite.png)
+![おやつのスプライト](images/treats-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -148,9 +148,9 @@ turn right (1) degrees
 
 --- task ---
 
-**Test:** Run your project again to see the **Treats** sprite clones spin.
+**テスト：** プロジェクトを再実行し、**おやつ** のクローンが回転することを確認します。
 
-![An animated image showing the pinata being hit multiple times. Each time, four random treats fall out to random positions then slowly rotate in a circle.](images/spinning-treats.gif)
+![ピニャータが何回もたたかれるアニメーション画像 毎回4つのおやつがランダムに選ばれて円を描きながらランダムな場所に落ちる](images/spinning-treats.gif)
 
 --- /task ---
 
