@@ -58,11 +58,11 @@ go to (mouse-pointer v) // Change to mouse-pointer
 
 **選ぶ：** **再生** ボタンの上にカーソルをおくと、ループ音を聞くことができます。 クリックして好きな音を追加します。
 
-![The 'Hip hop' sound with play icon highlighted in the top-right corner of the sound icon.](images/play-icon.png)
+![右上の再生ボタンがハイライトされている「ヒップホップ」音](images/play-icon.png)
 
 音が、音のリストに表示されます。
 
-![The 'Hip hop' sound in the Sound list on the Sounds tab.](images/added-sound.png)
+![音タブの音リストに表示されているヒップホップ音](images/added-sound.png)
 
 --- /task ---
 
@@ -70,7 +70,7 @@ go to (mouse-pointer v) // Change to mouse-pointer
 
 **コード**タブをクリックして新しいスクリプトを作成し、`party`{:class="block3events"} メッセージを受け取った時に、 `ずっと`{:class="block3control"}音が鳴るようにします。
 
-![The Stick sprite icon.](images/stick-sprite.png)
+![スティックのスプライト.](images/stick-sprite.png)
 
 ```blocks3
 when I receive [party v]
