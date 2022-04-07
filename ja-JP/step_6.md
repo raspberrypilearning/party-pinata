@@ -60,7 +60,7 @@ Code Clubに送るバーズデーカードに、どのようなことを書き�
 
 **選択**をクリックすると、メッセージのまわりに8つの円が表示されます。 白い枠内でこれらの円をドラッグすることにより、メッセージの大きさを変えることができます。
 
-![The Select tool is highlighted and the message has small circles in each corner and at the central vertical and horizontal borer points so that it can be resized in multiple directions.](images/resize-message.png)
+![選択ツールがハイライトされメッセージの周りに小さな円が表示されており、中央の水平・垂直ボーラーによってどの方向にもサイズ変更ができる](images/resize-message.png)
 
 --- /task ---
 
@@ -70,7 +70,7 @@ Code Clubに送るバーズデーカードに、どのようなことを書き�
 
 **コード** タブをクリックし、プロジェクトが開始した時にはメッセージをピニャータの中に `隠す`{:class="block3looks"} tようにスクリプトを作成します：
 
-![The Message sprite icon.](images/message-sprite.png)
+![メッセージのスプライト](images/message-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -87,7 +87,7 @@ go to x: (0) y: (100) // Inside the piñata
 
 メッセージをアニメーション化するため、`繰り返し`{:class="block3control"} ループを追加します。 メッセージは、だんだん大きくするために`大きさを変える`{:class="block3looks"} 。舞い落ちるようなアニメーションにするため`y座標を変える`{:class="block3motion"} ：
 
-![The Message sprite icon.](images/message-sprite.png)
+![メッセージのスプライト](images/message-sprite.png)
 
 ```blocks3
 when I receive [party v]
@@ -103,7 +103,7 @@ change y by (-10) // Change to -10
 
 **テスト：**プロジェクトを実行します。 ピニャータを10回たたき、メッセージが舞い落ちるのを確認します。
 
-![An animated image showing the pinata being hit ten times. Treats appear after each hit and on the tenth hit the pinata breaks and the message falls to the bottom of the screen. It gets bigger as it falls.](images/falling-message.gif)
+![ピニャータが10回たたかれるアニメーション画像 ピニャータをたたくたびにおやつができきて、10回めで割れてメッセージが舞い落ちてくる 落ちてくるにつれ、どんどん大きくなっていく](images/falling-message.gif)
 
 --- /task ---
 
