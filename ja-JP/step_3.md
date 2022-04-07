@@ -13,7 +13,7 @@
 
 **ピニャータ**スプライトで**音**タブをクリックすると、**ボヨン**という音が見つかります。 **再生**ボタンをクリックすると、音が出ます。
 
-![The Sounds tab showing the Boing sound in the Sounds list with the Play icon (a white triangle in a blue circle) highlighted at the bottom.](images/play-boing.png)
+![ボヨンの音が表示され再生ボタン (青い円に白い三角) がハイライトされている音タブ](images/play-boing.png)
 
 --- /task ---
 
@@ -25,7 +25,7 @@ Scratchでは、つなげたブロックのグループは **スクリプト**�
 
 `音`{:class="block3sound"} ブロックメニューで、`... の音を鳴らす`{:class="block3sound"} ブロックを見つけます。 それを`このスプライトが押されたとき`{:class="block3events"} ブロックの下にドラッグします:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![ピニャータのスプライト](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -46,17 +46,17 @@ start sound [Boing v]
 
 `変数`{:class="block3variables"} ブロックメニューから、**変数を作る** ボタンをクリックします。
 
-![The variables blocks menu with the 'Makes a Variable' button.](images/make-variable.png)
+![変数メニューブロックと「変数を作る」ボタン](images/make-variable.png)
 
 新しい変数**hits**を作ります:
 
-![The 'New variable' pop-up window with the name 'hits' typed in the 'New variable name' box.](images/new-variable.png)
+![「新しい変数」ポップアップウィンドウで「新しい変数名」にhitsと入力](images/new-variable.png)
 
 **注意:** 新しい「hits」という変数（へんすう）がステージの上にあらわれ、 `変数`{:class="block3variables"} ブロックの中で使うことができるようになります。
 
-![The hits variable on the Stage.](images/variable-stage.png)
+![ステージ上の変数「hits」](images/variable-stage.png)
 
-![The Variable blocks including new 'hits' block.](images/variable-blocks.png)
+![新しい「hits」ブロックを含んだ変数ブロック](images/variable-blocks.png)
 
 --- /task ---
 
@@ -68,7 +68,7 @@ start sound [Boing v]
 
 コードは以下のようになります：
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![ピニャータのスプライト](images/pinata-sprite.png)
 
 ```blocks3
 旗が押されたとき
@@ -96,7 +96,7 @@ end
 
 **ピニャータ**スプライトをクリックすると `hits`{:class="block3variables"} が `1`{:class="block3variables"} ずつかわるようにブロックを追加します。
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![ピニャータのスプライト](images/pinata-sprite.png)
 
 ```blocks3
 このスプライトが押されたとき
@@ -110,7 +110,7 @@ end
 
 **テスト：**プロジェクトを数回（すうかい）実行（じっこう）します。 `hits`{:class="block3variables"} が、いつも`0`{:class="block3variables"} からはじまり、**ピニャータ**をクリックするたびに `1`{:class="block3variables"}ずつ数がふえていることを確認（かくにん）します。
 
-![The Stage showing the number stored in the hits variable is '8'.](images/hits-increase.png)
+![値が「8」となっている変数「hits 」が表示されているステージ](images/hits-increase.png)
 
 --- /task ---
 
@@ -126,7 +126,7 @@ end
 
 `制御`{:class = "block3looks"} ブロックメニューを開きます。 `もし__なら`{:class="block3control"} ブロックをコードエリア `このスプライトが押されたとき`{:class="block3events"} の中のスクリプトをかこむようにおきます:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![ピニャータのスプライト](images/pinata-sprite.png)
 
 ```blocks3
 このスプライトが押されたとき
@@ -146,7 +146,7 @@ The **Piñata** sprite should play a sound and increase the count of `hits`{:cla
 
 まず、六角形のところに`<`{:class="block3operators"}を追加（ついか）します。
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![ピニャータのスプライト](images/pinata-sprite.png)
 
 ```blocks3
 このスプライトが押されたとき
@@ -162,7 +162,7 @@ The **Piñata** sprite should play a sound and increase the count of `hits`{:cla
 
 `もし__なら`{:class="block3control"}の条件（じょうけん）の中に、`<`{:class="block3operators"}の左に変数（へんすう）`hits`{:class="block3variables"} をドラッグし、右に「10」とタイピングします。:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![ピニャータのスプライト](images/pinata-sprite.png)
 
 ```blocks3
 このスプライトが押されたとき
@@ -186,7 +186,7 @@ The **Piñata** sprite should play a sound and increase the count of `hits`{:cla
 
 2つめの`もし__なら`{:class="block3control"} ブロックを、1つめの中に追加（ついか）します。 今回（こんかい）の条件（じょうけん）では、`hits`{:class="block3variables"} `=`{:class="block3operators"} 10 であることをチェックして、「true（しん）」の場合 には、コスチュームを`broken`{:class="block3looks"}にかえるようにします:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![ピニャータのスプライト](images/pinata-sprite.png)
 
 ```blocks3
 このスプライトが押されたとき
@@ -204,7 +204,7 @@ The **Piñata** sprite should play a sound and increase the count of `hits`{:cla
 
 **テスト：**プロジェクトを数回（すうかい）実行（じっこう）します。 **ピニャータ**のスプライトが、「whole」のコスチュームからスタートし、`10 回たたかれた`{:class="block3variables"}ときに、「broken」のコスチュームにかわることを確認（かくにん）します。
 
-![An animated image showing the piñata being clicked ten times. After the tenth time, the costume changes to broken.](images/break-pinata.gif)
+![ピニャータが10回クリックされているアニメーション画像 10回の後こわれたコスチュームにかわる](images/break-pinata.gif)
 
 --- /task ---
 
@@ -214,9 +214,9 @@ Scratchでは、`メッセージを送る`{:class="block3events"} ブロック�
 
 --- task ---
 
-Add a `broadcast message`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu:
+`イベント`{:class="block3events"}から`メッセージを送る`{:class="block3events"} ブロックを追加（ついか）します:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![ピニャータのスプライト](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -228,16 +228,16 @@ switch costume to (broken v)
 + broadcast (message1 v)
 ```
 
-Click on `message1`{:class="block3events"} and choose **New message**. Name the new message `party`{:class="block3events"}.
+`メッセージ１`{:class="block3events"} をクリックし、 **新しいメッセージ**を選びます。 新しいメッセージの名前を`party`{:class="block3events"}としてください。
 
-![The drop-down menu on the broadcast block showing the 'New message' menu option.](images/new-message.png)
+![「新しいメッセージ」が表示されている「メッセージを送る」ブロックのドロップダウンメニュー](images/new-message.png)
 
-![The New message pop-up window with 'New message name' box highlighted and the typed word 'party'.](images/party-message.png)
+![「新しいメッセージ」ボックスがハイライトされ、「party」という文字が入力されている新しいメッセージポップアップウィンドウ](images/party-message.png)
 
-Your `broadcast`{:class="block3events"} block will look like this:
+`メッセージを送る`{:class="block3events"} ブロックは、このようになります：
 
 ```blocks3
-broadcast (party v)
+(party v) を送る
 ```
 
 --- /task ---
