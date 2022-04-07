@@ -64,13 +64,13 @@ switch costume to (broken v)
 broadcast (party v)
 ```
 
-**Tip:** Use the spare space in the Code area to build your new code then drag it into the existing script:
+**ヒント：** スクリプトに新しいコードを追加するときには、まずコード領域のあいている場所を使って作り、そのあとスクリプトにドラッグします。
 
 ![The repeat and clone blocks are assembled on their own in the Code area before being dragged into position in the script.](images/code-area.gif) --- /task ---
 
 --- task ---
 
-Click on the **Treats** sprite.
+**おやつ** のスプライトをクリックします。
 
 Create a new script using the `when I start as a clone`{:class="block3control"} block.
 
