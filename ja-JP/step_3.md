@@ -124,7 +124,7 @@ end
 
 --- task ---
 
-`見た目`{:class = "block3looks"} ブロックメニューを開きます。 Drag an `if`{:class="block3control"} block into the Code area and insert it around the blocks in your `when this sprite clicked`{:class="block3events"} script:
+`制御`{:class = "block3looks"} ブロックメニューを開きます。 Drag an `if`{:class="block3control"} block into the Code area and insert it around the blocks in your `when this sprite clicked`{:class="block3events"} script:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
