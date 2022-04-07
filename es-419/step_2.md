@@ -43,25 +43,25 @@ Haz clic en el objeto **Piñata** en la lista de ovjetos y selecciona la pestañ
 
 --- task ---
 
-Haz clic en la pestaña **Código**. Go to the `Looks`{:class="block3looks"} blocks menu then drag a `switch costume to`{:class="block3looks"} block to the Code area.
+Haz clic en la pestaña **Código**. Ve al menú de bloques `Apariencia`{:class="block3looks"} y arrastra un disfraz de `cambiar disfraz a:`{:class="block3looks"} al área de código.
 
-Click on the costume name to open a **drop-down menu** then select the `whole`{:class="block3looks"} costume:
+Haz clic en el nombre del disfraz para abrir un **menú desplegable** y luego selecciona el disfraz `whole (entera)`{:class="block3looks"}:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![El icono del objeto Piñata.](images/pinata-sprite.png)
 
 ```blocks3
-switch costume to (whole v) // Update to 'whole'
+cambia el disfraz a (v whole) // Actualiza a 'whole (entera)'
 ```
 
-![An animated image showing the switch costume block being dragged from the Looks blocks menu to the Code area.](images/switch-costume.gif)
+![Una imagen animada que muestra el bloque cambiar disfraz a: quee se arrastra desde el menú de bloques Apariencia al área de código.](images/switch-costume.gif)
 
 --- /task ---
 
-Blocks can be connected together in the Code area to run more than one at a time. Connected blocks will run in order from top to bottom.
+Los bloques se pueden conectar entre sí en el área de código para ejecutar más de uno a la vez. Los bloques conectados se ejecutarán en orden de arriba a abajo.
 
 --- task ---
 
-Drag a `When flag clicked`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu and connect it to the top of your looks block in the Code area. The blocks will snap together:
+Arrastra un bloque `Al presionar bandera`{:class="block3events"} desde el menú de bloques `Eventos`{:class="block3events"} y conéctalo a la parte superior de tu bloque Apariencia en el área de codigo. The blocks will snap together:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
