@@ -1,8 +1,8 @@
-## Share
+## 共有しましょう
 
-Now, it's time to share your project so other people can join the party.
+作品を共有して、他の人もパーティーに参加できるようにしましょう。
 
-If you have a Scratch account, you can share your project through Scratch. You can send a link to people you know, and the whole Scratch community will be able to find your project and try it out.
+Scratchアカウントをお持ちの場合は、Scratchを介してプロジェクトを共有できます。 You can send a link to people you know, and the whole Scratch community will be able to find your project and try it out.
 
 [[[share-scratch]]]
 
