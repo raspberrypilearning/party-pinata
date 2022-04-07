@@ -124,35 +124,35 @@ end
 
 --- task ---
 
-`制御`{:class = "block3looks"} ブロックメニューを開きます。 Drag an `if`{:class="block3control"} block into the Code area and insert it around the blocks in your `when this sprite clicked`{:class="block3events"} script:
+`制御`{:class = "block3looks"} ブロックメニューを開きます。 `もし__なら`{:class="block3control"} ブロックをコードエリア `このスプライトが押されたとき`{:class="block3events"} の中のスクリプトをかこむようにおきます:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
 ```blocks3
-when this sprite clicked
-+ if <> then
-start sound [Boing v]
-change [hits v] by (1)
+このスプライトが押されたとき
++ もし<> なら
+[Boing v] の音を鳴らす
+[hits v] を (1) ずつ変える
 
 ```
 
 --- /task ---
 
-The `if`{:class="block3control"} block has a hexagon-shaped input where you can build a condition.
+`もし__なら`{:class="block3control"}ブロックは、中の六角形（ろくかくけい）のところに条件（じょうけん）を入力することができます。
 
 --- task ---
 
 The **Piñata** sprite should play a sound and increase the count of `hits`{:class="block3variables"} **`if`{:class="block3control"}** the number of `hits`{:class="block3variables"} is `less than`{:class="block3operators"} `10`{:class="block3variables"}.
 
-First add a `<`{:class="block3operators"} operator into the hexagon-shaped input:
+まず、六角形のところに`<`{:class="block3operators"}を追加（ついか）します。
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
 ```blocks3
-when this sprite clicked
-+ if <() < ()> then
-start sound [Boing v]
-change [hits v] by (1)
+このスプライトが押されたとき
++ もし <() < ()> なら
+[Boing v] の音を鳴らす
+[hits v] を (1) ずつ変える
 
 ```
 
@@ -160,15 +160,15 @@ change [hits v] by (1)
 
 --- task ---
 
-Finish building the `if`{:class="block3control"} condition by dragging in the `hits`{:class="block3variables"} variable to the left of the `<`{:class="block3operators"} operator and typing the value '10' on the right:
+`もし__なら`{:class="block3control"}の条件（じょうけん）の中に、`<`{:class="block3operators"}の左に変数（へんすう）`hits`{:class="block3variables"} をドラッグし、右に「10」とタイピングします。:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
 ```blocks3
-when this sprite clicked
-+ if <(hits) < (10)> then
-start sound [Boing v]
-change [hits v] by (1)
+このスプライトが押されたとき
++ もし <(hits) < (10)> なら
+[Boing v] の音を鳴らす
+[hits v] を (1) ずつ変える
 
 ```
 
@@ -176,25 +176,25 @@ change [hits v] by (1)
 
 --- task ---
 
-**Test:** Run your project again. Hit the piñata 10 times to hear the sound and see the `hits`{:class="block3variables"} variable increase.
+**テスト：**プロジェクトをもういちど実行（じっこう）します。 ピニャータを10回たたいて、音がなることと、変数`hits`{:class="block3variables"} のカウント数がふえることを確認（かくにん）します。
 
-Hit the piñata a few more times. The `hits`{:class="block3variables"} variable will not go above 10 because that condition is no longer 'true' so the code inside the `if`{:class="block3control"} block won't run.
+ピニャータをもっとたたいてみてください。 変数`hits`{:class="block3variables"}は、10より大きくはなりません。なぜなら`もし__なら`{:class="block3control"}の条件が「true（真）」ではなくなったため、その中のコードが実行されなくなったためです。
 
 --- /task ---
 
 --- task ---
 
-Add a second `if`{:class="block3control"} block inside the first. This time the condition will check if `hits`{:class="block3variables"} `=`{:class="block3operators"} 10 and if 'true' the costume will change to `broken`{:class="block3looks"}:
+2つめの`もし__なら`{:class="block3control"} ブロックを、1つめの中に追加（ついか）します。 今回（こんかい）の条件（じょうけん）では、`hits`{:class="block3variables"} `=`{:class="block3operators"} 10 であることをチェックして、「true（しん）」の場合 には、コスチュームを`broken`{:class="block3looks"}にかえるようにします:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
 ```blocks3
-when this sprite clicked
-if <(hits) < (10)> then
-start sound [Boing v]
-change [hits v] by (1)
-+ if <(hits)=(10)> then
-switch costume to (broken v)
+このスプライトが押されたとき
+もし <(hits) < (10)> なら
+[Boing v] の音を鳴らす
+[hits v] を (1) ずつ変える
++ もし <(hits)=(10)> なら
+コスチュームを (broken v) にする
 
 ```
 
@@ -202,15 +202,15 @@ switch costume to (broken v)
 
 --- task ---
 
-**Test:** Run your project a couple of times. Check that the **Piñata** sprite starts with the 'whole' costume then changes to the 'broken' costume after `10 hits`{:class="block3variables"}.
+**テスト：**プロジェクトを数回（すうかい）実行（じっこう）します。 **ピニャータ**のスプライトが、「whole」のコスチュームからスタートし、`10 回たたかれた`{:class="block3variables"}ときに、「broken」のコスチュームにかわることを確認（かくにん）します。
 
 ![An animated image showing the piñata being clicked ten times. After the tenth time, the costume changes to broken.](images/break-pinata.gif)
 
 --- /task ---
 
-When the **Piñata** sprite has broken, all the other sprites need to know that the party has started.
+**ピニャータ** のスプライトがこわれたとき、そのほかのスプライトにパーティーがはじまったことが伝わる（つたわる）必要（ひつよう）があります。
 
-In Scratch, the `broadcast`{:class="block3events"} block can be used to **send** a message that all sprites can **receive**.
+Scratchでは、`メッセージを送る`{:class="block3events"} ブロックが、すべてのスプライトが**受け取る**ことができるようにメッセージを**送る**のに使えます。
 
 --- task ---
 
