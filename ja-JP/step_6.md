@@ -1,30 +1,30 @@
-## Create a message
+## メッセージを作りましょう
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will write a message and animate it using motion and colour effects. 
+このステップでは、メッセージを作成し、モーション効果とカラー効果を使ってアニメーション化します。 
 </div>
 <div>
-![An animated image showing the message falling then changing size and colour when it has reached the final message fall position.](images/falling-message.gif){:width="300px"}
+![メッセージが舞い落ちながら、最終的な場所にたどり着くまでに大きさや色が変わっていくアニメーション画像](images/falling-message.gif){:width="300px"}
 </div>
 </div>
 
-What would you write in a birthday card to send to Code Club? It could be:
-+ Your favourite thing about Code Club
-+ A message about your fabulous Code Club leader
-+ Details of what you want to make next with your coding skills
+Code Clubに送るバーズデーカードに、どのようなことを書きますか？ 例えば:
++ Code Clubの好きなところ
++ 素晴らしいCode Clubのリーダーについてのメッセージ
++ あなたのコーディングスキルをどのように伸ばしたいかについて
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The first Code Club projects were written in English, but within a year they had been translated into Brazilian Portuguese, Dutch, German, Norwegian, and Ukrainian. French, Greek, and Spanish translations quickly followed and now some of the Code Club projects have been translated into <span style="color: #0faeb0">**28 native languages**</span>. Thank you to our awesome translation community!
+最初のCode Clubのプロジェクトは英語で書かれましたが、一年のうちにブラジル語、ポルトガル語、オランダ語、ドイツ語、ノルウェー語、ウクライナ語に翻訳されました。 フランス語、ギリシャ語、スペイン語の翻訳がすぐそれに続き、いまやCode Clubのプロジェクトは <span style="color: #0faeb0">**28言語**</span>に翻訳されています。 素晴らしい翻訳コミュニティーに感謝します。
 
-![Multiple images saying Happy Birthday in various native languages.](images/birthday-languages.png)
+![さまざまな言語でのハッピーバースデーのイメージ](images/birthday-languages.png)
 </p>
 
 --- task ---
 
-Click on the **Message** sprite in the Sprite list and select the **Costumes** tab.
+スプライトのリストから**メッセージ** のスプライトをクリックし、**コスチューム** タブを選びます。
 
-The costume has some text saying 'Happy Birthday Code Club'. Double click (or tap and hold on a tablet) on the text to select the text editing tool.
+このコスチュームには「ハッピーバースデイCode Club」と書かれています。 Double click (or tap and hold on a tablet) on the text to select the text editing tool.
 
 ![The costume editor with Text tool selected and text highlighted.](images/text-edit.png)
 
