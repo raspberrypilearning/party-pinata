@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Piñatas are usually hit with a stick made from wood or thick card that is covered in colourful strips of paper. このステップでは、コードを追加して、ピニャータをコントロールと、ピニャータがこわれたときに音楽がながれつづけるようにします。 
+Piñatas are usually hit with a stick made from wood or thick card that is covered in colourful strips of paper. このステップでは、コードを追加してピニャータをコントロールし、ピニャータがこわれたときに音楽がながれつづけるようにします。 
 </div>
 <div>
 ![スティックのスプライトがマウスポインタを追いかけているアニメーション画像](images/follow-stick.gif){:width="300px"}
@@ -11,11 +11,11 @@ Piñatas are usually hit with a stick made from wood or thick card that is cover
 
 --- task ---
 
-スプライトリストにある **スティック** スプライトをクリックします。 Add code so that the stick always stays in front of the other sprites and follows the mouse-pointer (or your finger on a tablet).
+スプライトリストにある **スティック** スプライトをクリックします。 スティックが常に他のスプライトの前でマウスポインター(もしくはタブレット画面をなぞる指) をおいかけるようにコードを追加します。
 
-Use the `go to random position`{:class="block3motion"} block, but select `mouse-pointer`{:class="block3motion"} from the drop-down menu:
+`どこかの場所へ行く`{:class="block3motion"}ブロックで、ドロップダウンメニューから `マウスポインター`{:class="block3motion"} を選んで使います:
 
-![The Stick sprite icon](images/stick-sprite.png)
+![スティックのスプライト](images/stick-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -28,39 +28,39 @@ go to (mouse-pointer v) // Change to mouse-pointer
 
 --- task ---
 
-**Test:** Run your project and check the **Stick** sprite follows your cursor or finger around the Stage.
+**テスト:** プロジェクトを実行し **スティック**スプライトが、カーソルや画面をなぞる指をおいかけるか確認します。
 
-![An animated image showing the Stick sprite following the mouse-pointer around the Stage.](images/follow-stick.gif)
-
---- /task ---
-
-There are many different types of sounds in Scratch from voice and animal noises to over 100 other sound effects.
-
-Scratch also has **looping sounds** that can be used in `forever`{:class="block3control"} or `repeat`{:class="block3control"} loops to sound like they are playing continuously.
-
---- task ---
-
-Go to the **Sounds** tab and click on the **Choose a sound** icon.
-
-![The Choose a sound icon with the sounds pop-up menu. When selected, the choose a sound icon is a white speaker on a green circle.](images/sound-icon.png)
+![スティックのスプライトがマウスポインタを追いかけているアニメーション画像](images/follow-stick.gif)
 
 --- /task ---
 
+スクラッチには、声や動物の鳴き声など、100以上の色々な音が用意されています。
+
+また、Scratch では**ループ音**を `ずっと`{:class="block3control"} や `繰り返す`{:class="block3control"} ループを使用することで、ずっと鳴らし続けることができます。
+
 --- task ---
 
-From the **Choose a sound** gallery, select the **Loops** category.
+**音** タブを選択し、 **音を選ぶ** ボタンをクリックします。
 
-![The Sound gallery with 'Loops' category highlighted in orange to show it has been selected. The other categories are in blue.](images/loops-category.png)
+![音のポップアップメニューで音を選んでいる 選択すると、選んだ音のアイコンが緑の円に白いスピーカーになる](images/sound-icon.png)
 
 --- /task ---
 
 --- task ---
 
-**Choose:** Hover over the **play** icons to hear the looping sounds. Add your favourite by clicking on it.
+**音を選ぶ**一覧画面から、 **ループ** カテゴリを選びます。
+
+![「ループ」のカテゴリがオレンジ色にハイライトされている音の一覧画面 そのほかのカテゴリは青く表示](images/loops-category.png)
+
+--- /task ---
+
+--- task ---
+
+**選ぶ：** **再生** ボタンの上にカーソルをおくと、ループ音を聞くことができます。 クリックして好きな音を追加します。
 
 ![The 'Hip hop' sound with play icon highlighted in the top-right corner of the sound icon.](images/play-icon.png)
 
-The sound will then appear in your Sounds list:
+音が、音のリストに表示されます。
 
 ![The 'Hip hop' sound in the Sound list on the Sounds tab.](images/added-sound.png)
 
@@ -68,7 +68,7 @@ The sound will then appear in your Sounds list:
 
 --- task ---
 
-Click on the **Code** tab and create a new script to loop the sound `forever`{:class="block3control"} when the `party`{:class="block3events"} message has been received:
+**コード**タブをクリックして新しいスクリプトを作成し、`party`{:class="block3events"} メッセージを受け取った時に、 `ずっと`{:class="block3control"}音が鳴るようにします。
 
 ![The Stick sprite icon.](images/stick-sprite.png)
 
@@ -82,7 +82,7 @@ play sound [Hip Hop v] until done // Choose your sound
 
 --- task ---
 
-**Test:** Run your project, and click on the piñata ten times to hear the looping party music.
+**テスト：** プロジェクトを実行し、ピニャータを10回たたいて、ループ音が流れることを確認します。
 
 --- /task ---
 
