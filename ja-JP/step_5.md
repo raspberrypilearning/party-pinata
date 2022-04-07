@@ -1,23 +1,23 @@
-## Add some treats
+## おやつを追加しましょう
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Piñatas are full of treats and when they start to break, the treats fall out. In this step, you will animate international food treats to fall out of the piñata each time it is hit. Do you recognise any of the treats?
+ピニャータには、たくさんのおやつが詰められていて、こわれ始めると、おやつが出てきます。 このステップでは、色々な国のおやつが、たたかれるたびにピニャータから落ちてくるようにします。 どんなおやつを知っていますか？
 </div>
 <div>
-![An animated image showing the piñata being hit multiple times. Each time, four random treats fall out to random positions then slowly rotate in a circle.](images/spinning-treats.gif){:width="300px"}
+![ピニャータが何回もたたかれるアニメーション画像。 毎回4つのおやつがランダムに選ばれて、円を描きながらランダムな場所に落ちる](images/spinning-treats.gif){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">**costume**</span> in Scratch is an image that changes the way a sprite looks. Our **graphic designers** asked Code Club leaders around the world to tell them what treats they would have at a party. Hopefully, some of the treat costumes they created will be familiar to you — and others completely new.      
+スクラッチでは、<span style="color: #0faeb0">**コスチューム**</span> は、スプライトの見える方法をかえる画像です。 **グラフィックデザイナー**は、世界中にいるCode Clubのリーダーに、パーティーでどんなおやつが出るかを聞きました。 彼らが描いたおやつがあなたに親しみのあるものかもしれませんねーまったく新しいおやつもあります。      
 </p>
 
 --- task ---
 
-Click on the **Treats** sprite in the Sprite list and select the **Costumes** tab.
+スプライトリストで**おやつ** をクリックし、**コスチューム** タブをクリックします。
 
-There are 26 treat costumes — and you are going to use them all!
+26個のおやつのコスチュームがありますー全部使うことができますよ！
 
 ![The specially created treat images shown as a collection of treats.](images/treats.png)
 
@@ -25,7 +25,7 @@ There are 26 treat costumes — and you are going to use them all!
 
 --- task ---
 
-Click on the **Code** tab then create a script to `hide`{:class="block3looks"} the treats in the piñata when your project starts:
+**コード** タブをクリックし、スクリプトを作って、プロジェクトを開始したときに、ピニャータの中におやつを`隠す`{:class="block3looks"}ようにします：
 
 ![The Treats sprite icon.](images/treats-sprite.png)
 
@@ -37,17 +37,17 @@ go to x: (0) y: (100)
 
 --- /task ---
 
-Four treats will escape the piñata each time the piñata is hit. By **cloning** the **Treats** sprite, you can create multiple treats.
+ピニャータがたたかれるたびに、4つのおやつが飛び出すようにします。 **おやつ** のスプライトの**クローンを作る**ことによって、たくさんのおやつを作成することができます。
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">**clone**</span> in Scratch is a copy of a sprite. It has all the same code, costumes, and sounds of the original sprite.      
+Scratchでの<span style="color: #0faeb0">**クローン**</span> は、スプライトのコピーです。 クローンは、オリジナルのスプライトと同じコード、コスチューム、音で動きます。      
 </p>
 
 --- task ---
 
-Click on the **Piñata** sprite.
+**ピニャータ** のスプライトをクリックします。
 
-Insert a `repeat`{:class="block3control"} loop into your existing code. Change the value to `4`{:class="block3control"} then add a `create clone of myself`{:class="block3control"} block. Use the drop-down arrow to select the `Treats`{:class="block3control"} sprite:
+`繰り返す`{:class="block3control"}ループをコードに追加します。 `4`{:class="block3control"}に回数を変え、`クローンを作る`{:class="block3control"} ブロックを追加します。 ドロップダウンを使って`おやつ`{:class="block3control"} のスプライトを選択します。
 
 ![The Pinata sprite icon.](images/pinata-sprite.png)
 
