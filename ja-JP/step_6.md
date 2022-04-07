@@ -24,51 +24,51 @@ Code Clubに送るバーズデーカードに、どのようなことを書き�
 
 スプライトのリストから**メッセージ** のスプライトをクリックし、**コスチューム** タブを選びます。
 
-このコスチュームには「ハッピーバースデイCode Club」と書かれています。 Double click (or tap and hold on a tablet) on the text to select the text editing tool.
+このコスチュームには「ハッピーバースデイCode Club」と書かれています。 このテキストを編集するために、テキストの上でダブルクリック(タブレットの上で長押し) します。
 
-![The costume editor with Text tool selected and text highlighted.](images/text-edit.png)
-
---- /task ---
-
---- task ---
-
-You can now type your new Code Club birthday message. Press **Enter** on your keyboard to start a new line.
-
-**Tip:** Don't worry if your message is a bit too big for the box as you can resize it later.
-
-![The text editor showing a new message has been typed in place of the old message.](images/new-text.png)
+![テキストツールが選ばれテキストがハイライトされているコスチューム編集画面](images/text-edit.png)
 
 --- /task ---
 
 --- task ---
 
-**Choose:** Click on the **Fill** icon to open the colour drop-down menu. Move the fill sliders to the left or right to select your favourite colour.
+あなたからCode Clubへのバースディメッセージを新しくタイプすることができます。 キーボードの**Enter**を押して新しい行を始めることができます。
 
-![The Fill drop-down menu with sliders for colour, saturation, and brightness. The message has changed from green to purple.](images/font-colour.png)
+**ヒント：** あなたのメッセージが枠からはみ出てしまっても気にしないでください。枠はあとから大きくすることができます。
 
---- /task ---
-
---- task ---
-
-**Choose:** Click on the **Font** tool and a drop-down list of fonts will appear. The 'Pixel' font is selected in the starter project, but you can use any of the fonts available.
-
-![The Font drop-down menu showing a choice of nine different fonts. The 'Marker' font has been selected.](images/font-type.png)
+![古いメッセージが打ち変えられ新しいメッセージが表示されているテキストエディタ](images/new-text.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Select** tool and eight circles will appear around your message. Use these circles to resize your message by clicking on them and dragging them within the white box.
+**オプション：** **塗りつぶし**をクリックして、色のドロップダウンメニューをひらきます。 好みの色になるように、塗りつぶしがめんのスライダーを動かしてください。
+
+![色・鮮やかさ・明るさのスライドバーが表示されている塗りつぶしメニュー 緑から紫に変更されたメッセージ](images/font-colour.png)
+
+--- /task ---
+
+--- task ---
+
+**オプション：** **フォント**をクリックするとフォントのリストが表示されます。 「Pixel」フォントが初期値として設定されていますが、選択可能などのフォントでも使うことができます。
+
+![9つのフォントが表示されたフォントのドロップダウンメニュー 「Maker」フォントが選択されている](images/font-type.png)
+
+--- /task ---
+
+--- task ---
+
+**選択**をクリックすると、メッセージのまわりに8つの円が表示されます。 白い枠内でこれらの円をドラッグすることにより、メッセージの大きさを変えることができます。
 
 ![The Select tool is highlighted and the message has small circles in each corner and at the central vertical and horizontal borer points so that it can be resized in multiple directions.](images/resize-message.png)
 
 --- /task ---
 
-Your message is ready, now you can add code to hide your message inside the piñata and make your message fall from the piñata after the tenth hit.
+あなたからのメッセージが準備できましたので、メッセージをピニャータの中に隠し、ピニャータが10回たたかれた時に落ちてくるようにコードを追加します。
 
 --- task ---
 
-Click on the **Code** tab then create a script to `hide`{:class="block3looks"} the message in the piñata when your project starts:
+**コード** タブをクリックし、プロジェクトが開始した時にはメッセージをピニャータの中に `隠す`{:class="block3looks"} tようにスクリプトを作成します：
 
 ![The Message sprite icon.](images/message-sprite.png)
 
@@ -83,9 +83,9 @@ go to x: (0) y: (100) // Inside the piñata
 
 --- task ---
 
-Create a new script to start when the `party`{:class="block3events"} message has been received.
+`party`{:class="block3events"} というメッセージを受け取ったときに開始する新しいスクリプトを作成します。
 
-Add a `repeat`{:class="block3control"} loop to animate the message. The message will `change size`{:class="block3looks"} to grow and `change y`{:class="block3motion"} position to fall as it animates:
+メッセージをアニメーション化するため、`繰り返し`{:class="block3control"} ループを追加します。 メッセージは、だんだん大きくするために`大きさを変える`{:class="block3looks"} 。舞い落ちるようなアニメーションにするため`y座標を変える`{:class="block3motion"} ：
 
 ![The Message sprite icon.](images/message-sprite.png)
 
@@ -101,7 +101,7 @@ change y by (-10) // Change to -10
 
 --- task ---
 
-**Test:** Run your project. Hit the piñata ten times to see the message fall.
+**テスト：**プロジェクトを実行します。 ピニャータを10回たたき、メッセージが舞い落ちるのを確認します。
 
 ![An animated image showing the pinata being hit ten times. Treats appear after each hit and on the tenth hit the pinata breaks and the message falls to the bottom of the screen. It gets bigger as it falls.](images/falling-message.gif)
 
