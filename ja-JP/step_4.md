@@ -1,17 +1,17 @@
-## Use a stick
+## スティックをつかってみましょう
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Piñatas are usually hit with a stick made from wood or thick card that is covered in colourful strips of paper. In this step, you will add code to control the piñata stick and play looping music when the piñata breaks. 
+Piñatas are usually hit with a stick made from wood or thick card that is covered in colourful strips of paper. このステップでは、コードを追加して、ピニャータをコントロールと、ピニャータがこわれたときに音楽がながれつづけるようにします。 
 </div>
 <div>
-![An animated image showing the Stick sprite following the mouse-pointer around the Stage.](images/follow-stick.gif){:width="300px"}
+![スティックのスプライトがマウスポインタを追いかけているアニメーション画像](images/follow-stick.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Click on the **Stick** sprite in the Sprite list. Add code so that the stick always stays in front of the other sprites and follows the mouse-pointer (or your finger on a tablet).
+スプライトリストにある **スティック** スプライトをクリックします。 Add code so that the stick always stays in front of the other sprites and follows the mouse-pointer (or your finger on a tablet).
 
 Use the `go to random position`{:class="block3motion"} block, but select `mouse-pointer`{:class="block3motion"} from the drop-down menu:
 
