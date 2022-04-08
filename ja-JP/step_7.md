@@ -2,7 +2,7 @@
 
 作品を共有して、他の人もパーティーに参加できるようにしましょう。
 
-Scratchアカウントをお持ちの場合は、Scratchを介してプロジェクトを共有できます。 You can send a link to people you know, and the whole Scratch community will be able to find your project and try it out.
+Scratchアカウントをお持ちの場合は、Scratchを介してプロジェクトを共有できます。 あなたの知っている人たちにリンクを送ることができ、またScratchコミュニティ全体があなたのプロジェクトを見つけてそれを試せるでしょう。
 
 [[[share-scratch]]]
 
@@ -10,12 +10,12 @@ Scratchアカウントをお持ちの場合は、Scratchを介してプロジェ
 
 --- task ---
 
-### Submit your project
+### プロジェクトを保存する
 
-Inspire the global Code Club community with your project!
+あなたのプロジェクトで、世界各国のCode Clubコミニュティーにインスピレーションを与えましょう。
 
-To submit your project to our ['Party piñata — Community' Scratch studio](https://scratch.mit.edu/studios/31111242){:target="_blank"} for other people to see, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+他の人が見ることができるよう、あなたのプロジェクトを ['Party piñata — Community' Scratchコミュニティ](https://scratch.mit.edu/studios/31111242){:target="_blank"}に送るには、 [このフォーム](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}を使ってください。
 
 --- /task ---
 
-![An animated image showing the message falling then changing size and colour when it has reach the final message fall position.](images/falling-message.gif)
+![メッセージが舞い落ちながら、最終的な場所にたどり着くまでに大きさや色が変わっていくアニメーション画像](images/falling-message.gif)
