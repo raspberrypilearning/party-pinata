@@ -1,22 +1,22 @@
-## What next
+## 次は何をしますか？
 
-We hope you have enjoyed this special Code Club birthday party piñata project.
+この特別なCode Clubのバースディパーティーのピニャータプロジェクトを楽しんでいただけたでしょうか。
 
 --- task ---
 
-If you are new to Scratch, continue exploring with our [Introduction to Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"} path for beginners.
+Scratchでの作品作成が初めてなら、初心者向けの [Introduction to Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"} パスを引き続き使ってみてください。
 
 --- /task ---
 
 --- task ---
 
-If you already know about sprites, costumes, backdrops, and loops, try our [More Scratch](https://projects.raspberrypi.org/en/pathways/more-scratch){:target="_blank"} path.
+すでにスプライトや、コスチューム、背景、ループについて知っているなら、[More Scratch](https://projects.raspberrypi.org/en/pathways/more-scratch){:target="_blank"} のパスを試してみてください。
 
 --- /task ---
 
 --- task ---
 
-To learn about lists, clones, and creating your own blocks, try our advanced [Further Scratch](https://projects.raspberrypi.org/en/pathways/further-scratch){:target="_blank"} path.
+リストやクローン、オリジナルのブロック作成について学びたい場合には、応用版の [Further Scratch](https://projects.raspberrypi.org/en/pathways/further-scratch){:target="_blank"} パスを試してみてください。
 
 --- /task ---
 
@@ -24,7 +24,7 @@ To learn about lists, clones, and creating your own blocks, try our advanced [Fu
 
 --- task ---
 
-If you need a reminder of what you have learnt, you can go to our ['Getting started with Scratch' guide](https://projects.raspberrypi.org/en/projects/getting-started-scratch).
+学んだことを思い出す必要がある場合は、 ['Scratch入門'ガイド](https://projects.raspberrypi.org/en/projects/getting-started-scratch)進んでください。
 
 --- /task ---
 
