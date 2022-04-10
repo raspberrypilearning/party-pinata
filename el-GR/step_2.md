@@ -1,39 +1,39 @@
-## Start the party
+## Εκκίνηση του πάρτι
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will choose a piñata costume and code the piñata to swing.
+Σε αυτό το βήμα, θα επιλέξεις μια ενδυμασία πινιάτα και θα γράψεις κώδικα ώστε η πινιάτα να αιωρείται.
 </div>
 <div>
-![An animated gif showing the stage with the piñata sprite positioned at the top centre and swinging left to right.](images/swinging-pinata.gif){:width="300px"}
+![Ένα κινούμενο gif που δείχνει τη σκηνή με το αντικείμενο πινιάτα τοποθετημένο στο επάνω κέντρο και αιωρείται από αριστερά προς τα δεξιά.](images/swinging-pinata.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Open the [Party piñata starter project](https://scratch.mit.edu/projects/653082997/editor){:target="_blank"}. Scratch will open in another browser tab.
+Άνοιξε το [αρχικό έργο Πάρτι πινιάτα](https://scratch.mit.edu/projects/653082997/editor){:target="_blank"}. Το Scratch θα ανοίξει σε νέα καρτέλα του φυλλομετρητή.
 
 [[[working-offline]]]
 
 --- /task ---
 
-The Scratch editor looks like this:
+Ο επεξεργαστής Scratch μοιάζει έτσι:
 
 ![An annotated screenshot of the Scratch editor, with the Stage, Stage pane, Sprite pane, Sprite list, and Code area labelled.](images/scratch-interface.png)
 
-The **Stage** is where your project runs and a **backdrop** changes the way that the Stage looks. A Code Club party backdrop has been added for you.
+Η **Σκηνή** είναι εκεί όπου εκτελείται το έργο σου και ένα **υπόβαθρο** αλλάζει τον τρόπο εμφάνισης της Σκηνής. Προστέθηκε ένα υπόβαθρο πάρτι Code Club για εσένα.
 
-In Scratch, characters and objects are called **sprites**, and they appear on the Stage. You can see the **Piñata** and **Stick** sprites on the Stage.
+Στο Scratch, οι χαρακτήρες και τα αντικείμενα ονομάζονται **αντικείμενα**, και εμφανίζονται στη Σκηνή. Μπορείς να δεις τα αντικείμενα **Πινιάτα** και **Ραβδί** στη Σκηνή.
 
 ![The stage with a patterned blue backdrop with presents and balloons. Also on the Stage are the Piñata and Stick sprites.](images/backdrop-and-sprites.png)
 
-At the moment there is not much happening at this party. You can change that!
+Αυτή τη στιγμή δεν γίνονται πολλά σε αυτό το πάρτι. Μπορείς να το αλλάξεις αυτό!
 
 --- task ---
 
-A sprite can have code, costumes, and sounds to change the way that it looks and what it does.
+Ένα αντικείμενο μπορεί να έχει κώδικα, ενδυμασίες και ήχους για να αλλάξει την εμφάνιση και το τι κάνει.
 
-Click on the **Piñata** sprite in the Sprite list and select the **Costumes** tab. There are two piñata costumes, one named 'whole' and the other named 'broken'.
+Κάνε κλικ στο αντικείμενο **Πινιάτα** στη λίστα Αντικειμένων και επιλέξτε την καρτέλα **Ενδυμασίες**. Υπάρχουν δύο ενδυμασίες πινιάτα, η μία ονομάζεται «ολόκληρη» και η άλλη με το όνομα «σπασμένη».
 
 ![Side-by-side images of the two piñata costumes. The left is a whole piñata, the right has broken open.](images/pinata-costumes.png)
 
@@ -43,9 +43,9 @@ Click on the **Piñata** sprite in the Sprite list and select the **Costumes** t
 
 --- task ---
 
-Click on the **Code** tab. Go to the `Looks`{:class="block3looks"} blocks menu then drag a `switch costume to`{:class="block3looks"} block to the Code area.
+Κάνε κλικ στην καρτέλα **Κώδικας**. Go to the `Looks`{:class="block3looks"} blocks menu then drag a `switch costume to`{:class="block3looks"} block to the Code area.
 
-Click on the costume name to open a **drop-down menu** then select the `whole`{:class="block3looks"} costume:
+Κάνε κλικ στο όνομα της ενδυμασίας για να ανοίξεις ένα **αναπτυσσόμενο μενού** και στη συνέχεια επίλεξε την ενδυμασία `ολοκληρωμένη`{:class="block3looks"}:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
@@ -127,7 +127,7 @@ go to x: (0) y: (180)
 point in direction (90)
 forever
 + repeat (10) 
-turn right (1) degrees // Change to 1
+turn right (1) degrees // Αλλαγή σε 1
 ```
 ![Repeat block being added within the forever block and then a turn clockwise block added within it.](images/add-repeat.gif)
 
