@@ -1,29 +1,29 @@
-## Hit the piñata
+## Χτύπησε την πινιάτα
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will code the piñata to play a sound and count one hit every time the piñata is clicked.
+Σε αυτό το βήμα, θα φτιάξεις κώδικα για την πινιάτα για να παίζει έναν ήχο και να μετράει ένα χτύπημα κάθε φορά που γίνεται κλικ πάνω στην πινιάτα.
 </div>
 <div>
-![An animated image showing the piñata being clicked ten times. After the tenth time, the costume changes to broken and the variable disappears.](images/break-pinata.gif){:width="300px"}
+![Μια κινούμενη εικόνα που δείχνει την πινιάτα να πατιέται δέκα φορές. Μετά τη δέκατη φορά, η ενδυμασία αλλάζει σε σπασμένη και η μεταβλητή εξαφανίζεται.](images/break-pinata.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Click on the **Sounds** tab for the **Piñata** sprite and you will find a **Boing** sound. Click on the **Play** icon to hear the sound.
+Κάνε κλικ στην καρτέλα **Ήχοι** για το αντικείμενο **Piñata** και θα βρεις έναν ήχο **Boing**. Κάνε κλικ στο εικονίδιο **Αναπαραγωγή** για να μπορείς να ακούσεις τον ήχο.
 
 ![The Sounds tab showing the Boing sound in the Sounds list with the Play icon (a white triangle in a blue circle) highlighted at the bottom.](images/play-boing.png)
 
 --- /task ---
 
-A group of connected blocks in Scratch is called a **script**. Sprites can have more than one script.
+Μια ομάδα συνδεδεμένων μπλοκ στο Scratch ονομάζεται **script**. Τα Αντικείμενα μπορούν να έχουν περισσότερα από ένα scripts.
 
 --- task ---
 
-Click on the **Code** tab. From `Events`{:class="block3events"}, drag a `when this sprite clicked`{:class="block3events"} block into the Code area to start a new script.
+Κάνε κλικ στην καρτέλα **Κώδικας**. Από τα `Συμβάντα`{:class="block3events"}, σύρε ένα μπλοκ `όταν γίνει κλικ σε αυτό το αντικείμενο`{:class="block3events"} στην περιοχή Κώδικας για να ξεκινήσεις ένα νέο script.
 
-In the `Sound`{:class="block3sound"} blocks menu, find the `start sound`{:class="block3sound"} block. Drag it underneath the `when this sprite clicked`{:class="block3events"} block:
+Στο μενού μπλοκ `Ήχος`{:class="block3sound"}, βρες το μπλοκ `παίξε τον ήχο`{:class="block3sound"}. Σύρε το κάτω από το μπλοκ `όταν γίνει κλικ σε αυτό το αντικείμενο`{:class="block3events"}:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
@@ -36,23 +36,23 @@ start sound [Boing v]
 
 --- task ---
 
-**Test:** Run your project by clicking on the **green flag** above the Stage. Click on the piñata as it swings to hear the boing sound.
+**Δοκιμή:** Εκτέλεσε το έργο σου κάνοντας κλικ στην **πράσινη σημαία** πάνω από τη Σκηνή. Κάνε κλικ στην πινιάτα καθώς αιωρείται για να ακούσεις τον ήχο boing.
 
 --- /task ---
 
-A `variable`{:class="block3variables"} is a way of storing numbers and/or text. The number of times the piñata is clicked will be stored in a variable called `hits`{:class="block3variables"} so it can be used at any time.
+Μια `μεταβλητή `{:class="block3variables"} είναι ένας τρόπος αποθήκευσης αριθμών ή/και κειμένου. Ο αριθμός των φορών που θα γίνει κλικ στην πινιάτα θα αποθηκευτεί σε μια μεταβλητή που ονομάζεται `χτυπήματα`{:class="block3variables"} ώστε να μπορεί να χρησιμοποιηθεί ανά πάσα στιγμή.
 
 --- task ---
 
-From the `Variables`{:class="block3variables"} blocks menu, click the **Make a Variable** button.
+Από το μενού μπλοκ `Μεταβλητές`{:class="block3variables"} κάνε κλικ στο κουμπί **Δημιουργία μεταβλητής**.
 
 ![The variables blocks menu with the 'Makes a Variable' button.](images/make-variable.png)
 
-Call your new variable **hits**:
+Κάλεσε τη νέα σου μεταβλητή **χτυπήματα**:
 
 ![The 'New variable' pop-up window with the name 'hits' typed in the 'New variable name' box.](images/new-variable.png)
 
-**Notice:** The new 'hits' variable appears on the Stage and can now be used in the `Variable`{:class="block3variables"} blocks.
+**Σημείωση:** Η νέα μεταβλητή "χτυπήματα" εμφανίζεται στη Σκηνή και μπορεί πλέον να χρησιμοποιηθεί στα μπλοκ `Μεταβλητές`{:class="block3variables"}.
 
 ![The hits variable on the Stage.](images/variable-stage.png)
 
@@ -62,30 +62,30 @@ Call your new variable **hits**:
 
 --- task ---
 
-Each time the project starts, the number of `hits`{:class="block3variables"} should be reset to `0`{:class="block3variables"}.
+Κάθε φορά που ξεκινά το έργο, ο αριθμός των `χτυπήματα`{:class="block3variables"} θα πρέπει να επαναφέρεται στο `0`{:class="block3variables"}.
 
-Drag the `set hits to 0`{:class="block3variables"} block into the first script in the Code area, between the `switch costume to`{:class="block3looks"} block and the `go to x: (0) y: (180)`{:class="block3motion"} block.
+Σύρε το μπλοκ`όρισε χτυπήματα σε 0`{:class="block3variables"} στο πρώτο script στην περιοχή Κώδικα μεταξύ του μπλοκ`άλλαξε ενδυμασία σε`{:class="block3looks"} και του μπλοκ`πήγαινε σε θέση x: ( 0) y: (180)`{:class="block3motion"}.
 
-Your code should look like this:
+Ο κώδικας θα πρέπει να μοιάζει κάπως έτσι:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (whole v)
-+ set [hits v] to (0)
-go to x: (0) y: (180)
-point in direction (90)
-forever
-repeat (10)
-turn right (1) degrees
-end
-repeat (20)
-turn left (1) degrees
-end
-repeat (10)
-turn right (1) degrees
-end
+όταν γίνει κλικ στη σημαία
+άλλαξε ενδυμασία σε (ολόκληρο v)
++ όρισε [χτυπήματα v] σε (0)
+πήγαινε σε θέση x: (0) y: (180)
+δείξε σε κατεύθυνση (90)
+για πάντα
+επανάληψη (10)
+στρίψε δεξιά (1) μοίρες
+τέλος
+επανάληψη (20)
+στρίψε αριστερά (1) μοίρες
+τέλος
+επανάληψη (10)
+στρίψε δεξιά (1) μοίρες
+τέλος
 ```
 
 --- /task ---
