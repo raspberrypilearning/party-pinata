@@ -1,4 +1,4 @@
-## What next
+## Και τώρα
 
 We hope you have enjoyed this special Code Club birthday party piñata project.
 
