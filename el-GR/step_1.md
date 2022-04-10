@@ -3,18 +3,18 @@
 Σε αυτό το έργο, θα δημιουργήσεις μια αιωρούμενη πινιάτα που βγάζει λιχουδιές όταν χτυπηθεί και τελικά σπάει για να αποκαλύψει ένα μήνυμα γενεθλίων.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">**piñata**</span> is often used to celebrate a birthday, new year, or festival. The shape and decorations of a piñata are designed to match the theme of the occasion. It's also full of treats. The aim is to hit the piñata with a stick to break the piñata and release the treats.    
+Η <span style="color: #0faeb0">**piñata**</span> χρησιμοποιείται συχνά για τον εορτασμό γενεθλίων, νέου έτους ή φεστιβάλ. Το σχήμα και η διακόσμηση μιας πινιάτας έχει σχεδιαστεί για να ταιριάζει με το θέμα της περίστασης. Είναι επίσης γεμάτη λιχουδιές. Ο στόχος είναι να χτυπήσεις την πινιάτα με ένα ραβδί για να σπάσει η πινιάτα και να απελευθερωθούν οι λιχουδιές.    
 </p>
 
 --- no-print --- --- task ---
-### Try it
+### Δοκίμασέ το
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Use the stick to hit the piñata. 
+Χρησιμοποίησε το ραβδί για να χτυπήσεις την πινιάτα. 
 
-What happens each time you hit the piñata? 
+Τι συμβαίνει κάθε φορά που χτυπάς την πινιάτα; 
 
-How many times do you need to hit the piñata for it to break?  
+Πόσες φορές πρέπει να χτυπήσεις την πινιάτα για να σπάσει;  
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/649873783/?autostart=false" frameborder="0"></iframe>
@@ -24,10 +24,10 @@ How many times do you need to hit the piñata for it to break?
 
 --- print-only ---
 
-![Completed project.](images/showcase_static.png)
+![Ολοκληρωμένο έργο.](images/showcase_static.png)
 
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Code Club**</span> is celebrating its 10th birthday this year. Did you know that there are Code Clubs on **six out of seven continents** around the world? That’s a lot of coders making things with code! Do you think any other clubs will be doing this project right now?   
+<span style="color: #0faeb0">Το **Code Club**</span> γιορτάζει φέτος τα 10α γενέθλιά του. Γνώριζες ότι υπάρχουν Code Clubs σε **έξι από τις επτά ηπείρους** σε όλο τον κόσμο; Είναι πολλοί προγραμματιστές που κάνουν πράγματα με κώδικα! Πιστεύεις ότι άλλα clubs θα κάνουν αυτό το έργο αυτή τη στιγμή;   
 </p>
