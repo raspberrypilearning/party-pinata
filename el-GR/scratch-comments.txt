@@ -1,41 +1,41 @@
-Update to 'whole'
+Ενημέρωση σε "ολόκληρο"
 
-Ready position
+Θέση εκκίνησης
 
-Change to 1
+Αλλαγή σε 1
 
-Swings 10 degrees clockwise from the centre
+Αιώρηση 10 μοίρες δεξιόστροφα από το κέντρο
 
-Swings 20 degrees anticlockwise through the centre
+Αιώρηση 20 μοίρες δεξιόστροφα από το κέντρο
 
-Swings 10 degrees clockwise back to the centre
+Αιώρηση 10 μοίρες δεξιόστροφα πίσω στο κέντρο
 
-Change to mouse-pointer
+Αλλαγή σε δείκτη του ποντικιού
 
-Choose your sound
+Επιλέξτε τον ήχο σας
 
-Change to 4
+Αλλαγή σε 4
 
-Select Treats
+Επιλέξτε Λιχουδιές
 
-Change to back
+Αλλαγή σε προηγούμενο
 
-Change to 26
+Αλλαγή σε 26
 
-Change to 10 to start small
+Αλλάξτε στο 10 για να ξεκινήσετε από ελάχιστο
 
-Inside the piñata
+Μέσα στην πινιάτα
 
-Change to 20
+Αλλαγή σε 20
 
-Change to 5
+Αλλαγή σε 5
 
-Change to -10
+Αλλαγή σε -10
 
-Positive number to grow
+Θετικός αριθμός για να αυξηθεί
 
-Change colour
+Αλλαγή χρώματος
 
-Try different numbers to match your music
+Δοκιμάστε διαφορετικούς αριθμούς για να ταιριάζουν με τη μουσική σας
 
-Negative number to shrink
+Αρνητικός αριθμός προς συρρίκνωση
