@@ -1,8 +1,8 @@
-## Upgrade your project
+## Αναβάθμιση του έργου σου
 
-If you have time, you can upgrade your project. You might have ideas about what to add already!
+Εάν έχεις χρόνο, μπορείς να αναβαθμίσεις το έργο σου. Μπορεί να έχεις ήδη ιδέες για το τι να προσθέσεις!
 
-You could:
+Θα μπορούσες να:
 
 + Use additional looks, sounds, or motion blocks to animate your message and treats further
 + Find images of your favourite treats and add them to the costumes for the **Treats** sprite
