@@ -56,7 +56,7 @@ start sound [Boing v]
 
 ![Η μεταβλητή χτυπήματα στη Σκηνή.](images/variable-stage.png)
 
-![The Variable blocks including new 'hits' block.](images/variable-blocks.png)
+![Το μπλοκ Μεταβλητές με του νέο μπλοκ «χτυπήματα».](images/variable-blocks.png)
 
 --- /task ---
 
@@ -68,7 +68,7 @@ start sound [Boing v]
 
 Ο κώδικας θα πρέπει να μοιάζει κάπως έτσι:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![Το εικονίδιο του αντικειμένου Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 όταν γίνει κλικ στη σημαία
@@ -96,7 +96,7 @@ start sound [Boing v]
 
 Πρόσθεσε ένα μπλοκ για να αυξήσεις τα `χτυπήματα`{:class="block3variables"} κατά `1`{:class="block3variables"} όταν κάνεις κλικ στο αντικείμενο **Piñata**:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![Το εικονίδιο του αντικειμένου Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 όταν γίνει κλικ σε αυτό το αντικείμενο
@@ -110,7 +110,7 @@ start sound [Boing v]
 
 **Δοκιμή:** Δοκίμασε το έργο σου μερικές φορές. Βεβαιώσου ότι η μεταβλητή `χτυπήματα`{:class="block3variables"} ξεκινά πάντα από το `0`{:class="block3variables"} και αυξάνεται κατά `1`{:class="block3variables"} κάθε φορά που κάνεις κλικ στο αντικείμενο **Piñata**.
 
-![The Stage showing the number stored in the hits variable is '8'.](images/hits-increase.png)
+![Η Σκηνή που δείχνει τον αριθμό που είναι αποθηκευμένος στη μεταβλητή χτυπημάτων είναι '8'.](images/hits-increase.png)
 
 --- /task ---
 
@@ -126,7 +126,7 @@ start sound [Boing v]
 
 Πήγαινε στο μενού μπλοκ `Έλεγχος`{:class="block3looks"}. Σύρε ένα μπλοκ `εάν`{:class="block3control"} στην περιοχή Κώδικας και τοποθέτησέ το γύρω από τα μπλοκ στο script `όταν γίνει κλικ σε αυτό το αντικείμενο`{:class="block3events"}:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![Το εικονίδιο του αντικειμένου Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 όταν γίνει κλικ σε αυτό το αντικείμενο
@@ -142,11 +142,11 @@ start sound [Boing v]
 
 --- task ---
 
-The **Piñata** sprite should play a sound and increase the count of `hits`{:class="block3variables"} **`if`{:class="block3control"}** the number of `hits`{:class="block3variables"} is `less than`{:class="block3operators"} `10`{:class="block3variables"}.
+Το αντικείμενο **Piñata** θα πρέπει να παίζει έναν ήχο και να αυξάνει τον αριθμό των `χτυπημάτων`{:class="block3variables"} **`εάν`{:class="block3control"}** ο αριθμός των `χτυπημάτων`{:class="block3variables Το "} είναι `μικρότερος από`{:class="block3operators"} `10`{:class="block3variables"}.
 
 Αρχικά, πρόσθεσε έναν τελεστή `<`{:class="block3operators"} στην είσοδο σε σχήμα εξαγώνου:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![Το εικονίδιο του αντικειμένου Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 όταν γίνει κλικ σε αυτό το αντικείμενο
@@ -162,7 +162,7 @@ The **Piñata** sprite should play a sound and increase the count of `hits`{:cla
 
 Ολοκλήρωσε τη δημιουργία της συνθήκης `εάν`{:class="block3control"} σύροντας τη μεταβλητή `χτυπήματα`{:class="block3variables"} στα αριστερά του τελεστή `<`{:class="block3operators"} και πληκτρολογώντας η τιμή '10' στα δεξιά:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![Το εικονίδιο του αντικειμένου Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 όταν γίνει κλικ σε αυτό το αντικείμενο
@@ -186,7 +186,7 @@ The **Piñata** sprite should play a sound and increase the count of `hits`{:cla
 
 Πρόσθεσε ένα δεύτερο `εάν`{:class="block3control"} μπλοκ μέσα στο πρώτο. Αυτή τη φορά η συνθήκη θα ελέγξει αν τα `χτυπήματα`{:class="block3variables"} `=`{:class="block3operators"} 10 και αν "αληθεύει" η ενδυμασία` θα αλλάξει σε <0>σπασμένη`{:class="block3looks"}:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![Το εικονίδιο του αντικειμένου Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 όταν γίνει κλικ σε αυτό το αντικείμενο
@@ -204,7 +204,7 @@ The **Piñata** sprite should play a sound and increase the count of `hits`{:cla
 
 **Δοκιμή:** Δοκίμασε το έργο σου μερικές φορές. Βεβαιώσου ότι το αντικείμενο **Piñata** ξεκινά με την ενδυμασία "ολόκληρη" και στη συνέχεια αλλάζει στην ενδυμασία "σπασμένη" μετά από `10 χτυπήματα`{:class="block3variables"}.
 
-![An animated image showing the piñata being clicked ten times. After the tenth time, the costume changes to broken.](images/break-pinata.gif)
+![Μια κινούμενη εικόνα που δείχνει την πινιάτα να πατιέται δέκα φορές. Μετά τη δέκατη φορά, η ενδυμασία αλλάζει σε σπασμένη.](images/break-pinata.gif)
 
 --- /task ---
 
@@ -216,7 +216,7 @@ The **Piñata** sprite should play a sound and increase the count of `hits`{:cla
 
 Πρόσθεσε το μπλοκ `μετάδωσε` από το μενού μπλοκ `Συμβάντα`:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![Το εικονίδιο του αντικειμένου Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 όταν γίνει κλικ σε αυτό το αντικείμενο
@@ -228,16 +228,16 @@ The **Piñata** sprite should play a sound and increase the count of `hits`{:cla
 + μετάδωσε (μήνυμα1 ν)
 ```
 
-Κάνε κλικ στο `μήνυμα1`{:class="block3events"} και επίλεξε **Νέο μήνυμα**. Μπορείς να ονομάσεις το μήνυμα `πάρτυ`{:class="block3events"}.
+Κάνε κλικ στο `μήνυμα1`{:class="block3events"} και επίλεξε **Νέο μήνυμα**. Μπορείς να ονομάσεις το μήνυμα `πάρτι`{:class="block3events"}.
 
-![The drop-down menu on the broadcast block showing the 'New message' menu option.](images/new-message.png)
+![Το αναπτυσσόμενο μενού στο μπλοκ μετάδοσης που εμφανίζει την επιλογή μενού "Νέο μήνυμα".](images/new-message.png)
 
-![The New message pop-up window with 'New message name' box highlighted and the typed word 'party'.](images/party-message.png)
+![Το αναδυόμενο παράθυρο Νέο μήνυμα με επισημασμένο το πλαίσιο «Νέο όνομα μηνύματος» και πληκτρολογημένη λέξη «πάρτι».](images/party-message.png)
 
 Το μπλοκ `μετάδωσε`{:class="block3events"} θα μοιάζει με αυτό:
 
 ```blocks3
-μετάδωσε (πάρτυ v)
+μετάδωσε (πάρτι v)
 ```
 
 --- /task ---
