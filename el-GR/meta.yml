@@ -1,30 +1,30 @@
 ---
-title: Party piñata
+title: Πάρτι πινιάτα
 hero_image: images/banner.png
-description: Create a swinging piñata that releases treats when it is hit, and eventually breaks to reveal a birthday message
+description: Δημιούργησε μια αιωρούμενη πινιάτα που βγάζει λιχουδιές όταν χτυπηθεί και τελικά σπάει για να αποκαλύψει ένα μήνυμα γενεθλίων
 version: 4
 listed: false
 copyedit: false
 last_tested: "2021-03-26"
 steps:
   - 
-    title: Introduction
+    title: Εισαγωγή
   - 
-    title: Start the party
+    title: Εκκίνηση του πάρτι
   - 
-    title: Hit the piñata
+    title: Χτύπησε την πινιάτα
     completion: engaged
   - 
-    title: Use a stick
+    title: Χρησιμοποίησε ένα ραβδί
   - 
-    title: Add some treats
+    title: Πρόσθεσε μερικές λιχουδιές
   - 
-    title: Create a message
+    title: Δημιούργησε ένα μήνυμα
     completion: internal
   - 
-    title: Share your project
+    title: Διαμοιράσου το έργο σου
     completion: external
   - 
-    title: Upgrade your project
+    title: Αναβάθμισε το έργο σου
   - 
-    title: What next?
+    title: Και τώρα;
