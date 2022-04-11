@@ -1,8 +1,8 @@
-## Use a stick
+## Χρησιμοποίησε ένα ραβδί
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Piñatas are usually hit with a stick made from wood or thick card that is covered in colourful strips of paper. In this step, you will add code to control the piñata stick and play looping music when the piñata breaks. 
+Η πινιάτα συνήθως χτυπιέται με ένα ραβδί από ξύλο ή χοντρή κάρτα που καλύπτεται με πολύχρωμες λωρίδες χαρτιού. In this step, you will add code to control the piñata stick and play looping music when the piñata breaks. 
 </div>
 <div>
 ![An animated image showing the Stick sprite following the mouse-pointer around the Stage.](images/follow-stick.gif){:width="300px"}
