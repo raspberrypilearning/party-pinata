@@ -1,22 +1,22 @@
-Update to 'whole'
+「まるごと」にかえる
 
-Ready position
+スタートポジション
 
-Change to 1
+１にかえる
 
-Swings 10 degrees clockwise from the centre
+まん中から時計回りに10度スイングする
 
-Swings 20 degrees anticlockwise through the centre
+まん中を通って反時計まわりに20度スイングする
 
-Swings 10 degrees clockwise back to the centre
+時計まわりに10度スイングしてまん中にもどる
 
-Change to mouse-pointer
+マウスポインタにかえる
 
-Choose your sound
+すきな音をえらぶ
 
-Change to 4
+４にかえる
 
-Select Treats
+おやつをえらぶ
 
 Change to back
 
