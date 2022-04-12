@@ -1,28 +1,28 @@
-Update to 'whole'
+Mise à jour vers "entier"
 
-Ready position
+Position prête
 
-Change to 1
+Changer à 1
 
-Swings 10 degrees clockwise from the centre
+Bascule de 10 degrés dans le sens des aiguilles d'une montre à partir du centre
 
-Swings 20 degrees anticlockwise through the centre
+Bascule de 20 degrés dans le sens inverse des aiguilles d'une montre en passant par le centre
 
-Swings 10 degrees clockwise back to the centre
+Bascule de 10 degrés dans le sens des aiguilles d'une montre vers le centre
 
-Change to mouse-pointer
+Changer sur pointeur-souris
 
-Choose your sound
+Choisis ton son
 
-Change to 4
+Changer à 4
 
-Select Treats
+Sélectionner les friandises
 
-Change to back
+Changer à arrière
 
-Change to 26
+Changer à 26
 
-Change to 10 to start small
+Changer à 10 pour commencer petit
 
 Inside the piñata
 
