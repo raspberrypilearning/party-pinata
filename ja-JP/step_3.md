@@ -56,13 +56,13 @@ start sound [Boing v]
 
 ![ステージ上の変数「hits」](images/variable-stage.png)
 
-![新しい「hits」ブロックを含んだ変数ブロック](images/variable-blocks.png)
+![新しい「たたいた数」ブロックを含んだ変数ブロック](images/variable-blocks.png)
 
 --- /task ---
 
 --- task ---
 
-プロジェクトが開始（かいし）されるたび、 `hits`{:class="block3variables"} の数は`0`{:class="block3variables"}にリセットされます。
+プロジェクトがスタートするたび、 `たたいた数`{:class="block3variables"} の数字は`0`{:class="block3variables"}にリセットされます。
 
 `たたいた数を0にする`{:class="block3variables"} ブロックをコードエリアのはじめのスクリプトにドラッグし、 `コスチュームを__にする`{:class="block3looks"} ブロックと`x座標を(0) 、y座標を (180)にする`{:class="block3motion"} ブロックの間においてね。
 
@@ -160,7 +160,7 @@ end
 
 --- task ---
 
-`もし__なら`{:class="block3control"}の条件（じょうけん）の中に、`<`{:class="block3operators"}の左に変数（へんすう）`hits`{:class="block3variables"} をドラッグして、右に「10」と入力しよう：
+`もし__なら`{:class="block3control"}の条件（じょうけん）の中に、`<`{:class="block3operators"}の左に変数（へんすう）`たたいた数`{:class="block3variables"} をドラッグして、右に「10」と入力しよう：
 
 ![ピニャータのスプライト](images/pinata-sprite.png)
 
@@ -176,7 +176,7 @@ end
 
 --- task ---
 
-**テスト：**プロジェクトをもういちど実行（じっこう）してみよう。 ピニャータを10回たたいて、音がなることと、変数`たたいた数`{:class="block3variables"} のカウント数がふえることを確認（かくにん）しよう。
+**テスト：**プロジェクトをもういちど実行してみよう。 ピニャータを10回たたいて、音がなることと、変数`たたいた数`{:class="block3variables"} のカウント数がふえることを確認しよう。
 
 ピニャータをもっとたたいてみて。 変数`たたいた数`{:class="block3variables"}は、10より大きくはなりません。なぜかというと、`もし__なら`{:class="block3control"}の条件が「true（真）」ではなくなったため、その中のコードが実行されなくなったのです。
 
@@ -184,7 +184,7 @@ end
 
 --- task ---
 
-2つめの`もし__なら`{:class="block3control"} ブロックを、1つめの中に追加（ついか）してみて。 今回（こんかい）の条件（じょうけん）では、`hits`{:class="block3variables"} `=`{:class="block3operators"} 10 であることをチェックして、「true（しん）」の場合 には、コスチュームを`broken`{:class="block3looks"}にかえるようにします:
+2つめの`もし__なら`{:class="block3control"} ブロックを、1つめの中に追加（ついか）してみて。 こんどの条件（じょうけん）では、`たたいた数`{:class="block3variables"} `=`{:class="block3operators"} 10 であることをチェックして、「true（しん）」の場合 には、コスチュームを`われた`{:class="block3looks"}にかえるようにするよ：
 
 ![ピニャータのスプライト](images/pinata-sprite.png)
 
@@ -202,19 +202,19 @@ end
 
 --- task ---
 
-**テスト：**プロジェクトを数回（すうかい）実行（じっこう）してみよう。 **ピニャータ**のスプライトが、「whole」のコスチュームからスタートし、`10 回たたかれた`{:class="block3variables"}ときに、「broken」のコスチュームにかわることを確認（かくにん）します。
+**テスト：**プロジェクトをなん回か実行してみよう。 **ピニャータ**のスプライトが、「まるごと」のコスチュームからスタートし、`10 回たたいた`{:class="block3variables"}ときに、「われた」のコスチュームにかわることをチェックしてね。
 
-![ピニャータが10回クリックされているアニメーション画像 10回の後こわれたコスチュームにかわる](images/break-pinata.gif)
+![ピニャータが10回クリックされているアニメーション画像 10回の後われたコスチュームにかわる](images/break-pinata.gif)
 
 --- /task ---
 
-**ピニャータ** のスプライトがこわれたとき、そのほかのスプライトにパーティーがはじまったことが伝わる（つたわる）必要（ひつよう）があります。
+**ピニャータ** のスプライトがわれたとき、そのほかのスプライトにパーティーがはじまったことがつたわるようにします。
 
-Scratchでは、`メッセージを送る`{:class="block3events"} ブロックが、すべてのスプライトが**受け取る**ことができるようにメッセージを**送る**のに使えます。
+Scratchでは、`メッセージを送る`{:class="block3events"} ブロックをつかって、すべてのスプライトが**受け取る**ことができるようにメッセージを**送る**ことができます。
 
 --- task ---
 
-`イベント`{:class="block3events"}から`メッセージを送る`{:class="block3events"} ブロックを追加（ついか）します:
+`イベント`{:class="block3events"}から`メッセージを送る`{:class="block3events"} ブロックを追加（ついか）しよう：
 
 ![ピニャータのスプライト](images/pinata-sprite.png)
 
@@ -228,13 +228,14 @@ switch costume to (broken v)
 + broadcast (message1 v)
 ```
 
-`メッセージ１`{:class="block3events"} をクリックし、 **新しいメッセージ**を選びます。 新しいメッセージの名前を`party`{:class="block3events"}としてください。
+`メッセージ１`{:class="block3events"} をクリックして、 **新しいメッセージ**を選ぶよ。 新しいメッセージの名前は`パーティー`{:class="block3events"}にしてね。
 
 ![「新しいメッセージ」が表示されている「メッセージを送る」ブロックのドロップダウンメニュー](images/new-message.png)
 
-![「新しいメッセージ」ボックスがハイライトされ、「party」という文字が入力されている新しいメッセージポップアップウィンドウ](images/party-message.png)
+![「新しいメッセージ」ボックスがハイライトされ、「パーティー
+」という文字が入力されている新しいメッセージポップアップウィンドウ](images/party-message.png)
 
-`メッセージを送る`{:class="block3events"} ブロックは、このようになります：
+`メッセージを送る`{:class="block3events"} ブロックは、こんなかんじになるよ：
 
 ```blocks3
 (party v) を送る
