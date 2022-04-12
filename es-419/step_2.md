@@ -61,19 +61,19 @@ Los bloques se pueden conectar entre sí en el área de código para ejecutar m�
 
 --- task ---
 
-Arrastra un bloque `Al presionar bandera`{:class="block3events"} desde el menú de bloques `Eventos`{:class="block3events"} y conéctalo a la parte superior de tu bloque Apariencia en el área de codigo. The blocks will snap together:
+Arrastra un bloque `Al presionar bandera`{:class="block3events"} desde el menú de bloques `Eventos`{:class="block3events"} y conéctalo a la parte superior de tu bloque Apariencia en el área de codigo. Los bloques se unirán:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![El icono del objeto Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 + when flag clicked
 switch costume to (whole v)
 ```
-![When flag clicked block being added to the code area and connected to the switch costume block.](images/add-flag-clicked.gif)
+![El bloque Al presionar la bandera, se agrega al área de código y se conecta al bloque de cambiar disfraz.](images/add-flag-clicked.gif)
 
 --- /task ---
 
-The starting position of a piñata is always the same, it only starts moving when the piñata game is ready to play.
+La posición inicial de una piñata es siempre la misma, solo comienza a moverse cuando el juego de la piñata comienza.
 
 --- task ---
 
