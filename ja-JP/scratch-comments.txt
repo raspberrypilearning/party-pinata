@@ -2,7 +2,7 @@
 
 スタートポジション
 
-１にかえる
+1にかえる
 
 まん中から時計回りに10度スイングする
 
@@ -14,28 +14,28 @@
 
 すきな音をえらぶ
 
-４にかえる
+4にかえる
 
 おやつをえらぶ
 
-Change to back
+最背面にかえる
 
-Change to 26
+26にかえる
 
-Change to 10 to start small
+小さくはじめるために10にかえる
 
-Inside the piñata
+ピニャータの中
 
-Change to 20
+20にかえる
 
-Change to 5
+5にかえる
 
-Change to -10
+-10にかえる
 
-Positive number to grow
+大きくしていくために正の数をいれる
 
-Change colour
+色をかえる
 
-Try different numbers to match your music
+音楽にあわせて数をかえてください
 
-Negative number to shrink
+小さくしていくために負の数をいれる
