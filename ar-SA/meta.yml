@@ -1,30 +1,30 @@
 ---
 title: احتفال بينياتا
 hero_image: images/banner.png
-description: Create a swinging piñata that releases treats when it is hit, and eventually breaks to reveal a birthday message
+description: قم بإنشاء لعبة البنياتا التي تتأرجح وتخرج المكافآت عندما يتم ضربها، وتنكسر في النهاية لتكشف عن رسالة عيد ميلاد
 version: 4
 listed: false
 copyedit: false
 last_tested: "2021-03-26"
 steps:
   - 
-    title: Introduction
+    title: المقدمة
   - 
-    title: Start the party
+    title: ابدأ الحفلة
   - 
-    title: Hit the piñata
+    title: اضرب البنياتا
     completion: engaged
   - 
-    title: Use a stick
+    title: استخدم عصا
   - 
-    title: Add some treats
+    title: أضف بعض المكافآت
   - 
-    title: Create a message
+    title: قم بإنشاء رسالة
     completion: internal
   - 
-    title: Share your project
+    title: شارك مشروعك
     completion: external
   - 
-    title: Upgrade your project
+    title: قم بترقية او تطوير مشروعك
   - 
-    title: What next?
+    title: ما التالي؟
