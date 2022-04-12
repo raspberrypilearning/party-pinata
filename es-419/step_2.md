@@ -77,7 +77,7 @@ La posición inicial de una piñata es siempre la misma, solo comienza a moverse
 
 --- task ---
 
-In the `Motion`{:class="block3motion"} blocks menu, find the `go to x: 0 y: 180`{:class="block3motion"} and `point in direction 90`{:class="block3motion"} blocks. Drag the blocks to the Code area and connect them to the bottom of your code:
+En el menú de bloques `Movimiento`{:class="block3motion"}, busca los bloques `ir a x: 0 y: 180`{:class="block3motion"} y `apuntar en dirección 90`{:class="block3motion"}. Drag the blocks to the Code area and connect them to the bottom of your code:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
