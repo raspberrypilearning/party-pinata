@@ -10,7 +10,7 @@ Bascule de 20 degrés dans le sens inverse des aiguilles d'une montre en passant
 
 Bascule de 10 degrés dans le sens des aiguilles d'une montre vers le centre
 
-Changer sur pointeur-souris
+Changer sur pointeur de la souris
 
 Choisis ton son
 
@@ -24,18 +24,18 @@ Changer à 26
 
 Changer à 10 pour commencer petit
 
-Inside the piñata
+À l'intérieur de la piñata
 
-Change to 20
+Changer à 20
 
-Change to 5
+Changer à 5
 
-Change to -10
+Changer à -10
 
-Positive number to grow
+Un nombre positif pour croître
 
-Change colour
+Changer de couleur
 
-Try different numbers to match your music
+Essaie différents numéros pour correspondre à ta musique
 
-Negative number to shrink
+Nombre négatif pour réduire
