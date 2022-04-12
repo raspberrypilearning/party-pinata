@@ -1,10 +1,10 @@
-## 次は何をしますか？
+## つぎは、なにをしよう？
 
-この特別なCode Clubのバースディパーティーのピニャータプロジェクトを楽しんでいただけたでしょうか。
+この特別なCode Clubのバースディパーティーのピニャータプロジェクトを楽しんでいただけましたか？
 
 --- task ---
 
-Scratchでの作品作成が初めてなら、初心者向けの [Introduction to Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"} パスを引き続き使ってみてください。
+Scratchでの作品作りが初めてなら、初心者向けの [Introduction to Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"} パスを引き続き使ってみてください。
 
 --- /task ---
 
@@ -24,7 +24,7 @@ Scratchでの作品作成が初めてなら、初心者向けの [Introduction t
 
 --- task ---
 
-学んだことを思い出す必要がある場合は、 ['Scratch入門'ガイド](https://projects.raspberrypi.org/en/projects/getting-started-scratch)進んでください。
+学んだことを思い出す必要がある場合は、 ['Scratch入門'ガイド](https://projects.raspberrypi.org/en/projects/getting-started-scratch)に進んでください。
 
 --- /task ---
 
