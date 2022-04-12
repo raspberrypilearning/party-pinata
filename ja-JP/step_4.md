@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Piñatas are usually hit with a stick made from wood or thick card that is covered in colourful strips of paper. このステップでは、コードを追加してピニャータをコントロールし、ピニャータがこわれたときに音楽がながれつづけるようにします。 
+ピニャータは、ふつう、カラフルな紙がたくさんついた木やボール紙の棒でたたきます。 このステップでは、コードを追加してピニャータをコントロールし、ピニャータがわれたときに音楽がながれつづけるようにします。 
 </div>
 <div>
 ![スティックのスプライトがマウスポインタを追いかけているアニメーション画像](images/follow-stick.gif){:width="300px"}
@@ -11,7 +11,7 @@ Piñatas are usually hit with a stick made from wood or thick card that is cover
 
 --- task ---
 
-スプライトリストにある **スティック** スプライトをクリックします。 スティックが常に他のスプライトの前でマウスポインター(もしくはタブレット画面をなぞる指) をおいかけるようにコードを追加します。
+スプライトリストにある **スティック** のスプライトをクリックします。 スティックが常に他のスプライトの前でマウスポインター(もしくはタブレット画面をなぞる指) をおいかけるようにコードを追加します。
 
 `どこかの場所へ行く`{:class="block3motion"}ブロックで、ドロップダウンメニューから `マウスポインター`{:class="block3motion"} を選んで使います:
 
