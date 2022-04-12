@@ -1,19 +1,19 @@
-whole
+entier
 
-broken
+cassé
 
-hits
+coups
 
-broken
+cassé
 
-party
+fête
 
-Treats
+Friandises
 
 Piñata
 
-Stick
+Bâton
 
 Message
 
-Happy Birthday Code Club
+Joyeux Anniversaire Code Club
