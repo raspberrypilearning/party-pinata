@@ -18,7 +18,7 @@ Utilise le bloc `aller à position aléatoire`{:class="block3motion"}, mais sél
 ![L'icône du sprite Bâton](images/stick-sprite.png)
 
 ```blocks3
-quand le drapeau est cliqué
+when flag clicked
 répéter indéfiniment
 aller à l'[avant v] plan
 aller à (pointeur de souris v) // Changer en pointeur de souris

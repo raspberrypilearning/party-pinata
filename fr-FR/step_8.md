@@ -35,14 +35,14 @@ Tu peux ajouter du code pour que le message s'anime `indéfiniment`{:class="bloc
 ```blocks3
 quand je reçois [fête v]
 montrer
-répéter (20)
+repeat (20)
 ajouter (5) à la taille
 ajouter (-10) à y
 fin
 + répéter indéfiniment
 ajouter (20) à la taille // Nombre positif à augmenter
 ajouter (25) à l'effet [couleur v] // changer la couleur
-attendre (0.5) seconds // Essaie différents nombres pour correspondre à ta musique
+wait (0.5) seconds // Essaie différents nombres pour correspondre à ta musique
 ajouter (-20) à la taille // Nombre négatif pour rétrécir
 ```
 

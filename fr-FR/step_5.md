@@ -30,9 +30,9 @@ Clique sur l'onglet **Code** puis crée un script pour `cacher`{:class="block3lo
 ![L'icône du sprite Friandises.](images/treats-sprite.png)
 
 ```blocks3
-quand le drapeau est cliqué
+when flag clicked
 cacher
-aller à x : (0) y : (100)
+go to x: (0) y: (100)
 ```
 
 --- /task ---
@@ -52,14 +52,14 @@ Insére une boucle `répéter`{:class="block3control"} dans ton code existant. M
 ![L'icône du sprite Piñata.](images/pinata-sprite.png)
 
 ```blocks3
-quand ce sprite a cliqué
+when this sprite clicked
 si <(coups) < (10)> alors
 jouer le son [Boing v]
 ajouter (1) à [coups v] 
-+ répéter (4) // Modifier à 4
++ repeat (4) // Modifier à 4
 créer un clone de (Friandises v) // Sélectionne Friandises
 fin
-if <(hits)=(10)> alors
+if <(hits)=(10)> then
 basculer sur le costume (cassé v)
 envoyer à tous (fête v)
 ```
@@ -142,7 +142,7 @@ aller à l'[arrière v] plan
 basculer sur le costume (nombre aléatoire entre (1) et (26))
 glisser en (1) secondes à (position aléatoire v) 
 + répéter indéfiniment
-tourner à droite de (1 ) degrés
+turn right (1) degrees
 ```
 
 --- /task ---

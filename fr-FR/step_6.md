@@ -73,10 +73,10 @@ Clique sur l'onglet **Code** puis crée un script pour `cacher`{:class="block3lo
 ![L'icône du sprite Message.](images/message-sprite.png)
 
 ```blocks3
-quand le drapeau est cliqué
+when flag clicked
 cacher
 mettre la taille à (10) % de la taille initiale // Passer à 10 pour commencer petit
-aller à x : (0) y : (100) // À l'intérieur de la piñata
+go to x: (0) y: (100) // À l'intérieur de la piñata
 ```
 
 --- /task ---
@@ -92,7 +92,7 @@ Ajoute une boucle `répéter`{:class="block3control"} pour animer le message. Le
 ```blocks3
 quand je reçois [fête v]
 montrer
-répéter (20) // Passer à 20
+repeat (20) // Passer à 20
 ajouter (5) à la taille // Passer à 5
 ajouter (-10) à y // Passer à -10
 ```

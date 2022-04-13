@@ -43,14 +43,14 @@ Clique sur le sprite **Piñata** dans la liste Sprite et sélectionne l'onglet *
 
 --- task ---
 
-Clique sur l'onglet **Code**. Va dans le menu des blocs `Apparence`{:class="block3looks"} puis fais glisser un bloc `basculer sur le costume/0>{:class="block3looks"} vers la zone Code. </p>
+Clique sur l'onglet **Code**. Va dans le menu des blocs `Apparence`{:class="block3looks"} puis fais glisser un bloc `basculer sur le costume`{:class="block3looks"} vers la zone Code.
 
-<p spaces-before="0">Clique sur le nom du costume pour ouvrir un <strong x-id="1">menu déroulant</strong> puis sélectionne le costume <code>entier`{:class="block3looks"} :
+Clique sur le nom du costume pour ouvrir un **menu déroulant** puis sélectionne le costume `entier`{:class="block3looks"} :
 
 ![L'icône du sprite Piñata.](images/pinata-sprite.png)
 
 ```blocks3
-basculer sur le costume (entier v) // Mise à jour vers "entier"
+switch costume to (entier v) // Mise à jour vers "entier"
 ```
 
 ![Une image animée montrant le bloc de basculer sur le costume glissé du menu des blocs Apparence vers la zone Code.](images/switch-costume.gif)
@@ -66,7 +66,7 @@ Fais glisser un bloc `Quand le drapeau est cliqué`{:class="block3events"} depui
 ![L'icône du sprite Piñata.](images/pinata-sprite.png)
 
 ```blocks3
-+ quand le drapeau est cliqué
++ when flag clicked
 basculer sur le costume (entier v)
 ```
 ![Le bloc quand le drapeau est cliqué est ajouté à la zone de code et connecté au bloc de basculer sur le costume.](images/add-flag-clicked.gif)
@@ -82,9 +82,9 @@ Dans le menu des blocs `Mouvement`{:class="block3motion"}, trouve les blocs `all
 ![L'icône du sprite Piñata.](images/pinata-sprite.png)
 
 ```blocks3
-quand le drapeau est cliqué
+when flag clicked
 basculer sur le costume (entier v)
-+ aller à x : (0) y : (180)
++ go to x: (0) y: (180)
 + s'orienter à (90) // Position prête
 ```
 
@@ -99,9 +99,9 @@ Fais glisser un bloc `répéter indéfiniment`{:class="block3control"} depuis le
 ![L'icône du sprite Piñata.](images/pinata-sprite.png)
 
 ```blocks3
-quand le drapeau est cliqué
+when flag clicked
 basculer sur le costume (entier v)
-aller à x : (0) y : (180)
+go to x: (0) y: (180)
 s'orienter à (90) 
 + répéter indéfiniment
 ```
@@ -121,13 +121,13 @@ Change les `15`{:class="block3motion"} degrés en `1`{:class="block3motion"} deg
 ![L'icône du sprite Piñata.](images/pinata-sprite.png)
 
 ```blocks3
-quand le drapeau est cliqué
+when flag clicked
 basculer sur le costume (entier v)
-aller à x : (0) y : (180)
+go to x: (0) y: (180)
 s'orienter à (90)
 répéter indéfiniment
 + répéter (10) fois
-tourner à droite (1) degrés // Passer à 1
+turn right (1) degrees // Passer à 1
 ```
 ![Le bloc de répétition est ajouté dans le bloc répéter indéfiniment, puis un bloc de rotation dans le sens des aiguilles d'une montre est ajouté à l'intérieur.](images/add-repeat.gif)
 
@@ -154,19 +154,19 @@ Ajoute du code à ta boucle `répéter indéfiniment`{:class="block3control"} po
 ![L'icône du sprite Piñata.](images/pinata-sprite.png)
 
 ```blocks3
-quand le drapeau est cliqué
+when flag clicked
 basculer sur le costume (entier v)
-aller à x : (0) y : (180)
+go to x: (0) y: (180)
 s'orienter à (90)
 répéter indéfiniment
 répéter (10) fois // Se balance de 10 degrés dans le sens des aiguilles d'une montre à partir du centre
-tourner à droite (1) degrés 
+turn right (1) degrees 
 fin
 + répéter (20) fois // Balance de 20 degrés dans le sens inverse des aiguilles d'une montre à travers le centre
-tourner à gauche (1) degrés // Passe à 1
+turn left (1) degrees // Passe à 1
 fin
 + répéter (10) fois // Balance de 10 degrés dans le sens des aiguilles d'une montre vers le centre
-tourner à droite (1) degrés // Passe à 1
+turn right (1) degrees // Passe à 1
 fin
 ```
 

@@ -71,20 +71,20 @@ Ton code devrait ressembler à ceci :
 ![L'icône du sprite Piñata.](images/pinata-sprite.png)
 
 ```blocks3
-quand le drapeau est cliqué
+when flag clicked
 basculer sur le costume (entier v)
 + mettre [coups v] à (0)
-aller à x : (0) y : (180)
+go to x: (0) y: (180)
 s'orienter à (90)
 répéter indéfiniment
-répéter (10)
-tourner à droite (1) degrés
+repeat (10)
+turn right (1) degrees
 fin
-répéter (20)
-tourner à gauche (1) degrés
+repeat (20)
+turn left (1) degrees
 fin
-répéter (10)
-tourner à droite (1) degrés
+repeat (10)
+turn right (1) degrees
 fin
 ```
 
@@ -129,7 +129,7 @@ Va au menu des blocs `Contrôle`{:class="block3control"}. Fais glisser un bloc `
 ![L'icône du sprite Piñata.](images/pinata-sprite.png)
 
 ```blocks3
-quand ce est cliqué
+quand ce sprite est cliqué
 + si <> alors
 jouer le son [Boing v]
 ajouter (1) à [coups v]
@@ -142,7 +142,7 @@ Le bloc `si`{:class="block3control"} a une entrée en forme d'hexagone où tu pe
 
 --- task ---
 
-Le sprite **Piñata** doit jouer un son et augmenter le nombre de `coups`{:class="block3variables"} **`si`{:class="block3control"}** le nombre de `coups`{:class="block3variables""} est `inférieur à`{:class="block3operators"} `10`{:class="block3variables"}.
+Le sprite **Piñata** doit jouer un son et augmenter le nombre de `coups`{:class="block3variables"} **`si`{:class="block3control"}** le nombre de `coups`{:class="block3variables"} est `inférieur à`{:class="block3operators"} `10`{:class="block3variables"}.
 
 Ajoute d'abord un opérateur `<`{:class="block3operators"} dans l'entrée en forme d'hexagone :
 
@@ -194,7 +194,7 @@ si <(coups) < (10)> alors
 jouer le son [Boing v]
 ajouter (1) à [coups v]
 + si <(coups)=(10)> alors
-basculer le costume sur (cassé v)
+switch costume to (cassé v)
 
 ```
 
