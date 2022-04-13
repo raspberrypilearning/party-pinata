@@ -1,11 +1,11 @@
-## Αναβάθμιση του έργου σου
+## Αναβάθμισε το έργο σου
 
 Εάν έχεις χρόνο, μπορείς να αναβαθμίσεις το έργο σου. Μπορεί να έχεις ήδη ιδέες για το τι να προσθέσεις!
 
 Θα μπορούσες να:
 
-+ Use additional looks, sounds, or motion blocks to animate your message and treats further
-+ Find images of your favourite treats and add them to the costumes for the **Treats** sprite
++ Χρησιμοποιήσεις επιπλέον όψεις, ήχους ή μπλοκ κίνησης για να ζωντανέψεις το μήνυμά σου και περαιτέρω καλούδια
++ Βρες εικόνες από τα αγαπημένα σου καλούδια και πρόσθεσέ τα στις ενδυμασίες για τα αντικείμενα **Καλούδια**
 + Increase the number of treats that fall from the piñata on each hit
 + Make your project easier or harder by changing the number of times you need to hit the piñata before it breaks
 
