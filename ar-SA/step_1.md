@@ -14,7 +14,7 @@
 
 ماذا يحدث في كل مرة تضغط فيها على البنياتا؟ 
 
-How many times do you need to hit the piñata for it to break?  
+كم مرة تحتاج لضرب البنياتا حتى تنكسر؟  
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/649873783/?autostart=false" frameborder="0"></iframe>
@@ -29,5 +29,5 @@ How many times do you need to hit the piñata for it to break?
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Code Club**</span> is celebrating its 10th birthday this year. Did you know that there are Code Clubs on **six out of seven continents** around the world? That’s a lot of coders making things with code! Do you think any other clubs will be doing this project right now?   
+<span style="color: #0faeb0">** يحتفل Code Club **</span> بعيد ميلاده العاشر هذا العام. هل تعلم أن هناك نوادي برمجة في ** ست من أصل سبع قارات ** حول العالم؟ كثير من المبرمجين يصنعون الأشياء (مثل التطبيقات وغيرها) باستخدام الكود! هل تعتقد أن النوادي الأخرى ستقوم بهذا المشروع الآن؟   
 </p>
