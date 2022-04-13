@@ -1,18 +1,18 @@
-## Introduction
+## المقدمة
 
-In this project, you will create a swinging piñata that releases treats when it is hit, and eventually breaks to reveal a birthday message.
+قم بإنشاء لعبة البنياتا التي تتأرجح وتخرج المكافآت عندما يتم ضربها، وتنكسر في النهاية لتكشف عن رسالة عيد ميلاد.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">**piñata**</span> is often used to celebrate a birthday, new year, or festival. The shape and decorations of a piñata are designed to match the theme of the occasion. It's also full of treats. The aim is to hit the piñata with a stick to break the piñata and release the treats.    
+غالبًا ما يتم استخدام <span style="color: #0faeb0">** piñata **</span> للاحتفال بعيد ميلاد أو رأس السنة الجديدة أو المهرجان. تم تصميم شكل وزخارف البنياتا لتتناسب مع موضوع المناسبة. اللعبة مليئة بالمتعة. الهدف هو ضرب البنياتا بعصا لكسرها وإطلاق الحلوى.    
 </p>
 
 --- no-print --- --- task ---
-### Try it
+### جربها
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Use the stick to hit the piñata. 
+استخدم العصا لضرب البنياتا. 
 
-What happens each time you hit the piñata? 
+ماذا يحدث في كل مرة تضغط فيها على البنياتا؟ 
 
 How many times do you need to hit the piñata for it to break?  
 </div>
