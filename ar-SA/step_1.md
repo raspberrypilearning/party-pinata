@@ -24,7 +24,7 @@
 
 --- print-only ---
 
-![Completed project.](images/showcase_static.png)
+![مشروع كامل.](images/showcase_static.png)
 
 --- /print-only ---
 
