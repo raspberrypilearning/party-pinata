@@ -23,7 +23,7 @@
 
 **Stage** هي المكان الذي يعمل فيه المشروع، **backdrop** تغير مظهر مسرح العمل. تمت إضافة خلفية حفلة Code Club لك.
 
-في Scratch ، تسمى الشخصيات والكائنات **sprites**، وتظهر في<0>Stage</0>. You can see the **Piñata** and **Stick** sprites on the Stage.
+في Scratch ، تسمى الشخصيات والكائنات **sprites**، وتظهر في<0>Stage</0>. يمكنك رؤية **Piñata** و **Stick** sprites على المنصة.
 
 ![The stage with a patterned blue backdrop with presents and balloons. Also on the Stage are the Piñata and Stick sprites.](images/backdrop-and-sprites.png)
 
