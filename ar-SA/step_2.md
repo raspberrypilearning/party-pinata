@@ -1,29 +1,29 @@
-## Start the party
+## ابدأ الحفلة
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will choose a piñata costume and code the piñata to swing.
+في هذه الخطوة، سنختار ملابس بيناتا و نكتب كود التأرجح لها.
 </div>
 <div>
-![An animated gif showing the stage with the piñata sprite positioned at the top centre and swinging left to right.](images/swinging-pinata.gif){:width="300px"}
+![صورة متحركة تظهر البيناتا في المنتصف وتتأرجح يميناً ويساراً.](images/swinging-pinata.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Open the [Party piñata starter project](https://scratch.mit.edu/projects/653082997/editor){:target="_blank"}. Scratch will open in another browser tab.
+افتح [Party piñata starter project](https://scratch.mit.edu/projects/653082997/editor){:target="_blank"}. سيتم فتح Scratch في علامة تبويب متصفح أخرى.
 
 [[[working-offline]]]
 
 --- /task ---
 
-The Scratch editor looks like this:
+يظهر محرر Scratch على النحو التالي:
 
 ![An annotated screenshot of the Scratch editor, with the Stage, Stage pane, Sprite pane, Sprite list, and Code area labelled.](images/scratch-interface.png)
 
-The **Stage** is where your project runs and a **backdrop** changes the way that the Stage looks. A Code Club party backdrop has been added for you.
+**Stage** هي المكان الذي يعمل فيه المشروع، **backdrop** تغير مظهر مسرح العمل. تمت إضافة خلفية حفلة Code Club لك.
 
-In Scratch, characters and objects are called **sprites**, and they appear on the Stage. You can see the **Piñata** and **Stick** sprites on the Stage.
+في Scratch ، تسمى الشخصيات والكائنات **sprites**، وتظهر في<0>Stage</0>. You can see the **Piñata** and **Stick** sprites on the Stage.
 
 ![The stage with a patterned blue backdrop with presents and balloons. Also on the Stage are the Piñata and Stick sprites.](images/backdrop-and-sprites.png)
 
