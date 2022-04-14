@@ -19,7 +19,7 @@
 
 يظهر محرر Scratch على النحو التالي:
 
-![An annotated screenshot of the Scratch editor, with the Stage, Stage pane, Sprite pane, Sprite list, and Code area labelled.](images/scratch-interface.png)
+![لقطة شاشة مشروحة لمحرر Scratch، مع تسمية لكل من المنصة، جزء المنصة، جزء الكائن، قائمة الكائن، ومنطقة كتابة الشفرة البرمجية.](images/scratch-interface.png)
 
 **Stage** هي المكان الذي يعمل فيه المشروع، **backdrop** تغير مظهر مسرح العمل. تمت إضافة خلفية حفلة Code Club لك.
 
