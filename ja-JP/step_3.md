@@ -5,7 +5,7 @@
 このステップでは、ピニャータがクリックされるたびに音をだし、たたいた数をカウントするようにピニャータをコーディングします。
 </div>
 <div>
-![ピニャータが10回クリックされるアニメーション画像。 10回のあと, コスチュームはわれたものにかわり、変数（へんすう）が消えます。](images/break-pinata.gif){:width="300px"}
+![ピニャータが10回クリックされるアニメーション画像。 10回のあと, コスチュームはわれたものにかわり、変数（へんすう）がきえます。](images/break-pinata.gif){:width="300px"}
 </div>
 </div>
 
@@ -21,7 +21,7 @@ Scratchでは、つなげたブロックのグループは **スクリプト**�
 
 --- task ---
 
-**コード** タブをクリックしてみて。 `イベント`{:class="block3events"}の中から、 `このスプライトが押されたとき`{:class="block3events"} ブロックをコードエリアにドラッグして、新しいスクリプトをはじめよう。
+**コード** タブをクリックしてみて。 `イベント`{:class="block3events"}の中から、 `このスプライトが押されたとき`{:class="block3events"} ブロックをスクリプトエリアにドラッグして、新しいスクリプトをはじめよう。
 
 `音`{:class="block3sound"} ブロックメニューで、`__の音を鳴らす`{:class="block3sound"} ブロックを見つけてね。 それを`このスプライトが押されたとき`{:class="block3events"} ブロックの下にドラッグするよ：
 
@@ -54,7 +54,7 @@ start sound [Boing v]
 
 **注意：** 新しい「たたいた数」という変数（へんすう）がステージの上にあらわれ、 `変数`{:class="block3variables"} ブロックの中で使うことができるようになります。
 
-![ステージ上の変数「hits」](images/variable-stage.png)
+![ステージ上の変数「たたいた数」](images/variable-stage.png)
 
 ![新しい「たたいた数」ブロックを含んだ変数ブロック](images/variable-blocks.png)
 
@@ -64,7 +64,7 @@ start sound [Boing v]
 
 プロジェクトがスタートするたび、 `たたいた数`{:class="block3variables"} の数字は`0`{:class="block3variables"}にリセットされます。
 
-`たたいた数を0にする`{:class="block3variables"} ブロックをコードエリアのはじめのスクリプトにドラッグし、 `コスチュームを__にする`{:class="block3looks"} ブロックと`x座標を(0) 、y座標を (180)にする`{:class="block3motion"} ブロックの間においてね。
+`たたいた数を0にする`{:class="block3variables"} ブロックをスクリプトエリアのはじめのスクリプトにドラッグし、 `コスチュームを__にする`{:class="block3looks"} ブロックと`x座標を(0) 、y座標を (180)にする`{:class="block3motion"} ブロックの間においてね。
 
 コードはこんな感じになるよ：
 
@@ -108,13 +108,13 @@ end
 
 --- task ---
 
-**テスト：**プロジェクトを数回（すうかい）実行（じっこう）してみよう。 `たたいた数`{:class="block3variables"} が、いつも`0`{:class="block3variables"} からはじまり、**ピニャータ**をクリックするたびに `1`{:class="block3variables"}ずつ数がふえていることをチェックしてね。
+**テスト：**プロジェクトをなん回か実行してみよう。 `たたいた数`{:class="block3variables"} が、いつも`0`{:class="block3variables"} からはじまり、**ピニャータ**をクリックするたびに `1`{:class="block3variables"}ずつ数がふえていることをチェックしてね。
 
-![値が「8」となっている変数「hits 」が表示されているステージ](images/hits-increase.png)
+![値が「8」となっている変数「たたいた数」が表示されているステージ](images/hits-increase.png)
 
 --- /task ---
 
-ピニャータはわれにくいですが、ずっとつづくわけではありません。 `10 回`{:class="block3variables"}たたくと、われてあきます。
+ピニャータはわれにくいですが、ずっとつづくわけではありません。 `10 回`{:class="block3variables"}たたくと、われて、あきます。
 
 `もし__なら`{:class="block3control"}ブロックは、**条件**によって決定（けってい）するときに使います。
 
@@ -124,7 +124,7 @@ end
 
 --- task ---
 
-`制御`{:class = "block3looks"} ブロックメニューを開いてみて。 `もし__なら`{:class="block3control"} ブロックをコードエリア にある`このスプライトが押されたとき`{:class="block3events"} の中のスクリプトをかこむようおいてね:
+`制御`{:class = "block3looks"} ブロックパレットを開いてみて。 `もし__なら`{:class="block3control"} ブロックをスクリプトエリア にある`このスプライトが押されたとき`{:class="block3events"} の中のスクリプトをかこむようおいてね:
 
 ![ピニャータのスプライト](images/pinata-sprite.png)
 
@@ -228,7 +228,7 @@ switch costume to (broken v)
 + broadcast (message1 v)
 ```
 
-`メッセージ１`{:class="block3events"} をクリックして、 **新しいメッセージ**を選ぶよ。 新しいメッセージの名前は`パーティー`{:class="block3events"}にしてね。
+`メッセージ１`{:class="block3events"} をクリックして、 **新しいメッセージ**をえらぶよ。 新しいメッセージの名前は`パーティー`{:class="block3events"}にしてね。
 
 ![「新しいメッセージ」が表示されている「メッセージを送る」ブロックのドロップダウンメニュー](images/new-message.png)
 
