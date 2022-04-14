@@ -36,7 +36,7 @@ go to (mouse-pointer v) // Change to mouse-pointer
 
 Scratchには、声や動物の鳴き声など、100以上のいろいろな音が用意されています。
 
-また、Scratch では**ループ音**を `ずっと`{:class="block3control"} や `繰り返す`{:class="block3control"} ループを使用することで、ずっと鳴らし続けることができます。
+また、Scratch では**ループ音**を `ずっと`{:class="block3control"} や `繰り返す`{:class="block3control"} ループを使用することで、ずっとならしつづけることができます。
 
 --- task ---
 
