@@ -27,7 +27,7 @@
 
 ![The stage with a patterned blue backdrop with presents and balloons. Also on the Stage are the Piñata and Stick sprites.](images/backdrop-and-sprites.png)
 
-At the moment there is not much happening at this party. You can change that!
+At the moment there is not much happening at this party. يمكنك تغيير ذلك!
 
 --- task ---
 
