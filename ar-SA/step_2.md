@@ -73,11 +73,11 @@ switch costume to (whole v)
 
 --- /task ---
 
-The starting position of a piñata is always the same, it only starts moving when the piñata game is ready to play.
+موقع البنياتا هو نفسه دائماً في منتصف المسرح، يبدأ بالحركة فقط عندما تبدأ اللعب.
 
 --- task ---
 
-In the `Motion`{:class="block3motion"} blocks menu, find the `go to x: 0 y: 180`{:class="block3motion"} and `point in direction 90`{:class="block3motion"} blocks. Drag the blocks to the Code area and connect them to the bottom of your code:
+In the `Motion`{:class="block3motion"} blocks menu, find the `go to x: 0 y: 180`{:class="block3motion"} and `point in direction 90`{:class="block3motion"} blocks. اسحب الكتل إلى منطقة التعليمات البرمجية وقم بتوصيلها بأسفل التعليمات البرمجية الخاصة بك:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
