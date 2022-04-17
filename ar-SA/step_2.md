@@ -45,7 +45,7 @@
 
 انقر فوق علامة التبويب **Code**. اذهب الى `Looks`{:class="block3looks"} blocks menu then drag a `switch costume to`{:class="block3looks"} block to the Code area.
 
-Click on the costume name to open a **drop-down menu** then select the `whole`{:class="block3looks"} costume:
+اضغط على اسم المظهرليفتح قائمة، اختار منها ` whole` **drop-down menu** then select the <1>whole</1>{:class="block3looks"} costume:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
@@ -57,11 +57,11 @@ switch costume to (whole v) // Update to 'whole'
 
 --- /task ---
 
-Blocks can be connected together in the Code area to run more than one at a time. Connected blocks will run in order from top to bottom.
+يمكن توصيل الكتل معًا في منطقة التعليمات البرمجية لتشغيل أكثر من كتلة في وقت واحد. سيتم تشغيل الكتل المتصلة بالترتيب من أعلى إلى أسفل.
 
 --- task ---
 
-Drag a `When flag clicked`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu and connect it to the top of your looks block in the Code area. The blocks will snap together:
+اسحب كتلة `When flag clicked`{:class="block3events"} من قائمة `Events`{:class="block3events"} واربطها في اعلى الكتل الظاهرة في منطقة التعليمة البرمجية. الكتل سوف تلتصق ببعضها البعض:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
