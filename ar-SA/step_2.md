@@ -90,11 +90,11 @@ switch costume to (whole v)
 
 --- /task ---
 
-A `forever`{:class="block3control"} loop runs the code blocks inside it again and again. It is the perfect loop for a swinging piñata that is hard to hit.
+A `forever`{:class="block3control"} loop runs the code blocks inside it again and again. وهي الحلقة التكرارية المثالية للبنياتا المتأرجحة التي يصعب الوصول إليها.
 
 --- task ---
 
-Drag a `forever`{:class="block3control"} block from the `Control`{:class="block3control"} blocks menu and connect it to the bottom of your code:
+Drag a `forever`{:class="block3control"} block from the `Control`{:class="block3control"} blocks menu and connect it to the bottom of your code: اسحب كتلة "forever" من تبويب"control" وقم بتوصيلها باسفل التعليمات البرمجية التي استخدمتها.
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
@@ -108,11 +108,11 @@ point in direction (90)
 
 --- /task ---
 
-A `repeat`{:class="block3control"} loop can be used to make the **Piñata** sprite repeat a small movement many times. This will make the piñata appear animated.
+A `repeat`{:class="block3control"} loop can be used to make the **Piñata** sprite repeat a small movement many times. يمكن استخدام حلقة"كرر" لجعل البنياتا يكرر حركة صغيرة عدة مرات. هذا سيجعل البنياتا تظهر متحركة.
 
 --- task ---
 
-Drag a `repeat 10`{:class="block3control"} block into the Code area and attach it inside your `forever`{:class="block3control"} loop.
+اسحب كتلة `repeat 10`{: class = "block3control"} في منطقة التعليمات البرمجية وقم بإرفاقها داخل الحلقة `forever `{: class = "block3control"}.
 
 Go to the `Motion`{:class="block3motion"} blocks menu and drag a `turn clockwise 15 degrees`{:class="block3motion"} block into the `repeat`{:class="block3control"} block.
 
