@@ -27,13 +27,13 @@
 
 ![The stage with a patterned blue backdrop with presents and balloons. Also on the Stage are the Piñata and Stick sprites.](images/backdrop-and-sprites.png)
 
-At the moment there is not much happening at this party. يمكنك تغيير ذلك!
+حتى هذهِ اللحظة لم نبدأ بالاحتفال. يمكنك تغيير ذلك!
 
 --- task ---
 
-A sprite can have code, costumes, and sounds to change the way that it looks and what it does.
+يمكن أن يكون للكائن تعليمة برمجية، مظاهر، وأصوات لتغيير الطريقة التي يظهر بها وما يفعله.
 
-Click on the **Piñata** sprite in the Sprite list and select the **Costumes** tab. There are two piñata costumes, one named 'whole' and the other named 'broken'.
+من قائمة الكائنات(spirit) اختار** Piñata**، بعدها اضغط على تبويب ** Costumes**. هناك نوعان من أزياء البنياتا ، أحدهما يسمى 'whole' والآخر يسمى 'broken'.
 
 ![Side-by-side images of the two piñata costumes. The left is a whole piñata, the right has broken open.](images/pinata-costumes.png)
 
@@ -43,7 +43,7 @@ Click on the **Piñata** sprite in the Sprite list and select the **Costumes** t
 
 --- task ---
 
-Click on the **Code** tab. Go to the `Looks`{:class="block3looks"} blocks menu then drag a `switch costume to`{:class="block3looks"} block to the Code area.
+انقر فوق علامة التبويب **Code**. اذهب الى `Looks`{:class="block3looks"} blocks menu then drag a `switch costume to`{:class="block3looks"} block to the Code area.
 
 Click on the costume name to open a **drop-down menu** then select the `whole`{:class="block3looks"} costume:
 
