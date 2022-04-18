@@ -1,19 +1,19 @@
-whole
+संपूर्ण
 
-broken
+टूटा हुआ
 
 hits
 
-broken
+टूटा हुआ
 
-party
+समारोह
 
-Treats
+पकवान
 
-Piñata
+पिनाटा
 
-Stick
+छड़ी
 
-Message
+संदेश
 
 Happy Birthday Code Club
