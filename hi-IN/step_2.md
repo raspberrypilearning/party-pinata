@@ -19,67 +19,67 @@
 
 Scratch एडिटर इस प्रकार दिखाई देता है:
 
-![An annotated screenshot of the Scratch editor, with the Stage, Stage pane, Sprite pane, Sprite list, and Code area labelled.](images/scratch-interface.png)
+![Scratch एडिटर का एक एनोटेट स्क्रीनशॉट, जिसमें Stage, Stage pane, Sprite pane, Sprite list और Code area लेबल किया गया है।](images/scratch-interface.png)
 
-The **Stage** is where your project runs and a **backdrop** changes the way that the Stage looks. A Code Club party backdrop has been added for you.
+**मंच** वह जगह है जहां आपका प्रोजेक्ट चलता है और **पृष्ठभूमि** मंच के दिखने के तरीके को बदल देती है। आपके लिए एक Code Club समारोह पृष्ठभूमि जोड़ी गई है।
 
-In Scratch, characters and objects are called **sprites**, and they appear on the Stage. You can see the **Piñata** and **Stick** sprites on the Stage.
+Scratch में, पात्रों और वस्तुओं को **स्प्राइट** कहते हैं, और वह मंच पर दिखाई देते हैं। आप मंच पर **Piñata** और **Stick** स्प्राइट देख सकते हैं।
 
-![The stage with a patterned blue backdrop with presents and balloons. Also on the Stage are the Piñata and Stick sprites.](images/backdrop-and-sprites.png)
+![उपहार और गुब्बारों के साथ एक पैटर्न वाली नीली पृष्ठभूमि वाला मंच। इसके अलावा मंच पर पिनाटा और छड़ी स्प्राइट हैं।](images/backdrop-and-sprites.png)
 
-At the moment there is not much happening at this party. You can change that!
+फिलहाल इस समारोह में ज्यादा कुछ नहीं हो रहा है। आप इसे बदल सकते हैं!
 
 --- task ---
 
-A sprite can have code, costumes, and sounds to change the way that it looks and what it does.
+एक स्प्राइट में कोड, कोस्टयूम और ध्वनियां हो सकती हैं जिससे की हम वह कैसा दिखता है या क्या करता है, वह बदल सकते हैं।
 
-Click on the **Piñata** sprite in the Sprite list and select the **Costumes** tab. There are two piñata costumes, one named 'whole' and the other named 'broken'.
+स्प्राइट सूची में **Piñata** स्प्राइट पर क्लिक करें, फिर **Costumes** टैब पर क्लिक करें। दो पिनाटा पोशाकें हैं, एक का नाम 'whole' और दूसरे का नाम 'broken' है।
 
-![Side-by-side images of the two piñata costumes. The left is a whole piñata, the right has broken open.](images/pinata-costumes.png)
+![दो पिनाटा पोशाकों की अगल-बगल की छवियां। बायां एक पूरा पिनाटा है, दायां खुला टूट गया है।](images/pinata-costumes.png)
 
-![The Costumes tab (the middle tab in the top left).](images/costumes-tab.png)
+![Costumes टैब (ऊपरी बाईं ओर मध्य टैब)।](images/costumes-tab.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab. Go to the `Looks`{:class="block3looks"} blocks menu then drag a `switch costume to`{:class="block3looks"} block to the Code area.
+**Code** टैब पर क्लिक करें। `Looks`{:class="block3looks"} खंड मेन्यू पर जाएं फिर `switch costume to`{:class="block3looks"} खंड को कोड एरिया में खिसकाएं।
 
-Click on the costume name to open a **drop-down menu** then select the `whole`{:class="block3looks"} costume:
+**ड्रॉप डाउन मेन्यू** खोलने के लिए पोशाक के नाम पर क्लिक करें फिर `whole`{:class="block3looks"} पोशाक चुनें:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![पिनाटा स्प्राइट आइकन।](images/pinata-sprite.png)
 
 ```blocks3
 switch costume to (whole v) // Update to 'whole'
 ```
 
-![An animated image showing the switch costume block being dragged from the Looks blocks menu to the Code area.](images/switch-costume.gif)
+![एक एनिमेटेड छवि जिसमें स्विच पोशाक खंड को Looks खंड मेन्यू से कोड क्षेत्र में खिसकाया जा रहा है।](images/switch-costume.gif)
 
 --- /task ---
 
-Blocks can be connected together in the Code area to run more than one at a time. Connected blocks will run in order from top to bottom.
+एक समय में एक से अधिक खंड चलाने के लिए कोड क्षेत्र में खंड को एक साथ जोड़ा जा सकता है। जुड़े हुए खंड ऊपर से नीचे तक क्रम में चलेंगे।
 
 --- task ---
 
-Drag a `When flag clicked`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu and connect it to the top of your looks block in the Code area. The blocks will snap together:
+एक `When flag clicked`{:class="block3events"} खंड को `Events`{:class="block3events"} खंड मेन्यू से खिसकाएं और इसे कोड क्षेत्र में अपने Looks खंड के शीर्ष से जोड़ें। खंड एक साथ चिपक जाएंगे।
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![पिनाटा स्प्राइट आइकन।](images/pinata-sprite.png)
 
 ```blocks3
 + when flag clicked
 switch costume to (whole v)
 ```
-![When flag clicked block being added to the code area and connected to the switch costume block.](images/add-flag-clicked.gif)
+![When flag clicked खंड को कोड क्षेत्र में जोड़ा जा रहा है और स्विच पोशाक खंड से जुड़ा है।](images/add-flag-clicked.gif)
 
 --- /task ---
 
-The starting position of a piñata is always the same, it only starts moving when the piñata game is ready to play.
+एक पिनाटा की प्रारंभिक स्थिति हमेशा समान होती है, यह तभी हिलना शुरू होता है जब पिनाटा गेम खेलने के लिए तैयार होता है।
 
 --- task ---
 
-In the `Motion`{:class="block3motion"} blocks menu, find the `go to x: 0 y: 180`{:class="block3motion"} and `point in direction 90`{:class="block3motion"} blocks. Drag the blocks to the Code area and connect them to the bottom of your code:
+`Motion`{:class="block3motion"} खंड मेनू में, `go to x: 0 y: 180`{:class="block3motion"} और `point in direction 90`{:class="block3motion"} खंड ढूंढें। खंड को कोड क्षेत्र में खिसकाएं और उन्हें अपने कोड के नीचे जोड़ दें:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![पिनाटा स्प्राइट आइकन।](images/pinata-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -90,13 +90,13 @@ switch costume to (whole v)
 
 --- /task ---
 
-A `forever`{:class="block3control"} loop runs the code blocks inside it again and again. It is the perfect loop for a swinging piñata that is hard to hit.
+एक `forever`{:class="block3control"} लूप बार-बार इसके अंदर रखे कोड खंडोंं को चलाता है। यह एक झूलते हुए पिनाटा के लिए एकदम सही लूप है जिसे मारना मुश्किल है।
 
 --- task ---
 
-Drag a `forever`{:class="block3control"} block from the `Control`{:class="block3control"} blocks menu and connect it to the bottom of your code:
+`Control`{:class="block3control"} खंड मेन्यू से एक `forever`{:class="block3control"} खंड खिसकाएं और इसे अपने कोड के निचले भाग से जोड़ें:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![पिनाटा स्प्राइट आइकन।](images/pinata-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -108,17 +108,17 @@ point in direction (90)
 
 --- /task ---
 
-A `repeat`{:class="block3control"} loop can be used to make the **Piñata** sprite repeat a small movement many times. This will make the piñata appear animated.
+एक `repeat`{:class="block3control"} लूप का उपयोग **Piñata** स्प्राइट को एक छोटी सी हरकत को कई बार दोहराने के लिए किया जा सकता है। इससे पिनाटा एनिमेटेड दिखाई देगा।
 
 --- task ---
 
-Drag a `repeat 10`{:class="block3control"} block into the Code area and attach it inside your `forever`{:class="block3control"} loop.
+एक `repeat 10`{:class="block3control"} खंड को कोड क्षेत्र में खिसकाएं और इसे अपने `forever`{:class="block3control"} लूप के अंदर संलग्न करें।
 
-Go to the `Motion`{:class="block3motion"} blocks menu and drag a `turn clockwise 15 degrees`{:class="block3motion"} block into the `repeat`{:class="block3control"} block.
+`Motion`{:class="block3motion"} खंड मेन्यू पर जाएं और एक `turn clockwise 15 degrees`{:class="block3motion"} खंड को `repeat`{:class="block3control"} खंड में खिसकाएं।
 
-Change the `15`{:class="block3motion"} degrees to `1`{:class="block3motion"} degree so that the piñata only swings a small amount each time:
+`15`{:class="block3motion"} डिग्री को `1`{:class="block3motion"} डिग्री में बदलें ताकि पिनाटा हर बार केवल थोड़ी मात्रा में ही झूले:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![पिनाटा स्प्राइट आइकन।](images/pinata-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -129,29 +129,29 @@ forever
 + repeat (10) 
 turn right (1) degrees // Change to 1
 ```
-![Repeat block being added within the forever block and then a turn clockwise block added within it.](images/add-repeat.gif)
+![Repeat खंड को forever खंड में जोड़ा जा रहा है और फिर उसके अंदर एक turn clockwise खंड जोड़ा गया है।](images/add-repeat.gif)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your project, by clicking on the **green flag** above the Stage, to see the piñata swing.
+**परीक्षण:** पिनाटा को झूलता देखने के लिए मंच के ऊपर के **हरे झंडे** पर क्लिक करके अपना प्रोजेक्ट चलाएं।
 
-**Mmm, something is not quite right!** When an object is hung from the ceiling, it won't just rotate in one direction, it will swing back and forth.
+**मम्म, कुछ ठीक नहीं है!** जब किसी वस्तु को छत से लटका दिया जाता है, तो वह केवल एक दिशा में नहीं घूमेगी, वह आगे-पीछे झूलेगी।
 
-Stop your project by clicking on the **red stop icon** above the Stage.
+मंच के ऊपर **लाल स्टॉप आइकन** पर क्लिक करके अपना प्रोजेक्ट रोकें।
 
-![Green flag and stop icons shown side by side.](images/start-stop.png)
+![हरा झंडा और स्टॉप आइकन एक साथ दिखाए गए हैं।](images/start-stop.png)
 
 --- /task ---
 
 --- task ---
 
-Add code to your `forever`{:class="block3control"} loop so that the piñata swings from the centre back and forth continuously like a pendulum:
+अपने `forever`{:class="block3control"} लूप में कोड जोड़ें ताकि पिनाटा केंद्र से एक पेंडुलम की तरह लगातार आगे-पीछे झूलता रहे:
 
-![The Piñata sprite with arrows underneath showing that it swings clockwise from centre, then anticlockwise through the centre, then clockwise back to the centre.](images/pinata-swing.png)
+![पिनाटा स्प्राइट नीचे तीरों के साथ दिखाता है कि यह केंद्र से दक्षिणावर्त घूमता है, फिर केंद्र के माध्यम से वामावर्त, फिर दक्षिणावर्त वापस केंद्र की ओर।](images/pinata-swing.png)
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![पिनाटा स्प्राइट आइकन।](images/pinata-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -174,14 +174,14 @@ end
 
 --- task ---
 
-**Test:** Run your project to see the piñata swing.
+**परीक्षण:** पिनाटा को झूलता देखने के लिए अपना प्रोजेक्ट चलाएं।
 
-**Debug:** If the piñata does not swing correctly:
-+ Look at your code to make sure the `repeat`{:class="block3control"} blocks are in the correct position
-+ Check that the `turn clockwise`{:class="block3motion"}  and `turn anticlockwise`{:class="block3motion"} arrows are correct
-+ Make sure that you have used the numbers from the code above
+**गलतियां को दूर करना:** यदि पिनाटा सही ढंग से नहीं झूलता:
++ यह सुनिश्चित करने के लिए अपना कोड देखें कि `repeat`{:class="block3control"} खंड सही स्थिति में हैं
++ जांचें कि `दक्षिणावर्त मुड़ें`{:class="block3motion"} और `वामावर्त्ती मुड़ें`{:class="block3motion"} तीर सही हैं
++ सुनिश्चित करें कि आपने ऊपर दिए गए कोड से संख्याओं का उपयोग किया है
 
-![An animated gif showing the Stage with the Piñata sprite positioned at the top centre and swinging back and forth.](images/swinging-pinata.gif)
+![मंच दिख रहा है शीर्ष केंद्र में स्थित पिनाटा स्प्राइट के साथ जो बाएं से दाएं झूल रहा है।](images/swinging-pinata.gif)
 
 --- /task ---
 
