@@ -40,19 +40,19 @@ start sound [Boing v]
 
 --- /task ---
 
-`المتغير`{:class="block3variables"} هو وسيلة لتخزين الأرقام و/أو النصوص. The number of times the piñata is clicked will be stored in a variable called `hits`{:class="block3variables"} so it can be used at any time.
+`المتغير`{:class="block3variables"} هو وسيلة لتخزين الأرقام و/أو النصوص. سيتم تخزين عدد مرات النقر على بنياتا في متغير يسمى `الضربات`{: class = "block3variables"} بحيث يمكن استخدامه في أي وقت.
 
 --- task ---
 
-From the `Variables`{:class="block3variables"} blocks menu, click the **Make a Variable** button.
+انقر على `متغيرات`{: class = "block3variables"} و ثم انقر على زر**انشاء متغير**.
 
 ![The variables blocks menu with the 'Makes a Variable' button.](images/make-variable.png)
 
-Call your new variable **hits**:
+سمي المتغير الجديد الذي انشاته **الضربات**:
 
 ![The 'New variable' pop-up window with the name 'hits' typed in the 'New variable name' box.](images/new-variable.png)
 
-**Notice:** The new 'hits' variable appears on the Stage and can now be used in the `Variable`{:class="block3variables"} blocks.
+**ملاحظة:** يظهر متغير "الضربات" الجديد على المنصة ويمكن استخدامه الآن في قائمة `المتغيرات`{: class = "block3variables"}.
 
 ![The hits variable on the Stage.](images/variable-stage.png)
 
@@ -62,11 +62,11 @@ Call your new variable **hits**:
 
 --- task ---
 
-Each time the project starts, the number of `hits`{:class="block3variables"} should be reset to `0`{:class="block3variables"}.
+في كل مرة يبدأ فيها المشروع ، يجب إعادة تعيين عدد `الضربات`{: class = "block3variables"} إلى `0`{: class = "block3variables"}.
 
-Drag the `set hits to 0`{:class="block3variables"} block into the first script in the Code area, between the `switch costume to`{:class="block3looks"} block and the `go to x: (0) y: (180)`{:class="block3motion"} block.
+اسحب كتلة`اجعل متغير"ضربات" مساوياً 0`{:class="block3variables"} الى النص البرمجي الاول، بين كتلة `غير المظهر الى`{:class="block3looks"} وكتلة `اذهب الى س: (0) ص: (180)`.
 
-Your code should look like this:
+يجب أن تبدو التعليمات البرمجية خاصتك بالشكل التالي:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
@@ -92,9 +92,9 @@ end
 
 --- task ---
 
-Every time the **Piñata** sprite is clicked, the number of `hits`{:class="block3variables"} should increase.
+في كل مرة يتم النقر على **بنياتا** ،يجب زيادة عدد `ضربات`{: class = "block3variables"}.
 
-Add a block to change `hits`{:class="block3variables"} by `1`{:class="block3variables"} when the **Piñata** sprite is clicked:
+أضف كتلة لتغيير عدد `ضربات`{: class = "block3variables"} بمقدار `1`{: class = "block3variables"} عند النقر على كائن **بنياتا**:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
@@ -108,23 +108,23 @@ start sound [Boing v]
 
 --- task ---
 
-**Test:** Run your project a couple of times. Check that `hits`{:class="block3variables"} always starts at `0`{:class="block3variables"} and increases by `1`{:class="block3variables"} each time you click on the **Piñata** sprite.
+**اختبار:** اختبر مشروعك عدة مرات. تأكد من أن عدد `ضربات`{: class = "block3variables"} يبدأ دائمًا عند `0`{: class = "block3variables"} ويزيد بمقدار `1`{: class = "block3variables"} في كل مرة تنقر فيها على **بنياتا**.
 
 ![The Stage showing the number stored in the hits variable is '8'.](images/hits-increase.png)
 
 --- /task ---
 
-A piñata is hard to break but it does not last forever. Your piñata will last for `10 hits`{:class="block3variables"} before breaking open.
+من الصعب كسر بنياتا لكنها لا تبقى إلى الأبد. ستصمد بنياتا لمدة `10 ضربات`{: class = "block3variables"} قبل ان تنكسر.
 
-An `if`{:class="block3control"} block can be used to make a decision based on a **condition**.
+يمكن استخدام كتلة `إذا`{: class = "block3control"} لاتخاذ قرار بناءً على شرط ****.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-We use <span style="color: #0faeb0">**conditions**</span> all the time to make decisions. We could say “if the pencil is blunt, then sharpen it”. `If` blocks and conditions let us write code that does something different depending on whether a condition is true or false.
+نحن نستخدم <span style="color: #0faeb0">**الشروط**</span> طوال الوقت لاتخاذ القرارات. يمكننا أن نقول "إذا كان قلم الرَّصاص غير حاد، فقم بشحذه". `وبالمثل ، تتيح لنا شروط `إذا` كتابة رمز يقوم بشيء مختلف اعتمادًا على ما إذا كان الشرط صحيحًا أم خطأ.
 </p>
 
 --- task ---
 
-Go to the `Control`{:class="block3control"} blocks menu. Drag an `if`{:class="block3control"} block into the Code area and insert it around the blocks in your `when this sprite clicked`{:class="block3events"} script:
+افتح قائمة الكتل البرمجية `التحكم` {:class="block3looks"}. Drag an `if`{:class="block3control"} block into the Code area and insert it around the blocks in your `when this sprite clicked`{:class="block3events"} script:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
