@@ -1,29 +1,29 @@
-## Hit the piñata
+## اضرب البنياتا
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will code the piñata to play a sound and count one hit every time the piñata is clicked.
+في هذه الخطوة ، سنقوم باضافة شفرة برمجية لبنياتا لتشغيل الصوت ونحسب ضربة واحدة في كل مرة يتم فيها النقر فوق البنياتا.
 </div>
 <div>
-![An animated image showing the piñata being clicked ten times. After the tenth time, the costume changes to broken and the variable disappears.](images/break-pinata.gif){:width="300px"}
+[صورة متحركة تظهر النقر على piñata عشر مرات. بعد المرة العاشرة ، يتغير المظهر إلى مكسور.] (images / break-pinata.gif) {: width = "300px"}
 </div>
 </div>
 
 --- task ---
 
-Click on the **Sounds** tab for the **Piñata** sprite and you will find a **Boing** sound. Click on the **Play** icon to hear the sound.
+انقر فوق علامة التبويب **الصوت** لـ**بنياتا** وستجد صوت **Boing**. انقر فوق زر **تشغيل** حتى تتمكن من سماع الصوت.
 
 ![The Sounds tab showing the Boing sound in the Sounds list with the Play icon (a white triangle in a blue circle) highlighted at the bottom.](images/play-boing.png)
 
 --- /task ---
 
-A group of connected blocks in Scratch is called a **script**. Sprites can have more than one script.
+مجموعة الكتل المتصلة في سكراتش تسمى **نص**. يمكن أن تحتوي الكائنات على أكثر من نص.
 
 --- task ---
 
-Click on the **Code** tab. From `Events`{:class="block3events"}, drag a `when this sprite clicked`{:class="block3events"} block into the Code area to start a new script.
+انقر على تبويب **المقاطع البرمجية**. من `الأحداث`{: class = "block3events"} ، اسحب كتلة `عند النقر على هذا الكائن`{: class = "block3events"} الى منطقة كتابة الشفرة البرمجية.
 
-In the `Sound`{:class="block3sound"} blocks menu, find the `start sound`{:class="block3sound"} block. Drag it underneath the `when this sprite clicked`{:class="block3events"} block:
+في قائمة كتل `الصوت`{:class="block3sound"} جد كتلة `ابدأ الصوت`{:class="block3sound"}. أضِف المقطع البرمجي `عند نقر هذا الكائن`{:class="block3events"}:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
@@ -36,11 +36,11 @@ start sound [Boing v]
 
 --- task ---
 
-**Test:** Run your project by clicking on the **green flag** above the Stage. Click on the piñata as it swings to hear the boing sound.
+**Test:** قم بتشغيل المشروع، بالضغط على العلم الاخضر**green flag**، حتى تتاكد بان البنياتا تتأرجح. انقر على بنياتا وهو يتأرجح لسماع صوت boing.
 
 --- /task ---
 
-A `variable`{:class="block3variables"} is a way of storing numbers and/or text. The number of times the piñata is clicked will be stored in a variable called `hits`{:class="block3variables"} so it can be used at any time.
+`المتغير`{:class="block3variables"} هو وسيلة لتخزين الأرقام و/أو النصوص. The number of times the piñata is clicked will be stored in a variable called `hits`{:class="block3variables"} so it can be used at any time.
 
 --- task ---
 
