@@ -124,7 +124,7 @@ start sound [Boing v]
 
 --- task ---
 
-افتح قائمة الكتل البرمجية `التحكم` {:class="block3looks"}. Drag an `if`{:class="block3control"} block into the Code area and insert it around the blocks in your `when this sprite clicked`{:class="block3events"} script:
+افتح قائمة الكتل البرمجية `التحكم` {:class="block3looks"}. اسحب كتلة `إذا`{: class = "block3control"} في منطقة التعليمات البرمجية اسفل كتلة `عند نقر هذا الكائن`:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
@@ -138,7 +138,7 @@ change [hits v] by (1)
 
 --- /task ---
 
-The `if`{:class="block3control"} block has a hexagon-shaped input where you can build a condition.
+تحتوي الكتلة `إذا`{: class = "block3control"} على مدخلات على شكل سداسي حيث يمكنك بناء شرط.
 
 --- task ---
 
