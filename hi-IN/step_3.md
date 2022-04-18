@@ -1,29 +1,29 @@
-## Hit the piñata
+## पिनाटा को मारें
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will code the piñata to play a sound and count one hit every time the piñata is clicked.
+इस चरण में, आप पिनाटा को ध्वनि चलाने के लिए और हर बार पिनाटा क्लिक करने पर एक हिट की गणना करने के लिए कोड करेंगे।
 </div>
 <div>
-![An animated image showing the piñata being clicked ten times. After the tenth time, the costume changes to broken and the variable disappears.](images/break-pinata.gif){:width="300px"}
+![पिनाटा को दस बार क्लिक करते हुए दिखाने वाला एक एनिमेटेड चित्र। दसवीं बार के बाद, पोशाक टूटी हुई में बदल जाती है और वेरिएबल गायब हो जाता है।](images/break-pinata.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Click on the **Sounds** tab for the **Piñata** sprite and you will find a **Boing** sound. Click on the **Play** icon to hear the sound.
+**Pinata** स्प्राइट के लिए **Sounds** टैब पर क्लिक करें और आपको **Boing** ध्वनि मिलेगी। ध्वनि सुनने के लिए **Play** आइकन पर क्लिक करें।
 
 ![The Sounds tab showing the Boing sound in the Sounds list with the Play icon (a white triangle in a blue circle) highlighted at the bottom.](images/play-boing.png)
 
 --- /task ---
 
-A group of connected blocks in Scratch is called a **script**. Sprites can have more than one script.
+Scratch में जुड़े हुए खंडों के समूह को **स्क्रिप्ट** कहा जाता है। स्प्राइट्स में एक से अधिक स्क्रिप्ट हो सकती हैं।
 
 --- task ---
 
-Click on the **Code** tab. From `Events`{:class="block3events"}, drag a `when this sprite clicked`{:class="block3events"} block into the Code area to start a new script.
+**Code** टैब पर क्लिक करें। `Events`{:class="block3events"} से, एक `when this sprite clicked`{:class="block3events"} खंड को कोड क्षेत्र में खिसकाएं एक नई स्क्रिप्ट शुरू करने के लिए।
 
-In the `Sound`{:class="block3sound"} blocks menu, find the `start sound`{:class="block3sound"} block. Drag it underneath the `when this sprite clicked`{:class="block3events"} block:
+`Sound`{:class="block3sound"} खंड मेन्यू में, `start sound`{:class="block3sound"} खंड ढूंढें। इसे `when this sprite clicked`{:class="block3events"} खंड के नीचे खिसकाएं:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
@@ -36,23 +36,23 @@ start sound [Boing v]
 
 --- task ---
 
-**Test:** Run your project by clicking on the **green flag** above the Stage. Click on the piñata as it swings to hear the boing sound.
+**परीक्षण:** मंच के ऊपर के **हरे झंडे** पर क्लिक करके अपना प्रोजेक्ट चलाएं। झूलते हुए पिनाटा पर क्लिक करें बोईंग ध्वनि को सुनने के लिए।
 
 --- /task ---
 
-A `variable`{:class="block3variables"} is a way of storing numbers and/or text. The number of times the piñata is clicked will be stored in a variable called `hits`{:class="block3variables"} so it can be used at any time.
+`वेरिएबल`{:class="block3variables"} नंबर और/या टेक्स्ट को स्टोर करने का एक तरीका है। पिनाटा पर क्लिक करने की संख्या `hits`{:class="block3variables"} नामक एक वेरिएबल में संग्रहीत की जाएगी ताकि इसे किसी भी समय उपयोग किया जा सके।
 
 --- task ---
 
-From the `Variables`{:class="block3variables"} blocks menu, click the **Make a Variable** button.
+`Variables`{:class="block3variables"} खंड मेन्यू से, **Make a Variable** बटन पर क्लिक करें।
 
 ![The variables blocks menu with the 'Makes a Variable' button.](images/make-variable.png)
 
-Call your new variable **hits**:
+अपने नए वेरिएबल को नाम दें **hits**:
 
 ![The 'New variable' pop-up window with the name 'hits' typed in the 'New variable name' box.](images/new-variable.png)
 
-**Notice:** The new 'hits' variable appears on the Stage and can now be used in the `Variable`{:class="block3variables"} blocks.
+**ध्यान दें:** नया 'hits' वैरिएबल मंच पर दिखाई देता है और अब इसे `वेरिएबल`{:class="block3variables"} खंड में इस्तेमाल किया जा सकता है।
 
 ![The hits variable on the Stage.](images/variable-stage.png)
 
@@ -62,11 +62,11 @@ Call your new variable **hits**:
 
 --- task ---
 
-Each time the project starts, the number of `hits`{:class="block3variables"} should be reset to `0`{:class="block3variables"}.
+हर बार प्रोजेक्ट शुरू होने पर, `hits`{:class="block3variables"} की संख्या को `0`{:class="block3variables"} पर रीसेट किया जाना चाहिए।
 
-Drag the `set hits to 0`{:class="block3variables"} block into the first script in the Code area, between the `switch costume to`{:class="block3looks"} block and the `go to x: (0) y: (180)`{:class="block3motion"} block.
+कोड क्षेत्र में पहली स्क्रिप्ट में `set hits to 0`{:class="block3variables"} खंड को खिसकाएं, `switch costume to`{:class="block3looks"} खंड और `go to x: (0) y: (180)`{:class="block3motion"} खंड के बीच।
 
-Your code should look like this:
+आपका कोड इस प्रकार दिखना चाहिए:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
@@ -92,9 +92,9 @@ end
 
 --- task ---
 
-Every time the **Piñata** sprite is clicked, the number of `hits`{:class="block3variables"} should increase.
+हर बार **Piñata** स्प्राइट पर क्लिक करने पर, `hits`{:class="block3variables"} की संख्या बढ़नी चाहिए।
 
-Add a block to change `hits`{:class="block3variables"} by `1`{:class="block3variables"} when the **Piñata** sprite is clicked:
+`hits`{:class="block3variables"} को `1`{:class="block3variables"} से बदलने के लिए एक खंड जोड़ें जब **Piñata** स्प्राइट क्लिक किया जाता है:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
@@ -108,23 +108,23 @@ start sound [Boing v]
 
 --- task ---
 
-**Test:** Run your project a couple of times. Check that `hits`{:class="block3variables"} always starts at `0`{:class="block3variables"} and increases by `1`{:class="block3variables"} each time you click on the **Piñata** sprite.
+**परीक्षण:** अपने प्रोजेक्ट को कुछ बार चलाएँ। जांचें कि `hits`{:class="block3variables"} हमेशा `0`{:class="block3variables"} से शुरू होता है और हर बार जब आप **Piñata** स्प्राइट पर क्लिक करते हैं तो `1`{:class="block3variables"} से बढ़ जाता है।
 
 ![The Stage showing the number stored in the hits variable is '8'.](images/hits-increase.png)
 
 --- /task ---
 
-A piñata is hard to break but it does not last forever. Your piñata will last for `10 hits`{:class="block3variables"} before breaking open.
+एक पिनाटा तोड़ना मुश्किल है लेकिन यह हमेशा के लिए नहीं रहता। आपका पिनाटा टूटकर खुलने से पहले `10 मारों`{:class="block3variables"} तक चलेगा।
 
-An `if`{:class="block3control"} block can be used to make a decision based on a **condition**.
+**शर्त** के आधार पर निर्णय लेने के लिए `if`{:class="block3control"} ब्लॉक का उपयोग किया जा सकता है।
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-We use <span style="color: #0faeb0">**conditions**</span> all the time to make decisions. We could say “if the pencil is blunt, then sharpen it”. `If` blocks and conditions let us write code that does something different depending on whether a condition is true or false.
+हम निर्णय लेने के लिए हर समय <span style="color: #0faeb0">**conditions**</span> का उपयोग करते हैं। हम कह सकते हैं "यदि पेंसिल कुंद है, तो उसे तेज करें"। `if` खंड और शर्तें हमें कोड लिखने देती हैं जो इस बात पर निर्भर करता है कि कोई शर्त सही है या गलत।
 </p>
 
 --- task ---
 
-Go to the `Control`{:class="block3control"} blocks menu. Drag an `if`{:class="block3control"} block into the Code area and insert it around the blocks in your `when this sprite clicked`{:class="block3events"} script:
+`Control`{:class="block3control"} खंड मेन्यू पर जाएं। कोड क्षेत्र में `if`{:class="block3control"} खंड को खिसकाएं और अपने `when this sprite clicked`{:class="block3events"} स्क्रिप्ट के आस पास दाल दें:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
@@ -138,7 +138,7 @@ change [hits v] by (1)
 
 --- /task ---
 
-The `if`{:class="block3control"} block has a hexagon-shaped input where you can build a condition.
+`if`{:class="block3control"} ब्लॉक में एक षट्भुज के आकार का इनपुट होता है जहां आप एक शर्त बना सकते हैं।
 
 --- task ---
 
