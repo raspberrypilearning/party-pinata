@@ -13,7 +13,7 @@
 
 **Pinata** स्प्राइट के लिए **Sounds** टैब पर क्लिक करें और आपको **Boing** ध्वनि मिलेगी। ध्वनि सुनने के लिए **Play** आइकन पर क्लिक करें।
 
-![The Sounds tab showing the Boing sound in the Sounds list with the Play icon (a white triangle in a blue circle) highlighted at the bottom.](images/play-boing.png)
+![Play आइकन (नीले घेरे में एक सफेद त्रिकोण) के साथ ध्वनि सूची में बोईंग ध्वनि दिखाने वाला Sounds टैब नीचे हाइलाइट किया गया है।](images/play-boing.png)
 
 --- /task ---
 
@@ -25,7 +25,7 @@ Scratch में जुड़े हुए खंडों के समूह 
 
 `Sound`{:class="block3sound"} खंड मेन्यू में, `start sound`{:class="block3sound"} खंड ढूंढें। इसे `when this sprite clicked`{:class="block3events"} खंड के नीचे खिसकाएं:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![पिनाटा स्प्राइट आइकन।](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -46,17 +46,17 @@ start sound [Boing v]
 
 `Variables`{:class="block3variables"} खंड मेन्यू से, **Make a Variable** बटन पर क्लिक करें।
 
-![The variables blocks menu with the 'Makes a Variable' button.](images/make-variable.png)
+![वेरिएबल खंड मेन्यू 'Makes a Variable' बटन के साथ।](images/make-variable.png)
 
 अपने नए वेरिएबल को नाम दें **hits**:
 
-![The 'New variable' pop-up window with the name 'hits' typed in the 'New variable name' box.](images/new-variable.png)
+!['New variable' पॉप उप विंडो जिसमें 'hits' नाम 'New variable name' बॉक्स में टाइप किया गया है।](images/new-variable.png)
 
 **ध्यान दें:** नया 'hits' वैरिएबल मंच पर दिखाई देता है और अब इसे `वेरिएबल`{:class="block3variables"} खंड में इस्तेमाल किया जा सकता है।
 
-![The hits variable on the Stage.](images/variable-stage.png)
+![मंच पर hits वेरिएबल।](images/variable-stage.png)
 
-![The Variable blocks including new 'hits' block.](images/variable-blocks.png)
+![नए 'hits' खंड सहित Variable खंड।](images/variable-blocks.png)
 
 --- /task ---
 
@@ -68,7 +68,7 @@ start sound [Boing v]
 
 आपका कोड इस प्रकार दिखना चाहिए:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![पिनाटा स्प्राइट आइकन।](images/pinata-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -96,7 +96,7 @@ end
 
 `hits`{:class="block3variables"} को `1`{:class="block3variables"} से बदलने के लिए एक खंड जोड़ें जब **Piñata** स्प्राइट क्लिक किया जाता है:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![पिनाटा स्प्राइट आइकन।](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -110,7 +110,7 @@ start sound [Boing v]
 
 **परीक्षण:** अपने प्रोजेक्ट को कुछ बार चलाएँ। जांचें कि `hits`{:class="block3variables"} हमेशा `0`{:class="block3variables"} से शुरू होता है और हर बार जब आप **Piñata** स्प्राइट पर क्लिक करते हैं तो `1`{:class="block3variables"} से बढ़ जाता है।
 
-![The Stage showing the number stored in the hits variable is '8'.](images/hits-increase.png)
+![hits वेरिएबल में संग्रही की हुई संख्या 8 दिखता हुआ मंच।](images/hits-increase.png)
 
 --- /task ---
 
@@ -126,7 +126,7 @@ start sound [Boing v]
 
 `Control`{:class="block3control"} खंड मेन्यू पर जाएं। कोड क्षेत्र में `if`{:class="block3control"} खंड को खिसकाएं और अपने `when this sprite clicked`{:class="block3events"} स्क्रिप्ट के आस पास दाल दें:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![पिनाटा स्प्राइट आइकन।](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -142,11 +142,11 @@ change [hits v] by (1)
 
 --- task ---
 
-The **Piñata** sprite should play a sound and increase the count of `hits`{:class="block3variables"} **`if`{:class="block3control"}** the number of `hits`{:class="block3variables"} is `less than`{:class="block3operators"} `10`{:class="block3variables"}.
+**Piñata** स्प्राइट को एक ध्वनि बजानी चाहिए और `hits`{:class="block3variables"} की संख्या में वृद्धि करनी चाहिए **`if (यदि)`{:class="block3control"}** `hits`{:class="block3variables"} की संख्या `10`{:class="block3variables"} से `less than (कम है)`{:class="block3operators"}।
 
-First add a `<`{:class="block3operators"} operator into the hexagon-shaped input:
+सबसे पहले, षट्भुज के आकार के इनपुट में एक `<`{:class="block3operators"} ऑपरेटर जोड़ें:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![पिनाटा स्प्राइट आइकन।](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -160,9 +160,9 @@ change [hits v] by (1)
 
 --- task ---
 
-Finish building the `if`{:class="block3control"} condition by dragging in the `hits`{:class="block3variables"} variable to the left of the `<`{:class="block3operators"} operator and typing the value '10' on the right:
+`if`{:class="block3control"} शर्त को बनाना पूरा करने के लिए `hits`{:class="block3variables"} वेरियबल को `<`{:class="block3operators"} ऑपरेटर की बायीं ओर खिसकाएं और दायीं ओर '10' टाइप करें:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![पिनाटा स्प्राइट आइकन।](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -176,17 +176,17 @@ change [hits v] by (1)
 
 --- task ---
 
-**Test:** Run your project again. Hit the piñata 10 times to hear the sound and see the `hits`{:class="block3variables"} variable increase.
+**परीक्षण:** अपना प्रोजेक्ट फिर से चलाएँ। पिनाटा को 10 बार मारें ध्वनि सुनने के लिए और `hits`{:class="block3variables"} वेरिएबल को बढ़ता देखने के लिए।
 
-Hit the piñata a few more times. The `hits`{:class="block3variables"} variable will not go above 10 because that condition is no longer 'true' so the code inside the `if`{:class="block3control"} block won't run.
+कुछ और बार पिनाटा को मारें। `hits`{:class="block3variables"} वेरिएबल 10 से ऊपर नहीं जाएगा क्योंकि वह शर्त अब 'सत्य' नहीं है इसलिए `if`{:class="block3control"} ब्लॉक के अंदर का कोड नहीं चलेगा।
 
 --- /task ---
 
 --- task ---
 
-Add a second `if`{:class="block3control"} block inside the first. This time the condition will check if `hits`{:class="block3variables"} `=`{:class="block3operators"} 10 and if 'true' the costume will change to `broken`{:class="block3looks"}:
+एक दूसरा `if`{:class="block3control"} खंड जोड़ें पहले के अंदर। इस बार शर्त जांचेगी कि `hits`{:class="block3variables"} `=`{:class="block3operators"} 10 है और अगर 'सत्य' है तो पोशाक `broken`{:class="block3looks"} में बदल जाएगी:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![पिनाटा स्प्राइट आइकन।](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -202,21 +202,21 @@ switch costume to (broken v)
 
 --- task ---
 
-**Test:** Run your project a couple of times. Check that the **Piñata** sprite starts with the 'whole' costume then changes to the 'broken' costume after `10 hits`{:class="block3variables"}.
+**परीक्षण:** अपने प्रोजेक्ट को कुछ बार चलाएँ। जांचें कि **Piñata** स्प्राइट 'संपूर्ण' पोशाक से शुरू होता है और फिर `10 मारों`{:class="block3variables"} के बाद 'टूटी हुई' पोशाक में बदल जाता है।
 
-![An animated image showing the piñata being clicked ten times. After the tenth time, the costume changes to broken.](images/break-pinata.gif)
+![पिनाटा को दस बार क्लिक करते हुए दिखाने वाला एक एनिमेटेड चित्र। दसवीं बार के बाद, पोशाक टूटी हुई में बदल जाती है।](images/break-pinata.gif)
 
 --- /task ---
 
-When the **Piñata** sprite has broken, all the other sprites need to know that the party has started.
+जब **Piñata** स्प्राइट टूट जाता है, तो अन्य सभी स्प्राइट्स को यह जानना होगा कि समारोह शुरू हो गया है।
 
-In Scratch, the `broadcast`{:class="block3events"} block can be used to **send** a message that all sprites can **receive**.
+Scratch में, `broadcast`{:class="block3events"} खंड का उपयोग **भेजने** के लिए किया जा सकता है एक संदेश है कि सभी स्प्राइट **प्राप्त** कर सकते हैं।
 
 --- task ---
 
-Add a `broadcast message`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu:
+`Events`{:class="block3events"} खंड मेन्यू से `broadcast message`{:class="block3events"} खंड जोड़ें:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![पिनाटा स्प्राइट आइकन।](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -228,13 +228,13 @@ switch costume to (broken v)
 + broadcast (message1 v)
 ```
 
-Click on `message1`{:class="block3events"} and choose **New message**. Name the new message `party`{:class="block3events"}.
+`message1`{:class="block3events"} पर क्लिक करें और **New message** चुनें। नए संदेश को नाम दें `party`{:class="block3events"}।
 
-![The drop-down menu on the broadcast block showing the 'New message' menu option.](images/new-message.png)
+![broadcast खंड पर ड्रॉप डाउन मेन्यू 'New message' मेन्यू विकल्प दिखा रहा है।](images/new-message.png)
 
-![The New message pop-up window with 'New message name' box highlighted and the typed word 'party'.](images/party-message.png)
+!['New messae name' बॉक्स के साथ नया संदेश पॉप-अप विंडो हाइलाइट किया गया और टाइप किया गया शब्द 'party'।](images/party-message.png)
 
-Your `broadcast`{:class="block3events"} block will look like this:
+आपका `broadcast`{:class="block3events"} खंड इस तरह दिखेगा:
 
 ```blocks3
 broadcast (party v)
