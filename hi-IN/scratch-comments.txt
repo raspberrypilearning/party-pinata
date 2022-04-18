@@ -1,41 +1,41 @@
-Update to 'whole'
+'संपूर्ण' में अपडेट करें
 
-Ready position
+तैयार स्थिति
 
-Change to 1
+1 में बदलें
 
-Swings 10 degrees clockwise from the centre
+केंद्र से 10 डिग्री दक्षिणावर्त झूलता है
 
-Swings 20 degrees anticlockwise through the centre
+केंद्र के माध्यम से 20 डिग्री वामावर्त झूलता है
 
-Swings 10 degrees clockwise back to the centre
+10 डिग्री दक्षिणावर्त झूलता है वापस केंद्र की ओर
 
-Change to mouse-pointer
+माउस-पॉइंटर में बदलें
 
-Choose your sound
+अपनी ध्वनि चुनें
 
-Change to 4
+4 में बदलें
 
-Select Treats
+पकवानो का चयन करें
 
-Change to back
+पिचले में बदले
 
-Change to 26
+26 में बदलें
 
-Change to 10 to start small
+छोटा शुरू करने के लिए 10 में बदलें
 
-Inside the piñata
+पिनाटा के अंदर
 
-Change to 20
+20 में बदलें
 
-Change to 5
+5 में बदलें
 
-Change to -10
+-10 में बदलें
 
-Positive number to grow
+बढ़ने के लिए सकारात्मक संख्या
 
-Change colour
+रंग बदलें
 
-Try different numbers to match your music
+अपने संगीत से मेल खाने के लिए अलग-अलग संख्याओं को आज़माएं
 
-Negative number to shrink
+सिकुड़ने के लिए ऋणात्मक संख्या
