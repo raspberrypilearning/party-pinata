@@ -1,23 +1,23 @@
-## Start the party
+## समारोह शुरू करें
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will choose a piñata costume and code the piñata to swing.
+इस चरण में, आप एक पिनाटा पोशाक चुनेंगे और पिनाटा को झूलने के लिए कोड करेंगे।
 </div>
 <div>
-![An animated gif showing the stage with the piñata sprite positioned at the top centre and swinging left to right.](images/swinging-pinata.gif){:width="300px"}
+![मंच दिख रहा है शीर्ष केंद्र में स्थित पिनाटा स्प्राइट के साथ जो बाएं से दाएं झूल रहा है।](images/swinging-pinata.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Open the [Party piñata starter project](https://scratch.mit.edu/projects/653082997/editor){:target="_blank"}. Scratch will open in another browser tab.
+[पार्टी पिनाटा शुरूआती प्रोजेक्ट](https://scratch.mit.edu/projects/653082997/editor){:target="_blank"} खोलें। Scratch दूसरे ब्राउज़र टैब में खुलेगा।
 
 [[[working-offline]]]
 
 --- /task ---
 
-The Scratch editor looks like this:
+Scratch एडिटर इस प्रकार दिखाई देता है:
 
 ![An annotated screenshot of the Scratch editor, with the Stage, Stage pane, Sprite pane, Sprite list, and Code area labelled.](images/scratch-interface.png)
 
