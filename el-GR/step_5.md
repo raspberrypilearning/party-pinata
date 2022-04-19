@@ -1,33 +1,33 @@
-## Add some treats
+## Πρόσθεσε μερικά καλούδια
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Piñatas are full of treats and when they start to break, the treats fall out. In this step, you will animate international food treats to fall out of the piñata each time it is hit. Do you recognise any of the treats?
+Οι πινιάτες είναι γεμάτα καλούδια και όταν αρχίζουν να σπάνε, τα καλούδια πέφτουν έξω. Σε αυτό το βήμα, θα ζωντανέψεις διεθνείς λιχουδιές φαγητού ώστε να πέφτουν έξω από την πινιάτα κάθε φορά που την χτυπάς. Αναγνωρίζεις κάποιες από τις λιχουδιές;
 </div>
 <div>
-![An animated image showing the piñata being hit multiple times. Each time, four random treats fall out to random positions then slowly rotate in a circle.](images/spinning-treats.gif){:width="300px"}
+![Μια κινούμενη εικόνα που δείχνει την πινιάτα να χυπιέται δέκα φορές. Κάθε φορά, τέσσερις τυχαίες λιχουδιές πέφτουν σε τυχαίες θέσεις και στη συνέχεια περιστρέφονται αργά σε κύκλο.](images/spinning-treats.gif){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">**costume**</span> in Scratch is an image that changes the way a sprite looks. Our **graphic designers** asked Code Club leaders around the world to tell them what treats they would have at a party. Hopefully, some of the treat costumes they created will be familiar to you — and others completely new.      
+Μια <span style="color: #0faeb0">**ενδυμασία**</span> στο Scratch είναι μια εικόνα που αλλάζει την εμφάνιση ενός αντικειμένου. Οι δικοί μας **σχεδιαστές γραφικών** ζήτησαν από τους ηγέτες των Code Club από όλο τον κόσμο να τους πουν τι καλούδια θα είχαν σε ένα πάρτι. Ας ελπίσουμε ότι κάποια από τις ενδυμασίες που δημιούργησαν για τα καλούδια θα σου είναι οικεία— και άλλα εντελώς νέα.      
 </p>
 
 --- task ---
 
-Click on the **Treats** sprite in the Sprite list and select the **Costumes** tab.
+Κάνε κλικ στο αντικείμενο **Treats** στη λίστα Αντικειμένων και επίλεξε την καρτέλα **Ενδυμασίες**.
 
-There are 26 treat costumes — and you are going to use them all!
+Υπάρχουν 26 ενδυμασίες για τα καλούδια— και θα τα χρησιμοποιήσεις όλα!
 
-![The specially created treat images shown as a collection of treats.](images/treats.png)
+![Οι ειδικά δημιουργημένες εικόνες για τα καλούδια εμφανίζονται ως μια συλλογή από καλούδια.](images/treats.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab then create a script to `hide`{:class="block3looks"} the treats in the piñata when your project starts:
+Κάνε κλικ στην καρτέλα **Κώδικας** και στη συνέχεια, δημιούργησε ένα script για να `εξαφανίσεις`{class="block3looks"} τα καλούδια στην πινιάτα όταν ξεκινά το έργο σου:
 
-![The Treats sprite icon.](images/treats-sprite.png)
+![Το εικονίδιο του αντικειμένου Treats.](images/treats-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -37,19 +37,19 @@ go to x: (0) y: (100)
 
 --- /task ---
 
-Four treats will escape the piñata each time the piñata is hit. By **cloning** the **Treats** sprite, you can create multiple treats.
+Τέσσερα καλούδια θα ξεφεύγουν από την πινιάτα κάθε φορά που χτυπιέται η πινιάτα. Με **κλωνοποίηση** των αντικειμένων **Treats** μπορείς να δημιουργήσεις πολλά καλούδια.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">**clone**</span> in Scratch is a copy of a sprite. It has all the same code, costumes, and sounds of the original sprite.      
+Ένας <span style="color: #0faeb0">**κλώνος**</span> στο Scratch είναι ένα αντίγραφο ενός αντικειμένου. Έχει τον ίδιο κώδικα, ενδυμασίες και ήχους του αρχικού αντικειμένου.      
 </p>
 
 --- task ---
 
-Click on the **Piñata** sprite.
+Κάνε κλικ στην ενδυμασία **Piñata**.
 
-Insert a `repeat`{:class="block3control"} loop into your existing code. Change the value to `4`{:class="block3control"} then add a `create clone of myself`{:class="block3control"} block. Use the drop-down arrow to select the `Treats`{:class="block3control"} sprite:
+Τοποθέτησε το βρόχο `επανάλαβε`{:class="block3control"} στον υπάρχοντα κώδικά σου. Άλλαξε την τιμή σε `4`{:class="block3control"} και στη συνέχεια, πρόσθεσε ένα μπλοκ `δημιούργησε κλώνο του εαυτού μου`{:class="block3control"}. Χρησιμοποίησε το βελάκι στο αναπτυσσόμενο μενού για να επιλέξεις το αντικείμενο`Treats`{:class="block3control"}:
 
-![The Pinata sprite icon.](images/pinata-sprite.png)
+![Το εικονίδιο του αντικειμένου Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -64,19 +64,19 @@ switch costume to (broken v)
 broadcast (party v)
 ```
 
-**Tip:** Use the spare space in the Code area to build your new code then drag it into the existing script:
+**Συμβουλή:** Χρησιμοποίησε τον ελεύθερο χώρο στην περιοχή Κώδικας για να δημιουργήσεις το νέο σου κώδικα και στη συνέχεια, σύρε τον στο υπάρχον script:
 
-![The repeat and clone blocks are assembled on their own in the Code area before being dragged into position in the script.](images/code-area.gif) --- /task ---
+![Τα μπλοκ επανάληψης και κλωνοποίησης συναρμολογούνται μόνα τους στην περιοχή Κώδικας πριν συρθούν στη θέση τους στο script.](images/code-area.gif) --- /task ---
 
 --- task ---
 
-Click on the **Treats** sprite.
+Κάνε κλικ στο αντικείμενο **Treats**.
 
-Create a new script using the `when I start as a clone`{:class="block3control"} block.
+Δημιούργησε ένα νέο script χρησιμοποιώντας το `όταν ξεκινήσω ως κλώνος`{:class="block3control"}.
 
-Add blocks from the `Looks`{:class="block3looks"} blocks menu to control the appearance of each new clone:
+Πρόσθεσε μπλοκ από το μενού μπλοκ `Ενδυμασίες`{:class="block3looks"} για να ελέγξεις την εμφάνιση κάθε νέου κλώνου:
 
-![The Treats sprite icon.](images/treats-sprite.png)
+![Το εικονίδιο του αντικειμένου Treats.](images/treats-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -89,9 +89,9 @@ switch costume to (Knafeh v)
 
 --- task ---
 
-You can pick random treats to be released when the piñata is hit. Use a `pick random`{:class="block3operators"} operator to select a random costume from `1`{:class="block3operators"} to `26`{:class="block3operators"} each time a clone is created:
+Μπορείς να επιλέξεις τυχαία καλούδια που θα απελευθερωθούν όταν χτυπηθεί η πινιάτα. Χρησιμοποίησε έναν τελεστή `επίλεξε τυχαίο`{:class="block3operators"} για να επιλέξεις μια τυχαία ενδυμασία από `1`{:class="block3operators"} έως `26`{:class="block3operators"} κάθε φορά που δημιουργείται ένας κλώνος:
 
-![The Treats sprite icon.](images/treats-sprite.png)
+![Το εικονίδιο του αντικειμένου Treats.](images/treats-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -104,11 +104,11 @@ go to [back v] layer
 
 --- task ---
 
-At the moment, the **Treats** clones will appear behind the **Piñata** sprite, but treats should fall from the piñata to a random position.
+Προς το παρόν, οι κλώνοι **Treats** θα εμφανιστούν πίσω από το αντικείμενο **Piñata**, αλλά τα καλούδια θα πρέπει να πέφτουν από την πινιάτα σε μια τυχαία θέση.
 
-Add code to make the cloned **Treats** sprites `glide`{:class="block3motion"} to a random position:
+Πρόσθεσε κώδικα για να κάνεις τα κλωνοποιημένα αντικείμενα **Treats** να `ολισθήσουν`{:class="block3motion"} σε μια τυχαία θέση:
 
-![The Treats sprite icon.](images/treats-sprite.png)
+![Το εικονίδιο του αντικειμένου Treats.](images/treats-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -122,17 +122,18 @@ switch costume to (pick random (1) to (26))
 
 --- task ---
 
-**Test:** Run your project and hit the piñata to see four clones of the **Treats** sprite after each hit. The costumes will be selected at random and the treats will each glide to a random position.
+**Δοκιμή:** Εκτέλεσε το έργο σου και χτύπησε την πινιάτα για να δεις τέσσερις κλώνους του αντικειμένου **Treats** μετά από κάθε χτύπημα. Οι ενδυμασίες θα επιλεγούν τυχαία και τα καλούδια θα ολισθήσουν το καθένα σε μια τυχαία θέση.
 
-![An animated image showing the pinata being hit three times. Each time, four random treats fall out to random positions.](images/four-treats.gif)
+![Μια κινούμενη εικόνα που δείχνει την πινιάτα να έχει χτυπηθεί τρεις φορές. Κάθε φορά, τέσσερα τυχαία καλούδια πέφτουν σε τυχαίες θέσεις.](images/four-treats.gif)
 
 --- /task ---
 
 --- task ---
 
-Add animation to make the **Treats** sprite clones `turn`{:class="block3motion"} `forever`{:class="block3control"} when they reach their random position. Remember animations work best when small movements are used, so change the number of degrees to `1`{:class="block3motion"}:
+Πρόσθεσε κινούμενα σχέδια για να κάνεις τα αντικείμενα **Treats** να `στρίβουν`{:class="block3motion"} 
+ `για πάντα`{:class="block3control"} όταν φτάσουν στην τυχαία θέση τους. Να θυμάσαι ότι τα κινούμενα σχέδια λειτουργούν καλύτερα όταν χρησιμοποιούνται με μικρές κινήσεις, επομένως άλλαξε τον αριθμό των μοιρών σε `1`{:class="block3motion"}:
 
-![The Treats sprite icon.](images/treats-sprite.png)
+![Το εικονίδιο του αντικειμένου Treats.](images/treats-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -148,9 +149,9 @@ turn right (1) degrees
 
 --- task ---
 
-**Test:** Run your project again to see the **Treats** sprite clones spin.
+**Δοκιμή:** Εκτέλεσε το έργο σου πάλι για να δεις τους κλώνους του αντικειμένου **Treats** να στροβιλίζονται.
 
-![An animated image showing the pinata being hit multiple times. Each time, four random treats fall out to random positions then slowly rotate in a circle.](images/spinning-treats.gif)
+![Μια κινούμενη εικόνα που δείχνει την πινιάτα να έχει χτυπηθεί πολλές φορές. Κάθε φορά, τέσσερις τυχαίες λιχουδιές πέφτουν σε τυχαίες θέσεις και στη συνέχεια περιστρέφονται αργά σε κύκλο.](images/spinning-treats.gif)
 
 --- /task ---
 
