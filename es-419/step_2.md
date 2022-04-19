@@ -77,9 +77,9 @@ La posición inicial de una piñata es siempre la misma, solo comienza a moverse
 
 --- task ---
 
-En el menú de bloques `Movimiento`{:class="block3motion"}, busca los bloques `ir a x: 0 y: 180`{:class="block3motion"} y `apuntar en dirección 90`{:class="block3motion"}. Drag the blocks to the Code area and connect them to the bottom of your code:
+En el menú de bloques `Movimiento`{:class="block3motion"}, busca los bloques `ir a x: 0 y: 180`{:class="block3motion"} y `apuntar en dirección 90`{:class="block3motion"}. Arrastra los bloques al área de Código y conéctalos a la parte inferior de tu código:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![El icono del objeto Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -90,13 +90,13 @@ switch costume to (whole v)
 
 --- /task ---
 
-A `forever`{:class="block3control"} loop runs the code blocks inside it again and again. It is the perfect loop for a swinging piñata that is hard to hit.
+Un bucle `forever`{:class="block3control"} ejecuta los bloques de código dentro de él una y otra vez. Es el bucle perfecto para una piñata oscilante que es difícil de golpear.
 
 --- task ---
 
-Drag a `forever`{:class="block3control"} block from the `Control`{:class="block3control"} blocks menu and connect it to the bottom of your code:
+Arrastra un bloque `forever`{:class="block3control"} desde el menú de bloques `Control`{:class="block3control"} y conéctalo a la parte inferior de tu código:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![El icono del objeto Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 when flag clicked
