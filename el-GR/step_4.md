@@ -2,18 +2,18 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Η πινιάτα συνήθως χτυπιέται με ένα ραβδί από ξύλο ή χοντρή κάρτα που καλύπτεται με πολύχρωμες λωρίδες χαρτιού. In this step, you will add code to control the piñata stick and play looping music when the piñata breaks. 
+Η πινιάτα συνήθως χτυπιέται με ένα ραβδί από ξύλο ή από χοντρή κάρτα που καλύπτεται με πολύχρωμες λωρίδες χαρτιού. Σε αυτό το βήμα, θα προσθέσεις κώδικα για να ελέγχεις το ραβδί πινιάτα και για την αναπαραγωγή μουσικής σε βρόχο όταν σπάσει η πινιάτα. 
 </div>
 <div>
-![An animated image showing the Stick sprite following the mouse-pointer around the Stage.](images/follow-stick.gif){:width="300px"}
+![Μια κινούμενη εικόνα που δείχνει το αντικείμενο Stick να ακολουθεί τον δείκτη του ποντικιού γύρω από τη Σκηνή.](images/follow-stick.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Click on the **Stick** sprite in the Sprite list. Add code so that the stick always stays in front of the other sprites and follows the mouse-pointer (or your finger on a tablet).
+Κάνε κλικ στο αντικείμενο **Stick** στη λίστα αντικειμένων. Πρόσθεσε κώδικα έτσι ώστε το ραβδί να μένει πάντα μπροστά από τα άλλα αντικείμενα και να ακολουθεί τον δείκτη του ποντικιού (ή το δάχτυλό σου σε ένα tablet).
 
-Use the `go to random position`{:class="block3motion"} block, but select `mouse-pointer`{:class="block3motion"} from the drop-down menu:
+Χρησιμοποίησε το μπλοκ `πήγαινε σε τυχαία θέση`{:class="block3motion"}, αλλά επίλεξε `δείκτη ποντικιού`{:class="block3motion"} από το αναπτυσσόμενο μενού:
 
 ![The Stick sprite icon](images/stick-sprite.png)
 
