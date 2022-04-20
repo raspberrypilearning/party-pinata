@@ -144,7 +144,7 @@ change [hits v] by (1)
 
 The **Piñata** sprite should play a sound and increase the count of `hits`{:class="block3variables"} **`if`{:class="block3control"}** the number of `hits`{:class="block3variables"} is `less than`{:class="block3operators"} `10`{:class="block3variables"}.
 
-First add a `<`{:class="block3operators"} operator into the hexagon-shaped input:
+أولًا، أضف العملية `<`{:class="block3operators"} إلى الإدخال على الشكل السداسي:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
