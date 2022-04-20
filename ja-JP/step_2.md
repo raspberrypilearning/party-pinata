@@ -5,13 +5,13 @@
 このステップでは、ピニャータのコスチュームをえらび、ピニャータがゆれるようにコーディングします。
 </div>
 <div>
-![中央上部に配置されたピニャータのスプライトが左右にゆれるアニメーションGIF](images / swinging-pinata.gif){:width = "300px"}
+![中央上部に配置されたピニャータのスプライトが左右にゆれるステージのアニメーションGIF](images/swinging-pinata.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-[ピニャータパーティースタートプロジェクト](https://scratch.mit.edu/projects/653082997/editor){:target ="_blank"}を開こう。 Scratchはブラウザの別のタブで開くよ。
+[ピニャータパーティースタートプロジェクト](https://scratch.mit.edu/projects/653082997/editor){:target="_blank"}を開こう。 Scratchはブラウザの別のタブで開くよ。
 
 [[[working-offline]]]
 
@@ -35,7 +35,7 @@ Scratchでは、キャラクターやオブジェクトを**スプライト**と
 
 スプライトリストで**ピニャータ** をクリックして、**コスチューム** タブをクリックしてみて。 ピニャータのコスチュームは2つあるよ。1つは「まるごと」、もう1つは「われた」という名前です。
 
-![2つのピニャータの衣装を並べた画像 左はピニャータ、右はこわれて開いたピニャータ](images/pinata-costumes.png)
+![2つのピニャータのコスチュームを並べた画像 左はピニャータ、右はこわれて開いたピニャータ](images/pinata-costumes.png)
 
 ![コスチュームタブ(左上中央のタブ)](images/costumes-tab.png)
 
@@ -47,13 +47,13 @@ Scratchでは、キャラクターやオブジェクトを**スプライト**と
 
 コスチュームの名前をクリックして、 **ドロップダウンメニュー**の中から、 `まるごと`{:class="block3looks"} というコスチュームをえらんでね。
 
-![ピニャータのスプライト](images/pinata-sprite.png)
+![ピニャータのスプライトアイコン](images/pinata-sprite.png)
 
 ```blocks3
 コスチュームを (whole v) にする // 「whole」にかえます。
 ```
 
-![見た目ブロックメニューからコスチュームを＿にするブロックをどらっぐしているアニメーション画像](images/switch-costume.gif)
+![見た目ブロックメニューからコスチュームを＿にするブロックをコードエリアにドラッグしているアニメーション画像](images/switch-costume.gif)
 
 --- /task ---
 
@@ -61,15 +61,15 @@ Scratchでは、キャラクターやオブジェクトを**スプライト**と
 
 --- task ---
 
-`イベント`{:class="block3events"} ブロックパレットか ら`旗が押されたとき`{:class="block3events"} ブロックをドラッグして、スクリプトエリアのブロックの一番上につなげてね。 ブロック同士（どうし）が、くっつきます。
+`イベント`{:class="block3events"} ブロックパレットか ら`旗が押されたとき`{:class="block3events"} ブロックをドラッグして、スクリプトエリアの見た目ブロックの上につなげてね。 ブロック同士（どうし）が、くっつきます。
 
-![ピニャータのスプライト](images/pinata-sprite.png)
+![ピニャータのスプライトアイコン](images/pinata-sprite.png)
 
 ```blocks3
 +旗（はた）がクリックされた時
 コスチュームを (whole v) にする
 ```
-![旗をクリックするブロックを、コスチュームを＿にするブロックにつなげているとき](images/add-flag-clicked.gif)
+![旗が押されたときブロックがコードエリアに追加され、コスチュームを＿にするブロックにつなげている](images/add-flag-clicked.gif)
 
 --- /task ---
 
@@ -79,7 +79,7 @@ Scratchでは、キャラクターやオブジェクトを**スプライト**と
 
 ブロックパレットの`動き（うごき）`{:class="block3motion"} のところで、`x座標（ざひょう）を0、 y座標（ざひょう）を180にする`{:class="block3motion"} や `90度（ど）に向（む）ける`{:class="block3motion"} のブロックをみつけてみて。 これらのブロックをコードエリアのいちばん下にドラッグしてつなげてね。
 
-![ピニャータのスプライト](images/pinata-sprite.png)
+![ピニャータのスプライトアイコン](images/pinata-sprite.png)
 
 ```blocks3
 旗が押されたとき
