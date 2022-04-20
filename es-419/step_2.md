@@ -108,17 +108,17 @@ point in direction (90)
 
 --- /task ---
 
-A `repeat`{:class="block3control"} loop can be used to make the **Piñata** sprite repeat a small movement many times. This will make the piñata appear animated.
+Se puede usar un bucle `repetir`{:class="block3control"} para hacer que el objeto **Piñata** repita un pequeño movimiento muchas veces. Esto hará que la piñata parezca animada.
 
 --- task ---
 
-Drag a `repeat 10`{:class="block3control"} block into the Code area and attach it inside your `forever`{:class="block3control"} loop.
+Arrastra un bloque `repetir 10`{:class="block3control"} al área Código y adjúntalo dentro de tu bucle `por siempre`{:class="block3control"}.
 
-Go to the `Motion`{:class="block3motion"} blocks menu and drag a `turn clockwise 15 degrees`{:class="block3motion"} block into the `repeat`{:class="block3control"} block.
+Ve al menú de bloques `Movimiento`{:class="block3motion"} y arrastra un bloque de `girar 15 grados en el sentido de las agujas del reloj `{:class="block3motion"}adentro del bloque `repetir`{:class="block3control"}.
 
-Change the `15`{:class="block3motion"} degrees to `1`{:class="block3motion"} degree so that the piñata only swings a small amount each time:
+Cambia los `15`{:class="block3motion"} grados a `1`{:class="block3motion"} grado para que la piñata solo se balancee un poco cada vez:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![El icono del objeto Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -129,29 +129,29 @@ forever
 + repeat (10) 
 turn right (1) degrees // Change to 1
 ```
-![Repeat block being added within the forever block and then a turn clockwise block added within it.](images/add-repeat.gif)
+![El bloque repetir que se agrega dentro del bloque para siempre y luego se le agrega un bloque girar en el sentido de las agujas del reloj.](images/add-repeat.gif)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your project, by clicking on the **green flag** above the Stage, to see the piñata swing.
+**Prueba:** Ejecuta tu proyecto haciendo clic en la **bandera verde** sobre el escenario, para ver cómo se balancea la piñata.
 
-**Mmm, something is not quite right!** When an object is hung from the ceiling, it won't just rotate in one direction, it will swing back and forth.
+**Mmm, ¡algo no anda bien!** Cuando se cuelga un objeto del techo, no solo rotará en una dirección, sino que se balanceará hacia un lado y hacia el otro.
 
-Stop your project by clicking on the **red stop icon** above the Stage.
+Para tu proyecto haciendo clic en el **ícono rojo de parada** sobre el escenario.
 
-![Green flag and stop icons shown side by side.](images/start-stop.png)
+![La bandera verde y los iconos de parada se muestran uno al lado del otro.](images/start-stop.png)
 
 --- /task ---
 
 --- task ---
 
-Add code to your `forever`{:class="block3control"} loop so that the piñata swings from the centre back and forth continuously like a pendulum:
+Agrega código a tu bucle `por siempre`{:class="block3control"} para que la piñata se balancee desde el centro de un lado a otro continuamente como un péndulo:
 
-![The Piñata sprite with arrows underneath showing that it swings clockwise from centre, then anticlockwise through the centre, then clockwise back to the centre.](images/pinata-swing.png)
+![El objeto Piñata con flechas debajo que muestra que se balancea en el sentido de las agujas del reloj desde el centro, luego en el sentido contrario a las agujas del reloj a través del centro y luego en el sentido de las agujas del reloj para volver al centro.](images/pinata-swing.png)
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![El icono del objeto Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -174,14 +174,14 @@ end
 
 --- task ---
 
-**Test:** Run your project to see the piñata swing.
+**Prueba:** Ejecuta tu proyecto para ver cómo se balancea la piñata.
 
-**Debug:** If the piñata does not swing correctly:
-+ Look at your code to make sure the `repeat`{:class="block3control"} blocks are in the correct position
-+ Check that the `turn clockwise`{:class="block3motion"}  and `turn anticlockwise`{:class="block3motion"} arrows are correct
-+ Make sure that you have used the numbers from the code above
+**Depuración:** Si la piñata no se balancea correctamente:
++ Mira tu código para asegurarte de que los bloques `repetir`{:class="block3control"} estén en la posición correcta
++ Comprueba que las flechas `girar en el sentido de las agujas del reloj`{:class="block3motion"} y `girar en el sentido contrario a las agujas del reloj`{:class="block3motion"} son correctas
++ Asegúrate de haber usado los números indicados en código anterior
 
-![An animated gif showing the Stage with the Piñata sprite positioned at the top centre and swinging back and forth.](images/swinging-pinata.gif)
+![Un gif animado que muestra el escenario con el objeto Piñata colocado en la parte superior central y balanceándose de un lado a otro.](images/swinging-pinata.gif)
 
 --- /task ---
 
