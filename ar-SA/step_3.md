@@ -142,7 +142,7 @@ change [hits v] by (1)
 
 --- task ---
 
-The **Piñata** sprite should play a sound and increase the count of `hits`{:class="block3variables"} **`if`{:class="block3control"}** the number of `hits`{:class="block3variables"} is `less than`{:class="block3operators"} `10`{:class="block3variables"}.
+يجب أن يقوم</strong>بنياتا**بتشغيل صوت وزيادة عدد</code>الضربات`{:class="block3variables"} <strong x-id="1"><code>if`{:class="block3control"}** the number of `الضربات`{:class="block3variables"} is `less than`{:class="block3operators"} `10`{:class="block3variables"}.
 
 أولًا، أضف العملية `<`{:class="block3operators"} إلى الإدخال على الشكل السداسي:
 
@@ -160,25 +160,24 @@ change [hits v] by (1)
 
 --- task ---
 
-Finish building the `if`{:class="block3control"} condition by dragging in the `hits`{:class="block3variables"} variable to the left of the `<`{:class="block3operators"} operator and typing the value '10' on the right:
+قم بإنهاء بناء شرط `إذا`{: class = "block3control"} عن طريق سحب متغير`الضربات`{: class = "block3variables"} على يسار عامل التشغيل</code> `&lt;{: class = "</0>"} واكتب القيمة "10" على اليمين:</p>
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+<p spaces-before="0"><img src="images/pinata-sprite.png" alt="The Piñata sprite icon." /></p>
 
-```blocks3
-when this sprite clicked
+<pre><code class="blocks3">when this sprite clicked
 + if <(hits) < (10)> then
 start sound [Boing v]
 change [hits v] by (1)
 
-```
+`</pre>
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your project again. Hit the piñata 10 times to hear the sound and see the `hits`{:class="block3variables"} variable increase.
+**اختبار:** قم بتشغيل مشروعك. قم بضرب البنياتا 10 مرات لسماع الصوت وتاكد بان عدد`الضربات` يزيد عند كل ضربة مقدار 1.
 
-Hit the piñata a few more times. The `hits`{:class="block3variables"} variable will not go above 10 because that condition is no longer 'true' so the code inside the `if`{:class="block3control"} block won't run.
+اضرب البنياتا عدة مرات. The `hits`{:class="block3variables"} variable will not go above 10 because that condition is no longer 'true' so the code inside the `if`{:class="block3control"} block won't run.
 
 --- /task ---
 
