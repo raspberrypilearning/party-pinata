@@ -4,7 +4,7 @@
 
 こんなことができます：
 
-+ 動きや、見た目、音のブロックをついか、メッセージやおやつのアニメーションをもっとすごくする
++ 見た目、音、動きのブロックをつかい、メッセージやおやつのアニメーションをもっとすごくする
 + すきなおやつの画像（がぞう）を見つけて、**おやつ** のスプライトに追加する
 + ピニャータをたたいたときに出てくるおやつの数をふやす
 + ピニャータをわるためのたたく回数を変えることで、プロジェクトのむずかしさを変える
@@ -28,9 +28,9 @@
 
 --- task ---
 
-メッセージが決めておいた場所にたどり着いたときのために、`ずっと`{:class="block3control"} メッセージをアニメーション化しておくコードを追加することができます。 `大きさを変える`{:class="block3looks"} や`色の効果を変える`{:class="block3looks"} ブロックをつかって、パーティービートに合わせてメッセージが動いているように見せることもできます：
+メッセージが決めておいた場所にたどり着いたとき、メッセージを`ずっと`{:class="block3control"} 変化させるコードを追加することができます。 `大きさを変える`{:class="block3looks"} や`色の効果を変える`{:class="block3looks"} ブロックをつかって、パーティービートに合わせてメッセージが動いているように見せることもできます：
 
-![メッセージのスプライト](images/message-sprite.png)
+![メッセージのスプライトアイコン](images/message-sprite.png)
 
 ```blocks3
 when I receive [party v]
@@ -66,10 +66,10 @@ title: 完成したプロジェクト
 
 --- task ---
 
-### プロジェクトを保存する
+### プロジェクトを投稿する
 
 すでにプロジェクトを私たちとシェアしている場合は、変更を保存するだけで、すばらしいアップグレードが反映されます。
 
-他の人が見ることができるよう、あなたのプロジェクトを ['Party piñata — Community' Scratchコミュニティ](https://scratch.mit.edu/studios/31111242){:target="_blank"}に送るには、 [このフォーム](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}を使ってください。
+まだシェアしていないけど、あなたのプロジェクトを ['Party piñata — Community' Scratchコミュニティ](https://scratch.mit.edu/studios/31111242){:target="_blank"}に投稿して他の人に見てもらいたい場合は、 [このフォーム](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}を使ってください。
 
 --- /task ---
