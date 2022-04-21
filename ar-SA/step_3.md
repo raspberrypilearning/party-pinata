@@ -13,7 +13,7 @@
 
 انقر فوق علامة التبويب **الصوت** لـ**بنياتا** وستجد صوت **Boing**. انقر فوق زر **تشغيل** حتى تتمكن من سماع الصوت.
 
-![The Sounds tab showing the Boing sound in the Sounds list with the Play icon (a white triangle in a blue circle) highlighted at the bottom.](images/play-boing.png)
+![تعرض علامة تبويب الأصوات ،صوت Boing في قائمة الأصوات مع تمييز أيقونة التشغيل (مثلث أبيض في دائرة زرقاء) في الأسفل.](images/play-boing.png)
 
 --- /task ---
 
@@ -183,7 +183,7 @@ change [hits v] by (1)
 
 --- task ---
 
-اضف كتلة `إذا`{:class="block3control"}مرة ثانية داخل الحلقة الاولى. This time the condition will check if `hits`{:class="block3variables"} `=`{:class="block3operators"} 10 and if 'true' the costume will change to `broken`{:class="block3looks"}:
+اضف كتلة `إذا`{:class="block3control"}مرة ثانية داخل الحلقة الاولى. هذه المرة سيتحقق الشرط مما إذا كانت عدد`الضربات` {: class = "block3variables"} `مساوياً`{: class = "block3operators"} 10 وإذا كان 'true' سيتغير الزي إلى `مكسور`{: class = "block3looks"}:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
@@ -201,7 +201,7 @@ switch costume to (broken v)
 
 --- task ---
 
-**Test:** Run your project a couple of times. Check that the **Piñata** sprite starts with the 'whole' costume then changes to the 'broken' costume after `10 hits`{:class="block3variables"}.
+**اختبار:** اختبر مشروعك عدة مرات. Check that the **Piñata** sprite starts with the 'whole' costume then changes to the 'broken' costume after `10 hits`{:class="block3variables"}.
 
 ![An animated image showing the piñata being clicked ten times. After the tenth time, the costume changes to broken.](images/break-pinata.gif)
 
@@ -227,13 +227,13 @@ switch costume to (broken v)
 + broadcast (message1 v)
 ```
 
-Click on `message1`{:class="block3events"} and choose **New message**. Name the new message `party`{:class="block3events"}.
+انقر على `الرسالة1`{:class="block3events"} واختر 'رسالة جديدة'. قم بتسمية الرسالة الجديدة `حفلة`{:class="block3events"}.
 
 ![The drop-down menu on the broadcast block showing the 'New message' menu option.](images/new-message.png)
 
 ![The New message pop-up window with 'New message name' box highlighted and the typed word 'party'.](images/party-message.png)
 
-Your `broadcast`{:class="block3events"} block will look like this:
+ستبدو كتلة البث `{`class = "block3events"} على النحو التالي:
 
 ```blocks3
 broadcast (party v)
