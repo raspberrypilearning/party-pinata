@@ -1,8 +1,8 @@
-## Use a stick
+## एक छड़ी का इस्तेमाल करें
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Piñatas are usually hit with a stick made from wood or thick card that is covered in colourful strips of paper. In this step, you will add code to control the piñata stick and play looping music when the piñata breaks. 
+पिनाटा को आमतौर पर लकड़ी या मोटे कार्ड से बनी छड़ी से मारा जाता है जो कागज के रंगीन पट्टियों में ढकी होती है। इस चरण में, आप पिनाटा छड़ी को नियंत्रित करने के लिए कोड जोड़ेंगे और पिनाटा के टूटने पर दोहराता हुआ संगीत बजाएंगे। 
 </div>
 <div>
 ![An animated image showing the Stick sprite following the mouse-pointer around the Stage.](images/follow-stick.gif){:width="300px"}
