@@ -5,17 +5,17 @@
 पिनाटा को आमतौर पर लकड़ी या मोटे कार्ड से बनी छड़ी से मारा जाता है जो कागज के रंगीन पट्टियों में ढकी होती है। इस चरण में, आप पिनाटा छड़ी को नियंत्रित करने के लिए कोड जोड़ेंगे और पिनाटा के टूटने पर दोहराता हुआ संगीत बजाएंगे। 
 </div>
 <div>
-![An animated image showing the Stick sprite following the mouse-pointer around the Stage.](images/follow-stick.gif){:width="300px"}
+![मंच के चारों ओर माउस-पॉइंटर के पीछे जाती छड़ी स्प्राइट दिखाते हुए एक एनिमेटेड छवि।](images/follow-stick.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Click on the **Stick** sprite in the Sprite list. Add code so that the stick always stays in front of the other sprites and follows the mouse-pointer (or your finger on a tablet).
+स्प्राइट सूची में **Stick** स्प्राइट पर क्लिक करें। कोड जोड़ें ताकि छड़ी हमेशा अन्य स्प्राइट्स के सामने रहे और माउस-पॉइंटर (या टैबलेट पर आपकी उंगली) का पीछा करे।
 
-Use the `go to random position`{:class="block3motion"} block, but select `mouse-pointer`{:class="block3motion"} from the drop-down menu:
+`go to random position`{:class="block3motion"} खंड का इस्तेमाल करें, लेकिन ड्रॉप डाउन मेन्यू से `mouse-pointer`{:class="block3motion"} चुनिए:
 
-![The Stick sprite icon](images/stick-sprite.png)
+![छड़ी स्प्राइट आइकन](images/stick-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -28,49 +28,49 @@ go to (mouse-pointer v) // Change to mouse-pointer
 
 --- task ---
 
-**Test:** Run your project and check the **Stick** sprite follows your cursor or finger around the Stage.
+**परीक्षण:** अपना प्रोजेक्ट चलाएं और जांचें कि **Stick** स्प्राइट मंच के चारों ओर आपके कर्सर या उंगली का अनुसरण करता है।
 
-![An animated image showing the Stick sprite following the mouse-pointer around the Stage.](images/follow-stick.gif)
-
---- /task ---
-
-There are many different types of sounds in Scratch from voice and animal noises to over 100 other sound effects.
-
-Scratch also has **looping sounds** that can be used in `forever`{:class="block3control"} or `repeat`{:class="block3control"} loops to sound like they are playing continuously.
-
---- task ---
-
-Go to the **Sounds** tab and click on the **Choose a sound** icon.
-
-![The Choose a sound icon with the sounds pop-up menu. When selected, the choose a sound icon is a white speaker on a green circle.](images/sound-icon.png)
+![मंच के चारों ओर माउस-पॉइंटर के पीछे जाती छड़ी स्प्राइट दिखाते हुए एक एनिमेटेड छवि।](images/follow-stick.gif)
 
 --- /task ---
 
+Scratch में कई तरह की आवाजें होती हैं आवाज और जानवरों के शोर से लेकर 100 से अधिक अन्य ध्वनि प्रभावों तक।
+
+Scratch में **दोहराई जाने वाली ध्वनियाँ** भी होती हैं जिनका इस्तेमाल `forever`{:class="block3control"} या `repeat`{:class="block3control"} लूप्स के अंदर किया जा सकता है ऐसा लगने के लिए जैसे वे लगातार बज रहे हैं।
+
 --- task ---
 
-From the **Choose a sound** gallery, select the **Loops** category.
+**Sounds** टैब पर जाएं और **Choose a Sound** आइकन पर क्लिक करें।
 
-![The Sound gallery with 'Loops' category highlighted in orange to show it has been selected. The other categories are in blue.](images/loops-category.png)
+![ध्वनि चुनें आइकन ध्वनि पॉप-अप मेन्यू के साथ। चयनित होने पर, ध्वनि चुनें आइकन हरे वृत्त पर एक सफ़ेद स्पीकर होता है।](images/sound-icon.png)
 
 --- /task ---
 
 --- task ---
 
-**Choose:** Hover over the **play** icons to hear the looping sounds. Add your favourite by clicking on it.
+**Choose a sound** गैलरी चुनें, **Loops** श्रेणी चुनें।
 
-![The 'Hip hop' sound with play icon highlighted in the top-right corner of the sound icon.](images/play-icon.png)
-
-The sound will then appear in your Sounds list:
-
-![The 'Hip hop' sound in the Sound list on the Sounds tab.](images/added-sound.png)
+![नारंगी रंग में हाइलाइट की गई 'Loops' श्रेणी वाली ध्वनि गैलरी यह दिखाने के लिए की यह चुनी गई है। अन्य श्रेणियां नीले रंग में हैं।](images/loops-category.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab and create a new script to loop the sound `forever`{:class="block3control"} when the `party`{:class="block3events"} message has been received:
+**चुनें:** दोहराती हुई ध्वनियां सुनने के लिए **play** आइकन पर होवर करें। अपनी पसंदीदा चुनने के लिए उसपर क्लिक करें।
 
-![The Stick sprite icon.](images/stick-sprite.png)
+![प्ले आइकन के साथ 'Hip Hop' ध्वनि, ध्वनि आइकन के शीर्ष-दाएं कोने में हाइलाइट की गई है।](images/play-icon.png)
+
+ध्वनि तब आपकी ध्वनि सूची में दिखाई देगी:
+
+![ध्वनि टैब पर ध्वनि सूची में 'Hip Hop' ध्वनि।](images/added-sound.png)
+
+--- /task ---
+
+--- task ---
+
+**Code** टैब पर क्लिक करें और `party`{:class="block3events"} संदेश प्राप्त होने पर ध्वनि को `forever`{:class="block3control"} लूप करने के लिए एक नई स्क्रिप्ट बनाएं:
+
+![छड़ी स्प्राइट आइकन।](images/stick-sprite.png)
 
 ```blocks3
 when I receive [party v]
@@ -82,7 +82,7 @@ play sound [Hip Hop v] until done // Choose your sound
 
 --- task ---
 
-**Test:** Run your project, and click on the piñata ten times to hear the looping party music.
+**परीक्षण:** अपना प्रोजेक्ट चलाएं, और दोहराता हुआ समारोह संगीत सुनने के लिए दस बार पिनाटा पर क्लिक करें।
 
 --- /task ---
 
