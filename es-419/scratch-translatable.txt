@@ -1,19 +1,19 @@
-whole
+entera
 
-broken
+rota
 
-hits
+golpes
 
-broken
+rota
 
-party
+fiesta
 
-Treats
+Golosinas
 
 Piñata
 
-Stick
+Palo
 
-Message
+Mensaje
 
-Happy Birthday Code Club
+Feliz cumpleaños Code Club
