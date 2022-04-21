@@ -37,17 +37,17 @@ go to x: (0) y: (100)
 
 --- /task ---
 
-Four treats will escape the piñata each time the piñata is hit. By **cloning** the **Treats** sprite, you can create multiple treats.
+हर बार पिनाटा को मारने पर पिनाटा से चार पकवान निकलेंगे। **Treats** स्प्राइट की **कॉपी बनाकर**, आप एक से ज़्यादा पकवान बना सकते हैं।
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">**clone**</span> in Scratch is a copy of a sprite. It has all the same code, costumes, and sounds of the original sprite.      
+Scratch में <span style="color: #0faeb0">**कॉपी**</span> स्प्राइट की कॉपी है। इसमें मूल स्प्राइट के समान कोड, पोशाकें और ध्वनियां हैं।      
 </p>
 
 --- task ---
 
-Click on the **Piñata** sprite.
+**Piñata** स्प्राइट पर क्लिक करें।
 
-Insert a `repeat`{:class="block3control"} loop into your existing code. Change the value to `4`{:class="block3control"} then add a `create clone of myself`{:class="block3control"} block. Use the drop-down arrow to select the `Treats`{:class="block3control"} sprite:
+अपने मौजूदा कोड में `repeat`{:class="block3control"} लूप डालें। मान को `4`{:class="block3control"} में बदलें, फिर एक `create clone of myself`{:class="block3control"} खंड जोड़ें। `Treats`{:class="block3control"} स्प्राइट का चयन करने के लिए नीचे तीर जैसे बटन का उपयोग करें:
 
 ![The Pinata sprite icon.](images/pinata-sprite.png)
 
@@ -64,17 +64,17 @@ switch costume to (broken v)
 broadcast (party v)
 ```
 
-**Tip:** Use the spare space in the Code area to build your new code then drag it into the existing script:
+**युक्ति:** अपना नया कोड बनाने के लिए कोड क्षेत्र में खाली स्थान का उपयोग करें और फिर उसे मौजूदा स्क्रिप्ट में खिसकाएं:
 
 ![The repeat and clone blocks are assembled on their own in the Code area before being dragged into position in the script.](images/code-area.gif) --- /task ---
 
 --- task ---
 
-Click on the **Treats** sprite.
+**Treats** स्प्राइट पर क्लिक करें।
 
-Create a new script using the `when I start as a clone`{:class="block3control"} block.
+`when I start as a clone`{:class="block3control"} ब्लॉक के साथ एक नई स्क्रिप्ट प्रारंभ करें।
 
-Add blocks from the `Looks`{:class="block3looks"} blocks menu to control the appearance of each new clone:
+प्रत्येक नए क्लोन की उपस्थिति को नियंत्रित करने के लिए `Looks`{:class="block3looks"} खंड मेन्यू से खंड जोड़ें:
 
 ![The Treats sprite icon.](images/treats-sprite.png)
 
@@ -89,7 +89,7 @@ switch costume to (Knafeh v)
 
 --- task ---
 
-You can pick random treats to be released when the piñata is hit. Use a `pick random`{:class="block3operators"} operator to select a random costume from `1`{:class="block3operators"} to `26`{:class="block3operators"} each time a clone is created:
+पिनाटा मारने पर आप निकलने के लिए यादृच्छिक पकवान चुन सकते हैं। हर बार क्लोन बनने पर `1`{:class="block3operators"} से `26`{:class="block3operators"} में से एक यादृच्छिक पोशाक का चयन करने के लिए `pick random`{:class="block3operators"} ऑपरेटर का उपयोग करें:
 
 ![The Treats sprite icon.](images/treats-sprite.png)
 
@@ -104,7 +104,7 @@ go to [back v] layer
 
 --- task ---
 
-At the moment, the **Treats** clones will appear behind the **Piñata** sprite, but treats should fall from the piñata to a random position.
+फिलहाल, **Piñata** स्प्राइट के पीछे **Treats** की कॉपियां दिखाई देंगी, लेकिन पकवानो को पिनाटा से एक यादृच्छिक स्थिति में गिरना चाहिए।
 
 Add code to make the cloned **Treats** sprites `glide`{:class="block3motion"} to a random position:
 
