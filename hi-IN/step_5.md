@@ -1,23 +1,23 @@
-## Add some treats
+## कुछ पकवान जोड़ें
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Piñatas are full of treats and when they start to break, the treats fall out. In this step, you will animate international food treats to fall out of the piñata each time it is hit. Do you recognise any of the treats?
+पिनाटा पकवानो से भरे हुए होते हैं और जब वे टूटने लगते हैं, तो पकवान बाहर गिर जाते हैं। इस चरण में, आप हर बार मारने पर पिनाटा से बाहर निकलने के लिए अंतरराष्ट्रीय खाद्य पकवानो को चेतन करेंगे। क्या आप किसी भी पकवान को पहचानते हैं?
 </div>
 <div>
-![An animated image showing the piñata being hit multiple times. Each time, four random treats fall out to random positions then slowly rotate in a circle.](images/spinning-treats.gif){:width="300px"}
+![एक एनिमेटेड छवि जिसमें पिनाटा को कई बार मारते हुए दिखाया गया है। हर बार, चार यादृच्छिक पकवान यादृच्छिक स्थिति में आते हैं और फिर धीरे-धीरे एक घेरे में घूमते हैं।](images/spinning-treats.gif){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">**costume**</span> in Scratch is an image that changes the way a sprite looks. Our **graphic designers** asked Code Club leaders around the world to tell them what treats they would have at a party. Hopefully, some of the treat costumes they created will be familiar to you — and others completely new.      
+Scratch में <span style="color: #0faeb0">**पोशाक**</span> एक ऐसी छवि है जो स्प्राइट के दिखने के तरीके को बदल देती है। हमारे **ग्राफिक डिजाइनरों** ने दुनिया भर के Code Club नेताओं से उन्हें यह बताने के लिए कहा कि वे एक समारोह में कौन से पकवान रखेंगे। उम्मीद है, उनके द्वारा बनायीं गयी कुछ पकवान पोशाकें आपके लिए परिचित होंगी - और अन्य पूरी तरह से नयी।      
 </p>
 
 --- task ---
 
-Click on the **Treats** sprite in the Sprite list and select the **Costumes** tab.
+स्प्राइट सूची में **Treats** स्प्राइट पर क्लिक करें, फिर **Costumes** टैब पर क्लिक करें।
 
-There are 26 treat costumes — and you are going to use them all!
+26 पकवान पोशाकें हैं - और आप उन सभी का उपयोग करने जा रहे हैं!
 
 ![The specially created treat images shown as a collection of treats.](images/treats.png)
 
@@ -25,7 +25,7 @@ There are 26 treat costumes — and you are going to use them all!
 
 --- task ---
 
-Click on the **Code** tab then create a script to `hide`{:class="block3looks"} the treats in the piñata when your project starts:
+**Code** टैब पर क्लिक करें, फिर अपना प्रोजेक्ट शुरू होने पर पिनाटा में पकवानो को `hide`{:class="block3looks"} करने के लिए एक स्क्रिप्ट बनाएं:
 
 ![The Treats sprite icon.](images/treats-sprite.png)
 
