@@ -177,7 +177,7 @@ change [hits v] by (1)
 
 **اختبار:** قم بتشغيل مشروعك. قم بضرب البنياتا 10 مرات لسماع الصوت وتاكد بان عدد`الضربات` يزيد عند كل ضربة مقدار 1.
 
-اضرب البنياتا عدة مرات. The `hits`{:class="block3variables"} variable will not go above 10 because that condition is no longer 'true' so the code inside the `if`{:class="block3control"} block won't run.
+اضرب البنياتا عدة مرات. لن يتجاوز متغير `الضربات`{: class = "block3variables"} العدد 10 لأن هذا الشرط لم يعد "صحيحًا" لذا لن يتم تشغيل الكود داخل كتلة `إذا`{: class = "block3control"}.
 
 --- /task ---
 
