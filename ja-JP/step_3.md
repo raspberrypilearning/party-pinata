@@ -25,7 +25,7 @@ Scratchでは、つなげたブロックのグループは **スクリプト**�
 
 `音`{:class="block3sound"} ブロックメニューで、`__の音を鳴らす`{:class="block3sound"} ブロックを見つけてね。 それを`このスプライトが押されたとき`{:class="block3events"} ブロックの下にドラッグするよ：
 
-![ピニャータのスプライト](images/pinata-sprite.png)
+![ピニャータのスプライトアイコン](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -36,11 +36,11 @@ start sound [Boing v]
 
 --- task ---
 
-**テスト:** ステージの上の**緑の旗** をクリックし、プロジェクトを実行してみよう。 ピニャータをクリックすると、ゆれてボヨンという音がなります。
+**テスト:** ステージの上の**緑の旗** をクリックし、プロジェクトを実行してみよう。 ゆれているピニャータをクリックすると、ボヨンという音がなります。
 
 --- /task ---
 
-`変数`{:class="block3variables"}は、数やテキストを入れておく方法です。 ピニャータがクリックされた回数は、 `hits`{：class = "block3variables"}という変数に保存されるため、いつでも使用できます。
+`変数`{:class="block3variables"}は、数やテキストを入れておく方法です。 ピニャータがクリックされた回数は、 `たたいた数`{:class="block3variables"}という変数に保存されるため、いつでも使用できます。
 
 --- task ---
 
