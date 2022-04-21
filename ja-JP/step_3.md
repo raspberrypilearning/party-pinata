@@ -50,7 +50,7 @@ start sound [Boing v]
 
 新しい変数**たたいた数**を作るよ：
 
-![「新しい変数」ポップアップウィンドウで「新しい変数名」にhitsと入力](images/new-variable.png)
+![「新しい変数」ポップアップウィンドウで「新しい変数名」に「たたいた数」と入力](images/new-variable.png)
 
 **注意：** 新しい「たたいた数」という変数（へんすう）がステージの上にあらわれ、 `変数`{:class="block3variables"} ブロックの中で使うことができるようになります。
 
@@ -68,7 +68,7 @@ start sound [Boing v]
 
 コードはこんな感じになるよ：
 
-![ピニャータのスプライト](images/pinata-sprite.png)
+![ピニャータのスプライトアイコン](images/pinata-sprite.png)
 
 ```blocks3
 旗が押されたとき
@@ -92,11 +92,11 @@ end
 
 --- task ---
 
-**ピニャータ** のスプライトがクリックされるたびに、`たたいた数`{:class="block3variables"} の数字がふえるはずです。
+**ピニャータ** のスプライトがクリックされるたびに、`たたいた数`{:class="block3variables"} の数字がふえるようにします。
 
 **ピニャータ**のスプライトをクリックすると `たたいた数`{:class="block3variables"} が `1`{:class="block3variables"} ずつかわるようにブロックを追加してみよう：
 
-![ピニャータのスプライト](images/pinata-sprite.png)
+![ピニャータのスプライトアイコン](images/pinata-sprite.png)
 
 ```blocks3
 このスプライトが押されたとき
@@ -119,14 +119,14 @@ end
 `もし__なら`{:class="block3control"}ブロックは、**条件**によって決定（けってい）するときに使います。
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-私たちは意思決定（いしけってい）をするときはいつも<span style="color: #0faeb0">**条件**</span>を使います。 「えんぴつの芯（しん）がとがっていなければ、けずる」と言います。 おなじように、「if」ブロックや条件（じょうけん）を使って、ある条件が真（しん）か偽（ぎ）かによって、ちがう処理（しょり）をするコードを書くことができます。
+私たちは意思決定（いしけってい）をするときはいつも<span style="color: #0faeb0">**条件**</span>を使います。 「えんぴつの芯（しん）がとがっていなければ、けずる」と言います。 おなじように、「もし」ブロックと条件（じょうけん）を使って、ある条件が真（しん）か偽（ぎ）かによって、ちがう処理（しょり）をするコードを書くことができます。
 </p>
 
 --- task ---
 
 `制御`{:class = "block3looks"} ブロックパレットを開いてみて。 `もし__なら`{:class="block3control"} ブロックをスクリプトエリア にある`このスプライトが押されたとき`{:class="block3events"} の中のスクリプトをかこむようおいてね:
 
-![ピニャータのスプライト](images/pinata-sprite.png)
+![ピニャータのスプライトアイコン](images/pinata-sprite.png)
 
 ```blocks3
 このスプライトが押されたとき
@@ -142,11 +142,11 @@ end
 
 --- task ---
 
-**ピニャータ**のスプライトは、`もし` {:class="block3control"}</strong> `たたいた数`{:class="block3variables"} の数字が`10`{:class="block3variables"} `より少ない場合`{:class="block3operators"}音をならし、 変数`たたいた数`のカウント数をふやします。
+**ピニャータ**のスプライトは、**`もし` {:class="block3control"}** `たたいた数`{:class="block3variables"} の数字が`10`{:class="block3variables"} `より少ない場合`{:class="block3operators"}音をならし、 変数`たたいた数`のカウント数をふやします。
 
 まず、六角形のところに`<`{:class="block3operators"}を追加（ついか）するよ：
 
-![ピニャータのスプライト](images/pinata-sprite.png)
+![ピニャータのスプライトアイコン](images/pinata-sprite.png)
 
 ```blocks3
 このスプライトが押されたとき
@@ -160,9 +160,9 @@ end
 
 --- task ---
 
-`もし__なら`{:class="block3control"}の条件（じょうけん）の中に、`<`{:class="block3operators"}の左に変数（へんすう）`たたいた数`{:class="block3variables"} をドラッグして、右に「10」と入力しよう：
+変数（へんすう）`たたいた数`{:class="block3variables"} を`<`{:class="block3operators"}の左にドラッグし、右に「10」と入力して`もし__なら`{:class="block3control"}の条件（じょうけん）を完成させます：
 
-![ピニャータのスプライト](images/pinata-sprite.png)
+![ピニャータのスプライトアイコン](images/pinata-sprite.png)
 
 ```blocks3
 このスプライトが押されたとき
