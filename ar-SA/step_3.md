@@ -183,7 +183,7 @@ change [hits v] by (1)
 
 --- task ---
 
-Add a second `if`{:class="block3control"} block inside the first. This time the condition will check if `hits`{:class="block3variables"} `=`{:class="block3operators"} 10 and if 'true' the costume will change to `broken`{:class="block3looks"}:
+اضف كتلة `إذا`{:class="block3control"}مرة ثانية داخل الحلقة الاولى. This time the condition will check if `hits`{:class="block3variables"} `=`{:class="block3operators"} 10 and if 'true' the costume will change to `broken`{:class="block3looks"}:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
