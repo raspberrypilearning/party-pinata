@@ -1,8 +1,8 @@
-## Upgrade your project
+## قم بترقية او تطوير مشروعك
 
-If you have time, you can upgrade your project. You might have ideas about what to add already!
+إذا كان لديك الوقت ، يمكنك تطوير مشروعك. قد يكون لديك أفكار حول ما تضيفه بالفعل!
 
-You could:
+يمكنك:
 
 + Use additional looks, sounds, or motion blocks to animate your message and treats further
 + Find images of your favourite treats and add them to the costumes for the **Treats** sprite
@@ -10,7 +10,7 @@ You could:
 + Make your project easier or harder by changing the number of times you need to hit the piñata before it breaks
 
 --- task ---
-### Try it
+### جربها
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 Did you know you can add code to the backdrop too?
@@ -57,7 +57,7 @@ change size by (-20) // Negative number to shrink
 --- collapse ---
 
 ---
-title: Completed project
+title: المشروع مكتمل
 ---
 
 You can view the [completed project here](https://scratch.mit.edu/projects/649873783/){:target="_blank"}.
@@ -66,7 +66,7 @@ You can view the [completed project here](https://scratch.mit.edu/projects/64987
 
 --- task ---
 
-### Submit your project
+### أرسل مشروعك
 
 If you have already shared your project with us just save your changes and we will see your awesome upgrades.
 
