@@ -5,7 +5,7 @@
 ピニャータには、たくさんのおやつがつめられていて、われはじめると、おやつが出てきます。 このステップでは、色々な国のおやつが、たたくたびにピニャータから落ちてくるようにします。 どんなおやつを知っていますか？
 </div>
 <div>
-![ピニャータが何回もたたかれるアニメーション画像。 毎回4つのおやつがランダムにえらばれて、円をえがきながらランダムな場所に落ちる](images/spinning-treats.gif){:width="300px"}
+![ピニャータが何回もたたかれるアニメーション画像。 毎回4つのおやつがランダムにえらばれて、ランダムな場所に落ちてゆっくり回る](images/spinning-treats.gif){:width="300px"}
 </div>
 </div>
 
@@ -27,12 +27,12 @@ Scratchでは、<span style="color: #0faeb0">**コスチューム**</span> は�
 
 **コード** タブをクリックし、スクリプトを作って、プロジェクトをスタートしたときに、ピニャータの中におやつを`隠す`{:class="block3looks"}ようにしましょう：
 
-![おやつのスプライト](images/treats-sprite.png)
+![おやつのスプライトアイコン](images/treats-sprite.png)
 
 ```blocks3
-when flag clicked
-hide
-go to x: (0) y: (100)
+旗が押されたとき
+隠す
+x座標を(0)、y座標を(100) にする
 ```
 
 --- /task ---
@@ -47,21 +47,21 @@ Scratchでの<span style="color: #0faeb0">**クローン**</span> は、スプ�
 
 **ピニャータ** のスプライトをクリックしましょう。
 
-`繰り返す`{:class="block3control"}ループをいまあるコードにいれるよ。 `4`{:class="block3control"}に回数をかえて、`クローンを作る`{:class="block3control"} ブロックを追加しよう。 ドロップダウンを使って`おやつ`{:class="block3control"} のスプライトを選択してね。
+`繰り返す`{:class="block3control"}ループをいまあるコードにいれるよ。 `4`{:class="block3control"}に回数をかえて、`自分自身のクローンを作る`{:class="block3control"} ブロックを追加しよう。 ドロップダウンを使って`おやつ`{:class="block3control"} のスプライトを選択してね。
 
-![ピニャータのスプライト](images/pinata-sprite.png)
+![ピニャータのスプライトアイコン](images/pinata-sprite.png)
 
 ```blocks3
-when this sprite clicked
-if <(hits) < (10)> then
-start sound [Boing v]
-change [hits v] by (1)
-+ repeat (4) // Change to 4
-create clone of (Treats v) // Select Treats
+このスプライトが押されたとき
+もし<(hits) < (10)> なら
+[Boing v] の音を鳴らす
+[hits v] を(1) ずつ変える
++ (4) 回繰り返す
+(Treats v) のクローンを作る //おやつを選ぶ
 end
-if <(hits)=(10)> then
-switch costume to (broken v)
-broadcast (party v)
+もし <(hits)=(10)> なら
+コスチュームを(broken v) にする
+(party v) を送る
 ```
 
 **ヒント：** スクリプトに新しいコードを追加するときには、まずコードエリアのあいている場所をつかって作り、そのあとスクリプトにドラッグします。
@@ -74,15 +74,15 @@ broadcast (party v)
 
 `クローンされたとき`{:class="block3control"} のブロックで新しいスクリプトを作成するよ。
 
-`見た目`{:class="block3looks"}から、新しいクローンのみためをコントロールするためにブロックをいくつか追加しましょう：
+`見た目`{:class="block3looks"}から、新しいクローンの見ためをコントロールするためにブロックをいくつか追加しましょう：
 
-![おやつのスプライト](images/treats-sprite.png)
+![おやつのスプライトアイコン](images/treats-sprite.png)
 
 ```blocks3
-when I start as a clone
-show
-go to [back v] layer // Change to back
-switch costume to (Knafeh v)
+クローンされたとき
+表示する
+[最背面 v] へ移動する
+コスチュームを (Knafeh) にする
 ```
 
 --- /task ---
@@ -91,13 +91,14 @@ switch costume to (Knafeh v)
 
 ピニャータがたたかれたとき、ランダムにおやつをとり出すことができます。 `乱数`{:class="block3operators"} の演算子（えんざんし）をつかって、`1`{:class="block3operators"} から `26`{:class="block3operators"} までのランダムなコスチュームでクローンが作られるようにしましょう：
 
-![おやつのスプライト](images/treats-sprite.png)
+![おやつのスプライトアイコン](images/treats-sprite.png)
 
 ```blocks3
-when I start as a clone
-show
-go to [back v] layer 
-+ switch costume to (pick random (1) to (26)) // Change to 26
+クローンされたとき
+表示する
+[最背面 v] へ移動する
++ コスチュームを ((1) から (26) までの乱数)
+//26に変更
 ```
 
 --- /task ---
@@ -106,16 +107,16 @@ go to [back v] layer
 
 ここまでで, **おやつ** のクローンが **ピニャータ** のうしろに出てくるようになったけど、まだピニャータからランダムなところへおちていくようになっていないね。
 
-**おやつ**のスプライトがランダムな場所へ `行く`{:class="block3motion"} ようにコードを追加しましょう：
+クローンされた**おやつ**のスプライトがランダムな場所へ `行く`{:class="block3motion"} ようにコードを追加しましょう：
 
-![おやつのスプライト](images/treats-sprite.png)
+![おやつのスプライトアイコン](images/treats-sprite.png)
 
 ```blocks3
-when I start as a clone
-show
-go to [back v] layer
-switch costume to (pick random (1) to (26))
-+ glide (1) secs to (random position v) 
+クローンされたとき
+表示する
+[最背面 v] へ移動する
+コスチュームを((1) から(26) までの乱数) にする
++ (1) 秒で (どこかの場所 v) へ行く 
 ```
 
 --- /task ---
