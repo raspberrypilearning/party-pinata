@@ -13,11 +13,11 @@
 ### Δοκίμασέ το
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Did you know you can add code to the backdrop too?
+Γνώριζες ότι μπορείς να προσθέσεις κώδικα και στο υπόβαθρο;
 
-What happens to the backdrop when the piñata breaks? Which blocks would create this effect? 
+Τι συμβαίνει στο υπόβαθρο όταν σπάει η πινιάτα; Ποια μπλοκ θα δημιουργούσαν αυτό το εφέ; 
 
-[See the code](https://scratch.mit.edu/projects/653771814/){:target="_blank"}
+[Δείτε τον k;vdika](https://scratch.mit.edu/projects/653771814/){:target="_blank"}
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
@@ -28,9 +28,9 @@ What happens to the backdrop when the piñata breaks? Which blocks would create 
 
 --- task ---
 
-You could add code to make the message animate `forever`{:class="block3control"} when it is in position. Use `change size`{:class="block3looks"} and `change color effect`{:class="block3looks"} blocks so that it looks like the message is moving with the party beat:
+Θα μπορούσες να προσθέσεις κώδικα για να κάνεις το μήνυμα να κινείται `για πάντα`{:class="block3control"} όταν είναι στη θέση του. Χρησιμοποίησε τα μπλοκ `αλλαγή μεγέθους`{:class="block3looks"} και `εφέ αλλαγής χρώματος`{:class="block3looks"} έτσι ώστε να φαίνεται ότι το μήνυμα κινείται με τον ρυθμό του πάρτι:
 
-![The Message sprite icon.](images/message-sprite.png)
+![Το εικονίδιο του αντικειμένου Μήνυμα.](images/message-sprite.png)
 
 ```blocks3
 when I receive [party v]
@@ -46,7 +46,7 @@ wait (0.5) seconds // Try different numbers to match your music
 change size by (-20) // Negative number to shrink
 ```
 
-[See the code](https://scratch.mit.edu/projects/656332454/){:target="_blank"}
+[Δες τον κώδικα](https://scratch.mit.edu/projects/656332454/){:target="_blank"}
 
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/656332454/?autostart=false" frameborder="0"></iframe>
@@ -57,19 +57,19 @@ change size by (-20) // Negative number to shrink
 --- collapse ---
 
 ---
-title: Completed project
+title: Ολοκληρωμένο έργο
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/649873783/){:target="_blank"}.
+Μπορείς να δεις [ολοκληρωμένο έργο εδώ](https://scratch.mit.edu/projects/649873783/){:target="_blank"}.
 
 --- /collapse ---
 
 --- task ---
 
-### Submit your project
+### Κάνε υποβολή του έργου σου
 
-If you have already shared your project with us just save your changes and we will see your awesome upgrades.
+Εάν έχεις ήδη μοιραστεί το έργο σου μαζί μας, απλώς αποθήκευσε τις αλλαγές σου και θα δούμε τις εντυπωσιακές αναβαθμίσεις σου.
 
-If you haven't yet shared your project but want to submit your project to our ['Party piñata — Community' Scratch studio](https://scratch.mit.edu/studios/31111242){:target="_blank"} for other people to see, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+Εάν δεν έχεις διαμοιραστεί το έργο σου αλλά θέλεις να το υποβάλλεις στο δικό μας Scratch studio ['Party piñata — Community'](https://scratch.mit.edu/studios/31111242){:target="_blank"} για να το δουν κι άλλα άτομα, συμπλήρωσε [αυτήν τη φόρμα](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
 
 --- /task ---
