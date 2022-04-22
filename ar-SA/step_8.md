@@ -4,20 +4,20 @@
 
 يمكنك:
 
-+ Use additional looks, sounds, or motion blocks to animate your message and treats further
-+ Find images of your favourite treats and add them to the costumes for the **Treats** sprite
-+ Increase the number of treats that fall from the piñata on each hit
-+ Make your project easier or harder by changing the number of times you need to hit the piñata before it breaks
++ استخدم مظاهر أو أصوات أو كتل حركة إضافية لتحريك رسالتك والحلوى بشكل مختلف
++ ابحث عن صور الحلوى المفضلة لديك وأضفها إلى مظاهر كائن **الحلوى**
++ قم بزيادة عدد الحلوى التي تسقط من الـpiñata في كل مرة تضرب بها
++ اجعل مشروعك أسهل أو أصعب من خلال تغيير عدد المرات التي تحتاج فيها لضرب piñata قبل أن تنكسر
 
 --- task ---
 ### جربها
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Did you know you can add code to the backdrop too?
+هل تعلم أنه يمكنك إضافة كود إلى الخلفية أيضًا؟
 
-What happens to the backdrop when the piñata breaks? Which blocks would create this effect? 
+ماذا يحدث للخلفية عندما تنكسر البنياتا؟ ما الكتل التي من الممكن أن تخلق هذا التأثير؟ 
 
-[See the code](https://scratch.mit.edu/projects/653771814/){:target="_blank"}
+[انظر الكود](https://scratch.mit.edu/projects/653771814/){:target="_blank"}
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
@@ -28,9 +28,9 @@ What happens to the backdrop when the piñata breaks? Which blocks would create 
 
 --- task ---
 
-You could add code to make the message animate `forever`{:class="block3control"} when it is in position. Use `change size`{:class="block3looks"} and `change color effect`{:class="block3looks"} blocks so that it looks like the message is moving with the party beat:
+يمكنك إضافة كتل برمجية لجعل الرسالة متحركة `للأبد`{:class="block3control"} عندما تكون في موضعها. استخدم كتل `غيّر الحجم`{:class="block3looks"} و `غيّر مؤثر اللون`{:class="block3looks"} حتى تبدو الرسالة وكأنها تتحرك مع إيقاع الحفلة:
 
-![The Message sprite icon.](images/message-sprite.png)
+![كائن الرسالة.](images/message-sprite.png)
 
 ```blocks3
 when I receive [party v]
@@ -46,7 +46,7 @@ wait (0.5) seconds // Try different numbers to match your music
 change size by (-20) // Negative number to shrink
 ```
 
-[See the code](https://scratch.mit.edu/projects/656332454/){:target="_blank"}
+[انظر الكود](https://scratch.mit.edu/projects/656332454/){:target="_blank"}
 
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/656332454/?autostart=false" frameborder="0"></iframe>
@@ -60,7 +60,7 @@ change size by (-20) // Negative number to shrink
 title: المشروع مكتمل
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/649873783/){:target="_blank"}.
+يمكنك عرض [المشروع كاملاً من هنا](https://scratch.mit.edu/projects/649873783/){:target="_blank"}.
 
 --- /collapse ---
 
@@ -68,8 +68,8 @@ You can view the [completed project here](https://scratch.mit.edu/projects/64987
 
 ### أرسل مشروعك
 
-If you have already shared your project with us just save your changes and we will see your awesome upgrades.
+إذا كنت قد شاركت مشروعك معنا بالفعل، فاحفظ تغييراتك وسنرى تطويرك الرائع للمشروع.
 
-If you haven't yet shared your project but want to submit your project to our ['Party piñata — Community' Scratch studio](https://scratch.mit.edu/studios/31111242){:target="_blank"} for other people to see, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+إذا لم تكن قد شاركت مشروعك بعد ولكنك تريد إرسال مشروعك إلى الاستوديو الخاص بمجتمع Scratch ['Party piñata — Community' Scratch studio](https://scratch.mit.edu/studios/31111242){:target="_blank"} ليراه الاخرون، يرجى اكمال [هذا النموذج](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
 
 --- /task ---
