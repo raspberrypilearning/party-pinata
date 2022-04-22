@@ -35,9 +35,9 @@
 
 من قائمة الكائنات(spirit) اختار** Piñata**، بعدها اضغط على تبويب ** Costumes**. هناك نوعان من أزياء البنياتا ، أحدهما يسمى 'whole' والآخر يسمى 'broken'.
 
-![Side-by-side images of the two piñata costumes. The left is a whole piñata, the right has broken open.](images/pinata-costumes.png)
+![صور جنبًا إلى جنب لمظهري البينياتا. اليسار عبارة عن بينياتا كاملة، واليمين بنياتا مكسورة.](images/pinata-costumes.png)
 
-![The Costumes tab (the middle tab in the top left).](images/costumes-tab.png)
+![علامة التبويب المظاهر (علامة التبويب الوسطى في أعلى اليسار).](images/costumes-tab.png)
 
 --- /task ---
 
@@ -47,13 +47,13 @@
 
 اضغط على اسم المظهرليفتح قائمة، اختار منها ` whole` **drop-down menu** then select the <1>whole</1>{:class="block3looks"} costume:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![كائن البينياتا.](images/pinata-sprite.png)
 
 ```blocks3
 switch costume to (whole v) // Update to 'whole'
 ```
 
-![An animated image showing the switch costume block being dragged from the Looks blocks menu to the Code area.](images/switch-costume.gif)
+![صورة متحركة تعرض كتلة تبديل المظهر يتم سحبها من قائمة كتل المظهر إلى مساحة البرمجة.](images/switch-costume.gif)
 
 --- /task ---
 
@@ -63,13 +63,13 @@ switch costume to (whole v) // Update to 'whole'
 
 اسحب كتلة `When flag clicked`{:class="block3events"} من قائمة `Events`{:class="block3events"} واربطها في اعلى الكتل الظاهرة في منطقة التعليمة البرمجية. الكتل سوف تلتصق ببعضها البعض:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![كائن البينياتا.](images/pinata-sprite.png)
 
 ```blocks3
 + when flag clicked
 switch costume to (whole v)
 ```
-![When flag clicked block being added to the code area and connected to the switch costume block.](images/add-flag-clicked.gif)
+![اضافة كتلة عند النقر فوق العلم إلى مساحة البرمجة وتوصيلها بكتلة غيّر المظهر الى.](images/add-flag-clicked.gif)
 
 --- /task ---
 
@@ -79,7 +79,7 @@ switch costume to (whole v)
 
 In the `Motion`{:class="block3motion"} blocks menu, find the `go to x: 0 y: 180`{:class="block3motion"} and `point in direction 90`{:class="block3motion"} blocks. اسحب الكتل إلى منطقة التعليمات البرمجية وقم بتوصيلها بأسفل التعليمات البرمجية الخاصة بك:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![كائن البينياتا.](images/pinata-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -96,7 +96,7 @@ switch costume to (whole v)
 
 Drag a `forever`{:class="block3control"} block from the `Control`{:class="block3control"} blocks menu and connect it to the bottom of your code: اسحب كتلة "forever" من تبويب"control" وقم بتوصيلها باسفل التعليمات البرمجية التي استخدمتها.
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![كائن البينياتا.](images/pinata-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -118,7 +118,7 @@ A `repeat`{:class="block3control"} loop can be used to make the **Piñata** spri
 
 قم بتغيير الدرجة `15`{: class = "block3motion"} إلى `1`{: class = "block3motion"} بحيث يتأرجح piñata حركة صغيرة في كل مرة:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![كائن البينياتا.](images/pinata-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -129,7 +129,7 @@ forever
 + repeat (10) 
 turn right (1) degrees // Change to 1
 ```
-![Repeat block being added within the forever block and then a turn clockwise block added within it.](images/add-repeat.gif)
+![يتم إضافة كتلة كرر داخل الكتلة كرر باستمرار ثم يتم إضافة كتلة في اتجاه عقارب الساعة داخلها.](images/add-repeat.gif)
 
 --- /task ---
 
@@ -141,7 +141,7 @@ turn right (1) degrees // Change to 1
 
 أوقف مشروعك بالضغط على **أيقونة التوقف الحمراء** أعلى المنصة.
 
-![Green flag and stop icons shown side by side.](images/start-stop.png)
+![ايقونات العلم الأخضر والتوقف معروضة جنبًا إلى جنب.](images/start-stop.png)
 
 --- /task ---
 
@@ -149,9 +149,9 @@ turn right (1) degrees // Change to 1
 
 أضف شفرة برمجية الى الحلقة التكرارية `كررّ باستمرار`{:class="block3control"}، بحيث تتأرجح البنياتا من المركز ذهاباً واياباً مثل البندول:
 
-![The Piñata sprite with arrows underneath showing that it swings clockwise from centre, then anticlockwise through the centre, then clockwise back to the centre.](images/pinata-swing.png)
+![كائن Piñata مع الأسهم أسفله يوضح أنه يتأرجح في اتجاه عقارب الساعة من المركز، ثم عكس اتجاه عقارب الساعة عبر المركز ، ثم في اتجاه عقارب الساعة إلى المركز.](images/pinata-swing.png)
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![كائن البينياتا.](images/pinata-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -181,7 +181,7 @@ end
 + تأكد من صحة `دوران في اتجاه عقارب الساعة`{: class = "block3motion"} و `انعطاف عكس اتجاه عقارب الساعة`{: class = "block3motion"}
 + تأكد من أنك استخدمت الأرقام من الشفرة البرمجية
 
-![An animated gif showing the Stage with the Piñata sprite positioned at the top centre and swinging back and forth.](images/swinging-pinata.gif)
+![صورة gif متحركة تُظهر المنصة مع كائن Piñata موضوع في أعلى المنتصف ويتأرجح ذهابًا وإيابًا.](images/swinging-pinata.gif)
 
 --- /task ---
 
