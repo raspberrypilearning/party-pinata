@@ -90,7 +90,7 @@ switch costume to (whole v)
 
 --- /task ---
 
-A `forever`{:class="block3control"} loop runs the code blocks inside it again and again. وهي الحلقة التكرارية المثالية للبنياتا المتأرجحة التي يصعب الوصول إليها.
+تقوم حلقة `كرر باستمرار`{: class = "block3control"} بتشغيل كتل التعليمات البرمجية بداخلها مرارًا وتكرارًا. وهي الحلقة التكرارية المثالية للبنياتا المتأرجحة التي يصعب الوصول إليها.
 
 --- task ---
 
