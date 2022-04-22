@@ -186,7 +186,7 @@ end
 
 2つめの`もし__なら`{:class="block3control"} ブロックを、1つめの中に追加（ついか）してみて。 こんどの条件（じょうけん）では、`たたいた数`{:class="block3variables"} `=`{:class="block3operators"} 10 であることをチェックして、「true（しん）」の場合 には、コスチュームを`われた`{:class="block3looks"}にかえるようにするよ：
 
-![ピニャータのスプライト](images/pinata-sprite.png)
+![ピニャータのスプライトアイコン](images/pinata-sprite.png)
 
 ```blocks3
 このスプライトが押されたとき
@@ -216,7 +216,7 @@ Scratchでは、`メッセージを送る`{:class="block3events"} ブロック�
 
 `イベント`{:class="block3events"}から`メッセージを送る`{:class="block3events"} ブロックを追加（ついか）しよう：
 
-![ピニャータのスプライト](images/pinata-sprite.png)
+![ピニャータのスプライトアイコン](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -232,8 +232,7 @@ switch costume to (broken v)
 
 ![「新しいメッセージ」が表示されている「メッセージを送る」ブロックのドロップダウンメニュー](images/new-message.png)
 
-![「新しいメッセージ」ボックスがハイライトされ、「パーティー
-」という文字が入力されている新しいメッセージポップアップウィンドウ](images/party-message.png)
+![「新しいメッセージ」ボックスがハイライトされ、「パーティー」という文字が入力されている新しいメッセージポップアップウィンドウ](images/party-message.png)
 
 `メッセージを送る`{:class="block3events"} ブロックは、こんなかんじになるよ：
 
