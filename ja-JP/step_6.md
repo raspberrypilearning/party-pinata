@@ -60,7 +60,7 @@ Code Clubに送るバーズデーカードに、どのようなことを書き�
 
 **選択**をクリックすると、メッセージのまわりに8つの円が表示されます。 白いワク内でこれらの円をドラッグすることにより、メッセージの大きさを変えることができます。
 
-![選択ツールがハイライトされメッセージの周りに小さな円が表示されており、中央の水平・垂直ボーラーによってどの方向にもサイズ変更ができる](images/resize-message.png)
+![選択ツールがハイライトされメッセージの各コーナーと、垂直・水平の中央に小さな円が表示されており、それによってどの方向にもサイズ変更ができる](images/resize-message.png)
 
 --- /task ---
 
@@ -70,7 +70,7 @@ Code Clubに送るバーズデーカードに、どのようなことを書き�
 
 **コード** タブをクリックして、プロジェクトがスタートしたときにはメッセージをピニャータの中に `隠す`{:class="block3looks"} ようにスクリプトを作成しましょう：
 
-![メッセージのスプライト](images/message-sprite.png)
+![メッセージのスプライトアイコン](images/message-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -87,7 +87,7 @@ go to x: (0) y: (100) // Inside the piñata
 
 メッセージをアニメーション化するため、`繰り返し`{:class="block3control"} ループを追加します。 メッセージは、だんだん大きくなってみえるように`大きさを変える`{:class="block3looks"} をつかって、おちるようなアニメーションにするため`y座標を変える`{:class="block3motion"} をつかうよ：
 
-![メッセージのスプライト](images/message-sprite.png)
+![メッセージのスプライトアイコン](images/message-sprite.png)
 
 ```blocks3
 when I receive [party v]
