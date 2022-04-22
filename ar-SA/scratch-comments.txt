@@ -1,41 +1,41 @@
-Update to 'whole'
+تحديث إلى "whole"
 
-Ready position
+موضع التهيئة
 
-Change to 1
+غيّر الى 1
 
-Swings 10 degrees clockwise from the centre
+التأرجح 10 درجات في اتجاه عقارب الساعة من المركز
 
-Swings 20 degrees anticlockwise through the centre
+التأرجح 20 درجة عكس اتجاه عقارب الساعة عبر المركز
 
-Swings 10 degrees clockwise back to the centre
+التأرجح 10 درجات في اتجاه عقارب الساعة للرجوع للمركز
 
-Change to mouse-pointer
+تغيير الى مؤشر الماوس
 
-Choose your sound
+اختر الصوت الخاص بك
 
-Change to 4
+غيّر الى 4
 
-Select Treats
+اختر الحلوى
 
-Change to back
+غيّر إلى الخلف
 
-Change to 26
+غيّر الى 26
 
-Change to 10 to start small
+غيّر إلى 10 لتبدأ صغيرة
 
-Inside the piñata
+داخل البنياتا
 
-Change to 20
+غيّر الى 20
 
-Change to 5
+غيّر الى 5
 
-Change to -10
+غيّر الى -10
 
-Positive number to grow
+عدد موجب لتكبر
 
-Change colour
+غيّر اللون
 
-Try different numbers to match your music
+جرب أرقامًا مختلفة لتلائم موسيقاك
 
-Negative number to shrink
+رقم سالب لتتقلص
