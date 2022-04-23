@@ -26,7 +26,7 @@
 
 يحتوي الزي على نص يقول "عيد سعيد Code Club". انقر نقرًا مزدوجًا (أو اضغط باستمرار على جهاز لوحي) على النص لتحديد أداة تحرير النص.
 
-![The costume editor with Text tool selected and text highlighted.](images/text-edit.png)
+![محرر المظاهر مع تحديد أداة النص وتمييز النص.](images/text-edit.png)
 
 --- /task ---
 
@@ -36,21 +36,21 @@
 
 **نصيحة:** لا تقلق إذا كانت رسالتك كبيرة جدًا بالنسبة للمربع يمكنك تغيير حجمها لاحقًا.
 
-![The text editor showing a new message has been typed in place of the old message.](images/new-text.png)
+![محرر النص يظهر رسالة جديدة بدلاً من الرسالة القديمة.](images/new-text.png)
 
 --- /task ---
 
 --- task ---
 
-**Choose:** Click on the **Fill** icon to open the colour drop-down menu. Move the fill sliders to the left or right to select your favourite colour.
+**اختر:** انقر على أيقونة **ملء** لفتح القائمة المنسدلة للألوان. حرك شريط التمرير للملء يسارا ويمينا لتحديد اللون المفضل لديك.
 
-![The Fill drop-down menu with sliders for colour, saturation, and brightness. The message has changed from green to purple.](images/font-colour.png)
+![القائمة المنسدلة للملء مع منزلقات للون والتشبع والسطوع. تم تغيير الرسالة من الأخضر إلى الأرجواني.](images/font-colour.png)
 
 --- /task ---
 
 --- task ---
 
-**Choose:** Click on the **Font** tool and a drop-down list of fonts will appear. The 'Pixel' font is selected in the starter project, but you can use any of the fonts available.
+**اختر:** انقر فوق أداة **الخط** وستظهر قائمة منسدلة بالخطوط. يتم تحديد نوع الخط "Pixel" في مشروع البداية، ولكن يمكنك استخدام أي من الخطوط المتاحة.
 
 ![The Font drop-down menu showing a choice of nine different fonts. The 'Marker' font has been selected.](images/font-type.png)
 
@@ -103,7 +103,7 @@ change y by (-10) // Change to -10
 
 **Test:** Run your project. Hit the piñata ten times to see the message fall.
 
-![An animated image showing the pinata being hit ten times. Treats appear after each hit and on the tenth hit the pinata breaks and the message falls to the bottom of the screen. It gets bigger as it falls.](images/falling-message.gif)
+![An animated image showing the pinata being hit ten times. Treats appear after each hit and on the tenth hit the pinata breaks and the message falls to the bottom of the screen. تكبر كلما سقطت.](images/falling-message.gif)
 
 --- /task ---
 
