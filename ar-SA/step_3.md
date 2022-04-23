@@ -25,7 +25,7 @@
 
 في قائمة كتل `الصوت`{:class="block3sound"} جد كتلة `ابدأ الصوت`{:class="block3sound"}. أضِف المقطع البرمجي `عند نقر هذا الكائن`{:class="block3events"}:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![كائن البنياتا.](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -213,7 +213,7 @@ In Scratch, the `broadcast`{:class="block3events"} block can be used to **send**
 
 --- task ---
 
-Add a `broadcast message`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu:
+أضف كتلة `بث الرسالة`{: class = "block3events"} من قائمة الاحداث `Events`{: class = "block3events"}:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
