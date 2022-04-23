@@ -201,15 +201,15 @@ switch costume to (broken v)
 
 --- task ---
 
-**اختبار:** اختبر مشروعك عدة مرات. Check that the **Piñata** sprite starts with the 'whole' costume then changes to the 'broken' costume after `10 hits`{:class="block3variables"}.
+**اختبار:** اختبر مشروعك عدة مرات. تاكد من أن **البنياتا** تظهر بالمظهر الكامل عند بدء اللعبة، ثم تتغير الى المظهر المكسور بعد `10ضربات`{:class="block3variables"}.
 
 ![صورة متحركة gif تظهر بان تم النقر 10 مرات على كائن البينياتا. بعد المرة العاشرة ، يتغير مظهر البنياتا إلى مكسور.](images/break-pinata.gif)
 
 --- /task ---
 
-When the **Piñata** sprite has broken, all the other sprites need to know that the party has started.
+عندما ينكسر كائن **Piñata** ، تحتاج جميع الكائنات الأخرى إلى معرفة أن الحفلة قد بدأت.
 
-In Scratch, the `broadcast`{:class="block3events"} block can be used to **send** a message that all sprites can **receive**.
+في Scratch ، يمكن استخدام كتلة `البث`{: class = "block3events"} لإرسال **رسالة بحيث جميع الكائنات**يمكنها </strong> استلامها**.</p>
 
 --- task ---
 
@@ -229,9 +229,9 @@ switch costume to (broken v)
 
 انقر على `الرسالة1`{:class="block3events"} واختر 'رسالة جديدة'. قم بتسمية الرسالة الجديدة `حفلة`{:class="block3events"}.
 
-![The drop-down menu on the broadcast block showing the 'New message' menu option.](images/new-message.png)
+![تعرض القائمة المنسدلة في كتلة البث خيار "رسالة جديدة".](images/new-message.png)
 
-![The New message pop-up window with 'New message name' box highlighted and the typed word 'party'.](images/party-message.png)
+![النافذة المنبثقة للرسالة الجديدة مع تمييز مربع "اسم الرسالة الجديدة" والكلمة المكتوبة "حفلة".](images/party-message.png)
 
 ستبدو كتلة البث `{`class = "block3events"} على النحو التالي:
 
