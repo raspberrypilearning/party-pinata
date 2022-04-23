@@ -46,7 +46,7 @@ start sound [Boing v]
 
 انقر على `متغيرات`{: class = "block3variables"} و ثم انقر على زر**انشاء متغير**.
 
-![The variables blocks menu with the 'Makes a Variable' button.](images/make-variable.png)
+![مجموعة كتل المتغيرات مع زر"انشاء متغير".](images/make-variable.png)
 
 سمي المتغير الجديد الذي انشاته **الضربات**:
 
@@ -54,7 +54,7 @@ start sound [Boing v]
 
 **ملاحظة:** يظهر متغير "الضربات" الجديد على المنصة ويمكن استخدامه الآن في قائمة `المتغيرات`{: class = "block3variables"}.
 
-![The hits variable on the Stage.](images/variable-stage.png)
+![متغير الضربات على المسرح.](images/variable-stage.png)
 
 ![The Variable blocks including new 'hits' block.](images/variable-blocks.png)
 
@@ -68,7 +68,7 @@ start sound [Boing v]
 
 يجب أن تبدو التعليمات البرمجية خاصتك بالشكل التالي:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![كائن البينياتا.](images/pinata-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -96,7 +96,7 @@ end
 
 أضف كتلة لتغيير عدد `ضربات`{: class = "block3variables"} بمقدار `1`{: class = "block3variables"} عند النقر على كائن **بنياتا**:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![كائن البينياتا.](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -110,7 +110,7 @@ start sound [Boing v]
 
 **اختبار:** اختبر مشروعك عدة مرات. تأكد من أن عدد `ضربات`{: class = "block3variables"} يبدأ دائمًا عند `0`{: class = "block3variables"} ويزيد بمقدار `1`{: class = "block3variables"} في كل مرة تنقر فيها على **بنياتا**.
 
-![The Stage showing the number stored in the hits variable is '8'.](images/hits-increase.png)
+![المسرح يظهر العدد المخزون من عدد الضربات هو 8.](images/hits-increase.png)
 
 --- /task ---
 
@@ -126,7 +126,7 @@ start sound [Boing v]
 
 افتح قائمة الكتل البرمجية `التحكم` {:class="block3looks"}. اسحب كتلة `إذا`{: class = "block3control"} في منطقة التعليمات البرمجية اسفل كتلة `عند نقر هذا الكائن`:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![كائن البينياتا.](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -146,7 +146,7 @@ change [hits v] by (1)
 
 أولًا، أضف العملية `<`{:class="block3operators"} إلى الإدخال على الشكل السداسي:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![كائن البينياتا.](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -162,7 +162,7 @@ change [hits v] by (1)
 
 قم بإنهاء بناء شرط `إذا`{: class = "block3control"} عن طريق سحب متغير`الضربات`{: class = "block3variables"} على يسار عامل التشغيل</code> `&lt;{: class = "</0>"} واكتب القيمة "10" على اليمين:</p>
 
-<p spaces-before="0"><img src="images/pinata-sprite.png" alt="The Piñata sprite icon." /></p>
+<p spaces-before="0"><img src="images/pinata-sprite.png" alt="كائن البنياتا." /></p>
 
 <pre><code class="blocks3">when this sprite clicked
 + if <(hits) < (10)> then
@@ -185,7 +185,7 @@ change [hits v] by (1)
 
 اضف كتلة `إذا`{:class="block3control"}مرة ثانية داخل الحلقة الاولى. هذه المرة سيتحقق الشرط مما إذا كانت عدد`الضربات` {: class = "block3variables"} `مساوياً`{: class = "block3operators"} 10 وإذا كان 'true' سيتغير الزي إلى `مكسور`{: class = "block3looks"}:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![كائن البينياتا.](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -203,7 +203,7 @@ switch costume to (broken v)
 
 **اختبار:** اختبر مشروعك عدة مرات. Check that the **Piñata** sprite starts with the 'whole' costume then changes to the 'broken' costume after `10 hits`{:class="block3variables"}.
 
-![An animated image showing the piñata being clicked ten times. After the tenth time, the costume changes to broken.](images/break-pinata.gif)
+![صورة متحركة gif تظهر بان تم النقر 10 مرات على كائن البينياتا. بعد المرة العاشرة ، يتغير مظهر البنياتا إلى مكسور.](images/break-pinata.gif)
 
 --- /task ---
 
@@ -215,7 +215,7 @@ In Scratch, the `broadcast`{:class="block3events"} block can be used to **send**
 
 أضف كتلة `بث الرسالة`{: class = "block3events"} من قائمة الاحداث `Events`{: class = "block3events"}:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![كائن البينياتا.](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
