@@ -1,76 +1,76 @@
-## Create a message
+## एक संदेश बनाएं
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will write a message and animate it using motion and colour effects. 
+इस चरण में, आप एक संदेश लिखेंगे और गति और रंग प्रभावों का उपयोग करके उसे एनिमेट करेंगे। 
 </div>
 <div>
-![An animated image showing the message falling then changing size and colour when it has reached the final message fall position.](images/falling-message.gif){:width="300px"}
+![एक एनिमेटेड छवि जो संदेश को गिरते हुए दिखाती है और फिर संदेश आकार और रंग बदलता है जब वह अंतिम संदेश गिरने की स्थिति में पहुंच जाता है।](images/falling-message.gif){:width="300px"}
 </div>
 </div>
 
-What would you write in a birthday card to send to Code Club? It could be:
-+ Your favourite thing about Code Club
-+ A message about your fabulous Code Club leader
-+ Details of what you want to make next with your coding skills
+Code Club को भेजने के लिए आप जन्मदिन कार्ड में क्या लिखेंगे? यह हो सकता है:
++ Code Club के बारे में आपकी पसंदीदा चीज़
++ आपके शानदार Code Club नेता के बारे में एक संदेश
++ आप अपने कोडिंग कौशल के साथ आगे क्या बनाना चाहते हैं, इसका विवरण
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The first Code Club projects were written in English, but within a year they had been translated into Brazilian Portuguese, Dutch, German, Norwegian, and Ukrainian. French, Greek, and Spanish translations quickly followed and now some of the Code Club projects have been translated into <span style="color: #0faeb0">**28 native languages**</span>. Thank you to our awesome translation community!
+पहले Code Club प्रोजेक्ट अंग्रेजी में लिखे गए थे, लेकिन एक साल के भीतर उनका ब्राजीलियाई पुर्तगाली, डच, जर्मन, नॉर्वेजियन और यूक्रेनी में अनुवाद किया गया था। फ्रेंच, ग्रीक और स्पेनिश अनुवादों ने तेजी से अनुसरण किया और अब कुछ कोड क्लब प्रोजेक्ट्स का <span style="color: #0faeb0">**28 देशी भाषाओं**</span> में अनुवाद किया गया है। हमारे शानदार अनुवाद समुदाय को धन्यवाद!
 
-![Multiple images saying Happy Birthday in various native languages.](images/birthday-languages.png)
+![अनेक चित्र विभिन्न देशी भाषाओं में जन्मदिन मुबारक कह रहे हैं।](images/birthday-languages.png)
 </p>
 
 --- task ---
 
-Click on the **Message** sprite in the Sprite list and select the **Costumes** tab.
+स्प्राइट सूची में **Message** स्प्राइट पर क्लिक करें, फिर **Costumes** टैब पर क्लिक करें।
 
-The costume has some text saying 'Happy Birthday Code Club'. Double click (or tap and hold on a tablet) on the text to select the text editing tool.
+पोशाक में कुछ पाठ है 'Happy Birthday Code Club'। टेक्स्ट एडिटिंग टूल को चुनने के लिए टेक्स्ट पर डबल क्लिक करें (या टैबलेट पर टैप करके रखें)।
 
-![The costume editor with Text tool selected and text highlighted.](images/text-edit.png)
-
---- /task ---
-
---- task ---
-
-You can now type your new Code Club birthday message. Press **Enter** on your keyboard to start a new line.
-
-**Tip:** Don't worry if your message is a bit too big for the box as you can resize it later.
-
-![The text editor showing a new message has been typed in place of the old message.](images/new-text.png)
+![टेक्स्ट टूल के साथ कॉस्ट्यूम एडिटर चयनित और टेक्स्ट हाइलाइट किया गया।](images/text-edit.png)
 
 --- /task ---
 
 --- task ---
 
-**Choose:** Click on the **Fill** icon to open the colour drop-down menu. Move the fill sliders to the left or right to select your favourite colour.
+अब आप अपना नया कोड क्लब जन्मदिन संदेश टाइप कर सकते हैं। नई लाइन शुरू करने के लिए अपने कीबोर्ड पर **Enter** दबाएं।
 
-![The Fill drop-down menu with sliders for colour, saturation, and brightness. The message has changed from green to purple.](images/font-colour.png)
+**युक्ति:** यदि आपका संदेश बॉक्स के लिए थोड़ा बहुत बड़ा है तो चिंता न करें क्योंकि आप बाद में उसका आकार बदल सकते हैं।
 
---- /task ---
-
---- task ---
-
-**Choose:** Click on the **Font** tool and a drop-down list of fonts will appear. The 'Pixel' font is selected in the starter project, but you can use any of the fonts available.
-
-![The Font drop-down menu showing a choice of nine different fonts. The 'Marker' font has been selected.](images/font-type.png)
+![टेक्स्ट एडिटर एक नया संदेश दिखा रहा है जो पुराने संदेश के स्थान पर टाइप किया गया है।](images/new-text.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Select** tool and eight circles will appear around your message. Use these circles to resize your message by clicking on them and dragging them within the white box.
+**चुनें:** रंग ड्रॉप डाउन मेन्यू खोलने के लिए **Fill** आइकन पर क्लिक करें। अपने पसंदीदा रंग को चुनने के लिए भरण स्लाइडर को बाएँ या दाएँ ले जाएँ।
 
-![The Select tool is highlighted and the message has small circles in each corner and at the central vertical and horizontal borer points so that it can be resized in multiple directions.](images/resize-message.png)
+![रंग, संतृप्ति और चमक के लिए स्लाइडर के साथ Fill ड्रॉप डाउन मेन्यू। संदेश हरे से बैंगनी में बदल गया है।](images/font-colour.png)
 
 --- /task ---
 
-Your message is ready, now you can add code to hide your message inside the piñata and make your message fall from the piñata after the tenth hit.
+--- task ---
+
+**चुनें:** **Font** टूल पर क्लिक करें और फोंट की एक ड्रॉप-डाउन सूची दिखाई देगी। शुरूआती प्रोजेक्ट में 'Pixel' फ़ॉन्ट चुना गया है, लेकिन आप उपलब्ध किसी भी फ़ॉन्ट का उपयोग कर सकते हैं।
+
+![Font ड्रॉप डाउन मेन्यू जो अलग-अलग फ़ॉन्ट्स का विकल्प दिखा रहा है। 'Marker' फ़ॉन्ट को चुना गया है।](images/font-type.png)
+
+--- /task ---
 
 --- task ---
 
-Click on the **Code** tab then create a script to `hide`{:class="block3looks"} the message in the piñata when your project starts:
+**Select** टूल पर क्लिक करें और आपके संदेश के चारों ओर आठ घेरे दिखाई देंगे। इन घेरों पर क्लिक करके और उन्हें सफेद बॉक्स में खिसका कर अपने संदेश का आकार बदलने के लिए उनका उपयोग करें।
 
-![The Message sprite icon.](images/message-sprite.png)
+![Select टूल हाइलाइट किया गया है और संदेश के प्रत्येक कोने में और केंद्रीय ऊर्ध्वाधर और क्षैतिज छेदक बिंदुओं पर छोटे वृत्त हैं ताकि इसे कई दिशाओं में आकार दिया जा सके।](images/resize-message.png)
+
+--- /task ---
+
+आपका संदेश तैयार है, अब आप अपने संदेश को पिनाटा के अंदर छिपाने के लिए कोड जोड़ सकते हैं और दसवीं मार के बाद अपने संदेश को पिनाटा से गिरा सकते हैं।
+
+--- task ---
+
+**Code** टैब पर क्लिक करें, फिर अपना प्रोजेक्ट शुरू होने पर पिनाटा में संदेश को `hide`{:class="block3looks"} करने के लिए एक स्क्रिप्ट बनाएं:
+
+![संदेश स्प्राइट आइकन।](images/message-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -83,11 +83,11 @@ go to x: (0) y: (100) // Inside the piñata
 
 --- task ---
 
-Create a new script to start when the `party`{:class="block3events"} message has been received.
+`party`{:class="block3events"} संदेश प्राप्त होने पर प्रारंभ करने के लिए एक नई स्क्रिप्ट बनाएं।
 
-Add a `repeat`{:class="block3control"} loop to animate the message. The message will `change size`{:class="block3looks"} to grow and `change y`{:class="block3motion"} position to fall as it animates:
+संदेश को एनिमेट करने के लिए `repeat`{:class="block3control"} लूप जोड़ें। एनिमेट होते हुए, संदेश बढ़ने के लिए `change size`{:class="block3looks"} और गिरते हुए `change y`{:class="block3motion"} स्तिथि को बदलेगा:
 
-![The Message sprite icon.](images/message-sprite.png)
+![संदेश स्प्राइट आइकन।](images/message-sprite.png)
 
 ```blocks3
 when I receive [party v]
@@ -101,9 +101,9 @@ change y by (-10) // Change to -10
 
 --- task ---
 
-**Test:** Run your project. Hit the piñata ten times to see the message fall.
+**परीक्षण:** अपना प्रोजेक्ट चलाएँ। संदेश को गिरते हुए देखने के लिए पिनाटा को दस बार मारें।
 
-![An animated image showing the pinata being hit ten times. Treats appear after each hit and on the tenth hit the pinata breaks and the message falls to the bottom of the screen. It gets bigger as it falls.](images/falling-message.gif)
+![एक एनिमेटेड छवि जिसमें पिनाटा को दस बार मारते हुए दिखाया गया है। प्रत्येक मार के बाद पकवान दिखाई देते हैं और दसवीं मार पर पिनाटा टूट जाता है और संदेश स्क्रीन के नीचे गिर जाता है। यह गिरते हुए बड़ा होता है।](images/falling-message.gif)
 
 --- /task ---
 
