@@ -50,13 +50,13 @@ start sound [Boing v]
 
 سمي المتغير الجديد الذي انشاته **الضربات**:
 
-![The 'New variable' pop-up window with the name 'hits' typed in the 'New variable name' box.](images/new-variable.png)
+![النافذة المنبثقة "متغير جديد" مع كتابة الاسم "الضربات" في مربع "اسم متغير جديد".](images/new-variable.png)
 
 **ملاحظة:** يظهر متغير "الضربات" الجديد على المنصة ويمكن استخدامه الآن في قائمة `المتغيرات`{: class = "block3variables"}.
 
 ![متغير الضربات على المسرح.](images/variable-stage.png)
 
-![The Variable blocks including new 'hits' block.](images/variable-blocks.png)
+![قائمة المتغيرات تتضمن الكتلة الجديدة "الضربات".](images/variable-blocks.png)
 
 --- /task ---
 
