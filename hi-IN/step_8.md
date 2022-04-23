@@ -1,8 +1,8 @@
-## Upgrade your project
+## प्रोजेक्ट को अपग्रेड करें
 
-If you have time, you can upgrade your project. You might have ideas about what to add already!
+यदि आपके पास समय है, तो आप अपने प्रोजेक्ट को अपग्रेड कर सकते हैं। आपके पास पहले से क्या जोड़ना है इसके बारे में विचार हो सकते हैं!
 
-You could:
+आप ऐसा कर सकते हैं:
 
 + Use additional looks, sounds, or motion blocks to animate your message and treats further
 + Find images of your favourite treats and add them to the costumes for the **Treats** sprite
