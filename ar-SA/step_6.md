@@ -1,30 +1,30 @@
-## Create a message
+## قم بإنشاء رسالة
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will write a message and animate it using motion and colour effects. 
+في هذه الخطوة، ستكتب رسالة وتحركها باستخدام تأثيرات الحركة واللون. 
 </div>
 <div>
-![An animated image showing the message falling then changing size and colour when it has reached the final message fall position.](images/falling-message.gif){:width="300px"}
+![صورة متحركة توضح سقوط الرسالة ثم يتغير الحجم واللون عندما تصل إلى موضع سقوط الرسالة النهائي.](images/falling-message.gif){:width="300px"}
 </div>
 </div>
 
-What would you write in a birthday card to send to Code Club? It could be:
-+ Your favourite thing about Code Club
-+ A message about your fabulous Code Club leader
-+ Details of what you want to make next with your coding skills
+ماذا ستكتب في بطاقة عيد ميلاد لإرسالها إلى Code Club؟ من الممكن أن تكون:
++ الشيء المفضل لديك في Code Club
++ رسالة عن قائد Code Club الرائع الخاص بك
++ تفاصيل عن ما تريد القيام به لاحقا مع مهارات البرمجة الخاصة بك
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The first Code Club projects were written in English, but within a year they had been translated into Brazilian Portuguese, Dutch, German, Norwegian, and Ukrainian. French, Greek, and Spanish translations quickly followed and now some of the Code Club projects have been translated into <span style="color: #0faeb0">**28 native languages**</span>. Thank you to our awesome translation community!
+تمت كتابة اول مشاريع Code Club باللغة الإنجليزية، ولكن في غضون عام تمت ترجمتها إلى البرتغالية البرازيلية والهولندية والألمانية والنرويجية والأوكرانية. سرعان ما تم اتباعها بترجمات للغة الفرنسية واليونانية والإسبانية، والآن تمت ترجمة بعض مشاريع Code Club إلى <span style="color: #0faeb0">** 28 لغة أصلية **</span>. شكرا لمجتمع الترجمة الرائع لدينا!
 
-![Multiple images saying Happy Birthday in various native languages.](images/birthday-languages.png)
+![صور متعددة تقول "عيد ميلاد سعيد" بلغات أصلية مختلفة.](images/birthday-languages.png)
 </p>
 
 --- task ---
 
-Click on the **Message** sprite in the Sprite list and select the **Costumes** tab.
+انقر فوق الكائن **رسالة** في قائمة الكائنات وحدد علامة التبويب **مظاهر**.
 
-The costume has some text saying 'Happy Birthday Code Club'. Double click (or tap and hold on a tablet) on the text to select the text editing tool.
+يحتوي الزي على نص يقول "عيد سعيد Code Club". انقر نقرًا مزدوجًا (أو اضغط باستمرار على جهاز لوحي) على النص لتحديد أداة تحرير النص.
 
 ![The costume editor with Text tool selected and text highlighted.](images/text-edit.png)
 
@@ -32,9 +32,9 @@ The costume has some text saying 'Happy Birthday Code Club'. Double click (or ta
 
 --- task ---
 
-You can now type your new Code Club birthday message. Press **Enter** on your keyboard to start a new line.
+يمكنك الآن كتابة رسالة عيد ميلاد Code Club الجديدة الخاصة بك. اضغط على **Enter** في لوحة المفاتيح الخاصة بك لبدء سطر جديد.
 
-**Tip:** Don't worry if your message is a bit too big for the box as you can resize it later.
+**نصيحة:** لا تقلق إذا كانت رسالتك كبيرة جدًا بالنسبة للمربع يمكنك تغيير حجمها لاحقًا.
 
 ![The text editor showing a new message has been typed in place of the old message.](images/new-text.png)
 
@@ -70,7 +70,7 @@ Your message is ready, now you can add code to hide your message inside the piñ
 
 Click on the **Code** tab then create a script to `hide`{:class="block3looks"} the message in the piñata when your project starts:
 
-![The Message sprite icon.](images/message-sprite.png)
+![كائن الرسالة.](images/message-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -87,7 +87,7 @@ Create a new script to start when the `party`{:class="block3events"} message has
 
 Add a `repeat`{:class="block3control"} loop to animate the message. The message will `change size`{:class="block3looks"} to grow and `change y`{:class="block3motion"} position to fall as it animates:
 
-![The Message sprite icon.](images/message-sprite.png)
+![كائن الرسالة.](images/message-sprite.png)
 
 ```blocks3
 when I receive [party v]
