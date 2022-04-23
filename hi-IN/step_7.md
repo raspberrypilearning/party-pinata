@@ -1,8 +1,8 @@
-## Share
+## साझा करना
 
-Now, it's time to share your project so other people can join the party.
+अब, अपने प्रोजेक्ट को साझा करने का समय आ गया है ताकि अन्य लोग समारोह में शामिल हो सकें।
 
-If you have a Scratch account, you can share your project through Scratch. You can send a link to people you know, and the whole Scratch community will be able to find your project and try it out.
+यदि आपके पास Scratch खाता है, तो आप Scratch के माध्यम से अपना प्रोजेक्ट साझा कर सकते हैं। आप उन लोगों को एक लिंक भेज सकते हैं जिन्हें आप जानते हैं, और संपूर्ण Scratch समुदाय आपके प्रोजेक्ट को ढूंढ़ने और उसे आज़माने में सक्षम होगा।
 
 [[[share-scratch]]]
 
@@ -10,12 +10,12 @@ If you have a Scratch account, you can share your project through Scratch. You c
 
 --- task ---
 
-### Submit your project
+### अपना प्रोजेक्ट जमा करें
 
-Inspire the global Code Club community with your project!
+अपने प्रोजेक्ट से वैश्विक Code Club समुदाय को प्रेरित करें!
 
-To submit your project to our ['Party piñata — Community' Scratch studio](https://scratch.mit.edu/studios/31111242){:target="_blank"} for other people to see, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+अन्य लोगों को देखने के लिए हमारे ['Party piñata — Community' Scratch studio](https://scratch.mit.edu/studios/31111242){:target="_blank"} पर अपना प्रोजेक्ट जमा करने के लिए, कृपया [इस फ़ॉर्म](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"} को पूरा करें।
 
 --- /task ---
 
-![An animated image showing the message falling then changing size and colour when it has reach the final message fall position.](images/falling-message.gif)
+![एक एनिमेटेड छवि जो संदेश को गिरते हुए दिखाती है और फिर संदेश आकार और रंग बदलता है जब वह अंतिम संदेश गिरने की स्थिति में पहुंच जाता है।](images/falling-message.gif)
