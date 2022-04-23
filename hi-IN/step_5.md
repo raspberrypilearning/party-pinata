@@ -19,7 +19,7 @@ Scratch में <span style="color: #0faeb0">**पोशाक**</span> एक
 
 26 पकवान पोशाकें हैं - और आप उन सभी का उपयोग करने जा रहे हैं!
 
-![The specially created treat images shown as a collection of treats.](images/treats.png)
+![विशेष रूप से बनायीं गयी पकवान छवियों को पकवानो के संग्रह के रूप में दिखाया गया है।](images/treats.png)
 
 --- /task ---
 
@@ -27,7 +27,7 @@ Scratch में <span style="color: #0faeb0">**पोशाक**</span> एक
 
 **Code** टैब पर क्लिक करें, फिर अपना प्रोजेक्ट शुरू होने पर पिनाटा में पकवानो को `hide`{:class="block3looks"} करने के लिए एक स्क्रिप्ट बनाएं:
 
-![The Treats sprite icon.](images/treats-sprite.png)
+![ट्रीट्स स्प्राइट आइकन।](images/treats-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -49,7 +49,7 @@ Scratch में <span style="color: #0faeb0">**कॉपी**</span> स्प
 
 अपने मौजूदा कोड में `repeat`{:class="block3control"} लूप डालें। मान को `4`{:class="block3control"} में बदलें, फिर एक `create clone of myself`{:class="block3control"} खंड जोड़ें। `Treats`{:class="block3control"} स्प्राइट का चयन करने के लिए नीचे तीर जैसे बटन का उपयोग करें:
 
-![The Pinata sprite icon.](images/pinata-sprite.png)
+![पिनाटा स्प्राइट आइकन।](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -66,7 +66,7 @@ broadcast (party v)
 
 **युक्ति:** अपना नया कोड बनाने के लिए कोड क्षेत्र में खाली स्थान का उपयोग करें और फिर उसे मौजूदा स्क्रिप्ट में खिसकाएं:
 
-![The repeat and clone blocks are assembled on their own in the Code area before being dragged into position in the script.](images/code-area.gif) --- /task ---
+![कोड क्षेत्र में रिपीट और क्लोन खंड अपने आप इकट्ठे किए जाते हैं स्क्रिप्ट में स्थिति में घसीटे जाने से पहले।](images/code-area.gif) --- /task ---
 
 --- task ---
 
@@ -76,7 +76,7 @@ broadcast (party v)
 
 प्रत्येक नए क्लोन की उपस्थिति को नियंत्रित करने के लिए `Looks`{:class="block3looks"} खंड मेन्यू से खंड जोड़ें:
 
-![The Treats sprite icon.](images/treats-sprite.png)
+![ट्रीट्स स्प्राइट आइकन।](images/treats-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -91,7 +91,7 @@ switch costume to (Knafeh v)
 
 पिनाटा मारने पर आप निकलने के लिए यादृच्छिक पकवान चुन सकते हैं। हर बार क्लोन बनने पर `1`{:class="block3operators"} से `26`{:class="block3operators"} में से एक यादृच्छिक पोशाक का चयन करने के लिए `pick random`{:class="block3operators"} ऑपरेटर का उपयोग करें:
 
-![The Treats sprite icon.](images/treats-sprite.png)
+![ट्रीट्स स्प्राइट आइकन।](images/treats-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -106,9 +106,9 @@ go to [back v] layer
 
 फिलहाल, **Piñata** स्प्राइट के पीछे **Treats** की कॉपियां दिखाई देंगी, लेकिन पकवानो को पिनाटा से एक यादृच्छिक स्थिति में गिरना चाहिए।
 
-Add code to make the cloned **Treats** sprites `glide`{:class="block3motion"} to a random position:
+कोड जोड़ें कॉपी किये गए **Treats** स्प्रिट्स को एक यादृच्छिक स्तिथि में `glide`{:class="block3motion"} (खिसकाने) के लिए:
 
-![The Treats sprite icon.](images/treats-sprite.png)
+![ट्रीट्स स्प्राइट आइकन।](images/treats-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -122,17 +122,17 @@ switch costume to (pick random (1) to (26))
 
 --- task ---
 
-**Test:** Run your project and hit the piñata to see four clones of the **Treats** sprite after each hit. The costumes will be selected at random and the treats will each glide to a random position.
+**परीक्षण:** प्रत्येक मार के बाद **Treats** स्प्राइट की चार कॉपियां देखने के लिए अपना प्रोजेक्ट चलाएं और पिनाटा को मारें। पोशाकें यादृच्छिक रूप से चुनी जाएगी और हर पकवान यादृच्छिक स्थिति में सरक जायेगा।
 
-![An animated image showing the pinata being hit three times. Each time, four random treats fall out to random positions.](images/four-treats.gif)
+![एक एनिमेटेड छवि जिसमें पिनाटा को तीन बार मारते हुए दिखाया गया है। हर बार, चार यादृच्छिक पकवान यादृच्छिक स्थिति में आते हैं।](images/four-treats.gif)
 
 --- /task ---
 
 --- task ---
 
-Add animation to make the **Treats** sprite clones `turn`{:class="block3motion"} `forever`{:class="block3control"} when they reach their random position. Remember animations work best when small movements are used, so change the number of degrees to `1`{:class="block3motion"}:
+**Treats** स्प्राइट की कॉपियों को `turn`{:class="block3motion"} `forever`{:class="block3control"} (हमेशा घूमता हुआ) बनाने के लिए एनिमेशन जोड़ें जब वे अपनी यादृच्छिक स्थिति में पहुंच जाएं। याद रखें कि जब छोटे आंदोलनों का उपयोग किया जाता है तो एनिमेशन सबसे अच्छा काम करते हैं, इसलिए डिग्री की संख्या को `1`{:class="block3motion"} में बदलें:
 
-![The Treats sprite icon.](images/treats-sprite.png)
+![ट्रीट्स स्प्राइट आइकन।](images/treats-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -148,9 +148,9 @@ turn right (1) degrees
 
 --- task ---
 
-**Test:** Run your project again to see the **Treats** sprite clones spin.
+**परीक्षण:** अपना प्रोजेक्ट फिर से चलाएं **Treats** स्प्राइट की कॉपियों को घूमता देखने के लिए।
 
-![An animated image showing the pinata being hit multiple times. Each time, four random treats fall out to random positions then slowly rotate in a circle.](images/spinning-treats.gif)
+![एक एनिमेटेड छवि जिसमें पिनाटा को कई बार मारते हुए दिखाया गया है। हर बार, चार यादृच्छिक पकवान यादृच्छिक स्थिति में आते हैं और फिर धीरे-धीरे एक घेरे में घूमते हैं।](images/spinning-treats.gif)
 
 --- /task ---
 
