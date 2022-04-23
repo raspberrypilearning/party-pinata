@@ -19,7 +19,7 @@
 
 Ο επεξεργαστής Scratch μοιάζει έτσι:
 
-![An annotated screenshot of the Scratch editor, with the Stage, Stage pane, Sprite pane, Sprite list, and Code area labelled.](images/scratch-interface.png)
+![Ένα σχολιασμένο στιγμιότυπο οθόνης του επεξεργαστή Scratch, με τη Σκηνή, το παράθυρο Σκηνή, το παράθυρο Αντικείμενα, τη λίστα Αντικειμένων και την περιοχή Κώδικα, όλα με ετικέτες.](images/scratch-interface.png)
 
 Η **Σκηνή** είναι εκεί όπου εκτελείται το έργο σου και ένα **υπόβαθρο** αλλάζει τον τρόπο εμφάνισης της Σκηνής. Προστέθηκε ένα υπόβαθρο πάρτι Code Club για εσένα.
 
