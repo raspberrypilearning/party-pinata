@@ -4,20 +4,20 @@
 
 आप ऐसा कर सकते हैं:
 
-+ Use additional looks, sounds, or motion blocks to animate your message and treats further
-+ Find images of your favourite treats and add them to the costumes for the **Treats** sprite
-+ Increase the number of treats that fall from the piñata on each hit
-+ Make your project easier or harder by changing the number of times you need to hit the piñata before it breaks
++ आगे अपने संदेश और पकवानो को एनिमेट करने के लिए अतिरिक्त रूप, ध्वनि या गति खंड का उपयोग करें
++ अपने पसंदीदा पकवानो की छवियां ढूंढें और उन्हें **Treats** स्प्राइट की पोशाकों में जोड़ें
++ प्रत्येक मार पर पिनाटा से गिरने वाले पकवानो की संख्या बढ़ाएं
++ पिनाटा के टूटने से पहले जितनी बार आपको उसे मारने की आवश्यकता है, उसे बदलकर अपने प्रोजेक्ट को आसान या कठिन बनाएं
 
 --- task ---
-### Try it
+### इसे आजमाएँ
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Did you know you can add code to the backdrop too?
+क्या आप जानते हैं कि आप पृष्ठभूमि में भी कोड जोड़ सकते हैं?
 
-What happens to the backdrop when the piñata breaks? Which blocks would create this effect? 
+जब पिनाटा टूटता है तो पृष्ठभूमि का क्या होता है? कौन से खंड यह प्रभाव पैदा करेंगे? 
 
-[See the code](https://scratch.mit.edu/projects/653771814/){:target="_blank"}
+[कोड देखें](https://scratch.mit.edu/projects/653771814/){:target="_blank"}
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
@@ -28,9 +28,9 @@ What happens to the backdrop when the piñata breaks? Which blocks would create 
 
 --- task ---
 
-You could add code to make the message animate `forever`{:class="block3control"} when it is in position. Use `change size`{:class="block3looks"} and `change color effect`{:class="block3looks"} blocks so that it looks like the message is moving with the party beat:
+आप संदेश को `forever`{:class="block3control"} (हमेशा के लिए) एनिमेट करने के लिए कोड जोड़ सकते हैं, जब वह स्थिति में हो। `change size`{:class="block3looks"} और `change color effect`{:class="block3looks"} खंड का इस्तेमाल करें ताकि ऐसा लगे कि संदेश समारोह संगीत के साथ झूम रहा है:
 
-![The Message sprite icon.](images/message-sprite.png)
+![संदेश स्प्राइट आइकन।](images/message-sprite.png)
 
 ```blocks3
 when I receive [party v]
@@ -46,7 +46,7 @@ wait (0.5) seconds // Try different numbers to match your music
 change size by (-20) // Negative number to shrink
 ```
 
-[See the code](https://scratch.mit.edu/projects/656332454/){:target="_blank"}
+[कोड देखें](https://scratch.mit.edu/projects/656332454/){:target="_blank"}
 
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/656332454/?autostart=false" frameborder="0"></iframe>
@@ -57,19 +57,19 @@ change size by (-20) // Negative number to shrink
 --- collapse ---
 
 ---
-title: Completed project
+title: पूरा प्रोजेक्ट
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/649873783/){:target="_blank"}.
+आप [पूर्ण किए गये प्रोजेक्ट को यहां](https://scratch.mit.edu/projects/649873783/){:target="_blank"} देख सकते हैं।
 
 --- /collapse ---
 
 --- task ---
 
-### Submit your project
+### अपना प्रोजेक्ट जमा करें
 
-If you have already shared your project with us just save your changes and we will see your awesome upgrades.
+यदि आपने पहले ही अपना प्रोजेक्ट हमारे साथ साझा कर लिया है तो बस अपने परिवर्तन सहेजें और हम आपके शानदार अपग्रेड देखेंगे।
 
-If you haven't yet shared your project but want to submit your project to our ['Party piñata — Community' Scratch studio](https://scratch.mit.edu/studios/31111242){:target="_blank"} for other people to see, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+यदि आपने अभी तक अपना प्रोजेक्ट साझा नहीं किया है, लेकिन अन्य लोगों को देखने के लिए हमारे ['Party piñata — Community' Scratch studio](https://scratch.mit.edu/studios/31111242){:target="_blank"} पर अपना प्रोजेक्ट जमा करना चाहते है, कृपया [इस फ़ॉर्म](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"} को पूरा करें।
 
 --- /task ---
