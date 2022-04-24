@@ -37,13 +37,13 @@ go to (mouse-pointer v) // Change to mouse-pointer
 
 هناك العديد من أنواع الأصوات المختلفة في Scratch بدءًا من الأصوات وضوضاء الحيوانات إلى أكثر من 100 مؤثر صوتي آخر.
 
-Scratch also has **looping sounds** that can be used in `forever`{:class="block3control"} or `repeat`{:class="block3control"} loops to sound like they are playing continuously.
+يحتوي Scratch أيضًا على **حلقة من الأصوات** يمكن استخدامها في كتلة `إلى الأبد`{: class = "block3control"} أو كتلة`كرر`{: class = "block3control"} لتظهر وكأنها تعمل بشكل مستمر.
 
 --- task ---
 
 انتقل إلى علامة التبويب **الأصوات** وانقر على أيقونة **اختيار الصوت**.
 
-![اختر أيقونة الصوت مع قائمة الأصوات المنبثقة. When selected, the choose a sound icon is a white speaker on a green circle.](images/sound-icon.png)
+![اختر أيقونة الصوت مع قائمة الأصوات المنبثقة. عند تحديده، يكون اختيار رمز الصوت عبارة عن مكبر صوت أبيض على دائرة خضراء.](images/sound-icon.png)
 
 --- /task ---
 
@@ -51,15 +51,15 @@ Scratch also has **looping sounds** that can be used in `forever`{:class="block3
 
 اذهب إلى **اختيار صوت** وحدد خيار **تسجيل**.
 
-![The Sound gallery with 'Loops' category highlighted in orange to show it has been selected. الفئات الأخرى باللون الأزرق.](images/loops-category.png)
+![معرض الصوت -فئة "Loops" مظللة باللون البرتقالي لإظهار أنه قد تم تحديده. الفئات الأخرى باللون الأزرق.](images/loops-category.png)
 
 --- /task ---
 
 --- task ---
 
-**Choose:** Hover over the **play** icons to hear the looping sounds. أضف الصوت الذي تفضله بالضغط عليه.
+**اختر:** انقر على أيقونة **تشغيل** لسماع الاصوت المتكررة. أضف الصوت الذي تفضله بالضغط عليه.
 
-![The 'Hip hop' sound with play icon highlighted in the top-right corner of the sound icon.](images/play-icon.png)
+![صوت "الهيب هوب" مع زر التشغيل المميز في الزاوية العلوية اليمنى من أيقونة الصوت.](images/play-icon.png)
 
 سيظهر الصوت بعد ذلك في قائمة الأصوات:
 
