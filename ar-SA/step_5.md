@@ -19,7 +19,7 @@
 
 هناك 26 مظهر - وستستخدمها جميعًا!
 
-![The specially created treat images shown as a collection of treats.](images/treats.png)
+![يتم عرض صور الحلوى التي تم إنشاؤها خصيصًا كمجموعة من الحلوى.](images/treats.png)
 
 --- /task ---
 
@@ -66,15 +66,15 @@ broadcast (party v)
 
 **نصيحة:** استخدم المساحة الاحتياطية في منطقة الكود لإنشاء كودك الجديد ثم اسحبه إلى البرنامج النصي الحالي:
 
-![The repeat and clone blocks are assembled on their own in the Code area before being dragged into position in the script.](images/code-area.gif) --- /task ---
+![يتم تجميع كتل التكرار والاستنساخ بمفردها في منطقة المقاطع البرمجية قبل سحبها إلى موضعها في نص البرنامج.](images/code-area.gif) --- /task ---
 
 --- task ---
 
 انقر على كائن **حلوى**.
 
-Create a new script using the `when I start as a clone`{:class="block3control"} block.
+قم بإنشاء نص برمجي جديد باستخدام كتلة `عندما تبدأ نسخة مني`{:class="block3control"}.
 
-Add blocks from the `Looks`{:class="block3looks"} blocks menu to control the appearance of each new clone:
+أضف كتل من قائمة الكتل `الهيئة`{:class="block3looks"} للتحكم في مظهر كل نسخة جديدة:
 
 ![كائن حلوى.](images/treats-sprite.png)
 
@@ -89,7 +89,7 @@ switch costume to (Knafeh v)
 
 --- task ---
 
-You can pick random treats to be released when the piñata is hit. Use a `pick random`{:class="block3operators"} operator to select a random costume from `1`{:class="block3operators"} to `26`{:class="block3operators"} each time a clone is created:
+يمكنك اختيار حلوى عشوائية ليتم تحريرها عند ضرب البنياتا. استخدم العملية `عدد عشوائي`{:class="block3operators"} لتحديد مظهر عشوائي من `1`{:class="block3operators"} إلى `26`{:class="block3operators"} في كل مرة يتم فيها إنشاء نسخة:
 
 ![كائن حلوى.](images/treats-sprite.png)
 
@@ -104,9 +104,9 @@ go to [back v] layer
 
 --- task ---
 
-At the moment, the **Treats** clones will appear behind the **Piñata** sprite, but treats should fall from the piñata to a random position.
+في الوقت الحالي، ستظهر نسخ **الحلوى** خلف كائن **Piñata**، ولكن يجب أن تسقط الحلوى من البنياتا إلى موضع عشوائي.
 
-Add code to make the cloned **Treats** sprites `glide`{:class="block3motion"} to a random position:
+أضف كود لجعل نسخة كائن **الحلوى** `ينزلق`{:class="block3motion"} إلى موضع عشوائي:
 
 ![كائن حلوى.](images/treats-sprite.png)
 
@@ -122,15 +122,15 @@ switch costume to (pick random (1) to (26))
 
 --- task ---
 
-**Test:** Run your project and hit the piñata to see four clones of the **Treats** sprite after each hit. The costumes will be selected at random and the treats will each glide to a random position.
+**اختبار:** شغّل مشروعك واضرب البنياتا لرؤية اربع نسخ من كائن الـ**حلوى** بعد كل ضربة. سيتم اختيار المظاهر عشوائيًا وستنزلق الهدايا إلى موضع عشوائي.
 
-![An animated image showing the pinata being hit three times. Each time, four random treats fall out to random positions.](images/four-treats.gif)
+![صورة متحركة تظهر ضرب البنياتا ثلاث مرات. في كل مرة، تسقط أربع قطع حلوى عشوائية في مواضع عشوائية.](images/four-treats.gif)
 
 --- /task ---
 
 --- task ---
 
-Add animation to make the **Treats** sprite clones `turn`{:class="block3motion"} `forever`{:class="block3control"} when they reach their random position. Remember animations work best when small movements are used, so change the number of degrees to `1`{:class="block3motion"}:
+أضف حركة لجعل نسخ كائن **الحلوى** `تدور`{:class="block3motion"} `باستمرار`{:class="block3control"}عندما يصلون إلى موضعهم العشوائي. تذكر أن الرسوم المتحركة تعمل بشكل أفضل عند استخدام حركات صغيرة، لذا قم بتغيير عدد درجات الدوران إلى `1`{:class="block3motion"}:
 
 ![كائن حلوى.](images/treats-sprite.png)
 
@@ -150,7 +150,7 @@ turn right (1) degrees
 
 **اختبار:** شغّل مشروعك مرة أخرى لترى أن **حلوى** المستنسخة تدور.
 
-![An animated image showing the pinata being hit multiple times. Each time, four random treats fall out to random positions then slowly rotate in a circle.](images/spinning-treats.gif)
+![صورة متحركة تظهر ضرب البنياتا عدة مرات. في كل مرة، تسقط أربع قطع حلوى عشوائية في مواضع عشوائية ثم يتم تدويرها ببطء في دائرة.](images/spinning-treats.gif)
 
 --- /task ---
 
