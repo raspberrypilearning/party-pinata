@@ -148,7 +148,7 @@ turn right (1) degrees
 
 --- task ---
 
-**Test:** Run your project again to see the **Treats** sprite clones spin.
+**اختبار:** شغّل مشروعك مرة أخرى لترى أن **حلوى** المستنسخة تدور.
 
 ![An animated image showing the pinata being hit multiple times. Each time, four random treats fall out to random positions then slowly rotate in a circle.](images/spinning-treats.gif)
 
