@@ -17,7 +17,7 @@
 
 انقر فوق الكائن **حلوى** في قائمة الكائنات وحدد علامة التبويب **المظاهر**.
 
-There are 26 treat costumes — and you are going to use them all!
+هناك 26 مظهر - وستستخدمها جميعًا!
 
 ![The specially created treat images shown as a collection of treats.](images/treats.png)
 
@@ -25,9 +25,9 @@ There are 26 treat costumes — and you are going to use them all!
 
 --- task ---
 
-Click on the **Code** tab then create a script to `hide`{:class="block3looks"} the treats in the piñata when your project starts:
+انقر فوق علامة التبويب **المقاطع البرمجية** ثم قم بإنشاء نص برمجي `يخفي`{:class="block3looks"} الحلوى في البنياتا عند بدء مشروعك:
 
-![The Treats sprite icon.](images/treats-sprite.png)
+![كائن حلوى.](images/treats-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -37,19 +37,19 @@ go to x: (0) y: (100)
 
 --- /task ---
 
-Four treats will escape the piñata each time the piñata is hit. By **cloning** the **Treats** sprite, you can create multiple treats.
+ستهرب أربع قطع حلوى من البنياتا في كل مرة يتم ضربها. من خلال **استنساخ** كائن **حلوى**، يمكنك إنشاء العديد من المكافآت.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">**clone**</span> in Scratch is a copy of a sprite. It has all the same code, costumes, and sounds of the original sprite.      
+<span style="color: #0faeb0">** الاستنساخ **</span> في برنامج Scratch هو نسخة من كائن. يحتوي على نفس الكود والمظاهر وأصوات الكائن الأصلي.      
 </p>
 
 --- task ---
 
-Click on the **Piñata** sprite.
+انقر على الكائن ** Piñata **.
 
 Insert a `repeat`{:class="block3control"} loop into your existing code. Change the value to `4`{:class="block3control"} then add a `create clone of myself`{:class="block3control"} block. Use the drop-down arrow to select the `Treats`{:class="block3control"} sprite:
 
-![The Pinata sprite icon.](images/pinata-sprite.png)
+![كائن البينياتا.](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -76,7 +76,7 @@ Create a new script using the `when I start as a clone`{:class="block3control"} 
 
 Add blocks from the `Looks`{:class="block3looks"} blocks menu to control the appearance of each new clone:
 
-![The Treats sprite icon.](images/treats-sprite.png)
+![كائن حلوى.](images/treats-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -91,7 +91,7 @@ switch costume to (Knafeh v)
 
 You can pick random treats to be released when the piñata is hit. Use a `pick random`{:class="block3operators"} operator to select a random costume from `1`{:class="block3operators"} to `26`{:class="block3operators"} each time a clone is created:
 
-![The Treats sprite icon.](images/treats-sprite.png)
+![كائن حلوى.](images/treats-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -108,7 +108,7 @@ At the moment, the **Treats** clones will appear behind the **Piñata** sprite, 
 
 Add code to make the cloned **Treats** sprites `glide`{:class="block3motion"} to a random position:
 
-![The Treats sprite icon.](images/treats-sprite.png)
+![كائن حلوى.](images/treats-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -132,7 +132,7 @@ switch costume to (pick random (1) to (26))
 
 Add animation to make the **Treats** sprite clones `turn`{:class="block3motion"} `forever`{:class="block3control"} when they reach their random position. Remember animations work best when small movements are used, so change the number of degrees to `1`{:class="block3motion"}:
 
-![The Treats sprite icon.](images/treats-sprite.png)
+![كائن حلوى.](images/treats-sprite.png)
 
 ```blocks3
 when I start as a clone
