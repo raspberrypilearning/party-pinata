@@ -1,21 +1,21 @@
-## Add some treats
+## أضف بعض الحلويات
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Piñatas are full of treats and when they start to break, the treats fall out. In this step, you will animate international food treats to fall out of the piñata each time it is hit. Do you recognise any of the treats?
+العاب البنياتا مليئة بالحوليات وعندما تبدأ بالتكسر تسقط منها الحلوى. في هذه الخطوة، ستقوم بتحريك الأطعمة العالمية لتسقط من البينياتا في كل مرة يتم ضربها. هل تعرف أي من هذه الحلويات؟
 </div>
 <div>
-![An animated image showing the piñata being hit multiple times. Each time, four random treats fall out to random positions then slowly rotate in a circle.](images/spinning-treats.gif){:width="300px"}
+![صورة متحركة تظهر ضرب البنياتا عشر مرات. في كل مرة، تسقط أربع حلويات عشوائية في مواضع عشوائية ثم يتم تدويرها ببطء في دائرة.](images/spinning-treats.gif){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">**costume**</span> in Scratch is an image that changes the way a sprite looks. Our **graphic designers** asked Code Club leaders around the world to tell them what treats they would have at a party. Hopefully, some of the treat costumes they created will be familiar to you — and others completely new.      
+<span style="color: #0faeb0">** المظهر **</span> في برنامج in Scratch هي صورة تغير شكل الكائن. طلب ** مصممو الرسوم ** لدينا من قادة Code Club حول العالم إخبارهم بما يحصلون عليه في الحفلة. نأمل أن تكون بعض اشكال الحلوى التي ابتكروها مألوفة بالنسبة لك - والبعض الآخر جديد تمامًا.      
 </p>
 
 --- task ---
 
-Click on the **Treats** sprite in the Sprite list and select the **Costumes** tab.
+انقر فوق الكائن **حلوى** في قائمة الكائنات وحدد علامة التبويب **المظاهر**.
 
 There are 26 treat costumes — and you are going to use them all!
 
