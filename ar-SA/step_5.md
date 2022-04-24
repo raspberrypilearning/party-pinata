@@ -47,7 +47,7 @@ go to x: (0) y: (100)
 
 انقر على الكائن ** Piñata **.
 
-Insert a `repeat`{:class="block3control"} loop into your existing code. Change the value to `4`{:class="block3control"} then add a `create clone of myself`{:class="block3control"} block. Use the drop-down arrow to select the `Treats`{:class="block3control"} sprite:
+أدخل حلقة `كرر`{: class = "block3control"} في الكود الموجودة. غيّر القيمة إلى `4`{: class = "block3control"} ثم أضف `إنشاء نسخة من نفسي`{: class = "block3control"} block. استخدم سهم القائمة المنسدلة لاختيار كائن `حلوى`{: class = "block3control"}:
 
 ![كائن البينياتا.](images/pinata-sprite.png)
 
@@ -64,13 +64,13 @@ switch costume to (broken v)
 broadcast (party v)
 ```
 
-**Tip:** Use the spare space in the Code area to build your new code then drag it into the existing script:
+**نصيحة:** استخدم المساحة الاحتياطية في منطقة الكود لإنشاء كودك الجديد ثم اسحبه إلى البرنامج النصي الحالي:
 
 ![The repeat and clone blocks are assembled on their own in the Code area before being dragged into position in the script.](images/code-area.gif) --- /task ---
 
 --- task ---
 
-Click on the **Treats** sprite.
+انقر على كائن **حلوى**.
 
 Create a new script using the `when I start as a clone`{:class="block3control"} block.
 
