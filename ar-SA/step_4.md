@@ -2,18 +2,19 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-عادة ما يتم ضرب Piñatas بعصا مصنوعة من الخشب أو ورق مقوى مغطاة بشرائط ملونة من الورق. In this step, you will add code to control the piñata stick and play looping music when the piñata breaks. 
+عادة ما يتم ضرب Piñatas بعصا مصنوعة من الخشب أو ورق مقوى مغطاة بشرائط ملونة من الورق. في هذه الخطوة ، ستضيف شفرة برمجية 
+للتحكم في عصا piñata وتشغيل الموسيقى عندما تنكسر البنياتا. 
 </div>
 <div>
-![An animated image showing the Stick sprite following the mouse-pointer around the Stage.](images/follow-stick.gif){:width="300px"}
+! [صورة متحركة gif تُظهر كائن العصا يتتبع مؤشر الماوس حول المسرح.] (images / follow-stick.gif) {: width = "300px"}
 </div>
 </div>
 
 --- task ---
 
-Click on the **Stick** sprite in the Sprite list. Add code so that the stick always stays in front of the other sprites and follows the mouse-pointer (or your finger on a tablet).
+انقر فوق ايقونة **عصا** في قائمة الكائنات. أضف شفرة برمجية بحيث تظل العصا دائمًا أمام الكائنات المتحركة الأخرى وتتبع مؤشر الماوس (أو إصبعك على الكمبيوتر اللوحي).
 
-Use the `go to random position`{:class="block3motion"} block, but select `mouse-pointer`{:class="block3motion"} from the drop-down menu:
+استخدم كتلة `اذهب إلى موضع العشوائي`{: class = "block3motion"} ، ولكن حدد `مؤشر الماوس`{: class = "block3motion"} من القائمة المنسدلة:
 
 ![The Stick sprite icon](images/stick-sprite.png)
 
@@ -28,7 +29,7 @@ go to (mouse-pointer v) // Change to mouse-pointer
 
 --- task ---
 
-**Test:** Run your project and check the **Stick** sprite follows your cursor or finger around the Stage.
+**اختبار:** قم بتشغيل مشروعك وتحقق من أن **العصا** تتبع المؤشر أو إصبعك حول المسرح.
 
 ![An animated image showing the Stick sprite following the mouse-pointer around the Stage.](images/follow-stick.gif)
 
