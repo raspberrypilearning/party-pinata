@@ -52,23 +52,23 @@
 
 **اختر:** انقر فوق أداة **الخط** وستظهر قائمة منسدلة بالخطوط. يتم تحديد نوع الخط "Pixel" في مشروع البداية، ولكن يمكنك استخدام أي من الخطوط المتاحة.
 
-![The Font drop-down menu showing a choice of nine different fonts. The 'Marker' font has been selected.](images/font-type.png)
+![تعرض القائمة المنسدلة للخط اختيارًا من تسعة خطوط مختلفة. تم اختيار الخط "Marker".](images/font-type.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Select** tool and eight circles will appear around your message. Use these circles to resize your message by clicking on them and dragging them within the white box.
+انقر فوق الاداة **تحديد** وستظهر ثماني دوائر حول رسالتك. استخدم هذه الدوائر لتغيير حجم رسالتك بالنقر عليها وسحبها داخل المربع الأبيض.
 
-![The Select tool is highlighted and the message has small circles in each corner and at the central vertical and horizontal borer points so that it can be resized in multiple directions.](images/resize-message.png)
+![تمييز أداة التحديد وتحتوي الرسالة على دوائر صغيرة في كل زاوية وعند نقاط النقاط المركزية الرأسية والأفقية بحيث يمكن تغيير حجمها في اتجاهات متعددة.](images/resize-message.png)
 
 --- /task ---
 
-Your message is ready, now you can add code to hide your message inside the piñata and make your message fall from the piñata after the tenth hit.
+رسالتك جاهزة، الآن يمكنك إضافة كود لإخفاء رسالتك داخل piñata وجعل رسالتك تسقط من الـ piñata بعد الضربة العاشرة.
 
 --- task ---
 
-Click on the **Code** tab then create a script to `hide`{:class="block3looks"} the message in the piñata when your project starts:
+انقر فوق علامة التبويب **المقاطع البرمجية** ثم قم بإنشاء نص برمجي `يخفي`{:class="block3looks"} الرسالة في piñata عند بدء مشروعك:
 
 ![كائن الرسالة.](images/message-sprite.png)
 
@@ -83,9 +83,9 @@ go to x: (0) y: (100) // Inside the piñata
 
 --- task ---
 
-Create a new script to start when the `party`{:class="block3events"} message has been received.
+قم بإنشاء نص برمجي جديد للبدء عندما يتم استلام رسالة `حفل`{:class="block3events"}.
 
-Add a `repeat`{:class="block3control"} loop to animate the message. The message will `change size`{:class="block3looks"} to grow and `change y`{:class="block3motion"} position to fall as it animates:
+أضف حلقة `كرر`:class="block3control"} لتحريك الرسالة. سوف `يتغير حجم`{:class="block3looks"} الرسالة لتنمو و `ياغير الموضع ص`{:class="block3looks"} كي تسقط مع الحركة:
 
 ![كائن الرسالة.](images/message-sprite.png)
 
@@ -101,9 +101,9 @@ change y by (-10) // Change to -10
 
 --- task ---
 
-**Test:** Run your project. Hit the piñata ten times to see the message fall.
+**اختبار:** قم بتشغيل مشروعك. اضرب piñata عشر مرات لترى سقوط الرسالة.
 
-![An animated image showing the pinata being hit ten times. Treats appear after each hit and on the tenth hit the pinata breaks and the message falls to the bottom of the screen. تكبر كلما سقطت.](images/falling-message.gif)
+![صورة متحركة تظهر ضرب piñata عشر مرات. تظهر الحلوى بعد كل ضربة وفي الضربة العاشرة تنكسر البينياتا وتسقط الرسالة في الجزء السفلي من الشاشة. تكبر كلما سقطت.](images/falling-message.gif)
 
 --- /task ---
 
