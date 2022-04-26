@@ -19,12 +19,12 @@ steps:
   - 
     title: おやつをいれよう
   - 
-    title: メッセージを作ろう
+    title: メッセージを作りましょう
     completion: internal
   - 
-    title: プロジェクトをシェアしよう
+    title: シェアしましょう
     completion: external
   - 
     title: プロジェクトをアップグレードする
   - 
-    title: 次は何をしますか？
+    title: つぎは、なにをしよう？
