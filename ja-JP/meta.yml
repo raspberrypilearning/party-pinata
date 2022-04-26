@@ -1,0 +1,21 @@
+---
+title: パーティーピニャータ
+hero_image: images/banner.png
+description: このプロジェクトでは、ゆれるピニャータを作ります。ピニャータをたたくと、おやつがとびでてくるよ。さいごには、たんじょう日のメッセージがあらわれるよ。
+version: 4
+listed: false
+copyedit: false
+last_tested: "2021-03-26"
+steps:
+  - title: はじめに
+  - title: パーティーをはじめよう
+  - title: ピニャータをたたいてみよう
+    completion: engaged
+  - title: スティックをつかってみよう
+  - title: おやつをいれよう
+  - title: メッセージを作ろう
+    completion: internal
+  - title: プロジェクトをシェアしよう
+    completion: external
+  - title: プロジェクトをアップグレードする
+  - title: 次は何をしますか？
