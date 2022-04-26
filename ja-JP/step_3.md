@@ -142,7 +142,7 @@ change [たたいた数 v] by (1)
 
 --- task ---
 
-**ピニャータ**のスプライトは、**`もし`{:class="block3control"}** `たたいた数`{:class="block3variables"} の数字が`10`{:class="block3variables"} `より少ない場合`{:class="block3operators"}音をならし、 変数`たたいた数`のカウント数をふやします。
+**ピニャータ**のスプライトは、**`もし`{:class="block3control"}** `たたいた数`{:class="block3variables"} の数字が`10`{:class="block3variables"} `より少ない場合`{:class="block3operators"}音をならし、 変数`たたいた数`{:class="block3variables"}のカウント数をふやします。
 
 まず、六角形のところに`<`{:class="block3operators"}を追加（ついか）するよ：
 
