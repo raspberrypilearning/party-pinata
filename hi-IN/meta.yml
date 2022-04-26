@@ -1,0 +1,21 @@
+---
+title: पार्टी पिनाटा
+hero_image: images/banner.png
+description: एक झूलता हुआ पिनाटा बनाएं जो मारे जाने पर पकवान जारी करता है, और अंततः एक जन्मदिन संदेश प्रकट करने के लिए टूट जाता है
+version: 4
+listed: false
+copyedit: false
+last_tested: "2021-03-26"
+steps:
+  - title: भूमिका
+  - title: समारोह शुरू करें
+  - title: पिनाटा को मारें
+    completion: engaged
+  - title: एक छड़ी का इस्तेमाल करें
+  - title: कुछ पकवान जोड़ें
+  - title: एक संदेश बनाएं
+    completion: internal
+  - title: अपना प्रॉजेक्ट साझा करें
+    completion: external
+  - title: अपना प्रोजेक्ट अपग्रेड करें
+  - title: आगे क्या?
