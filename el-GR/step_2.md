@@ -57,7 +57,7 @@ switch costume to (whole v) // Update to 'whole'
 
 --- /task ---
 
-Blocks can be connected together in the Code area to run more than one at a time. Connected blocks will run in order from top to bottom.
+Τα μπλοκ μπορούν να συνδεθούν μαζί στην περιοχή Κώδικας για να εκτελούνται περισσότερα από ένα κάθε φορά. Connected blocks will run in order from top to bottom.
 
 --- task ---
 
