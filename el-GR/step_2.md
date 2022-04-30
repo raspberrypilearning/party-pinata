@@ -114,9 +114,9 @@ point in direction (90)
 
 Σύρε ένα μπλοκ `επανέλαβε 10`{:class="block3control"} στην περιοχή Κώδικα και προσάρτησέ το μέσα στον βρόχο `για πάντα`{:class="block3control"}.
 
-Go to the `Motion`{:class="block3motion"} blocks menu and drag a `turn clockwise 15 degrees`{:class="block3motion"} block into the `repeat`{:class="block3control"} block.
+Μετακινήσου στο μενού μπλοκ `Κίνηση`{:class="block3motion"} και σύρε ένα μπλοκ `στρίψε δεξιόστροφα 15 μοίρες`{:class="block3motion"} στο μπλοκ `επανάληψης`{:class="block3control"}.
 
-Change the `15`{:class="block3motion"} degrees to `1`{:class="block3motion"} degree so that the piñata only swings a small amount each time:
+Άλλαξε τις μοίρες `15`{:class="block3motion"} σε `1`{:class="block3motion"} μοίρα, έτσι ώστε η πινιάτα να ταλαντεύεται μόνο για μικρή ποσότητα κάθε φορά:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
@@ -135,7 +135,7 @@ turn right (1) degrees // Αλλαγή σε 1
 
 --- task ---
 
-**Test:** Run your project, by clicking on the **green flag** above the Stage, to see the piñata swing.
+**Δοκιμή:** Εκτέλεσε το έργο σου κάνοντας κλικ στην **πράσινη σημαία** πάνω από τη Σκηνή, για να δεις να αιωρείται η πινιάτα.
 
 **Mmm, something is not quite right!** When an object is hung from the ceiling, it won't just rotate in one direction, it will swing back and forth.
 
