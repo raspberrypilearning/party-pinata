@@ -32,9 +32,9 @@
 
 --- task ---
 
-You can now type your new Code Club birthday message. Press **Enter** on your keyboard to start a new line.
+Μπορείς τώρα να πληκτρολογήσεις το νέο σου μήνυμα γενεθλίων για το Code Club. Πάτησε **Enter** στο πληκτρολόγιό σου για να ξεκινήσεις μια νέα γραμμή.
 
-**Tip:** Don't worry if your message is a bit too big for the box as you can resize it later.
+**Συμβουλή:** Μην ανησυχείς εάν το μήνυμά σου είναι πολύ μεγάλο για το πλαίσιο, καθώς μπορείς να αλλάξεις το μέγεθός του αργότερα.
 
 ![The text editor showing a new message has been typed in place of the old message.](images/new-text.png)
 
@@ -42,7 +42,7 @@ You can now type your new Code Club birthday message. Press **Enter** on your ke
 
 --- task ---
 
-**Choose:** Click on the **Fill** icon to open the colour drop-down menu. Move the fill sliders to the left or right to select your favourite colour.
+**Επίλεξε:** Κάνε κλικ στο εικονίδιο **Γέμισμα** για να ανοίξεις το αναδυόμενο μενού χρώματος. Μετακίνησε τις μπάρες ολίσθησης πλήρωσης προς τα αριστερά ή τα δεξιά για να επιλέξεις το αγαπημένο σου χρώμα.
 
 ![The Fill drop-down menu with sliders for colour, saturation, and brightness. The message has changed from green to purple.](images/font-colour.png)
 
@@ -50,7 +50,7 @@ You can now type your new Code Club birthday message. Press **Enter** on your ke
 
 --- task ---
 
-**Choose:** Click on the **Font** tool and a drop-down list of fonts will appear. The 'Pixel' font is selected in the starter project, but you can use any of the fonts available.
+**Επίλεξε:** Κάνε κλικ στο εργαλείο **Γραμματοσειρά** και θα εμφανιστεί μια αναδυόμενο μενού γραμματοσειρών. Η γραμματοσειρά "Pixel" επιλέγεται στο αρχικό έργο, αλλά μπορείς να χρησιμοποιήσεις οποιαδήποτε από τις διαθέσιμες γραμματοσειρές.
 
 ![The Font drop-down menu showing a choice of nine different fonts. The 'Marker' font has been selected.](images/font-type.png)
 
