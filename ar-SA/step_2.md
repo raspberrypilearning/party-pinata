@@ -98,7 +98,7 @@ switch costume to (whole v)
 
 --- task ---
 
-اسحب كتلة `كرر بستمرار`{:class="block3control"} من قائمة الكتل `التحكم`{:class="block3control"} و وقم بتوصيلها باسفل التعليمات البرمجية التي استخدمتها:
+اسحب كتلة `كرر باستمرار`{:class="block3control"} من قائمة الكتل `التحكم`{:class="block3control"} و وقم بتوصيلها باسفل التعليمات البرمجية التي استخدمتها:
 
 ![كائن البينياتا.](images/pinata-sprite.png)
 
@@ -118,7 +118,7 @@ point in direction (90)
 --- task ---
 
 اسحب كتلة `كرر 10 مرات`{:class="block3control"} 
-في منطقة التعليمات البرمجية وقم بإرفاقها داخل الحلقة `كرر بستمرار`{:class="block3control"} حلقه تكرارية.
+في منطقة التعليمات البرمجية وقم بإرفاقها داخل الحلقة `كرر باستمرار`{:class="block3control"} حلقه تكرارية.
 
 اذهب الى قائمة`الحركة`{:class="block3motion"}، واسحب الكتلة`turn clockwise 15 degrees`{:class="block3motion"} block وضعها داخل `repeat`{:class="block3control"} block.
 
