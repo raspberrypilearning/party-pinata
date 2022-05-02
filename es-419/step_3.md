@@ -21,9 +21,9 @@ Un grupo de bloques conectados en Scratch se llama **script**. Los sprites puede
 
 --- task ---
 
-Haz clic en la pestaña **Código**. From `Events`{:class="block3events"}, drag a `when this sprite clicked`{:class="block3events"} block into the Code area to start a new script.
+Haz clic en la pestaña **Código**. Arrastra un bloque `al hacer clic en este objeto`{:class="block3events"} desde `Eventos`{:class="block3events"}, al área Código para iniciar un nuevo script.
 
-In the `Sound`{:class="block3sound"} blocks menu, find the `start sound`{:class="block3sound"} block. Drag it underneath the `when this sprite clicked`{:class="block3events"} block:
+En el menú de bloques `Sonido`{:class="block3sound"}, busca el bloque `iniciar sonido`{:class="block3sound"}. Drag it underneath the `when this sprite clicked`{:class="block3events"} block:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
