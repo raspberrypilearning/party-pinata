@@ -1,27 +1,27 @@
-## Hit the piñata
+## Golpea la piñata
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will code the piñata to play a sound and count one hit every time the piñata is clicked.
+En este paso, programarás la piñata para reproducir un sonido y contarás un golpe cada vez que se haga clic en la piñata.
 </div>
 <div>
-![An animated image showing the piñata being clicked ten times. After the tenth time, the costume changes to broken and the variable disappears.](images/break-pinata.gif){:width="300px"}
+![Una imagen animada que muestra cómo se hace clic diez veces en la piñata. Después de la décima vez, el disfraz cambia a rota y la variable desaparece.](images/break-pinata.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Click on the **Sounds** tab for the **Piñata** sprite and you will find a **Boing** sound. Click on the **Play** icon to hear the sound.
+Haz clic en la pestaña **Sonidos** para el objeto**Piñata** y encontrarás un sonido llamado **Boing**. Haz clic a en el botón **Reproducir** para escuchar el sonido.
 
-![The Sounds tab showing the Boing sound in the Sounds list with the Play icon (a white triangle in a blue circle) highlighted at the bottom.](images/play-boing.png)
+![La pestaña Sonidos que muestra el sonido Boing en la lista de Sonidos con el icono Reproducir (un triángulo blanco en un círculo azul) resaltado en la parte inferior.](images/play-boing.png)
 
 --- /task ---
 
-A group of connected blocks in Scratch is called a **script**. Sprites can have more than one script.
+Un grupo de bloques conectados en Scratch se llama **script**. Los sprites pueden tener más de un script.
 
 --- task ---
 
-Click on the **Code** tab. From `Events`{:class="block3events"}, drag a `when this sprite clicked`{:class="block3events"} block into the Code area to start a new script.
+Haz clic en la pestaña **Código**. From `Events`{:class="block3events"}, drag a `when this sprite clicked`{:class="block3events"} block into the Code area to start a new script.
 
 In the `Sound`{:class="block3sound"} blocks menu, find the `start sound`{:class="block3sound"} block. Drag it underneath the `when this sprite clicked`{:class="block3events"} block:
 
