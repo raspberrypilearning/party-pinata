@@ -43,9 +43,11 @@
 
 --- task ---
 
-انقر فوق علامة التبويب **Code**. اذهب الى `Looks`{:class="block3looks"} blocks menu then drag a `switch costume to`{:class="block3looks"} block to the Code area.
+انقر فوق علامة التبويب **المقاطع البرمجية**. اذهب الى `الهيئة`{:" class="block3looks} 
+قائمة الكتل ثم اسحب `غير المظهر إلى`{ ":class="block3looks} 
+مجموعة لمنطقة التعليمات البرمجية.
 
-اضغط على اسم المظهرليفتح قائمة، اختار منها ` whole` **drop-down menu** then select the <1>whole</1>{:class="block3looks"} costume:
+اضغط على اسم المظهرليفتح قائمة **القائمة المنسدلة** اختار منها `whole`{:class="block3looks"} مظهر:
 
 ![كائن البينياتا.](images/pinata-sprite.png)
 
@@ -77,7 +79,9 @@ switch costume to (whole v)
 
 --- task ---
 
-In the `Motion`{:class="block3motion"} blocks menu, find the `go to x: 0 y: 180`{:class="block3motion"} and `point in direction 90`{:class="block3motion"} blocks. اسحب الكتل إلى منطقة التعليمات البرمجية وقم بتوصيلها بأسفل التعليمات البرمجية الخاصة بك:
+في `الحركة`{:class="block3motion"} قائمة الكتل `اذهب الى x: 0 y: 180`
+{:class="block3motion"}
+و `اتجه نحو الاتجاه 90`{:class="block3motion"} كتلة. اسحب الكتل إلى منطقة التعليمات البرمجية وقم بتوصيلها بأسفل التعليمات البرمجية الخاصة بك:
 
 ![كائن البينياتا.](images/pinata-sprite.png)
 
@@ -94,7 +98,7 @@ switch costume to (whole v)
 
 --- task ---
 
-Drag a `forever`{:class="block3control"} block from the `Control`{:class="block3control"} blocks menu and connect it to the bottom of your code: اسحب كتلة "forever" من تبويب"control" وقم بتوصيلها باسفل التعليمات البرمجية التي استخدمتها.
+اسحب كتلة `كرر بستمرار`{:class="block3control"} من قائمة الكتل `التحكم`{:class="block3control"} و وقم بتوصيلها باسفل التعليمات البرمجية التي استخدمتها:
 
 ![كائن البينياتا.](images/pinata-sprite.png)
 
@@ -108,11 +112,13 @@ point in direction (90)
 
 --- /task ---
 
-A `repeat`{:class="block3control"} loop can be used to make the **Piñata** sprite repeat a small movement many times. يمكن استخدام حلقة"كرر" لجعل البنياتا يكرر حركة صغيرة عدة مرات. هذا سيجعل البنياتا تظهر متحركة.
+حلقة `تكرار`{:class="block3control"} 
+يمكن استخدامها لجعل **Piñata** الكائن يكرر حركة صغيرة عدة مرات. هذا سيجعل البنياتا تظهر متحركة.
 
 --- task ---
 
-اسحب كتلة `repeat 10`{: class = "block3control"} في منطقة التعليمات البرمجية وقم بإرفاقها داخل الحلقة `forever `{: class = "block3control"}.
+اسحب كتلة `كرر 10 مرات`{:class="block3control"} 
+في منطقة التعليمات البرمجية وقم بإرفاقها داخل الحلقة `كرر بستمرار`{:class="block3control"} حلقه تكرارية.
 
 اذهب الى قائمة`الحركة`{:class="block3motion"}، واسحب الكتلة`turn clockwise 15 degrees`{:class="block3motion"} block وضعها داخل `repeat`{:class="block3control"} block.
 
