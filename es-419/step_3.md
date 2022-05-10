@@ -23,9 +23,9 @@ Un grupo de bloques conectados en Scratch se llama **script**. Los sprites puede
 
 Haz clic en la pestaña **Código**. Arrastra un bloque `al hacer clic en este objeto`{:class="block3events"} desde `Eventos`{:class="block3events"}, al área Código para iniciar un nuevo script.
 
-En el menú de bloques `Sonido`{:class="block3sound"}, busca el bloque `iniciar sonido`{:class="block3sound"}. Drag it underneath the `when this sprite clicked`{:class="block3events"} block:
+En el menú de bloques `Sonido`{:class="block3sound"}, busca el bloque `iniciar sonido`{:class="block3sound"}. Arrástralo debajo del bloque `al hacer clic en este objeto`{:class="block3events"}:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![El icono del objeto Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -36,33 +36,33 @@ start sound [Boing v]
 
 --- task ---
 
-**Test:** Run your project by clicking on the **green flag** above the Stage. Click on the piñata as it swings to hear the boing sound.
+**Prueba:** Ejecuta tu proyecto haciendo clic en la **bandera verde** sobre el escenario. Haz clic en la piñata mientras se balancea para escuchar el sonido boing.
 
 --- /task ---
 
-A `variable`{:class="block3variables"} is a way of storing numbers and/or text. The number of times the piñata is clicked will be stored in a variable called `hits`{:class="block3variables"} so it can be used at any time.
+Una `variable`{:class="block3variables"} es una forma de almacenar números y/o texto. La cantidad de veces que se hace clic en la piñata se almacenará en una variable llamada `golpes`{:class="block3variables"} para que pueda usarse en cualquier momento.
 
 --- task ---
 
-From the `Variables`{:class="block3variables"} blocks menu, click the **Make a Variable** button.
+En el menú de bloques `Variables`{:class="block3variables"}, haz clic en el botón **Crear una variable**.
 
-![The variables blocks menu with the 'Makes a Variable' button.](images/make-variable.png)
+![El menú de bloques de variables con el botón 'Crear una variable'.](images/make-variable.png)
 
-Call your new variable **hits**:
+Llama **golpes** a tu nueva variable:
 
-![The 'New variable' pop-up window with the name 'hits' typed in the 'New variable name' box.](images/new-variable.png)
+![La ventana emergente 'Nueva variable' con el nombre 'golpes' escrito en el cuadro 'Nuevo nombre de variable'.](images/new-variable.png)
 
-**Notice:** The new 'hits' variable appears on the Stage and can now be used in the `Variable`{:class="block3variables"} blocks.
+**Aviso:** La nueva variable 'golpes' aparece en el escenario y ahora se puede usar en los bloques `Variable`{:class="block3variables"}.
 
-![The hits variable on the Stage.](images/variable-stage.png)
+![La variable golpes en el escenario.](images/variable-stage.png)
 
-![The Variable blocks including new 'hits' block.](images/variable-blocks.png)
+![Los bloques de variables, incluido el nuevo bloque 'golpes'.](images/variable-blocks.png)
 
 --- /task ---
 
 --- task ---
 
-Each time the project starts, the number of `hits`{:class="block3variables"} should be reset to `0`{:class="block3variables"}.
+Cada vez que se inicia el proyecto, el número de `golpes`{:class="block3variables"} debe restablecerse a `0`{:class="block3variables"}.
 
 Drag the `set hits to 0`{:class="block3variables"} block into the first script in the Code area, between the `switch costume to`{:class="block3looks"} block and the `go to x: (0) y: (180)`{:class="block3motion"} block.
 
