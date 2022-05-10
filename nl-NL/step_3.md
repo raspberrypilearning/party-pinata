@@ -11,7 +11,7 @@ In deze stap programmeer je de piñata om een geluid af te spelen en tel je éé
 
 --- task ---
 
-Klik op de **Geluiden** tab voor de **Piñata** sprite en je zult een **Boing** geluid vinden. Klik op de **Spelen** knop zodat je het geluid kan horen.
+Klik op de **Geluiden** tab voor de **Piñata** sprite en je zult een **Boing** geluid vinden. Klik op de **Spelen** knop zodat je het geluid kunt horen.
 
 ![Het tabblad Geluiden met het Boing-geluid in de lijst Geluiden met het pictogram Spelen (een witte driehoek in een blauwe cirkel) onderaan gemarkeerd.](images/play-boing.png)
 
@@ -40,7 +40,7 @@ start geluid [Boing v]
 
 --- /task ---
 
-Een `variabele`{:class="block3variables"} is een manier om getallen en/of tekst op te slaan. Het aantal keren dat er op de piñata wordt geklikt, wordt opgeslagen in een variabele met de naam `slagen`{:class="block3variables"}, zodat deze op elk moment kan worden gebruikt.
+Een `variabele`{:class="block3variables"} is een manier om getallen en/of tekst op te slaan. Het aantal keren dat er op de piñata wordt geklikt, wordt opgeslagen in een variabele met de naam `treffers`{:class="block3variables"}, zodat deze op elk moment kan worden gebruikt.
 
 --- task ---
 
