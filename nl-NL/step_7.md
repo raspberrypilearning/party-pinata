@@ -1,4 +1,4 @@
-## Deel
+## Deel je project
 
 Nu is het tijd om je project te delen zodat andere mensen kunnen deelnemen aan het feest.
 
