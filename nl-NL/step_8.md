@@ -17,11 +17,11 @@ Wist je dat je ook code aan de achtergrond kunt toevoegen?
 
 Wat gebeurt er met de achtergrond als de piñata breekt? Welke blokken zouden dit effect creëren? 
 
-[Bekijk de code](https://scratch.mit.edu/projects/653771814/){:target="_blank"}
+[Bekijk de code](https://scratch.mit.edu/projects/687987258/){:target="_blank"}
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/653771814/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/687987258/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
 --- /task ---
@@ -46,10 +46,10 @@ wacht (0.5) sec. // Probeer verschillende getallen om bij de muziek te laten pas
 verander grootte met (-20) // Negatief getal om te verkleinen
 ```
 
-[Bekijk de code](https://scratch.mit.edu/projects/656332454/){:target="_blank"}
+[Bekijk de code](https://scratch.mit.edu/projects/687987819/){:target="_blank"}
 
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/656332454/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/687987819/?autostart=false" frameborder="0"></iframe>
 </div>
 
 --- /task ---
@@ -59,7 +59,7 @@ verander grootte met (-20) // Negatief getal om te verkleinen
 title: Voltooid project
 ---
 
-Je kunt het [voltooide project hier](https://scratch.mit.edu/projects/649873783/){:target="_blank"} bekijken.
+Je kunt het [voltooide project hier](https://scratch.mit.edu/projects/687981271/){:target="_blank"} bekijken.
 
 --- /collapse ---
 

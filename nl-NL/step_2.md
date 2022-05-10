@@ -11,7 +11,7 @@ In deze stap kies je een piñata uiterlijk en programmeer je de piñata om te sl
 
 --- task ---
 
-Open het [Feest piñata startersproject](https://scratch.mit.edu/projects/653082997/editor){:target="_blank"}. Scratch wordt in een nieuw browsertabblad geopend.
+Open het [Feest piñata startersproject](https://scratch.mit.edu/projects/687986577/editor){:target="_blank"}. Scratch wordt in een nieuw browsertabblad geopend.
 
 [[[working-offline]]]
 
@@ -23,7 +23,7 @@ De Scratch-editor ziet er als volgt uit:
 
 Het **Speelveld** is waar je project wordt uitgevoerd en een **achtergrond** verandert de manier waarop het Speelveld eruitziet. Er is een Code Club feestachtergrond voor je toegevoegd.
 
-In Scratch worden karakters en objecten **sprites** genoemd en verschijnen ze op het Speelveld. Je kunt de **Piñata** en **Stick** sprites in het speelveld zien.
+In Scratch worden karakters en objecten **sprites** genoemd en verschijnen ze op het Speelveld. Je kunt de **Piñata** en **Stok** sprites in het speelveld zien.
 
 ![Het speelveld met een blauwe achtergrond met patroon, cadeautjes en ballonnen. Ook de Piñata- en Stick-sprites zijn op het speelveld.](images/backdrop-and-sprites.png)
 
@@ -66,7 +66,7 @@ Sleep een `wanneer op de groene vlag wordt geklikt`{:class="block3events"} blok 
 ![Het pictogram van de Piñata-sprite.](images/pinata-sprite.png)
 
 ```blocks3
-+ wanneer op de groene vlag wordt geklikt
++ when flag clicked
 verander uiterlijk naar (heel v)
 ```
 ![Wanneer op de vlag wordt geklikt blok wordt toegevoegd aan het codegebied en verbonden met het verander uiterlijk blok.](images/add-flag-clicked.gif)
@@ -82,7 +82,7 @@ Zoek in het menu `Beweging`{:class="block3motion"} blokken het `ga naar x: 0 y: 
 ![Het pictogram van de Piñata-sprite.](images/pinata-sprite.png)
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
+when flag clicked
 verander uiterlijk naar (heel v)
 + ga naar x: (0) y: (180)
 + richt naar (90) graden // Start positie
@@ -99,7 +99,7 @@ Sleep een `herhaal`{:class="block3control"} blok uit het `Besturen`{:class="bloc
 ![Het pictogram van de Piñata-sprite.](images/pinata-sprite.png)
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
+when flag clicked
 verander uiterlijk naar (heel v)
 ga naar x: (0) y: (180)
 richt naar (90) graden
@@ -121,13 +121,13 @@ Verander de `15`{:class="block3motion"} graden in `1`{:class="block3motion"} gra
 ![Het pictogram van de Piñata-sprite.](images/pinata-sprite.png)
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
+when flag clicked
 verander uiterlijk naar (heel v)
 ga naar x: (0) y: (180)
 richt naar (90) graden
 herhaal
 + herhaal (10) 
-draai rechtsom (1) graden // Verander naar 1
+turn right (1) degrees // Verander naar 1
 ```
 ![Herhaal tot blok dat wordt toegevoegd binnen het herhaal blok en daarbinnen het draai rechtsom graden blok.](images/add-repeat.gif)
 
@@ -154,19 +154,19 @@ Voeg code toe aan je `herhaal`{:class="block3control"} lus toe zodat de piñata 
 ![Het pictogram van de Piñata-sprite.](images/pinata-sprite.png)
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
+when flag clicked
 verander uiterlijk naar (heel v)
 ga naar x: (0) y: (180)
 richt naar (90) graden
 herhaal
 herhaal (10) //Zwaait 10 graden met de klok mee vanaf het midden
-draai rechtsom (1) graden
+turn right (1) degrees
 einde
 + herhaal (20) // Zwaait 20 graden tegen de klok in door het midden
-draai linksom (1) graden // Verander naar 1
+turn left (1) degrees // Verander naar 1
 einde
 + herhaal (10) // Zwaait 10 graden met de klok mee terug naar het midden
-draai rechtsom (1) graden // Verander naar 1
+turn right (1) degrees // Verander naar 1
 einde
 ```
 

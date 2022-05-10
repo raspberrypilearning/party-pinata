@@ -71,20 +71,20 @@ Je code zou er als volgt uit moeten zien:
 ![Het pictogram van de Piñata-sprite.](images/pinata-sprite.png)
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
+when flag clicked
 verander uiterlijk naar (heel v)
 + maak [treffers v] (0)
 ga naar x: (0) y: (180)
 richt naar (90) graden
 herhaal
 herhaal (10)
-draai rechtsom (1) graden
+turn right (1) degrees
 einde
 herhaal (20)
-draai linksom (1) graden
+turn left (1) degrees
 einde
 herhaal (10)
-draai rechtsom (1) graden
+turn right (1) degrees
 einde
 ```
 
@@ -214,7 +214,7 @@ In Scratch kan het `signaal`{:class="block3events"} blok gebruikt worden om een 
 
 --- task ---
 
-Zoek het `zend signaal` blok onder het `Gebeurtenissen`{:class="blocks3events"} blokkenmenu:
+Zoek het `zend signaal`{:class="block3events"} blok onder het `Gebeurtenissen`{:class="block3events"} blokkenmenu:
 
 ![Het pictogram van de Piñata-sprite.](images/pinata-sprite.png)
 
@@ -228,7 +228,7 @@ verander uiterlijk naar (gebroken v)
 + zend signaal (bericht1 v)
 ```
 
-Klik op `bericht1`{:class="block3events"} en kies **'Nieuw bericht'**. Noem het nieuwe bericht `feest`{:class="blocks3events"}.
+Klik op `bericht1`{:class="block3events"} en kies **'Nieuw bericht'**. Noem het nieuwe bericht `feest`{:class="block3events"}.
 
 ![Het vervolgkeuzemenu op het signaalblok met de menuoptie 'Nieuw bericht'.](images/new-message.png)
 

@@ -18,7 +18,7 @@ Gebruik het `ga naar willekurige positie`{:class="block3motion"} blok, maar sele
 ![Het pictogram van de Stok-sprite](images/stick-sprite.png)
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
+when flag clicked
 herhaal
 ga naar laag [voorgrond v]
 ga naar (muisaanwijzer v) // Verander naar muisaanwijzer

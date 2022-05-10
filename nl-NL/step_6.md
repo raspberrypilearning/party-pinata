@@ -68,12 +68,12 @@ Je bericht is klaar, nu kun je code toevoegen om je bericht in de piñata te ver
 
 --- task ---
 
-Klik op het tabblad **Code** en maak vervolgens een script om het bericht in de piñata `te verbergen`{:class="blocks3looks"} wanneer je project start:
+Klik op het tabblad **Code** en maak vervolgens een script om het bericht in de piñata `te verbergen`{:class="block3looks"} wanneer je project start:
 
 ![Het pictogram van de Bericht-sprite.](images/message-sprite.png)
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
+when flag clicked
 verdwijn
 maak grootte (10) % // Verander naar 10 om klein te beginnen
 ga naar x: (0) y: (100) // Binnenin de piñata

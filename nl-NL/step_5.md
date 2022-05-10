@@ -25,12 +25,12 @@ Er zijn 26 snoepuiterlijken - en je gaat ze allemaal gebruiken!
 
 --- task ---
 
-Klik op het tabblad **Code** en maak vervolgens een script om het snoep in de piñata `te verbergen`{:class="blocks3looks"} wanneer je project start:
+Klik op het tabblad **Code** en maak vervolgens een script om het snoep in de piñata `te verbergen`{:class="block3looks"} wanneer je project start:
 
 ![Het pictogram van de Snoep-sprite.](images/treats-sprite.png)
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
+when flag clicked
 verdwijn
 ga naar x: (0) y: (100)
 ```
@@ -57,7 +57,7 @@ als <(treffers) < (10)> dan
 start geluid [Boing v]
 verander [treffers v] met (1)
 + herhaal (4) //Verander naar 4
-maak kloon van (snoep v) //Selecteer Snoep
+create clone of (Snoep v) //Selecteer Snoep
 einde
 als <(treffers)=(10)> dan
 verander uiterlijk naar (gebroken v)
@@ -131,7 +131,7 @@ verander uiterlijk naar (willekeurig getal tussen (1) en (26))
 
 --- task ---
 
-Voeg animatie toe om de **Snoep** klonen `continu`{:class="blocks3control"} `te laten draaien`{:class="block3motion"} wanneer ze hun willekeurige positie bereiken. Onthoud dat animaties het beste werken bij kleine bewegingen, dus verander het aantal graden in `1`{:class="block3motion"}:
+Voeg animatie toe om de **Snoep** klonen `continu`{:class="block3control"} `te laten draaien`{:class="block3motion"} wanneer ze hun willekeurige positie bereiken. Onthoud dat animaties het beste werken bij kleine bewegingen, dus verander het aantal graden in `1`{:class="block3motion"}:
 
 ![Het pictogram van de Snoep-sprite.](images/treats-sprite.png)
 
@@ -142,7 +142,7 @@ ga naar laag [achtergrond v]
 verander uiterlijk naar (willekeurig getal tussen (1) en (26))
 + schuif in (1) sec. naar (willekeurige positie v) 
 + herhaal
-draai rechtsom (1) graden
+turn right (1) degrees
 ```
 
 --- /task ---
