@@ -42,7 +42,7 @@ Je kunt nu je nieuwe Code Club verjaardagsbericht typen. Druk op **Enter** op je
 
 --- task ---
 
-**Kies:**Klik op het **Vulling** pictogram om het kleuren vervolgkeuzemenu te openen. Verplaats de vulschuifregelaars naar links of rechts om je favoriete kleur te selecteren.
+**Kies:** Klik op het **Vulling** pictogram om het kleuren vervolgkeuzemenu te openen. Verplaats de vulschuifregelaars naar links of rechts om je favoriete kleur te selecteren.
 
 ![Het vervolgkeuzemenu Vulling met schuifregelaars voor kleur, verzadiging en helderheid. Het bericht is veranderd van groen in paars.](images/font-colour.png)
 
@@ -50,7 +50,7 @@ Je kunt nu je nieuwe Code Club verjaardagsbericht typen. Druk op **Enter** op je
 
 --- task ---
 
-**Kies:** Klik op de tool **Lettertype** en er verschijnt een vervolgkeuzelijst met lettertypen. Het lettertype 'Pixel' is geselecteerd in het startproject, maar je kunt elk van de beschikbare lettertypen gebruiken.
+**Kies:** Klik op het **Lettertype**-gereedschap en er verschijnt een vervolgkeuzelijst met lettertypen. Het lettertype 'Pixel' is geselecteerd in het startproject, maar je kunt elk van de beschikbare lettertypen gebruiken.
 
 ![Het vervolgkeuzemenu Lettertype met een keuze uit negen verschillende lettertypen. Het lettertype 'Marker' is geselecteerd.](images/font-type.png)
 
