@@ -64,11 +64,11 @@ Llama **golpes** a tu nueva variable:
 
 Cada vez que se inicia el proyecto, el número de `golpes`{:class="block3variables"} debe restablecerse a `0`{:class="block3variables"}.
 
-Drag the `set hits to 0`{:class="block3variables"} block into the first script in the Code area, between the `switch costume to`{:class="block3looks"} block and the `go to x: (0) y: (180)`{:class="block3motion"} block.
+Arrastra el bloque `fijar golpes a 0`{:class="block3variables"} al primer script en el área de código, entre el bloque `cambiar disfraz a`{:class="block3looks"} y el bloque`ir a x: ( 0) y: (180)`{:class="block3motion"}.
 
-Your code should look like this:
+Tu código debe parecerse a esto:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![El icono del objeto Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -92,9 +92,9 @@ end
 
 --- task ---
 
-Every time the **Piñata** sprite is clicked, the number of `hits`{:class="block3variables"} should increase.
+Cada vez que se hace clic en el objeto **Piñata**, el número de `golpes`{:class="block3variables"} debe aumentar.
 
-Add a block to change `hits`{:class="block3variables"} by `1`{:class="block3variables"} when the **Piñata** sprite is clicked:
+Agrega un bloque para cambiar `golpes`{:class="block3variables"} en `1`{:class="block3variables"} cuando se hace clic en el objeto **Piñata**:
 
 ![The Piñata sprite icon.](images/pinata-sprite.png)
 
