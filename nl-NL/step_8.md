@@ -5,9 +5,9 @@ Als je tijd hebt, kunt je jouw project verbeteren. Misschien heb je al ideeën o
 Je zou:
 
 + Extra uiterlijken, geluiden of bewegingsblokken kunnen gebruiken om je bericht en traktaties verder te animeren
-+ Zoek afbeeldingen van je favoriete lekkernijen en voeg ze toe aan de uiterlijken voor de sprite **Snoep**
++ Afbeeldingen kunnen zoeken van je favoriete lekkernijen en ze toevoegen aan de uiterlijken voor de sprite **Snoep**
 + Het aantal snoepjes kunnen verhogen dat bij elke treffer uit de piñata valt
-+ Je project gemakkelijker of moeilijker maken door het aantal keren te wijzigen dat je de piñata moet raken voordat deze breekt
++ Je project gemakkelijker of moeilijker kunnen maken door het aantal keren te wijzigen dat je de piñata moet raken voordat deze breekt
 
 --- task ---
 ### Probeer het uit
@@ -28,7 +28,7 @@ Wat gebeurt er met de achtergrond als de piñata breekt? Welke blokken zouden di
 
 --- task ---
 
-Je zou code kunnen toevoegen om het bericht `continu`{:class="block3control"} te laten animeren wanneer het in positie is. Gebruik `verander grootte`{:class="block3looks"} en `verander kleureffect`{:class="block3looks"} blokken zodat het lijkt alsof het bericht meebeweegt met de feestmuziek:
+Je zou code kunnen toevoegen om het bericht `continu`{:class="block3control"} te laten animeren wanneer het op zijn plek is. Gebruik `verander grootte`{:class="block3looks"} en `verander kleureffect`{:class="block3looks"} blokken zodat het lijkt alsof het bericht meebeweegt met de feestmuziek:
 
 ![Het pictogram van de Bericht-sprite.](images/message-sprite.png)
 
