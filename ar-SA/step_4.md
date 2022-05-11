@@ -69,7 +69,7 @@ go to (mouse-pointer v) // Change to mouse-pointer
 
 --- task ---
 
-انقر فوق علامة التبويب **شفرة برمجية** وأنشئ نصًا برمجيًا جديدًا لتكرار الصوت `كرر باستمرار`{: class = "block3control"} عندما يتم استلام رسالة `احتفال`{: class = "block3events"}:
+انقر فوق علامة التبويب **المقاطع البرمجية** وأنشئ نصًا برمجيًا جديدًا لتكرار الصوت `كرر باستمرار`{: class = "block3control"} عندما يتم استلام رسالة `حفلة`{: class = "block3events"}:
 
 ![كائن البنياتا.](images/stick-sprite.png)
 
