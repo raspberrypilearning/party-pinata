@@ -21,7 +21,7 @@
 
 --- task ---
 
-انقر على تبويب **المقاطع البرمجية**. من `الأحداث`{: class = "block3events"} ، اسحب كتلة `عند النقر على هذا الكائن`{: class = "block3events"} الى منطقة كتابة الشفرة البرمجية.
+انقر على تبويب **المقاطع البرمجية**. من قائمة `الأحداث`{: class = "block3events"} ، اسحب كتلة `عند نقر هذا الكائن`{: class = "block3events"} الى منطقة كتابة التعليمات البرمجية.
 
 في قائمة كتل `الصوت`{:class="block3sound"} جد كتلة `ابدأ الصوت`{:class="block3sound"}. أضِف المقطع البرمجي `عند نقر هذا الكائن`{:class="block3events"}:
 
@@ -36,7 +36,7 @@ start sound [Boing v]
 
 --- task ---
 
-**اختبار:** قم بتشغيل المشروع، بالضغط على العلم الاخضر**green flag**، حتى تتاكد بان البنياتا تتأرجح. انقر على piñata وهو يتأرجح لسماع صوت boing.
+**اختبار:** قم بتشغيل المشروع، بالضغط على **العلم الاخضر**، حتى تتاكد بان البنياتا تتأرجح. انقر على piñata وهو يتأرجح لسماع صوت boing.
 
 --- /task ---
 
@@ -142,7 +142,7 @@ change [hits v] by (1)
 
 --- task ---
 
-يجب أن يقوم</strong>بنياتا**بتشغيل صوت وزيادة عدد</code>الضربات`{:class="block3variables"} <strong x-id="1"><code>if`{:class="block3control"}** the number of `الضربات`{:class="block3variables"} is `less than`{:class="block3operators"} `10`{:class="block3variables"}.
+يجب أن يقوم كائن ** Piñata ** بتشغيل صوت وزيادة عدد `الضربات` {:class="block3variables"} **`اذا`{:class="block3control"}** كان عدد `الضربات`{:class="block3variables"} `اصغر من `{:class="block3operators"} `10`{:class="block3variables"}.
 
 أولًا، أضف العملية `<`{:class="block3operators"} إلى الإدخال على الشكل السداسي:
 
@@ -160,16 +160,17 @@ change [hits v] by (1)
 
 --- task ---
 
-قم بإنهاء بناء شرط `إذا`{: class = "block3control"} عن طريق سحب متغير`الضربات`{: class = "block3variables"} على يسار عامل التشغيل</code> `&lt;{: class = "</0>"} واكتب القيمة "10" على اليمين:</p>
+قم بإنهاء بناء شرط `إذا`{: class = "block3control"} عن طريق سحب متغير`الضربات`{: class = "block3variables"} على يسار العملية `<`{:class="block3operators"} واكتب القيمة "10" على اليمين:
 
-<p spaces-before="0"><img src="images/pinata-sprite.png" alt="كائن البنياتا." /></p>
+![كائن البنياتا.](images/pinata-sprite.png)
 
-<pre><code class="blocks3">when this sprite clicked
+```blocks3
+when this sprite clicked
 + if <(hits) < (10)> then
 start sound [Boing v]
 change [hits v] by (1)
 
-`</pre>
+```
 
 --- /task ---
 
@@ -209,11 +210,11 @@ switch costume to (broken v)
 
 عندما ينكسر كائن **Piñata** ، تحتاج جميع الكائنات الأخرى إلى معرفة أن الحفلة قد بدأت.
 
-في Scratch ، يمكن استخدام كتلة `البث`{: class = "block3events"} لإرسال **رسالة بحيث جميع الكائنات**يمكنها </strong> استلامها**.</p>
+في Scratch ، يمكن استخدام كتلة `البث`{: class = "block3events"} **لإرسال** رسالة بحيث يمكن لجميع الكائنات ** استلامها**.
 
 --- task ---
 
-أضف كتلة `بث الرسالة`{: class = "block3events"} من قائمة الاحداث `Events`{: class = "block3events"}:
+أضف كتلة `بث`{: class = "block3events"} من قائمة `الاحداث`{: class = "block3events"}:
 
 ![كائن البينياتا.](images/pinata-sprite.png)
 
