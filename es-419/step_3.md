@@ -96,7 +96,7 @@ Cada vez que se hace clic en el objeto **Piñata**, el número de `golpes`{:clas
 
 Agrega un bloque para cambiar `golpes`{:class="block3variables"} en `1`{:class="block3variables"} cuando se hace clic en el objeto **Piñata**:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![El icono del objeto Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -108,25 +108,25 @@ start sound [Boing v]
 
 --- task ---
 
-**Test:** Run your project a couple of times. Check that `hits`{:class="block3variables"} always starts at `0`{:class="block3variables"} and increases by `1`{:class="block3variables"} each time you click on the **Piñata** sprite.
+**Prueba:** Ejecuta tu proyecto un par de veces. Comprueba que `golpes`{:class="block3variables"} siempre comienza en `0`{:class="block3variables"} y aumenta en `1`{:class="block3variables"} cada vez que haces clic en el objeto **Piñata**.
 
-![The Stage showing the number stored in the hits variable is '8'.](images/hits-increase.png)
+![El escenario muestra que el número almacenado en la variable golpes es '8'.](images/hits-increase.png)
 
 --- /task ---
 
-A piñata is hard to break but it does not last forever. Your piñata will last for `10 hits`{:class="block3variables"} before breaking open.
+Una piñata es difícil de romper pero no dura para siempre. Tu piñata durará `10 golpes`{:class="block3variables"} antes de romperse.
 
-An `if`{:class="block3control"} block can be used to make a decision based on a **condition**.
+Se puede usar un bloque `si`{:class="block3control"} para tomar una decisión basada en una **condición**.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-We use <span style="color: #0faeb0">**conditions**</span> all the time to make decisions. We could say “if the pencil is blunt, then sharpen it”. `If` blocks and conditions let us write code that does something different depending on whether a condition is true or false.
+Usamos <span style="color: #0faeb0">**condiciones**</span> todo el tiempo para tomar decisiones. Podríamos decir “si el lápiz no tiene punta, entonces hazle punta”. Los bloques y condiciones `Si`{: class="block3control"} nos permiten escribir código que hace algo diferente dependiendo de si una condición es verdadera o falsa.
 </p>
 
 --- task ---
 
-Go to the `Control`{:class="block3control"} blocks menu. Drag an `if`{:class="block3control"} block into the Code area and insert it around the blocks in your `when this sprite clicked`{:class="block3events"} script:
+Ve al menú de bloques `Control`{:class="block3control"}. Arrastra un bloque `si`{:class="block3control"} al área de Código e insértalo alrededor de los bloques en tu secuencia de comandos `al hacer clic en este objeto`{:class="block3events"}:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![El icono del objeto Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -138,11 +138,11 @@ change [hits v] by (1)
 
 --- /task ---
 
-The `if`{:class="block3control"} block has a hexagon-shaped input where you can build a condition.
+El bloque `si`{:class="block3control"} tiene una entrada en forma de hexágono donde puedes crear una condición.
 
 --- task ---
 
-The **Piñata** sprite should play a sound and increase the count of `hits`{:class="block3variables"} **`if`{:class="block3control"}** the number of `hits`{:class="block3variables"} is `less than`{:class="block3operators"} `10`{:class="block3variables"}.
+El objeto **Piñata** debe reproducir un sonido y aumentar el conteo de `golpes`{:class="block3variables"} **`si`{:class="block3control"}** el número de `golpes`{:class="block3variables" "} es `menos que`{:class="block3operators"} `10`{:class="block3variables"}.
 
 First add a `<`{:class="block3operators"} operator into the hexagon-shaped input:
 
