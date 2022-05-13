@@ -1,21 +1,21 @@
-## Use a stick
+## Usa un palo
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Piñatas are usually hit with a stick made from wood or thick card that is covered in colourful strips of paper. In this step, you will add code to control the piñata stick and play looping music when the piñata breaks. 
+Las piñatas se suelen golpear con un palo de madera o cartulina gruesa que se cubre con tiras de papel de colores. En este paso, agregará código para controlar el palo de la piñata y reproducir música en bucle cuando la piñata se rompa. 
 </div>
 <div>
-![An animated image showing the Stick sprite following the mouse-pointer around the Stage.](images/follow-stick.gif){:width="300px"}
+![Una imagen animada que muestra el objeto Palo siguiendo el puntero del mouse alrededor del escenario.](images/follow-stick.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Click on the **Stick** sprite in the Sprite list. Add code so that the stick always stays in front of the other sprites and follows the mouse-pointer (or your finger on a tablet).
+Haz clic en el objeto **Palo** en la lista de objetos. Agrega código para que el palo siempre permanezca frente a los otros objetos y siga el puntero del mouse (o tu dedo en una tableta).
 
-Use the `go to random position`{:class="block3motion"} block, but select `mouse-pointer`{:class="block3motion"} from the drop-down menu:
+Usa el bloque `ir a posición aleatoria`{:class="block3motion"}, pero selecciona `puntero del ratón`{:class="block3motion"} del menú desplegable:
 
-![The Stick sprite icon](images/stick-sprite.png)
+![El ícono del objeto Palo](images/stick-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -28,49 +28,49 @@ go to (mouse-pointer v) // Change to mouse-pointer
 
 --- task ---
 
-**Test:** Run your project and check the **Stick** sprite follows your cursor or finger around the Stage.
+**Prueba:** Ejecuta tu proyecto y verifiqca que el objeto **Palo** siga tu cursor o dedo alrededor del escenario.
 
-![An animated image showing the Stick sprite following the mouse-pointer around the Stage.](images/follow-stick.gif)
-
---- /task ---
-
-There are many different types of sounds in Scratch from voice and animal noises to over 100 other sound effects.
-
-Scratch also has **looping sounds** that can be used in `forever`{:class="block3control"} or `repeat`{:class="block3control"} loops to sound like they are playing continuously.
-
---- task ---
-
-Go to the **Sounds** tab and click on the **Choose a sound** icon.
-
-![The Choose a sound icon with the sounds pop-up menu. When selected, the choose a sound icon is a white speaker on a green circle.](images/sound-icon.png)
+![Una imagen animada que muestra el objeto Palo siguiendo el puntero del ratón alrededor del escenario.](images/follow-stick.gif)
 
 --- /task ---
 
+Hay muchos tipos diferentes de sonidos en Scratch, desde voces y ruidos de animales hasta más de 100 otros efectos de sonido.
+
+Scratch también tiene **sonidos en bucle** que se pueden usar en bucles `para siempre`{:class="block3control"} o `repetir`{:class="block3control"} para que suenen como si estuvieran reproduciéndose continuamente.
+
 --- task ---
 
-From the **Choose a sound** gallery, select the **Loops** category.
+Vw a la pestaña **Sonidos** y haz clic en el icono **Elige un sonido**.
 
-![The Sound gallery with 'Loops' category highlighted in orange to show it has been selected. The other categories are in blue.](images/loops-category.png)
+![El icono Elige un sonido con el menú emergente de sonidos. Cuando se selecciona, el ícono de elegir un sonido es un altavoz blanco en un círculo verde.](images/sound-icon.png)
 
 --- /task ---
 
 --- task ---
 
-**Choose:** Hover over the **play** icons to hear the looping sounds. Add your favourite by clicking on it.
+En la galería **Elige un sonido**, selecciona la categoría **Ciclos**.
 
-![The 'Hip hop' sound with play icon highlighted in the top-right corner of the sound icon.](images/play-icon.png)
-
-The sound will then appear in your Sounds list:
-
-![The 'Hip hop' sound in the Sound list on the Sounds tab.](images/added-sound.png)
+![La galería de sonidos con la categoría 'Ciclos' resaltada en naranja para mostrar que ha sido seleccionada. Las otras categorías están en azul.](images/loops-category.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab and create a new script to loop the sound `forever`{:class="block3control"} when the `party`{:class="block3events"} message has been received:
+**Elige:** Pasa el cursor sobre los íconos **reproducir** para escuchar los sonidos en bucle. Agrega tu favorito haciendo clic en él.
 
-![The Stick sprite icon.](images/stick-sprite.png)
+![El sonido 'Hip hop' con el icono de reproducción resaltado en la esquina superior derecha del icono de sonido.](images/play-icon.png)
+
+El sonido aparecerá en tu lista de Sonidos:
+
+![El sonido 'Hip hop' en la lista de Sonidos en la pestaña Sonidos.](images/added-sound.png)
+
+--- /task ---
+
+--- task ---
+
+Haz clic en la pestaña **Código** y crea una nueva secuencia de comandos para repetir el sonido `por siempre`{:class="block3control"} cuando se haya recibido el mensaje `fiesta`{:class="block3events"}:
+
+![El ícono del objeto Palo.](images/stick-sprite.png)
 
 ```blocks3
 when I receive [party v]
@@ -82,7 +82,7 @@ play sound [Hip Hop v] until done // Choose your sound
 
 --- task ---
 
-**Test:** Run your project, and click on the piñata ten times to hear the looping party music.
+**Prueba:** Ejecuta tu proyecto y haz clic en la piñata diez veces para escuchar la música de fiesta en bucle.
 
 --- /task ---
 
