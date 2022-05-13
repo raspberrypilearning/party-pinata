@@ -3,8 +3,8 @@ title: Feest piñata
 hero_image: images/banner.png
 description: Maak een swingende piñata die snoep vrijgeeft wanneer hij wordt geraakt en uiteindelijk breekt om een verjaardagsbericht te onthullen
 version: 4
-listed: false
-copyedit: false
+listed: true
+copyedit: true
 last_tested: "2021-03-26"
 steps:
   - 
