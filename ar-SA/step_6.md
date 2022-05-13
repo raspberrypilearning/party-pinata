@@ -85,7 +85,7 @@ go to x: (0) y: (100) // داخل البنياتا
 
 قم بإنشاء نص برمجي جديد للبدء عندما يتم استلام رسالة `حفلة`{:class="block3events"}.
 
-أضف حلقة `كرر`:class="block3control"} لتحريك الرسالة. سوف `يتغير حجم`{:class="block3looks"} الرسالة لتنمو و `ياغير الموضع ص`{:class="block3looks"} كي تسقط مع الحركة:
+أضف حلقة `كرر`{:class="block3control"} لتحريك الرسالة. سوف `يتغير حجم`{:class="block3looks"} الرسالة لتنمو و `ياغير الموضع ص`{:class="block3looks"} كي تسقط مع الحركة:
 
 ![كائن الرسالة.](images/message-sprite.png)
 
