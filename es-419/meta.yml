@@ -3,8 +3,8 @@ title: Piñata de fiesta
 hero_image: images/banner.png
 description: Crea una piñata oscilante que libera golosinas cuando se golpea y eventualmente se rompe para revelar un mensaje de cumpleaños
 version: 4
-listed: false
-copyedit: false
+listed: true
+copyedit: true
 last_tested: "2021-03-26"
 steps:
   - 
