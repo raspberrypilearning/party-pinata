@@ -2,8 +2,8 @@ title: Party piñata
 hero_image: images/banner.png
 description: Create a swinging piñata that releases treats when it is hit, and eventually breaks to reveal a birthday message
 version: 4
-listed: false
-copyedit: false
+listed: true
+copyedit: true
 last_tested: "2021-03-26"
 steps:
   - title: Introduction
