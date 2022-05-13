@@ -3,8 +3,8 @@ title: पार्टी पिनाटा
 hero_image: images/banner.png
 description: एक झूलता हुआ पिनाटा बनाएं जो मारे जाने पर पकवान जारी करता है, और अंततः एक जन्मदिन संदेश प्रकट करने के लिए टूट जाता है
 version: 4
-listed: false
-copyedit: false
+listed: true
+copyedit: true
 last_tested: "2021-03-26"
 steps:
   - 
