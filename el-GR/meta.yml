@@ -3,8 +3,8 @@ title: Πάρτι πινιάτα
 hero_image: images/banner.png
 description: Δημιούργησε μια αιωρούμενη πινιάτα που βγάζει λιχουδιές όταν χτυπηθεί και τελικά σπάει για να αποκαλύψει ένα μήνυμα γενεθλίων
 version: 4
-listed: false
-copyedit: false
+listed: true
+copyedit: true
 last_tested: "2021-03-26"
 steps:
   - 
