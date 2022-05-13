@@ -3,8 +3,8 @@ title: Piñata de fête
 hero_image: images/banner.png
 description: Créer une piñata qui se balance et libère des friandises lorsqu'elle est frappée, et finit par se casser pour révéler un message d'anniversaire
 version: 4
-listed: false
-copyedit: false
+listed: true
+copyedit: true
 last_tested: "2021-03-26"
 steps:
   - 
