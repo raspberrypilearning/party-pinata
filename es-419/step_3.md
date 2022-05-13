@@ -144,9 +144,9 @@ El bloque `si`{:class="block3control"} tiene una entrada en forma de hexágono d
 
 El objeto **Piñata** debe reproducir un sonido y aumentar el conteo de `golpes`{:class="block3variables"} **`si`{:class="block3control"}** el número de `golpes`{:class="block3variables" "} es `menos que`{:class="block3operators"} `10`{:class="block3variables"}.
 
-First add a `<`{:class="block3operators"} operator into the hexagon-shaped input:
+Primero, agrega un operador `<`{:class="block3operators"} en la entrada en forma de hexágono:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![El icono del objeto Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -160,9 +160,9 @@ change [hits v] by (1)
 
 --- task ---
 
-Finish building the `if`{:class="block3control"} condition by dragging in the `hits`{:class="block3variables"} variable to the left of the `<`{:class="block3operators"} operator and typing the value '10' on the right:
+Termina de crear la condición `si`{:class="block3control"} arrastrando la variable `golpes`{:class="block3variables"} a la izquierda del operador `<`{:class="block3operators"} y escribiendo el valor '10' a la derecha:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![El icono del objeto Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -176,7 +176,7 @@ change [hits v] by (1)
 
 --- task ---
 
-**Test:** Run your project again. Hit the piñata 10 times to hear the sound and see the `hits`{:class="block3variables"} variable increase.
+**Prueba:** Ejecuta tu proyecto de nuevo. Hit the piñata 10 times to hear the sound and see the `hits`{:class="block3variables"} variable increase.
 
 Hit the piñata a few more times. The `hits`{:class="block3variables"} variable will not go above 10 because that condition is no longer 'true' so the code inside the `if`{:class="block3control"} block won't run.
 
