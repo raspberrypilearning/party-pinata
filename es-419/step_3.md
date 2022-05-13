@@ -176,17 +176,17 @@ change [hits v] by (1)
 
 --- task ---
 
-**Prueba:** Ejecuta tu proyecto de nuevo. Hit the piñata 10 times to hear the sound and see the `hits`{:class="block3variables"} variable increase.
+**Prueba:** Ejecuta tu proyecto de nuevo. Golpea la piñata 10 veces para escuchar el sonido y ver cómo aumenta la variable `golpes`{:class="block3variables"}.
 
-Hit the piñata a few more times. The `hits`{:class="block3variables"} variable will not go above 10 because that condition is no longer 'true' so the code inside the `if`{:class="block3control"} block won't run.
+Golpea la piñata unas veces más. La variable `golpes`{:class="block3variables"} no superará 10 porque esa condición ya no es "verdadera", por lo que el código dentro del bloque `si`{:class="block3control"} no se ejecutará.
 
 --- /task ---
 
 --- task ---
 
-Add a second `if`{:class="block3control"} block inside the first. This time the condition will check if `hits`{:class="block3variables"} `=`{:class="block3operators"} 10 and if 'true' the costume will change to `broken`{:class="block3looks"}:
+Agrega un segundo bloque `si`{:class="block3control"} dentro del primero. Esta vez la condición comprobará si `golpes`{:class="block3variables"} `=`{:class="block3operators"} 10 y si es 'verdadero' el disfraz cambiará a `rota`{:class="block3looks"}:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![El icono del objeto Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -202,21 +202,21 @@ switch costume to (broken v)
 
 --- task ---
 
-**Test:** Run your project a couple of times. Check that the **Piñata** sprite starts with the 'whole' costume then changes to the 'broken' costume after `10 hits`{:class="block3variables"}.
+**Prueba:** Ejecuta tu proyecto un par de veces. Comprueba que el objeto **Piñata** comienza con el disfraz 'entera' y luego cambia al disfraz 'rota' después de `10 golpes`{:class="block3variables"}.
 
-![An animated image showing the piñata being clicked ten times. After the tenth time, the costume changes to broken.](images/break-pinata.gif)
+![Una imagen animada que muestra cómo se hace clic diez veces en la piñata. Después de la décima vez, el disfraz cambia a rota.](images/break-pinata.gif)
 
 --- /task ---
 
-When the **Piñata** sprite has broken, all the other sprites need to know that the party has started.
+Cuando el objeto **Piñata** se ha roto, todos los demás objetos deben saber que la fiesta ha comenzado.
 
-In Scratch, the `broadcast`{:class="block3events"} block can be used to **send** a message that all sprites can **receive**.
+En Scratch, el bloque `enviar`{:class="block3events"} se puede usar para **enviar** un mensaje que todos los objetos pueden **recibir**.
 
 --- task ---
 
-Add a `broadcast message`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu:
+Agrega un bloque `Enviar`{:class="block3events"} del menú de bloques `Eventos`{:class="block3events"}:
 
-![The Piñata sprite icon.](images/pinata-sprite.png)
+![El icono del objeto Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -228,13 +228,13 @@ switch costume to (broken v)
 + broadcast (message1 v)
 ```
 
-Click on `message1`{:class="block3events"} and choose **New message**. Name the new message `party`{:class="block3events"}.
+Haz clic en `mensaje1`{:class="block3events"} y elije **Nuevo mensaje**. Llama al mensaje `fiesta`{:class="block3events"}.
 
-![The drop-down menu on the broadcast block showing the 'New message' menu option.](images/new-message.png)
+![El menú desplegable en el bloque enviar que muestra la opción de menú 'Nuevo mensaje'.](images/new-message.png)
 
-![The New message pop-up window with 'New message name' box highlighted and the typed word 'party'.](images/party-message.png)
+![La ventana emergente Nuevo mensaje con el cuadro 'Nombre para el nuevo mensaje' resaltado y la palabra escrita 'fiesta'.](images/party-message.png)
 
-Your `broadcast`{:class="block3events"} block will look like this:
+Tu bloque `enviar`{:class="block3events"} se verá así:
 
 ```blocks3
 broadcast (party v)
