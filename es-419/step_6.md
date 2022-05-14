@@ -1,76 +1,76 @@
-## Create a message
+## Crea un mensaje
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will write a message and animate it using motion and colour effects. 
+En este paso, escribirás un mensaje y lo animarás usando efectos de movimiento y color. 
 </div>
 <div>
-![An animated image showing the message falling then changing size and colour when it has reached the final message fall position.](images/falling-message.gif){:width="300px"}
+![Una imagen animada que muestra el mensaje cayendo y luego cambiando de tamaño y color cuando alcanza la posición final del mensaje.](images/falling-message.gif){:width="300px"}
 </div>
 </div>
 
-What would you write in a birthday card to send to Code Club? It could be:
-+ Your favourite thing about Code Club
-+ A message about your fabulous Code Club leader
-+ Details of what you want to make next with your coding skills
+¿Qué escribirías en una tarjeta de cumpleaños para enviar a Code Club? Podría ser:
++ Lo que más te gusta de Code Club
++ Un mensaje sobre tu fabuloso líder de Code Club
++ Detalles de lo que quieres hacer a continuación con tus habilidades de programación
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The first Code Club projects were written in English, but within a year they had been translated into Brazilian Portuguese, Dutch, German, Norwegian, and Ukrainian. French, Greek, and Spanish translations quickly followed and now some of the Code Club projects have been translated into <span style="color: #0faeb0">**28 native languages**</span>. Thank you to our awesome translation community!
+Los primeros proyectos de Code Club se escribieron en inglés, pero en un año se tradujeron al portugués brasileño, holandés, alemán, noruego y ucraniano. Rápidamente siguieron las traducciones al francés, griego y español y ahora algunos de los proyectos de Code Club se han traducido a <span style="color: #0faeb0">**28 idiomas nativos**</span>. ¡Gracias a nuestra increíble comunidad de traductores!
 
-![Multiple images saying Happy Birthday in various native languages.](images/birthday-languages.png)
+![Múltiples imágenes que dicen Feliz cumpleaños en varios idiomas nativos.](images/birthday-languages.png)
 </p>
 
 --- task ---
 
-Click on the **Message** sprite in the Sprite list and select the **Costumes** tab.
+Haz clic en el objeto **Mensaje** en la lista de objetos y selecciona la pestaña **Disfraces**.
 
-The costume has some text saying 'Happy Birthday Code Club'. Double click (or tap and hold on a tablet) on the text to select the text editing tool.
+El disfraz tiene un texto que dice "Feliz cumpleaños Code Club". Haz doble clic (o toca y mantén presionado en una tableta) en el texto para seleccionar la herramienta de edición de texto.
 
-![The costume editor with Text tool selected and text highlighted.](images/text-edit.png)
-
---- /task ---
-
---- task ---
-
-You can now type your new Code Club birthday message. Press **Enter** on your keyboard to start a new line.
-
-**Tip:** Don't worry if your message is a bit too big for the box as you can resize it later.
-
-![The text editor showing a new message has been typed in place of the old message.](images/new-text.png)
+![El editor de disfraces con la herramienta Texto seleccionada y el texto resaltado.](images/text-edit.png)
 
 --- /task ---
 
 --- task ---
 
-**Choose:** Click on the **Fill** icon to open the colour drop-down menu. Move the fill sliders to the left or right to select your favourite colour.
+Ahora puedes escribir tu nuevo mensaje de cumpleaños de Code Club. Presiona **Ingresar** en tu teclado para comenzar una nueva línea.
 
-![The Fill drop-down menu with sliders for colour, saturation, and brightness. The message has changed from green to purple.](images/font-colour.png)
+**Sugerencia:** No te preocupes si tu mensaje es demasiado grande para el cuadro, ya que puedes cambiar su tamaño más tarde.
 
---- /task ---
-
---- task ---
-
-**Choose:** Click on the **Font** tool and a drop-down list of fonts will appear. The 'Pixel' font is selected in the starter project, but you can use any of the fonts available.
-
-![The Font drop-down menu showing a choice of nine different fonts. The 'Marker' font has been selected.](images/font-type.png)
+![El editor de texto que muestra un mensaje nuevo se ha escrito en lugar del mensaje anterior.](images/new-text.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Select** tool and eight circles will appear around your message. Use these circles to resize your message by clicking on them and dragging them within the white box.
+**Elige:** Haz clic en el ícono **Relleno** para abrir el menú desplegable de colores. Mueve los controles deslizantes de relleno hacia la izquierda o hacia la derecha para seleccionar tu color favorito.
 
-![The Select tool is highlighted and the message has small circles in each corner and at the central vertical and horizontal borer points so that it can be resized in multiple directions.](images/resize-message.png)
+![El menú desplegable Relleno con controles deslizantes para el color, la saturación y el brillo. El mensaje ha cambiado de verde a morado.](images/font-colour.png)
 
 --- /task ---
 
-Your message is ready, now you can add code to hide your message inside the piñata and make your message fall from the piñata after the tenth hit.
+--- task ---
+
+**Elige:** Haz clic en la herramienta **Fuente** y aparecerá una lista desplegable de tipos de letra. El tipo 'Pixel' está seleccionado en el proyecto de inicio, pero puedes usar cualquiera de las fuentes disponibles.
+
+![El menú desplegable Fuente que muestra una selección de nueve fuentes diferentes. Se ha seleccionado la fuente 'Marker'.](images/font-type.png)
+
+--- /task ---
 
 --- task ---
 
-Click on the **Code** tab then create a script to `hide`{:class="block3looks"} the message in the piñata when your project starts:
+Haga clic en la herramienta **Seleccionar** y aparecerán ocho círculos alrededor de tu mensaje. Use estos círculos para cambiar el tamaño de tu mensaje haciendo clic en ellos y arrastrándolos dentro del cuadro blanco.
 
-![The Message sprite icon.](images/message-sprite.png)
+![La herramienta Seleccionar está resaltada y el mensaje tiene pequeños círculos en cada esquina y en los puntos centrales verticales y horizontales para que se pueda cambiar el tamaño en varias direcciones.](images/resize-message.png)
+
+--- /task ---
+
+Tu mensaje está listo, ahora puedes agregar código para ocultar tu mensaje dentro de la piñata y hacer que tu mensaje caiga de la piñata después del décimo golpe.
+
+--- task ---
+
+Haz clic en la pestaña **Código** y luego crea un script para `esconder`{:class="block3looks"} las golosinas en la piñata cuando comience tu proyecto:
+
+![El ícono del objeto Mensaje.](images/message-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -83,11 +83,11 @@ go to x: (0) y: (100) // Inside the piñata
 
 --- task ---
 
-Create a new script to start when the `party`{:class="block3events"} message has been received.
+Crea un nuevo script para comenzar cuando se haya recibido el mensaje `fiesta`{:class="block3events"}.
 
-Add a `repeat`{:class="block3control"} loop to animate the message. The message will `change size`{:class="block3looks"} to grow and `change y`{:class="block3motion"} position to fall as it animates:
+Agrega un bucle `repetir`{:class="block3control"} para animar el mensaje. El mensaje `cambiará el tamaño`{:class="block3looks"} para crecer y `cambiará y`{:class="block3motion"}, la posición, para caer mientras se anima:
 
-![The Message sprite icon.](images/message-sprite.png)
+![El ícono del objeto Mensaje.](images/message-sprite.png)
 
 ```blocks3
 when I receive [party v]
@@ -101,9 +101,9 @@ change y by (-10) // Change to -10
 
 --- task ---
 
-**Test:** Run your project. Hit the piñata ten times to see the message fall.
+**Prueba:** Ejecuta tu proyecto. Golpea la piñata diez veces para ver caer el mensaje.
 
-![An animated image showing the pinata being hit ten times. Treats appear after each hit and on the tenth hit the pinata breaks and the message falls to the bottom of the screen. It gets bigger as it falls.](images/falling-message.gif)
+![Una imagen animada que muestra cómo golpean a la piñata diez veces. Las golosinas aparecen después de cada golpe y en el décimo golpe, la piñata se rompe y el mensaje cae al final de la pantalla. Se hace más grande a medida que cae.](images/falling-message.gif)
 
 --- /task ---
 
