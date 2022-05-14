@@ -89,9 +89,9 @@ switch costume to (Knafeh v)
 
 --- task ---
 
-Puedes elegir golosinas al azar para que se suelten cuando se golpea la piñata. Use a `pick random`{:class="block3operators"} operator to select a random costume from `1`{:class="block3operators"} to `26`{:class="block3operators"} each time a clone is created:
+Puedes elegir golosinas al azar para que se suelten cuando se golpea la piñata. Usa un operador `elegir número al azar entre ¿`{:class="block3operators"} para seleccionar un disfraz aleatorio de `1`{:class="block3operators"} a `26`{:class="block3operators"} cada vez que se crea un clon:
 
-![The Treats sprite icon.](images/treats-sprite.png)
+![El ícono del objeto Golosinas.](images/treats-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -104,11 +104,11 @@ go to [back v] layer
 
 --- task ---
 
-At the moment, the **Treats** clones will appear behind the **Piñata** sprite, but treats should fall from the piñata to a random position.
+Por el momento, los clones **Golosinas** aparecerán detrás del sprite **Piñata**, pero las golosinas deberían caer de la piñata a una posición aleatoria.
 
-Add code to make the cloned **Treats** sprites `glide`{:class="block3motion"} to a random position:
+Agrega código para hacer que los objetos clonados **Golosinas** `vayan a`{:class="block3motion"} una posición aleatoria:
 
-![The Treats sprite icon.](images/treats-sprite.png)
+![El ícono del objeto Golosinas.](images/treats-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -122,17 +122,17 @@ switch costume to (pick random (1) to (26))
 
 --- task ---
 
-**Test:** Run your project and hit the piñata to see four clones of the **Treats** sprite after each hit. The costumes will be selected at random and the treats will each glide to a random position.
+**Prueba:** Ejecuta tu proyecto y golpea la piñata para ver cuatro clones del objeto **Golosinas** después de cada golpe. Los disfraces se seleccionarán al azar y las golosinas se irán a una posición aleatoria.
 
-![An animated image showing the pinata being hit three times. Each time, four random treats fall out to random positions.](images/four-treats.gif)
+![Una imagen animada que muestra cómo golpean a la piñata tres veces. Cada vez, cuatro golosinas aleatorias caen en posiciones aleatorias.](images/four-treats.gif)
 
 --- /task ---
 
 --- task ---
 
-Add animation to make the **Treats** sprite clones `turn`{:class="block3motion"} `forever`{:class="block3control"} when they reach their random position. Remember animations work best when small movements are used, so change the number of degrees to `1`{:class="block3motion"}:
+Agrega animación para hacer que los objetos clones **Golosinas** `giren`{:class="block3motion"} `por siempre`{:class="block3control"} cuando alcancen su posición aleatoria. Recuerda que las animaciones funcionan mejor cuando se usan pequeños movimientos, así que cambia el número de grados a `1`{:class="block3motion"}:
 
-![The Treats sprite icon.](images/treats-sprite.png)
+![El ícono del objeto Golosinas.](images/treats-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -148,9 +148,9 @@ turn right (1) degrees
 
 --- task ---
 
-**Test:** Run your project again to see the **Treats** sprite clones spin.
+**Prueba:** Ejecuta tu proyecto y golpea la piñata para ver girar los clones del objeto **Golosinas**.
 
-![An animated image showing the pinata being hit multiple times. Each time, four random treats fall out to random positions then slowly rotate in a circle.](images/spinning-treats.gif)
+![Una imagen animada que muestra cómo golpean a la piñata varias veces. Cada vez, cuatro golosinas aleatorias caen en posiciones aleatorias y luego giran lentamente en un círculo.](images/spinning-treats.gif)
 
 --- /task ---
 
