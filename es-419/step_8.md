@@ -70,6 +70,6 @@ Puedes ver el [proyecto terminado aquí](https://scratch.mit.edu/projects/649873
 
 Si ya has compartido tu proyecto con nosotros, simplemente guarda los cambios y veremos tus impresionantes mejoras.
 
-If you haven't yet shared your project but want to submit your project to our ['Party piñata — Community' Scratch studio](https://scratch.mit.edu/studios/31111242){:target="_blank"} for other people to see, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+Si aún no has compartido tu proyecto pero deseas enviarloa nuestra ['Comunidad estudio Scratch — Party piñata'](https://scratch.mit.edu/studios/31111242){:target="_blank"} para que otras personas lo vean, por favor completa [este formulario](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
 
 --- /task ---
