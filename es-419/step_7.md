@@ -1,8 +1,8 @@
-## Share
+## Comparte
 
-Now, it's time to share your project so other people can join the party.
+Ahora es el momento de compartir tu proyecto para que otras personas puedan unirse a la fiesta.
 
-If you have a Scratch account, you can share your project through Scratch. You can send a link to people you know, and the whole Scratch community will be able to find your project and try it out.
+Si tienes una cuenta de Scratch, puedes compartir tu proyecto a través de Scratch. Puedes enviar un enlace a las personas que conoces y toda la comunidad de Scratch podrá encontrar tu proyecto y probarlo.
 
 [[[share-scratch]]]
 
@@ -10,12 +10,12 @@ If you have a Scratch account, you can share your project through Scratch. You c
 
 --- task ---
 
-### Submit your project
+### Envía tu proyecto
 
-Inspire the global Code Club community with your project!
+¡Inspira a la comunidad mundial de Code Club con tu proyecto!
 
-To submit your project to our ['Party piñata — Community' Scratch studio](https://scratch.mit.edu/studios/31111242){:target="_blank"} for other people to see, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+Para enviar tu proyecto a nuestra ['Comunidad estudio Scratch — Party piñata'](https://scratch.mit.edu/studios/31111242){:target="_blank"} para que otras personas lo vean, completa [este formulario](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
 
 --- /task ---
 
-![An animated image showing the message falling then changing size and colour when it has reach the final message fall position.](images/falling-message.gif)
+![Una imagen animada que muestra el mensaje cayendo y luego cambiando de tamaño y color cuando alcanza la posición final del mensaje.](images/falling-message.gif)
