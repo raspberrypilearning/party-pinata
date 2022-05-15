@@ -1,23 +1,23 @@
-## Upgrade your project
+## Mejora tu proyecto
 
-If you have time, you can upgrade your project. You might have ideas about what to add already!
+Si tienes algo de tiempo, puedes mejorar tu proyecto. ¡Es posible que ya tengas ideas sobre qué agregar!
 
-You could:
+Tú podrías:
 
-+ Use additional looks, sounds, or motion blocks to animate your message and treats further
-+ Find images of your favourite treats and add them to the costumes for the **Treats** sprite
-+ Increase the number of treats that fall from the piñata on each hit
-+ Make your project easier or harder by changing the number of times you need to hit the piñata before it breaks
++ Use disfraces, sonidos o bloques de movimiento adicionales para animar más tu mensaje y golosinas
++ Encuentra imágenes de tus golosinas favoritas y agrégalas a los disfraces para el objeto**Golosinas**
++ Aumenta la cantidad de golosinas que caen de la piñata en cada golpe
++ Haz que tu proyecto sea más fácil o más difícil cambiando la cantidad de veces que debes golpear la piñata antes de que se rompa
 
 --- task ---
-### Try it
+### Inténtalo
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Did you know you can add code to the backdrop too?
+¿Sabías que también puedes agregar código al fondo?
 
-What happens to the backdrop when the piñata breaks? Which blocks would create this effect? 
+¿Qué sucede con el telón de fondo cuando se rompe la piñata? ¿Qué bloques crearían este efecto? 
 
-[See the code](https://scratch.mit.edu/projects/653771814/){:target="_blank"}
+[Ver el código](https://scratch.mit.edu/projects/653771814/){:target="_blank"}
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
@@ -28,9 +28,9 @@ What happens to the backdrop when the piñata breaks? Which blocks would create 
 
 --- task ---
 
-You could add code to make the message animate `forever`{:class="block3control"} when it is in position. Use `change size`{:class="block3looks"} and `change color effect`{:class="block3looks"} blocks so that it looks like the message is moving with the party beat:
+Puedes agregar código para hacer que el mensaje se anime `por siempre`{:class="block3control"} cuando esté en posición. Usa bloques `cambiar tamaño en`{:class="block3looks"} y `cambiar el efecto color en`{:class="block3looks"} para que parezca que el mensaje se mueve con el ritmo de la fiesta:
 
-![The Message sprite icon.](images/message-sprite.png)
+![El ícono del objeto Mensaje.](images/message-sprite.png)
 
 ```blocks3
 when I receive [party v]
@@ -46,7 +46,7 @@ wait (0.5) seconds // Try different numbers to match your music
 change size by (-20) // Negative number to shrink
 ```
 
-[See the code](https://scratch.mit.edu/projects/656332454/){:target="_blank"}
+[Ver el código](https://scratch.mit.edu/projects/656332454/){:target="_blank"}
 
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/656332454/?autostart=false" frameborder="0"></iframe>
@@ -57,18 +57,18 @@ change size by (-20) // Negative number to shrink
 --- collapse ---
 
 ---
-title: Completed project
+title: Proyecto terminado
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/649873783/){:target="_blank"}.
+Puedes ver el [proyecto terminado aquí](https://scratch.mit.edu/projects/649873783/){:target ="_blank"}.
 
 --- /collapse ---
 
 --- task ---
 
-### Submit your project
+### Envía tu proyecto
 
-If you have already shared your project with us just save your changes and we will see your awesome upgrades.
+Si ya has compartido tu proyecto con nosotros, simplemente guarda los cambios y veremos tus impresionantes mejoras.
 
 If you haven't yet shared your project but want to submit your project to our ['Party piñata — Community' Scratch studio](https://scratch.mit.edu/studios/31111242){:target="_blank"} for other people to see, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
 
