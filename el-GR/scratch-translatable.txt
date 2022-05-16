@@ -2,11 +2,11 @@ whole
 
 broken
 
-hits
+χτυπήματα
 
 broken
 
-party
+πάρτυ
 
 Treats
 
@@ -14,6 +14,6 @@ Piñata
 
 Stick
 
-Message
+Μήνυμα
 
-Happy Birthday Code Club
+Χρόνια Πολλά Code Club
