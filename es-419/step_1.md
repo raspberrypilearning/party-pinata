@@ -29,5 +29,5 @@ Usa el palo para golpear la piñata.
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Code Club**</span> celebra su décimo cumpleaños este año. ¿Sabías que hay Code Clubs en **seis de siete continentes** en todo el mundo? ¡Son muchos programadores haciendo programas! ¿Crees que algún otro club estará haciendo este proyecto en este momento?   
+<span style="color: #0faeb0">**Code Club**</span> celebra su décimo cumpleaños este año. ¿Sabías que hay Code Clubs en **seis de los siete continentes** en todo el mundo? ¡Son muchos programadores haciendo programas! ¿Crees que algún otro club estará haciendo este proyecto en este momento?   
 </p>
