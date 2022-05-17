@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-En este paso, elegirás un disfraz para la piñata y programarás la piñata para balancearse.
+En este paso, elegirás un disfraz para la piñata y programarás la piñata para que oscile.
 </div>
 <div>
 ![Un gif animado que muestra el escenario con el objeto piñata colocado en la parte superior central y balanceándose de izquierda a derecha.](images/swinging-pinata.gif){:width="300px"}
@@ -37,7 +37,7 @@ Haz clic en el objeto **Piñata** en la lista de objetos y selecciona la pestañ
 
 ![Imágenes lado a lado de los dos disfraces de la piñata. El de la izquierda es la piñata entera, el de la derecha es de la piñata rota y abierta.](images/pinata-costumes.png)
 
-![La pestaña de Disfraces (la pestaña del medio, arriba a la izqierda).](images/costumes-tab.png)
+![La pestaña de Disfraces (la pestaña del medio, arriba a la izquierda).](images/costumes-tab.png)
 
 --- /task ---
 
@@ -47,7 +47,7 @@ Haz clic en la pestaña **Código**. Ve al menú de bloques `Apariencia`{:class=
 
 Haz clic en el nombre del disfraz para abrir un **menú desplegable** y luego selecciona el disfraz `whole (entera)`{:class="block3looks"}:
 
-![El icono del objeto Piñata.](images/pinata-sprite.png)
+![El ícono del objeto Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 cambia el disfraz a (v whole) // Actualiza a 'whole (entera)'
