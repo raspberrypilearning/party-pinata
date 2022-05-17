@@ -53,7 +53,7 @@ Haz clic en el nombre del disfraz para abrir un **menú desplegable** y luego se
 cambia el disfraz a (v whole) // Actualiza a 'whole (entera)'
 ```
 
-![Una imagen animada que muestra el bloque cambiar disfraz a: quee se arrastra desde el menú de bloques Apariencia al área de código.](images/switch-costume.gif)
+![Una imagen animada que muestra el bloque Cambiar Disfraz siendo arrastrado desde el menú de bloques al área de código.](images/switch-costume.gif)
 
 --- /task ---
 
@@ -63,23 +63,23 @@ Los bloques se pueden conectar entre sí en el área de código para ejecutar m�
 
 Arrastra un bloque `Al presionar bandera`{:class="block3events"} desde el menú de bloques `Eventos`{:class="block3events"} y conéctalo a la parte superior de tu bloque Apariencia en el área de codigo. Los bloques se unirán:
 
-![El icono del objeto Piñata.](images/pinata-sprite.png)
+![El ícono del objeto Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 + when flag clicked
 switch costume to (whole v)
 ```
-![El bloque Al presionar la bandera, se agrega al área de código y se conecta al bloque de cambiar disfraz.](images/add-flag-clicked.gif)
+![El bloque Al presionar bandera se agrega al área de código y se conecta al bloque de Cambiar Disfraz.](images/add-flag-clicked.gif)
 
 --- /task ---
 
-La posición inicial de una piñata es siempre la misma, solo comienza a moverse cuando el juego de la piñata comienza.
+La posición inicial de una piñata es siempre la misma, sólo comienza a moverse cuando el juego de la piñata inicia.
 
 --- task ---
 
 En el menú de bloques `Movimiento`{:class="block3motion"}, busca los bloques `ir a x: 0 y: 180`{:class="block3motion"} y `apuntar en dirección 90`{:class="block3motion"}. Arrastra los bloques al área de Código y conéctalos a la parte inferior de tu código:
 
-![El icono del objeto Piñata.](images/pinata-sprite.png)
+![El ícono del objeto Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -90,13 +90,13 @@ switch costume to (whole v)
 
 --- /task ---
 
-Un bucle `forever`{:class="block3control"} ejecuta los bloques de código dentro de él una y otra vez. Es el bucle perfecto para una piñata oscilante que es difícil de golpear.
+Un bucle `Por siempre`{:class="block3control"} ejecuta los bloques de código dentro de él una y otra vez. Es el bucle perfecto para una piñata oscilante que es difícil de golpear.
 
 --- task ---
 
-Arrastra un bloque `forever`{:class="block3control"} desde el menú de bloques `Control`{:class="block3control"} y conéctalo a la parte inferior de tu código:
+Arrastra un bloque `Por siempre`{:class="block3control"} desde el menú de bloques `Control`{:class="block3control"} y conéctalo a la parte inferior de tu código:
 
-![El icono del objeto Piñata.](images/pinata-sprite.png)
+![El ícono del objeto Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -112,13 +112,13 @@ Se puede usar un bucle `repetir`{:class="block3control"} para hacer que el objet
 
 --- task ---
 
-Arrastra un bloque `repetir 10`{:class="block3control"} al área Código y adjúntalo dentro de tu bucle `por siempre`{:class="block3control"}.
+Arrastra un bloque `repetir 10`{:class="block3control"} al área Código y conéctalo dentro de tu bucle `por siempre`{:class="block3control"}.
 
-Ve al menú de bloques `Movimiento`{:class="block3motion"} y arrastra un bloque de `girar 15 grados en el sentido de las agujas del reloj `{:class="block3motion"}adentro del bloque `repetir`{:class="block3control"}.
+Ve al menú de bloques `Movimiento`{:class="block3motion"} y arrastra un bloque de `girar 15 grados hacia la derecha`{:class="block3motion"} adentro del bloque `repetir`{:class="block3control"}.
 
-Cambia los `15`{:class="block3motion"} grados a `1`{:class="block3motion"} grado para que la piñata solo se balancee un poco cada vez:
+Cambia los `15`{:class="block3motion"} grados a `1`{:class="block3motion"} grado para que la piñata sólo se balancee un poco cada vez:
 
-![El icono del objeto Piñata.](images/pinata-sprite.png)
+![El ícono del objeto Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 when flag clicked
