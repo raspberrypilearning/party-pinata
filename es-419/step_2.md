@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-En este paso, elegirás un disfraz de piñata y programarás la piñata para balancearse.
+En este paso, elegirás un disfraz para la piñata y programarás la piñata para balancearse.
 </div>
 <div>
 ![Un gif animado que muestra el escenario con el objeto piñata colocado en la parte superior central y balanceándose de izquierda a derecha.](images/swinging-pinata.gif){:width="300px"}
@@ -11,7 +11,7 @@ En este paso, elegirás un disfraz de piñata y programarás la piñata para bal
 
 --- task ---
 
-Abre el [proyecto inicial Piñata de fiesta](https://scratch.mit.edu/projects/653082997/editor){:target="_blank"}. Trinket se abrirá en otra pestaña del navegador.
+Abre el [proyecto inicial Piñata de fiesta](https://scratch.mit.edu/projects/653082997/editor){:target="_blank"}. Scratch se abrirá en otra pestaña del navegador.
 
 [[[working-offline]]]
 
@@ -19,31 +19,31 @@ Abre el [proyecto inicial Piñata de fiesta](https://scratch.mit.edu/projects/65
 
 El editor de Scratch se ve así:
 
-![Una captura de pantalla anotada del editor de Scratch, con el escenario, el panel de escenario, el panel de objetos, la lista de objetos y el área de programación etiquetados.](images/scratch-interface.png)
+![Una captura de pantalla con anotaciones del editor de Scratch, con el escenario, el panel de escenario, el panel de objetos, la lista de objetos y el área de programación etiquetados.](images/scratch-interface.png)
 
 El **escenario** es donde se ejecuta tu proyecto y un **fondo** cambia la forma en que se ve el escenario. Hemos agregado un fondo de fiesta de Code Club por ti.
 
-En Scratch, los personajes y cosas se denominan **objetos**y aparecen en el escenario. Puedes ver los objetos**Piñata** y **Stick** en el escenario.
+En Scratch, los personajes y las cosas se denominan **objetos** y aparecen en el escenario. Puedes ver los objetos **Piñata** y **Palo** en el escenario.
 
-![El escenario con un fondo azul estampado con regalos y globos. También están en el escenario los objetos Piñata y Stick.](images/backdrop-and-sprites.png)
+![El escenario con un fondo azul estampado con regalos y globos. También están en el escenario los objetos Piñata y Palo.](images/backdrop-and-sprites.png)
 
-Por el momento no está pasando mucho en esta fiesta. ¡Puedes cambiarlo!
+Por el momento no hya mucha acción en esta fiesta. ¡Puedes remediarlo!
 
 --- task ---
 
-Un objeto puede tener código, disfraces y sonidos para cambiar su aspecto y lo que hace.
+Un objeto puede tener código, disfraces y sonidos para cambiar su aspecto y sus acciones.
 
-Haz clic en el objeto **Piñata** en la lista de ovjetos y selecciona la pestaña **Disfraces**. Hay dos disfraces piñata, uno se llama 'whole' (entera) y el otro se llama 'broken' (rota).
+Haz clic en el objeto **Piñata** en la lista de objetos y selecciona la pestaña **Disfraces**. Hay dos disfraces para la piñata, uno se llama 'whole' (entera) y el otro se llama 'broken' (rota).
 
-![Imagen lado a lado de los dos disfraces de la piñata. El de la izquierda es la piñata entera, en el de la derecha está rota y abierta.](images/pinata-costumes.png)
+![Imágenes lado a lado de los dos disfraces de la piñata. El de la izquierda es la piñata entera, el de la derecha es de la piñata rota y abierta.](images/pinata-costumes.png)
 
-![La pestaña de Disfraces (la pestaña del medio arriba a la izqierda).](images/costumes-tab.png)
+![La pestaña de Disfraces (la pestaña del medio, arriba a la izqierda).](images/costumes-tab.png)
 
 --- /task ---
 
 --- task ---
 
-Haz clic en la pestaña **Código**. Ve al menú de bloques `Apariencia`{:class="block3looks"} y arrastra un disfraz de `cambiar disfraz a:`{:class="block3looks"} al área de código.
+Haz clic en la pestaña **Código**. Ve al menú de bloques `Apariencia`{:class="block3looks"} y arrastra un disfraz de `cambiar disfraz a`{:class="block3looks"} al área de código.
 
 Haz clic en el nombre del disfraz para abrir un **menú desplegable** y luego selecciona el disfraz `whole (entera)`{:class="block3looks"}:
 
