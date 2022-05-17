@@ -149,9 +149,9 @@ Detén tu proyecto haciendo clic en el **ícono rojo Detener** sobre el escenari
 
 Agrega código a tu bucle `por siempre`{:class="block3control"} para que la piñata se balancee desde el centro de un lado a otro continuamente como un péndulo:
 
-![El objeto Piñata con flechas debajo que muestra que se balancea en el sentido de las agujas del reloj desde el centro, luego en el sentido contrario a las agujas del reloj a través del centro y luego en el sentido de las agujas del reloj para volver al centro.](images/pinata-swing.png)
+![El objeto Piñata con flechas debajo, mostrando cómo se balancea en sentido horario desde el centro, luego en sentido contrario desde el centro y luego en sentido horario.](images/pinata-swing.png)
 
-![El icono del objeto Piñata.](images/pinata-sprite.png)
+![El ícono del objeto Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -179,7 +179,7 @@ end
 **Depuración:** Si la piñata no se balancea correctamente:
 + Mira tu código para asegurarte de que los bloques `repetir`{:class="block3control"} estén en la posición correcta
 + Comprueba que las flechas `girar en el sentido de las agujas del reloj`{:class="block3motion"} y `girar en el sentido contrario a las agujas del reloj`{:class="block3motion"} son correctas
-+ Asegúrate de haber usado los números indicados en código anterior
++ Asegúrate de haber usado los números indicados en el código anterior
 
 ![Un gif animado que muestra el escenario con el objeto Piñata colocado en la parte superior central y balanceándose de un lado a otro.](images/swinging-pinata.gif)
 
