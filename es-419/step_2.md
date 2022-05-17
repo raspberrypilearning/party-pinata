@@ -129,19 +129,19 @@ forever
 + repeat (10) 
 turn right (1) degrees // Change to 1
 ```
-![El bloque repetir que se agrega dentro del bloque para siempre y luego se le agrega un bloque girar en el sentido de las agujas del reloj.](images/add-repeat.gif)
+![El bloque repetir que se agrega dentro del bloque por siempre y luego se le agrega un bloque girar en el sentido de las agujas del reloj.](images/add-repeat.gif)
 
 --- /task ---
 
 --- task ---
 
-**Prueba:** Ejecuta tu proyecto haciendo clic en la **bandera verde** sobre el escenario, para ver cómo se balancea la piñata.
+**Prueba:** Ejecuta tu proyecto haciendo clic en la **bandera verde** sobre el escenario para ver cómo se balancea la piñata.
 
-**Mmm, ¡algo no anda bien!** Cuando se cuelga un objeto del techo, no solo rotará en una dirección, sino que se balanceará hacia un lado y hacia el otro.
+**Mmm, ¡algo no anda bien!** Cuando se cuelga un objeto del techo, no sólo rotará en una dirección, sino que se balanceará hacia un lado y hacia el otro.
 
-Para tu proyecto haciendo clic en el **ícono rojo de parada** sobre el escenario.
+Detén tu proyecto haciendo clic en el **ícono rojo Detener** sobre el escenario.
 
-![La bandera verde y los iconos de parada se muestran uno al lado del otro.](images/start-stop.png)
+![La bandera verde y los íconos de parada se muestran uno al lado del otro.](images/start-stop.png)
 
 --- /task ---
 
