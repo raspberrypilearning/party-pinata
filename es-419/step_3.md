@@ -11,13 +11,13 @@ En este paso, programarás la piñata para reproducir un sonido y contarás un g
 
 --- task ---
 
-Haz clic en la pestaña **Sonidos** para el objeto**Piñata** y encontrarás un sonido llamado **Boing**. Haz clic a en el botón **Reproducir** para escuchar el sonido.
+Haz clic en la pestaña **Sonidos** para el objeto **Piñata** y encontrarás un sonido llamado **Boing**. Haz clic en el botón **Reproducir** para escuchar el sonido.
 
-![La pestaña Sonidos que muestra el sonido Boing en la lista de Sonidos con el icono Reproducir (un triángulo blanco en un círculo azul) resaltado en la parte inferior.](images/play-boing.png)
+![La pestaña Sonidos que muestra el sonido Boing en la lista de Sonidos con el ícono Reproducir (un triángulo blanco en un círculo azul) resaltado en la parte inferior.](images/play-boing.png)
 
 --- /task ---
 
-Un grupo de bloques conectados en Scratch se llama **script**. Los sprites pueden tener más de un script.
+Un grupo de bloques conectados en Scratch se llama **script**. Los objetos pueden tener más de un script.
 
 --- task ---
 
@@ -216,7 +216,7 @@ En Scratch, el bloque `enviar`{:class="block3events"} se puede usar para **envia
 
 Agrega un bloque `Enviar`{:class="block3events"} del menú de bloques `Eventos`{:class="block3events"}:
 
-![El icono del objeto Piñata.](images/pinata-sprite.png)
+![El ícono del objeto Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
