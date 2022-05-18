@@ -21,11 +21,11 @@ Un grupo de bloques conectados en Scratch se llama **script**. Los objetos puede
 
 --- task ---
 
-Haz clic en la pestaña **Código**. Arrastra un bloque `al hacer clic en este objeto`{:class="block3events"} desde `Eventos`{:class="block3events"}, al área Código para iniciar un nuevo script.
+Haz clic en la pestaña **Código**. Arrastra un bloque `al hacer clic en este objeto`{:class="block3events"} desde `Eventos`{:class="block3events"} al área de Código para iniciar un nuevo script.
 
 En el menú de bloques `Sonido`{:class="block3sound"}, busca el bloque `iniciar sonido`{:class="block3sound"}. Arrástralo debajo del bloque `al hacer clic en este objeto`{:class="block3events"}:
 
-![El icono del objeto Piñata.](images/pinata-sprite.png)
+![El ícono del objeto Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -64,11 +64,11 @@ Llama **golpes** a tu nueva variable:
 
 Cada vez que se inicia el proyecto, el número de `golpes`{:class="block3variables"} debe restablecerse a `0`{:class="block3variables"}.
 
-Arrastra el bloque `fijar golpes a 0`{:class="block3variables"} al primer script en el área de código, entre el bloque `cambiar disfraz a`{:class="block3looks"} y el bloque`ir a x: ( 0) y: (180)`{:class="block3motion"}.
+Arrastra el bloque `fijar golpes a 0`{:class="block3variables"} al primer script en el área de código, entre el bloque `cambiar disfraz a`{:class="block3looks"} y el bloque`ir a x: (0) y: (180)`{:class="block3motion"}.
 
 Tu código debe parecerse a esto:
 
-![El icono del objeto Piñata.](images/pinata-sprite.png)
+![El ícono del objeto Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -96,7 +96,7 @@ Cada vez que se hace clic en el objeto **Piñata**, el número de `golpes`{:clas
 
 Agrega un bloque para cambiar `golpes`{:class="block3variables"} en `1`{:class="block3variables"} cuando se hace clic en el objeto **Piñata**:
 
-![El icono del objeto Piñata.](images/pinata-sprite.png)
+![El ícono del objeto Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -108,18 +108,18 @@ start sound [Boing v]
 
 --- task ---
 
-**Prueba:** Ejecuta tu proyecto un par de veces. Comprueba que `golpes`{:class="block3variables"} siempre comienza en `0`{:class="block3variables"} y aumenta en `1`{:class="block3variables"} cada vez que haces clic en el objeto **Piñata**.
+**Prueba:** Ejecuta tu proyecto un par de veces. Comprueba que `golpes`{:class="block3variables"} siempre comience en `0`{:class="block3variables"} y que aumente en `1`{:class="block3variables"} cada vez que haces clic en el objeto **Piñata**.
 
 ![El escenario muestra que el número almacenado en la variable golpes es '8'.](images/hits-increase.png)
 
 --- /task ---
 
-Una piñata es difícil de romper pero no dura para siempre. Tu piñata durará `10 golpes`{:class="block3variables"} antes de romperse.
+Una piñata es difícil de romper pero no dura para siempre. Tu piñata resistirá `10 golpes`{:class="block3variables"} antes de romperse.
 
 Se puede usar un bloque `si`{:class="block3control"} para tomar una decisión basada en una **condición**.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Usamos <span style="color: #0faeb0">**condiciones**</span> todo el tiempo para tomar decisiones. Podríamos decir “si el lápiz no tiene punta, entonces hazle punta”. Los bloques y condiciones `Si`{: class="block3control"} nos permiten escribir código que hace algo diferente dependiendo de si una condición es verdadera o falsa.
+Usamos <span style="color: #0faeb0">**condiciones**</span> todo el tiempo para tomar decisiones. Podríamos decir “si el lápiz no tiene punta, entonces sácale punta”. Los bloques y las condiciones `Si`{: class="block3control"} nos permiten escribir código que hace algo diferente dependiendo de si una condición es verdadera o falsa.
 </p>
 
 --- task ---
