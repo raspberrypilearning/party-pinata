@@ -2,16 +2,16 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Las piñatas se suelen golpear con un palo de madera o cartulina gruesa que se cubre con tiras de papel de colores. En este paso, agregará código para controlar el palo de la piñata y reproducir música en bucle cuando la piñata se rompa. 
+Las piñatas se suelen golpear con un palo de madera o cartulina gruesa que se cubre con tiras de papel de colores. En este paso, agregarás código para controlar el palo de la piñata y reproducir música en bucle cuando la piñata se rompa. 
 </div>
 <div>
-![Una imagen animada que muestra el objeto Palo siguiendo el puntero del mouse alrededor del escenario.](images/follow-stick.gif){:width="300px"}
+![Una imagen animada que muestra el objeto Palo siguiendo el puntero del ratón alrededor del escenario.](images/follow-stick.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Haz clic en el objeto **Palo** en la lista de objetos. Agrega código para que el palo siempre permanezca frente a los otros objetos y siga el puntero del mouse (o tu dedo en una tableta).
+Haz clic en el objeto **Palo** en la lista de objetos. Agrega código para que el palo permanezca siempre frente a los otros objetos y siga el puntero del mouse (o tu dedo en una tableta).
 
 Usa el bloque `ir a posición aleatoria`{:class="block3motion"}, pero selecciona `puntero del ratón`{:class="block3motion"} del menú desplegable:
 
