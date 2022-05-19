@@ -28,21 +28,21 @@ go to (mouse-pointer v) // Change to mouse-pointer
 
 --- task ---
 
-**Prueba:** Ejecuta tu proyecto y verifiqca que el objeto **Palo** siga tu cursor o dedo alrededor del escenario.
+**Prueba:** Ejecuta tu proyecto y verifica que el objeto **Palo** siga tu cursor o dedo alrededor del escenario.
 
 ![Una imagen animada que muestra el objeto Palo siguiendo el puntero del ratón alrededor del escenario.](images/follow-stick.gif)
 
 --- /task ---
 
-Hay muchos tipos diferentes de sonidos en Scratch, desde voces y ruidos de animales hasta más de 100 otros efectos de sonido.
+Hay muchos tipos diferentes de sonidos en Scratch, desde voces y ruidos de animales y más de 100 efectos de sonido adicionales.
 
 Scratch también tiene **sonidos en bucle** que se pueden usar en bucles `para siempre`{:class="block3control"} o `repetir`{:class="block3control"} para que suenen como si estuvieran reproduciéndose continuamente.
 
 --- task ---
 
-Vw a la pestaña **Sonidos** y haz clic en el icono **Elige un sonido**.
+Ve a la pestaña **Sonidos** y haz clic en el ícono **Elige un sonido**.
 
-![El icono Elige un sonido con el menú emergente de sonidos. Cuando se selecciona, el ícono de elegir un sonido es un altavoz blanco en un círculo verde.](images/sound-icon.png)
+![El ícono Elige un sonido con el menú emergente de sonidos. Cuando se selecciona, el ícono de elegir un sonido es un altavoz blanco en un círculo verde.](images/sound-icon.png)
 
 --- /task ---
 
@@ -56,9 +56,9 @@ En la galería **Elige un sonido**, selecciona la categoría **Ciclos**.
 
 --- task ---
 
-**Elige:** Pasa el cursor sobre los íconos **reproducir** para escuchar los sonidos en bucle. Agrega tu favorito haciendo clic en él.
+**Elige:** Pasa el cursor sobre los íconos **reproducir** para escuchar los sonidos en bucle. Agrega tu favorito haciendo clic en éste.
 
-![El sonido 'Hip hop' con el icono de reproducción resaltado en la esquina superior derecha del icono de sonido.](images/play-icon.png)
+![El sonido 'Hip hop' con el ícono de reproducción resaltado en la esquina superior derecha del ícono de sonido.](images/play-icon.png)
 
 El sonido aparecerá en tu lista de Sonidos:
 
