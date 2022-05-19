@@ -6,11 +6,11 @@ Cambiar a 1
 
 Se balancea 10 grados en el sentido de las agujas del reloj desde el centro
 
-Se balancea 20 grados en sentido contrario a las agujas del reloj a través del centro
+Se balancea 20 grados en sentido contrario a las agujas del reloj desde el centro
 
 Se balancea 10 grados en el sentido de las agujas del reloj volviendo al centro
 
-Cambiar el puntero del mouse
+Cambiar el puntero del ratón
 
 Elige tu sonido
 
@@ -38,4 +38,4 @@ Cambiar color
 
 Prueba diferentes números para que coincidan con tu música
 
-Número negativo para achicar
+Número negativo para hacer más pequeño
