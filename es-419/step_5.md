@@ -5,12 +5,12 @@
 Las piñatas están llenas de golosinas y cuando empiezan a romperse, las golosinas se caen. En este paso, animarás las golosinas internacionales para que caigan de la piñata cada vez que se golpee. ¿Reconoces alguna de las golosinas?
 </div>
 <div>
-![Una imagen animada que muestra cómo golpean a la piñata varias veces. Cada vez, cuatro golosinas aleatorias caen en posiciones aleatorias y luego giran lentamente en un círculo.](images/spinning-treats.gif){:width="300px"}
+![Una imagen animada que muestra cómo golpean a la piñata varias veces. Con cada golpe, cuatro golosinas aleatorias caen en posiciones aleatorias y luego giran lentamente en un círculo.](images/spinning-treats.gif){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Un <span style="color: #0faeb0">**disfraz**</span> en Scratch es una imagen que cambia la apariencia de un objeto. Nuestros **diseñadores gráficos** les pidieron a los líderes de Code Club de todo el mundo que les dijeran qué golosinas tendrían en una fiesta. Con suerte, algunos de los disfraces que crearon te resultarán familiares, y otros completamente nuevos.      
+Un <span style="color: #0faeb0">**disfraz**</span> en Scratch es una imagen que cambia la apariencia de un objeto. Nuestros **diseñadores gráficos** les pidieron a los líderes de Code Club de todo el mundo que les dijeran qué golosinas tendrían en una fiesta. Con suerte, algunos de los disfraces que crearon te resultarán familiares y otros serán completamente nuevos.      
 </p>
 
 --- task ---
@@ -47,9 +47,9 @@ Un <span style="color: #0faeb0">**clon**</span> en Scratch es una copia de un ob
 
 Haz clic en el objeto **Piñata**.
 
-Inserte un bucle `repetir`{:class="block3control"} en tu código existente. Cambia el valor a `4`{:class="block3control"} y luego agrega un bloque `crar clon de mí mismo`{:class="block3control"}. Usa la flecha desplegable para seleccionar el objeto `Golosinas`{:class="block3control"}:
+Agrega un bucle `repetir`{:class="block3control"} en tu código existente. Cambia el valor a `4`{:class="block3control"} y luego agrega un bloque `crear clon de mí mismo`{:class="block3control"}. Usa la flecha desplegable para seleccionar el objeto `Golosinas`{:class="block3control"}:
 
-![El icono del objeto Piñata.](images/pinata-sprite.png)
+![El ícono del objeto Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -89,7 +89,7 @@ switch costume to (Knafeh v)
 
 --- task ---
 
-Puedes elegir golosinas al azar para que se suelten cuando se golpea la piñata. Usa un operador `elegir número al azar entre ¿`{:class="block3operators"} para seleccionar un disfraz aleatorio de `1`{:class="block3operators"} a `26`{:class="block3operators"} cada vez que se crea un clon:
+Puedes elegir golosinas al azar para que caigan al golpear la piñata. Usa un operador `elegir número al azar`{:class="block3operators"} para seleccionar un disfraz aleatorio de `1`{:class="block3operators"} a `26`{:class="block3operators"} cada vez que se crea un clon:
 
 ![El ícono del objeto Golosinas.](images/treats-sprite.png)
 
@@ -104,7 +104,7 @@ go to [back v] layer
 
 --- task ---
 
-Por el momento, los clones **Golosinas** aparecerán detrás del sprite **Piñata**, pero las golosinas deberían caer de la piñata a una posición aleatoria.
+Por el momento, los clones **Golosinas** aparecerán detrás del sprite **Piñata**, pero las golosinas deberían caer de la piñata en una posición aleatoria.
 
 Agrega código para hacer que los objetos clonados **Golosinas** `vayan a`{:class="block3motion"} una posición aleatoria:
 
@@ -122,9 +122,9 @@ switch costume to (pick random (1) to (26))
 
 --- task ---
 
-**Prueba:** Ejecuta tu proyecto y golpea la piñata para ver cuatro clones del objeto **Golosinas** después de cada golpe. Los disfraces se seleccionarán al azar y las golosinas se irán a una posición aleatoria.
+**Prueba:** Ejecuta tu proyecto y golpea la piñata para ver cuatro clones del objeto **Golosinas** después de cada golpe. Los disfraces se seleccionarán al azar y las golosinas irán a una posición aleatoria.
 
-![Una imagen animada que muestra cómo golpean a la piñata tres veces. Cada vez, cuatro golosinas aleatorias caen en posiciones aleatorias.](images/four-treats.gif)
+![Una imagen animada que muestra cómo golpean a la piñata tres veces. Con cada golpe, cuatro golosinas aleatorias caen en posiciones aleatorias.](images/four-treats.gif)
 
 --- /task ---
 
