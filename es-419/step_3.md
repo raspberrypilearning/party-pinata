@@ -126,7 +126,7 @@ Usamos <span style="color: #0faeb0">**condiciones**</span> todo el tiempo para t
 
 Ve al menú de bloques `Control`{:class="block3control"}. Arrastra un bloque `si`{:class="block3control"} al área de Código e insértalo alrededor de los bloques en tu secuencia de comandos `al hacer clic en este objeto`{:class="block3events"}:
 
-![El icono del objeto Piñata.](images/pinata-sprite.png)
+![El ícono del objeto Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -138,15 +138,15 @@ change [hits v] by (1)
 
 --- /task ---
 
-El bloque `si`{:class="block3control"} tiene una entrada en forma de hexágono donde puedes crear una condición.
+El bloque `si`{:class="block3control"} tiene una entrada en forma de hexágono, en donde puedes crear una condición.
 
 --- task ---
 
-El objeto **Piñata** debe reproducir un sonido y aumentar el conteo de `golpes`{:class="block3variables"} **`si`{:class="block3control"}** el número de `golpes`{:class="block3variables" "} es `menos que`{:class="block3operators"} `10`{:class="block3variables"}.
+El objeto **Piñata** debe reproducir un sonido y aumentar el conteo de `golpes`{:class="block3variables"} **`si`{:class="block3control"}** el número de `golpes`{:class="block3variables" "} es `menor que`{:class="block3operators"} `10`{:class="block3variables"}.
 
 Primero, agrega un operador `<`{:class="block3operators"} en la entrada en forma de hexágono:
 
-![El icono del objeto Piñata.](images/pinata-sprite.png)
+![El ícono del objeto Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -162,7 +162,7 @@ change [hits v] by (1)
 
 Termina de crear la condición `si`{:class="block3control"} arrastrando la variable `golpes`{:class="block3variables"} a la izquierda del operador `<`{:class="block3operators"} y escribiendo el valor '10' a la derecha:
 
-![El icono del objeto Piñata.](images/pinata-sprite.png)
+![El ícono del objeto Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -178,7 +178,7 @@ change [hits v] by (1)
 
 **Prueba:** Ejecuta tu proyecto de nuevo. Golpea la piñata 10 veces para escuchar el sonido y ver cómo aumenta la variable `golpes`{:class="block3variables"}.
 
-Golpea la piñata unas veces más. La variable `golpes`{:class="block3variables"} no superará 10 porque esa condición ya no es "verdadera", por lo que el código dentro del bloque `si`{:class="block3control"} no se ejecutará.
+Golpea la piñata unas cuantas veces más. La variable `golpes`{:class="block3variables"} no superará 10 porque esa condición ya no es "verdadera", por lo que el código dentro del bloque `si`{:class="block3control"} no se ejecutará.
 
 --- /task ---
 
@@ -186,7 +186,7 @@ Golpea la piñata unas veces más. La variable `golpes`{:class="block3variables"
 
 Agrega un segundo bloque `si`{:class="block3control"} dentro del primero. Esta vez la condición comprobará si `golpes`{:class="block3variables"} `=`{:class="block3operators"} 10 y si es 'verdadero' el disfraz cambiará a `rota`{:class="block3looks"}:
 
-![El icono del objeto Piñata.](images/pinata-sprite.png)
+![El ícono del objeto Piñata.](images/pinata-sprite.png)
 
 ```blocks3
 when this sprite clicked
