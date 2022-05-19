@@ -15,7 +15,7 @@ En este paso, escribirás un mensaje y lo animarás usando efectos de movimiento
 + Detalles de lo que quieres hacer a continuación con tus habilidades de programación
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Los primeros proyectos de Code Club se escribieron en inglés, pero en un año se tradujeron al portugués brasileño, holandés, alemán, noruego y ucraniano. Rápidamente siguieron las traducciones al francés, griego y español y ahora algunos de los proyectos de Code Club se han traducido a <span style="color: #0faeb0">**28 idiomas nativos**</span>. ¡Gracias a nuestra increíble comunidad de traductores!
+Los primeros proyectos de Code Club se escribieron en inglés, pero en un año se tradujeron al portugués de Brasil, holandés, alemán, noruego y ucraniano. Rápidamente siguieron las traducciones al francés, griego y español y ahora algunos de los proyectos de Code Club se han traducido a <span style="color: #0faeb0">**28 idiomas nativos**</span>. ¡Gracias a nuestra increíble comunidad de traductores!
 
 ![Múltiples imágenes que dicen Feliz cumpleaños en varios idiomas nativos.](images/birthday-languages.png)
 </p>
@@ -58,7 +58,7 @@ Ahora puedes escribir tu nuevo mensaje de cumpleaños de Code Club. Presiona **I
 
 --- task ---
 
-Haga clic en la herramienta **Seleccionar** y aparecerán ocho círculos alrededor de tu mensaje. Use estos círculos para cambiar el tamaño de tu mensaje haciendo clic en ellos y arrastrándolos dentro del cuadro blanco.
+Haz clic en la herramienta **Seleccionar** y aparecerán ocho círculos alrededor de tu mensaje. Usa estos círculos para cambiar el tamaño de tu mensaje haciendo clic en ellos y arrastrándolos dentro del cuadro blanco.
 
 ![La herramienta Seleccionar está resaltada y el mensaje tiene pequeños círculos en cada esquina y en los puntos centrales verticales y horizontales para que se pueda cambiar el tamaño en varias direcciones.](images/resize-message.png)
 
@@ -85,7 +85,7 @@ go to x: (0) y: (100) // Inside the piñata
 
 Crea un nuevo script para comenzar cuando se haya recibido el mensaje `fiesta`{:class="block3events"}.
 
-Agrega un bucle `repetir`{:class="block3control"} para animar el mensaje. El mensaje `cambiará el tamaño`{:class="block3looks"} para crecer y `cambiará y`{:class="block3motion"}, la posición, para caer mientras se anima:
+Agrega un bucle `repetir`{:class="block3control"} para animar el mensaje. El mensaje usará `cambiar el tamaño`{:class="block3looks"} para crecer y `cambiar y`{:class="block3motion"} para modificar la posición para ser animado mientras cae:
 
 ![El ícono del objeto Mensaje.](images/message-sprite.png)
 
