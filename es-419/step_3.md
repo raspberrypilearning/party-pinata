@@ -228,7 +228,7 @@ switch costume to (broken v)
 + broadcast (message1 v)
 ```
 
-Haz clic en `mensaje1`{:class="block3events"} y elije **Nuevo mensaje**. Llama al mensaje `fiesta`{:class="block3events"}.
+Haz clic en `mensaje1`{:class="block3events"} y elige **Nuevo mensaje**. Nombra el nuevo mensaje `fiesta`{:class="block3events"}.
 
 ![El menú desplegable en el bloque enviar que muestra la opción de menú 'Nuevo mensaje'.](images/new-message.png)
 
