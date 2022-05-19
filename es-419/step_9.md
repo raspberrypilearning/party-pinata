@@ -1,22 +1,22 @@
 ## Qué sigue
 
-Esperamos que hayas disfrutado de este proyecto especial de piñata para la fiesta de cumpleaños de Code Club.
+Esperamos que hayas disfrutado de este proyecto de piñata, hecho especialmente para la fiesta de cumpleaños de Code Club.
 
 --- task ---
 
-Si es nuevo en Scratch, continúa explorando con nuestra ruta [Introducción a Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"} para principiantes.
+Si eres nuevo en Scratch, continúa explorando con nuestra ruta de aprendizaje [Introducción a Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"} para principiantes.
 
 --- /task ---
 
 --- task ---
 
-Si ya conoce objetos, disfraces, fondos y bucles, pruebe nuestra ruta [Más Scratch](https://projects.raspberrypi.org/en/pathways/more-scratch){:target="_blank"}.
+Si ya sabes sobre objetos, disfraces, fondos y bucles, prueba nuestra ruta de aprendizaje [Más Scratch](https://projects.raspberrypi.org/en/pathways/more-scratch){:target="_blank"}.
 
 --- /task ---
 
 --- task ---
 
-Para obtener información sobre listas, clones y la creación de tus propios bloques, prueba nuestra ruta avanzada de [Scratch adicional](https://projects.raspberrypi.org/en/pathways/further-scratch){:target="_blank"}.
+Para obtener información sobre listas, clones y la creación de tus propios bloques, prueba nuestra ruta de aprendizaje avanzada de [Scratch adicional](https://projects.raspberrypi.org/en/pathways/further-scratch){:target="_blank"}.
 
 --- /task ---
 
