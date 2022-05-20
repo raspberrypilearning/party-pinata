@@ -4,19 +4,19 @@
 
 --- task ---
 
-Εάν είσαι νέος στο Scratch, συνέχισε την εξερεύνηση με την [Εισαγωγή στο Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"} για αρχάριους.
+Εάν είσαι νέος/α στο Scratch, συνέχισε την εξερεύνηση με την [Εισαγωγή στο Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"} για αρχάριους.
 
 --- /task ---
 
 --- task ---
 
-Εάν γνωρίζεις ήδη για τα αντικείμενα, ενδυμασίες, υπόβαθρο και βρόγχους, δοκιμάστε τη διαδρομή [Περισσότερο Scratch](https://projects.raspberrypi.org/en/pathways/more-scratch){:target="_blank"}.
+Εάν γνωρίζεις ήδη για τα αντικείμενα, ενδυμασίες, υπόβαθρα και βρόχους, δοκίμασε τη διαδρομή [Περισσότερο Scratch](https://projects.raspberrypi.org/en/pathways/more-scratch){:target="_blank"}.
 
 --- /task ---
 
 --- task ---
 
-Για να μάθεις σχετικά με τις λίστες, τους κλώνους και τη δημιουργία των δικών σου μπλοκ, δοκίμασε την προηγμένη διαδρομή [Περαιτέρω Scratch](https://projects.raspberrypi.org/en/pathways/further-scratch){:target="_blank"}.
+Για να μάθεις σχετικά με τις λίστες, τους κλώνους και τη δημιουργία των δικών σου μπλοκ, δοκίμασε την διαδρομή για προχωρημένους [Περισσότερο Scratch](https://projects.raspberrypi.org/en/pathways/further-scratch){:target="_blank"}.
 
 --- /task ---
 
