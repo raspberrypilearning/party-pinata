@@ -12,7 +12,7 @@
 
 ### Κάνε υποβολή του έργου σου
 
-Ενέπνευσε την παγκόσμια κοινότητα του Code Club με το έργο σου!
+Μπορεί να εμπνεύσεις την παγκόσμια κοινότητα του Code Club με το έργο σου!
 
 Για να υποβάλεις το έργο σου στο Scratch studio ['Party piñata — Community'](https://scratch.mit.edu/studios/31111242){:target="_blank"} για να το δουν κι άλλα άτομα, συμπλήρωσε [αυτήν τη φόρμα](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
 
