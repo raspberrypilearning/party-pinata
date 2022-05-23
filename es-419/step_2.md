@@ -50,7 +50,7 @@ Haz clic en el nombre del disfraz para abrir un **menú desplegable** y luego se
 ![El ícono del objeto Piñata.](images/pinata-sprite.png)
 
 ```blocks3
-cambia el disfraz a (v whole) // Actualiza a 'whole (entera)'
+cambia el disfraz a (whole v) // Actualiza a 'whole' (entera)
 ```
 
 ![Una imagen animada que muestra el bloque Cambiar Disfraz siendo arrastrado desde el menú de bloques al área de código.](images/switch-costume.gif)
