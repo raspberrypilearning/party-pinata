@@ -1,4 +1,4 @@
-## Comparte
+## Comparte tu proyecto
 
 Ahora es el momento de compartir tu proyecto para que otras personas puedan unirse a la fiesta.
 

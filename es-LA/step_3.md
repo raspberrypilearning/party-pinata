@@ -142,7 +142,7 @@ El bloque `si`{:class="block3control"} tiene una entrada en forma de hexágono, 
 
 --- task ---
 
-El objeto **Piñata** debe reproducir un sonido y aumentar el conteo de `golpes`{:class="block3variables"} **`si`{:class="block3control"}** el número de `golpes`{:class="block3variables""} es `menor que`{:class="block3operators"} `10`{:class="block3variables"}.
+El objeto **Piñata** debe reproducir un sonido y aumentar el conteo de `golpes`{:class="block3variables"} **`si`{:class="block3control"}** el número de `golpes`{:class="block3variables"} es `menor que`{:class="block3operators"} `10`{:class="block3variables"}.
 
 Primero, agrega un operador `<`{:class="block3operators"} en la entrada en forma de hexágono:
 
