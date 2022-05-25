@@ -75,8 +75,8 @@ Haz clic en la pestaña **Código** y luego crea un script para `esconder`{:clas
 ```blocks3
 when flag clicked
 hide
-set size to (10) % // Change to 10 to start small
-go to x: (0) y: (100) // Inside the piñata
+set size to (10) % // Cambiar a 10 para empezar poco a poco
+go to x: (0) y: (100) // Dentro de la piñata
 ```
 
 --- /task ---
@@ -90,11 +90,11 @@ Agrega un bucle `repetir`{:class="block3control"} para animar el mensaje. El men
 ![El ícono del objeto Mensaje.](images/message-sprite.png)
 
 ```blocks3
-when I receive [party v]
+when I receive [fiesta v]
 show
-repeat (20) // Change to 20
-change size by (5) // Change to 5
-change y by (-10) // Change to -10
+repeat (20) // Cambiar a 20
+change size by (5) // Cambiar a 5
+change y by (-10) // Cambiar a -10
 ```
 
 --- /task ---

@@ -18,7 +18,7 @@ Usa el palo para golpear la piñata.
 ¿Cuántas veces hay que golpear la piñata para que se rompa?  
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/649873783/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/696271490/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
 --- /task ---

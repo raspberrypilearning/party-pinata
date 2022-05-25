@@ -53,15 +53,15 @@ Agrega un bucle `repetir`{:class="block3control"} en tu código existente. Cambi
 
 ```blocks3
 when this sprite clicked
-if <(hits) < (10)> then
+if <(golpes) < (10)> then
 start sound [Boing v]
-change [hits v] by (1)
-+ repeat (4) // Change to 4
-create clone of (Treats v) // Select Treats
+change [golpes v] by (1)
++ repeat (4) // Cambiar a 4
+create clone of (Golosinas v) // Seleccionar golosinas
 end
-if <(hits)=(10)> then
-switch costume to (broken v)
-broadcast (party v)
+if <(golpes)=(10)> then
+switch costume to (rota v)
+broadcast (fiesta v)
 ```
 
 **Sugerencia:** Usa el espacio libre en el área Código para crear tu nuevo código y luego arrástralo al script existente:
@@ -82,7 +82,7 @@ Agrega bloques desde el menú de bloques `Apariencia`{:class="block3looks"} para
 ```blocks3
 when I start as a clone
 show
-go to [back v] layer // Change to back
+go to [back v] layer // Cambiar a atrás
 switch costume to (Knafeh v)
 ```
 
@@ -98,7 +98,7 @@ Puedes elegir golosinas al azar para que caigan al golpear la piñata. Usa un op
 when I start as a clone
 show
 go to [back v] layer 
-+ switch costume to (pick random (1) to (26)) // Change to 26
++ switch costume to (pick random (1) to (26)) // Cambiar a 26
 ```
 
 --- /task ---

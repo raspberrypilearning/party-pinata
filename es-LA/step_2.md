@@ -11,7 +11,7 @@ En este paso, elegirás un disfraz para la piñata y programarás la piñata par
 
 --- task ---
 
-Abre el [proyecto inicial Piñata de fiesta](https://scratch.mit.edu/projects/653082997/editor){:target="_blank"}. Scratch se abrirá en otra pestaña del navegador.
+Abre el [proyecto inicial Piñata de fiesta](https://scratch.mit.edu/projects/696256065/editor){:target="_blank"}. Scratch se abrirá en otra pestaña del navegador.
 
 [[[working-offline]]]
 
@@ -33,7 +33,7 @@ Por el momento no hya mucha acción en esta fiesta. ¡Puedes remediarlo!
 
 Un objeto puede tener código, disfraces y sonidos para cambiar su aspecto y sus acciones.
 
-Haz clic en el objeto **Piñata** en la lista de objetos y selecciona la pestaña **Disfraces**. Hay dos disfraces para la piñata, uno se llama 'whole' (entera) y el otro se llama 'broken' (rota).
+Haz clic en el objeto **Piñata** en la lista de objetos y selecciona la pestaña **Disfraces**. Hay dos disfraces para la piñata, uno se llama 'entera' y el otro se llama 'rota'.
 
 ![Imágenes lado a lado de los dos disfraces de la piñata. El de la izquierda es la piñata entera, el de la derecha es de la piñata rota y abierta.](images/pinata-costumes.png)
 
@@ -45,12 +45,12 @@ Haz clic en el objeto **Piñata** en la lista de objetos y selecciona la pestañ
 
 Haz clic en la pestaña **Código**. Ve al menú de bloques `Apariencia`{:class="block3looks"} y arrastra un disfraz de `cambiar disfraz a`{:class="block3looks"} al área de código.
 
-Haz clic en el nombre del disfraz para abrir un **menú desplegable** y luego selecciona el disfraz `whole (entera)`{:class="block3looks"}:
+Haz clic en el nombre del disfraz para abrir un **menú desplegable** y luego selecciona el disfraz `entera`{:class="block3looks"}:
 
 ![El ícono del objeto Piñata.](images/pinata-sprite.png)
 
 ```blocks3
-cambia el disfraz a (whole v) // Actualiza a 'whole' (entera)
+cambia el disfraz a (entera v) // Actualiza a 'entera'
 ```
 
 ![Una imagen animada que muestra el bloque Cambiar Disfraz siendo arrastrado desde el menú de bloques al área de código.](images/switch-costume.gif)
@@ -67,7 +67,7 @@ Arrastra un bloque `Al presionar bandera`{:class="block3events"} desde el menú 
 
 ```blocks3
 + when flag clicked
-switch costume to (whole v)
+switch costume to (entera v)
 ```
 ![El bloque Al presionar bandera se agrega al área de código y se conecta al bloque de Cambiar Disfraz.](images/add-flag-clicked.gif)
 
@@ -83,9 +83,9 @@ En el menú de bloques `Movimiento`{:class="block3motion"}, busca los bloques `i
 
 ```blocks3
 when flag clicked
-switch costume to (whole v)
+switch costume to (entera v)
 + go to x: (0) y: (180)
-+ point in direction (90) // Ready position
++ point in direction (90) // Posición lista
 ```
 
 --- /task ---
@@ -100,7 +100,7 @@ Arrastra un bloque `Por siempre`{:class="block3control"} desde el menú de bloqu
 
 ```blocks3
 when flag clicked
-switch costume to (whole v)
+switch costume to (entera v)
 go to x: (0) y: (180)
 point in direction (90)
 + forever
@@ -122,12 +122,12 @@ Cambia los `15`{:class="block3motion"} grados a `1`{:class="block3motion"} grado
 
 ```blocks3
 when flag clicked
-switch costume to (whole v)
+switch costume to (entera v)
 go to x: (0) y: (180)
 point in direction (90)
 forever
 + repeat (10) 
-turn right (1) degrees // Change to 1
+turn right (1) degrees // Cambiar a 1
 ```
 ![El bloque repetir que se agrega dentro del bloque por siempre y luego se le agrega un bloque girar en el sentido de las agujas del reloj.](images/add-repeat.gif)
 
@@ -155,18 +155,18 @@ Agrega código a tu bucle `por siempre`{:class="block3control"} para que la piñ
 
 ```blocks3
 when flag clicked
-switch costume to (whole v)
+switch costume to (entera v)
 go to x: (0) y: (180)
 point in direction (90)
 forever
-repeat (10) // Swings 10 degrees clockwise from the centre
+repeat (10) // Se balancea 10 grados en el sentido de las agujas del reloj desde el centro
 turn right (1) degrees 
 end
-+ repeat (20) // Swings 20 degrees anticlockwise through the centre
-turn left (1) degrees // Change to 1
++ repeat (20) // Se balancea 20 grados en sentido contrario a las agujas del reloj desde el centro
+turn left (1) degrees // Cambiar a 1
 end
-+ repeat (10) // Swings 10 degrees clockwise back to the centre
-turn right (1) degrees // Change to 1
++ repeat (10) // Se balancea 10 grados en el sentido de las agujas del reloj volviendo al centro
+turn right (1) degrees // Cambiar a 1
 end
 ```
 

@@ -72,8 +72,8 @@ Tu código debe parecerse a esto:
 
 ```blocks3
 when flag clicked
-switch costume to (whole v)
-+ set [hits v] to (0)
+switch costume to (entera v)
++ set [golpes v] to (0)
 go to x: (0) y: (180)
 point in direction (90)
 forever
@@ -101,7 +101,7 @@ Agrega un bloque para cambiar `golpes`{:class="block3variables"} en `1`{:class="
 ```blocks3
 when this sprite clicked
 start sound [Boing v]
-+ change [hits v] by (1)
++ change [golpes v] by (1)
 ```
 
 --- /task ---
@@ -132,7 +132,7 @@ Ve al menú de bloques `Control`{:class="block3control"}. Arrastra un bloque `si
 when this sprite clicked
 + if <> then
 start sound [Boing v]
-change [hits v] by (1)
+change [golpes v] by (1)
 
 ```
 
@@ -152,7 +152,7 @@ Primero, agrega un operador `<`{:class="block3operators"} en la entrada en forma
 when this sprite clicked
 + if <() < ()> then
 start sound [Boing v]
-change [hits v] by (1)
+change [golpes v] by (1)
 
 ```
 
@@ -166,9 +166,9 @@ Termina de crear la condición `si`{:class="block3control"} arrastrando la varia
 
 ```blocks3
 when this sprite clicked
-+ if <(hits) < (10)> then
++ if <(golpes) < (10)> then
 start sound [Boing v]
-change [hits v] by (1)
+change [golpes v] by (1)
 
 ```
 
@@ -190,11 +190,11 @@ Agrega un segundo bloque `si`{:class="block3control"} dentro del primero. Esta v
 
 ```blocks3
 when this sprite clicked
-if <(hits) < (10)> then
+if <(golpes) < (10)> then
 start sound [Boing v]
-change [hits v] by (1)
-+ if <(hits)=(10)> then
-switch costume to (broken v)
+change [golpes v] by (1)
++ if <(golpes)=(10)> then
+switch costume to (rota v)
 
 ```
 
@@ -220,11 +220,11 @@ Agrega un bloque `Enviar`{:class="block3events"} del menú de bloques `Eventos`{
 
 ```blocks3
 when this sprite clicked
-if <(hits) < (10)> then
+if <(golpes) < (10)> then
 start sound [Boing v]
-change [hits v] by (1)
-if <(hits)=(10)> then
-switch costume to (broken v)
+change [golpes v] by (1)
+if <(golpes)=(10)> then
+switch costume to (rota v)
 + broadcast (message1 v)
 ```
 
@@ -237,7 +237,7 @@ Haz clic en `mensaje1`{:class="block3events"} y elige **Nuevo mensaje**. Nombra 
 Tu bloque `enviar`{:class="block3events"} se verá así:
 
 ```blocks3
-broadcast (party v)
+broadcast (fiesta v)
 ```
 
 --- /task ---

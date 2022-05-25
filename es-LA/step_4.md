@@ -21,7 +21,7 @@ Usa el bloque `ir a posición aleatoria`{:class="block3motion"}, pero selecciona
 when flag clicked
 forever
 go to [front v] layer
-go to (mouse-pointer v) // Change to mouse-pointer
+go to (mouse-pointer v) // Cambiar el puntero del ratón
 ```
 
 --- /task ---
@@ -73,9 +73,9 @@ Haz clic en la pestaña **Código** y crea una nueva secuencia de comandos para 
 ![El ícono del objeto Palo.](images/stick-sprite.png)
 
 ```blocks3
-when I receive [party v]
+when I receive [fiesta v]
 forever
-play sound [Hip Hop v] until done // Choose your sound
+play sound [Hip Hop v] until done // Elige tu sonido
 ```
 
 --- /task ---

@@ -17,11 +17,11 @@ Tú podrías:
 
 ¿Qué sucede con el telón de fondo cuando se rompe la piñata? ¿Qué bloques crearían este efecto? 
 
-[Ver el código](https://scratch.mit.edu/projects/653771814/){:target="_blank"}
+[Ver el código](https://scratch.mit.edu/projects/696271743/){:target="_blank"}
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/653771814/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/696271743/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
 --- /task ---
@@ -33,23 +33,23 @@ Puedes agregar código para hacer que el mensaje se anime `por siempre`{:class="
 ![El ícono del objeto Mensaje.](images/message-sprite.png)
 
 ```blocks3
-when I receive [party v]
+when I receive [fiesta v]
 show
 repeat (20)
 change size by (5)
 change y by (-10)
 end
 + forever
-change size by (20) // Positive number to grow
-change [color v] effect by (25) // Change colour
-wait (0.5) seconds // Try different numbers to match your music
-change size by (-20) // Negative number to shrink
+change size by (20) // Número positivo para agrandar
+change [color v] effect by (25) // Cambiar color
+wait (0.5) seconds // Prueba diferentes números para que coincidan con tu música
+change size by (-20) // Número negativo para hacer más pequeño
 ```
 
-[Ver el código](https://scratch.mit.edu/projects/656332454/){:target="_blank"}
+[Ver el código](https://scratch.mit.edu/projects/696272470/){:target="_blank"}
 
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/656332454/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/696272470/?autostart=false" frameborder="0"></iframe>
 </div>
 
 --- /task ---
@@ -60,7 +60,7 @@ change size by (-20) // Negative number to shrink
 title: Proyecto terminado
 ---
 
-Puedes ver el [proyecto terminado aquí](https://scratch.mit.edu/projects/649873783/){:target="_blank"}.
+Puedes ver el [proyecto terminado aquí](https://scratch.mit.edu/projects/696271490/){:target="_blank"}.
 
 --- /collapse ---
 
