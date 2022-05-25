@@ -1,0 +1,21 @@
+---
+title: Piñata de fiesta
+hero_image: images/banner.png
+description: Crearás una piñata que se balancea, libera golosinas al golpearla y, finalmente, se rompe para revelar un mensaje de cumpleaños
+version: 4
+listed: true
+copyedit: true
+last_tested: "2021-03-26"
+steps:
+  - title: Introducción
+  - title: Empieza la fiesta
+  - title: Golpea la piñata
+    completion: comprometido
+  - title: Usa un palo
+  - title: Agrega algunas golosinas
+  - title: Crea un mensaje
+    completion: interno
+  - title: Comparte tu proyecto
+    completion: externo
+  - title: Mejora tu proyecto
+  - title: '¿Qué sigue?'
