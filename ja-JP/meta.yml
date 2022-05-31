@@ -5,17 +5,18 @@ description: このプロジェクトでは、ゆれるピニャータを作り�
 version: 4
 listed: false
 copyedit: false
-last_tested: "2021-03-26"
+last_tested: '2021-03-26'
 steps:
-  - title: はじめに
-  - title: パーティーをはじめよう
-  - title: ピニャータをたたいてみよう
-    completion: engaged
-  - title: スティックをつかってみよう
-  - title: おやつをいれよう
-  - title: メッセージを作りましょう
-    completion: internal
-  - title: シェアしましょう
-    completion: external
-  - title: プロジェクトをアップグレードする
-  - title: つぎは、なにをしよう？
+- title: はじめに
+- title: パーティーをはじめよう
+- title: ピニャータをたたいてみよう
+  completion:
+  - engaged
+- title: スティックをつかってみよう
+- title: おやつをいれよう
+- title: メッセージを作りましょう
+  completion:
+  - internal
+- title: シェアしましょう
+- title: プロジェクトをアップグレードする
+- title: つぎは、なにをしよう？

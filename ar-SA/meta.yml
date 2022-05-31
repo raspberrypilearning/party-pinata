@@ -1,21 +1,23 @@
 ---
 title: احتفال بينياتا
 hero_image: images/banner.png
-description: قم بإنشاء لعبة البنياتا التي تتأرجح وتخرج الحلويات عندما يتم ضربها، وتنكسر في النهاية لتكشف عن رسالة عيد ميلاد
+description: قم بإنشاء لعبة البنياتا التي تتأرجح وتخرج الحلويات عندما يتم ضربها، وتنكسر
+  في النهاية لتكشف عن رسالة عيد ميلاد
 version: 4
 listed: false
 copyedit: false
-last_tested: "2021-03-26"
+last_tested: '2021-03-26'
 steps:
-  - title: المقدمة
-  - title: ابدأ الحفلة
-  - title: اضرب البنياتا
-    completion: engaged
-  - title: استخدم عصا
-  - title: أضف بعض الحلوى
-  - title: قم بإنشاء رسالة
-    completion: internal
-  - title: شارك مشروعك
-    completion: external
-  - title: قم بترقية مشروعك
-  - title: ما التالي؟
+- title: المقدمة
+- title: ابدأ الحفلة
+- title: اضرب البنياتا
+  completion:
+  - engaged
+- title: استخدم عصا
+- title: أضف بعض الحلوى
+- title: قم بإنشاء رسالة
+  completion:
+  - internal
+- title: شارك مشروعك
+- title: قم بترقية مشروعك
+- title: ما التالي؟
