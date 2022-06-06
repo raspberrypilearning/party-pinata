@@ -1,21 +1,23 @@
 ---
 title: Feest piñata
 hero_image: images/banner.png
-description: Maak een swingende piñata die snoep vrijgeeft wanneer hij wordt geraakt en uiteindelijk breekt om een verjaardagsbericht te onthullen
+description: Maak een swingende piñata die snoep vrijgeeft wanneer hij wordt geraakt
+  en uiteindelijk breekt om een verjaardagsbericht te onthullen
 version: 4
 listed: false
 copyedit: false
-last_tested: "2021-03-26"
+last_tested: '2021-03-26'
 steps:
-  - title: Inleiding
-  - title: Begin het feest
-  - title: Raak de piñata
-    completion: engaged
-  - title: Gebruik een stok
-  - title: Voeg wat snoep toe
-  - title: Maak een bericht
-    completion: internal
-  - title: Deel je project
-    completion: external
-  - title: Verbeter je project
-  - title: Wat kun je verder nog doen?
+- title: Inleiding
+- title: Begin het feest
+- title: Raak de piñata
+  completion:
+  - engaged
+- title: Gebruik een stok
+- title: Voeg wat snoep toe
+- title: Maak een bericht
+  completion:
+  - internal
+- title: Deel je project
+- title: Verbeter je project
+- title: Wat kun je verder nog doen?
