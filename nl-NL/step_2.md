@@ -11,7 +11,7 @@ In deze stap kies je een piñata uiterlijk en programmeer je de piñata om te sl
 
 --- task ---
 
-Open het [Feest piñata startersproject](https://scratch.mit.edu/projects/687986577/editor){:target="_blank"}. Scratch wordt in een nieuw browsertabblad geopend.
+Open het [Feest piñata startproject](https://scratch.mit.edu/projects/882525511/editor){:target="_blank"}. Scratch wordt in een nieuw browsertabblad geopend.
 
 [[[working-offline]]]
 
@@ -23,7 +23,7 @@ De Scratch-editor ziet er als volgt uit:
 
 Het **Speelveld** is waar je project wordt uitgevoerd en een **achtergrond** verandert de manier waarop het Speelveld eruitziet. Er is een Code Club feestachtergrond voor je toegevoegd.
 
-In Scratch worden karakters en objecten **sprites** genoemd en verschijnen ze op het Speelveld. Je kunt de **Piñata** en **Stok** sprites in het speelveld zien.
+In Scratch worden karakters en objecten **sprites** genoemd en verschijnen ze op het Speelveld. Je kunt de **Piñata** en **Stick** sprites in het speelveld zien.
 
 ![Het speelveld met een blauwe achtergrond met patroon, cadeautjes en ballonnen. Ook de Piñata- en Stick-sprites zijn op het speelveld.](images/backdrop-and-sprites.png)
 
@@ -45,7 +45,7 @@ Klik op de **Piñata** sprite in de Sprite-lijst en klik vervolgens op het **Uit
 
 Klik op het **Code** tabblad. Ga naar de `Uiterlijken`{:class="block3looks"} blokken en sleep een `verander uiterlijk naar`{:class="block3looks"} blok naar het codegebied.
 
-Klik op de naam van het uiterlijk om een **vervolgkeuze menu** te openen en selecteer vervolgens het `hele`{:class="block3looks"} uiterlijk:
+Klik op de naam van het uiterlijk om een **vervolgkeuze menu** te openen en selecteer vervolgens het `heel`{:class="block3looks"} uiterlijk:
 
 ![Het pictogram van de Piñata-sprite.](images/pinata-sprite.png)
 
@@ -77,7 +77,7 @@ De startpositie van een piñata is altijd hetzelfde, hij komt pas in beweging al
 
 --- task ---
 
-Zoek in het menu `Beweging`{:class="block3motion"} blokken het `ga naar x: 0 y: 180`{:class="block3motion"} blok en het `richt naar 90 graden`{:class="block3motion"} blok. Sleep de blokken naar het codegebied en verbind ze met de onderkant van je code:
+Zoek in het `Beweging`{:class="block3motion"} blokkenmenu het `ga naar x: 0 y: 180`{:class="block3motion"} blok en het `richt naar 90 graden`{:class="block3motion"} blok. Sleep de blokken naar het codegebied en verbind ze met de onderkant van je code:
 
 ![Het pictogram van de Piñata-sprite.](images/pinata-sprite.png)
 
@@ -112,7 +112,7 @@ Een `herhaal`{:class="block3control"} lus kan worden gebruikt om de **Piñata** 
 
 --- task ---
 
-Sleep een `-herhaal 10`{:class="block3control"} blok naar het codegebied en bevestig het in je `herhaal`{:class="block3control"} lus.
+Sleep een `herhaal 10`{:class="block3control"} blok naar het codegebied en bevestig het in je `herhaal`{:class="block3control"} lus.
 
 Ga naar het `Beweging`{:class="block3motion"} blokkenmenu en sleep een `draai rechtsom 15 graden`{:class="block3motion"} blok in het `herhaal`{:class="block3control"} blok.
 
