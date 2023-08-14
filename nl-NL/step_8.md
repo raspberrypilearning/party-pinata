@@ -59,7 +59,7 @@ verander grootte met (-20) // Negatief getal om te verkleinen
 title: Voltooid project
 ---
 
-Je kunt het [voltooide project hier](https://scratch.mit.edu/projects/687981271/){:target="_blank"} bekijken.
+Je kunt het [voltooide project hier](https://scratch.mit.edu/projects/882526611/){:target="_blank"} bekijken.
 
 --- /collapse ---
 
