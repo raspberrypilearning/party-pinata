@@ -20,4 +20,6 @@ steps:
   - internal
 - title: Deel je project
 - title: Verbeter je project
+  completion:
+  - external
 - title: Wat kun je verder nog doen?

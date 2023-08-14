@@ -18,7 +18,7 @@ Wat gebeurt er elke keer dat je de piñata raakt?
 Hoe vaak moet je de piñata raken om hem te breken?  
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/687981271/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/882526611/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
 --- /task ---
