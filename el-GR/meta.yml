@@ -1,0 +1,21 @@
+---
+title: Πάρτι πινιάτα
+hero_image: images/banner.png
+description: Δημιούργησε μια αιωρούμενη πινιάτα που βγάζει λιχουδιές όταν χτυπηθεί και τελικά σπάει για να αποκαλύψει ένα μήνυμα γενεθλίων
+version: 4
+listed: true
+copyedit: true
+last_tested: '2021-03-26'
+steps:
+  - title: Εισαγωγή
+  - title: Εκκίνηση του πάρτι
+  - title: Χτύπησε την πινιάτα
+    completion: engaged
+  - title: Χρησιμοποίησε ένα ραβδί
+  - title: Πρόσθεσε μερικές λιχουδιές
+  - title: Δημιούργησε ένα μήνυμα
+    completion: internal
+  - title: Διαμοιράσου το έργο σου
+    completion: external
+  - title: Αναβάθμισε το έργο σου
+  - title: Και τώρα;
